@@ -5,7 +5,7 @@
 ## 内容统计
 
 - **371** 个插件包
-- **335** 个包含可移植 Skill（共 **2980** 个 SKILL.md）
+- **335** 个包含可移植 Skill（共 **2979** 个 SKILL.md）
 - **135** 个包含 MCP server 配置
 - 20 个为 Codex 专用（无 Skill / MCP）
 
@@ -21,7 +21,7 @@
 .agents/plugins/marketplace.json   Codex 市场清单
 plugins/                           插件包本体（Codex 格式）
 catalog/plugins.json               通用索引（能力、路径、工具支持）
-catalog/skills.json                2980 个 Skill 的路径索引
+catalog/skills.json                2979 个 Skill 的路径索引
 catalog/mcp.json                   135 个 MCP 配置索引
 tools/install-skill.ps1            把 Skill 安装到 Claude Code / DSH
 tools/install-global-agents.ps1    安装全局 AGENTS 规则
