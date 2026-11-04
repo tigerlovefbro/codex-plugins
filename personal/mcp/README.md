@@ -20,3 +20,7 @@ Chrome MCP 需要 286 MB 的扩展与 node_repl 组件，因体积与版本锁�
 D:\云契·小白虎\codex\配置步骤\MCP\Chrome
 
 换电脑时优先使用目标机器 Codex 自带的组件；不要直接混用不同 Codex 版本。
+
+## 完整安装包
+
+工业自动化 MCP 服务器完整安装包（iFA / Inoproshop / 博途）原样保存在 `packages/`，见 `packages/README.md`。
