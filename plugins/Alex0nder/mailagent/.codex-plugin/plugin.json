@@ -1,6 +1,6 @@
 {
   "name": "mailagent",
-  "version": "0.2.8",
+  "version": "0.2.5",
   "description": "Temporary inboxes for Codex OTP, magic links, and signup QA flows.",
   "author": {
     "name": "MailAgent",
@@ -9,14 +9,7 @@
   "homepage": "https://webmailagent.com/docs/agents.html",
   "repository": "https://github.com/Alex0nder/MailAgent",
   "license": "MIT",
-  "keywords": [
-    "email",
-    "verification",
-    "otp",
-    "mcp",
-    "testing",
-    "agents"
-  ],
+  "keywords": ["email", "verification", "otp", "mcp", "testing", "agents"],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
@@ -25,10 +18,7 @@
     "longDescription": "Create disposable inboxes, wait for signup messages, extract OTPs or magic links, and clean up test inboxes from Codex.",
     "developerName": "MailAgent",
     "category": "Productivity",
-    "capabilities": [
-      "MCP",
-      "Skills"
-    ],
+    "capabilities": ["MCP", "Skills"],
     "websiteURL": "https://webmailagent.com/",
     "privacyPolicyURL": "https://webmailagent.com/privacy.html",
     "termsOfServiceURL": "https://webmailagent.com/terms.html",
