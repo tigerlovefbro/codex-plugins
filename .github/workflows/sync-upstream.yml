@@ -21,6 +21,7 @@ jobs:
           git fetch --depth=1 upstream main
           git checkout FETCH_HEAD -- .agents plugins
           python3 scripts/ensure_personal_plugin.py
+          python3 scripts/dedupe_marketplace.py
           python3 scripts/build_catalog.py
           git add .agents plugins catalog
           if git diff --cached --quiet; then

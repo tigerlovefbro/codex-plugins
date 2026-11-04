@@ -611,20 +611,6 @@
     "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/.mcp.json"
   },
   {
-    "plugin": "crawlberg",
-    "servers": [
-      "crawlberg"
-    ],
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/.mcp.json"
-  },
-  {
-    "plugin": "crawlberg",
-    "servers": [
-      "crawlberg"
-    ],
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/.mcp.json"
-  },
-  {
     "plugin": "lacuna-music",
     "servers": [
       "lacuna"
