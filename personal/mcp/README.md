@@ -24,3 +24,7 @@ D:\云契·小白虎\codex\配置步骤\MCP\Chrome
 ## 完整安装包
 
 工业自动化 MCP 服务器完整安装包（iFA / Inoproshop / 博途）原样保存在 `packages/`，见 `packages/README.md`。
+
+## 视频资料
+
+`media/43210968757-1-100026.mp4` —— 与小文老师工业 MCP 包一起保存的演示/教程视频（6.7 MB，sha256 `ca39f088962540edcdd4558fbdfea5193dbad26fe7793dcdb6ef376022743053`）。原在 `D:\小文老师MCP\` 根目录，已备份至此。
