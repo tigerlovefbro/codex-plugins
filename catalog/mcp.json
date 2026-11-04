@@ -276,6 +276,13 @@
     "path": "plugins/MohammadHijjawi97/since-cutoff/.mcp.json"
   },
   {
+    "plugin": "suede-skills",
+    "servers": [
+      "suede_skills_mcp"
+    ],
+    "path": "plugins/JasonColapietro/suede-creator-skills/.mcp.json"
+  },
+  {
     "plugin": "tandem-codex-plugin",
     "servers": [
       "tandemDocs"
