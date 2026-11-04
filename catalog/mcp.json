@@ -1,0 +1,970 @@
+[
+  {
+    "plugin": "agent-deck",
+    "servers": [
+      "agent-deck"
+    ],
+    "path": "plugins/not-so-fat/agent-deck/.mcp.json"
+  },
+  {
+    "plugin": "agentpack",
+    "servers": [
+      "agentpack"
+    ],
+    "path": "plugins/vishal2612200/agentpack/.mcp.json"
+  },
+  {
+    "plugin": "agiflow",
+    "servers": [
+      "agiflow"
+    ],
+    "path": "plugins/AgiFlow/ai-plugin/.mcp.json"
+  },
+  {
+    "plugin": "armorcodex",
+    "servers": [
+      "armorcodex-policy"
+    ],
+    "path": "plugins/armoriq/armorCodex/.mcp.json"
+  },
+  {
+    "plugin": "atomlane",
+    "servers": [
+      "atomlane"
+    ],
+    "path": "plugins/cloudguo123/atomlane/.mcp.json"
+  },
+  {
+    "plugin": "aw1-circuit-breaker",
+    "servers": [
+      "aw1-circuit-breaker"
+    ],
+    "path": "plugins/MvikManners/aw1-circuit-breaker/.mcp.json"
+  },
+  {
+    "plugin": "babok_analyst",
+    "servers": [
+      "babok"
+    ],
+    "path": "plugins/GSkuza/BABOK_ANALYST/.mcp.json"
+  },
+  {
+    "plugin": "bgs-modding-superpowers",
+    "servers": [
+      "xedit",
+      "bgs_kb",
+      "mo2"
+    ],
+    "path": "plugins/BB-84C/bgs-modding-superpowers/.mcp.json"
+  },
+  {
+    "plugin": "casefile",
+    "servers": [
+      "casefile"
+    ],
+    "path": "plugins/x4cc3/casefile/.mcp.json"
+  },
+  {
+    "plugin": "claude-code",
+    "servers": [
+      "claude-code-local"
+    ],
+    "path": "plugins/davidq888/claude-code-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "claude-code-skills",
+    "servers": [
+      "tessl"
+    ],
+    "path": "plugins/alirezarezvani/claude-skills/.mcp.json"
+  },
+  {
+    "plugin": "claudemon",
+    "servers": [
+      "claudemon"
+    ],
+    "path": null
+  },
+  {
+    "plugin": "codex-agents-workflow",
+    "servers": [
+      "codex-agents-workflow",
+      "caw-execution"
+    ],
+    "path": "plugins/TohmaN233/codex-agents-workflow/.mcp.json"
+  },
+  {
+    "plugin": "codex-claude-council",
+    "servers": [
+      "council"
+    ],
+    "path": null
+  },
+  {
+    "plugin": "codex-attachment-manager",
+    "servers": [
+      "codex_attachment_manager"
+    ],
+    "path": "plugins/chipfighter/context-attachment-manager/.mcp.json"
+  },
+  {
+    "plugin": "delx-recovery",
+    "servers": [
+      "delx"
+    ],
+    "path": "plugins/davidmosiah/delx-plugins/.mcp.json"
+  },
+  {
+    "plugin": "ejentum",
+    "servers": [
+      "ejentum"
+    ],
+    "path": "plugins/ejentum/ejentum-mcp/.mcp.json"
+  },
+  {
+    "plugin": "graymatter",
+    "servers": [
+      "graymatter"
+    ],
+    "path": "plugins/ValkyrLabs/GrayMatter/.mcp.json"
+  },
+  {
+    "plugin": "hol-guard-plugin",
+    "servers": [
+      "hol-guard"
+    ],
+    "path": "plugins/hashgraph-online/hol-guard-plugin/.mcp.json"
+  },
+  {
+    "plugin": "homie",
+    "servers": [
+      "homie"
+    ],
+    "path": "plugins/homie-rocks/homie/.mcp.json"
+  },
+  {
+    "plugin": "jev-use",
+    "servers": [
+      "jev"
+    ],
+    "path": "plugins/shitianfang/jev-use/.mcp.json"
+  },
+  {
+    "plugin": "joxo",
+    "servers": [
+      "joxo"
+    ],
+    "path": "plugins/JoxoAI/joxo/.mcp.json"
+  },
+  {
+    "plugin": "macbox",
+    "servers": [
+      "macbox"
+    ],
+    "path": "plugins/opslane/macbox-agent/.mcp.json"
+  },
+  {
+    "plugin": "magents",
+    "servers": [
+      "magents"
+    ],
+    "path": "plugins/abnegate/magents/.mcp.json"
+  },
+  {
+    "plugin": "mailagent",
+    "servers": [
+      "mailagent"
+    ],
+    "path": "plugins/Alex0nder/MailAgent/.mcp.json"
+  },
+  {
+    "plugin": "mcp-md-reader",
+    "servers": [
+      "md-reader"
+    ],
+    "path": "plugins/JoseEstevez520/mcp-md-reader/.mcp.json"
+  },
+  {
+    "plugin": "memoire",
+    "servers": [
+      "memoire"
+    ],
+    "path": "plugins/sarveshsea/memi/.mcp.json"
+  },
+  {
+    "plugin": "memtomem",
+    "servers": [
+      "memtomem"
+    ],
+    "path": "plugins/memtomem/memtomem/.mcp.json"
+  },
+  {
+    "plugin": "model-salt",
+    "servers": [
+      "model-salt"
+    ],
+    "path": null
+  },
+  {
+    "plugin": "multi-llm",
+    "servers": [
+      "multi_llm"
+    ],
+    "path": "plugins/beastlabai/multi-llm-plugin/.mcp.json"
+  },
+  {
+    "plugin": "oh-my-cassette",
+    "servers": [
+      "cassette"
+    ],
+    "path": "plugins/Cassette-Editor/oh-my-cassette/.mcp.json"
+  },
+  {
+    "plugin": "oh-my-openspec",
+    "servers": [
+      "openspec"
+    ],
+    "path": "plugins/alexeyco/oh-my-openspec/.mcp.json"
+  },
+  {
+    "plugin": "odw",
+    "servers": [
+      "odw"
+    ],
+    "path": "plugins/Suraj1235/open-dynamic-workflows/.mcp.json"
+  },
+  {
+    "plugin": "rag-reviewer",
+    "servers": [
+      "reviewer"
+    ],
+    "path": "plugins/mimfort/rag_for_git/.mcp.json"
+  },
+  {
+    "plugin": "registry-broker-codex-plugin",
+    "servers": [
+      "registryBroker"
+    ],
+    "path": "plugins/hashgraph-online/registry-broker-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "rekall",
+    "servers": [
+      "rekall"
+    ],
+    "path": "plugins/DitriXNew/rekall/.mcp.json"
+  },
+  {
+    "plugin": "repopilot",
+    "servers": [
+      "repopilot"
+    ],
+    "path": "plugins/MykytaStel/repopilot/.mcp.json"
+  },
+  {
+    "plugin": "session-orchestrator",
+    "servers": [
+      "session-orchestrator"
+    ],
+    "path": "plugins/Kanevry/session-orchestrator/.mcp.json"
+  },
+  {
+    "plugin": "since-cutoff",
+    "servers": [
+      "since-cutoff"
+    ],
+    "path": "plugins/MohammadHijjawi97/since-cutoff/.mcp.json"
+  },
+  {
+    "plugin": "tandem-codex-plugin",
+    "servers": [
+      "tandemDocs"
+    ],
+    "path": "plugins/frumu-ai/tandem-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "tmcra-memory",
+    "servers": [
+      "tmcra-memory"
+    ],
+    "path": "plugins/reshuibuduo/tmcra-plugin-codex/.mcp.json"
+  },
+  {
+    "plugin": "tnt-house-risk-data-api",
+    "servers": [
+      "tnt-house-risk-data-api"
+    ],
+    "path": "plugins/menantonio83-hue/codex-plugin-tnt-risk-api/.mcp.json"
+  },
+  {
+    "plugin": "token-optimizer",
+    "servers": [
+      "token-optimizer"
+    ],
+    "path": "plugins/ooples/token-optimizer-mcp/.mcp.json"
+  },
+  {
+    "plugin": "unforgit",
+    "servers": [
+      "unforgit"
+    ],
+    "path": "plugins/MiguelMedeiros/unforgit-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "waggle",
+    "servers": [
+      "waggle"
+    ],
+    "path": "plugins/Abhigyan-Shekhar/Waggle-mcp/.mcp.json"
+  },
+  {
+    "plugin": "wtfm",
+    "servers": [
+      "supportpages"
+    ],
+    "path": "plugins/SupportPages-io/wtfm/.mcp.json"
+  },
+  {
+    "plugin": "codex-zcode-bridge",
+    "servers": [
+      "zcode_bridge"
+    ],
+    "path": "plugins/Sandyzzx/codex-zcode-bridge/.mcp.json"
+  },
+  {
+    "plugin": "agentmart",
+    "servers": [
+      "agentmart"
+    ],
+    "path": "plugins/mustafaakmese/agentmart-plugins/.mcp.json"
+  },
+  {
+    "plugin": "ahel",
+    "servers": [
+      "ahel"
+    ],
+    "path": "plugins/ahel-technologies/ahel/.mcp.json"
+  },
+  {
+    "plugin": "aident-loadout",
+    "servers": [
+      "aident-loadout"
+    ],
+    "path": "plugins/Aident-AI/aident-skill/.mcp.json"
+  },
+  {
+    "plugin": "aient",
+    "servers": [
+      "aient"
+    ],
+    "path": "plugins/aient-ai/aient-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "antigravity-2",
+    "servers": [
+      "antigravity-devtools",
+      "antigravity-local"
+    ],
+    "path": "plugins/comprono/antigravity-2-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "apple-calendar",
+    "servers": [
+      "apple-productivity"
+    ],
+    "path": "plugins/matk0shub/apple-productivity-mcp/.mcp.json"
+  },
+  {
+    "plugin": "arcmira",
+    "servers": [
+      "arcmira"
+    ],
+    "path": "plugins/arcmira/mcp/.mcp.json"
+  },
+  {
+    "plugin": "autocad-tianzheng-tools",
+    "servers": [
+      "autocad_tianzheng"
+    ],
+    "path": "plugins/summer521521/AutoCAD_Tianzheng_plugin/.mcp.json"
+  },
+  {
+    "plugin": "axonflow",
+    "servers": [
+      "axonflow"
+    ],
+    "path": "plugins/getaxonflow/axonflow-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "bankbridge",
+    "servers": [
+      "bankbridge"
+    ],
+    "path": "plugins/bankbridge-money/bankbridge-plugin/.mcp.json"
+  },
+  {
+    "plugin": "bestprice-shopping",
+    "servers": [
+      "bestprice-shopping"
+    ],
+    "path": "plugins/TheBestCo/bestprice-mcp/.mcp.json"
+  },
+  {
+    "plugin": "bulktranscripts",
+    "servers": [
+      "bulktranscripts"
+    ],
+    "path": "plugins/pratie/bulktranscripts-mcp/.mcp.json"
+  },
+  {
+    "plugin": "burpsuite-mcp-bridge",
+    "servers": [
+      "burpsuite-mcp-bridge"
+    ],
+    "path": "plugins/6jeffr3y/burpsuite-mcp-bridge/.mcp.json"
+  },
+  {
+    "plugin": "chrome-devtools",
+    "servers": [
+      "chrome-devtools"
+    ],
+    "path": "plugins/win4r/chrome-devtools-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "clera",
+    "servers": [
+      "clera"
+    ],
+    "path": "plugins/getclera/mcp/.mcp.json"
+  },
+  {
+    "plugin": "codex-reset",
+    "servers": [
+      "codex-reset"
+    ],
+    "path": "plugins/suvadadepolo-blip/codex-reset-mcp/.mcp.json"
+  },
+  {
+    "plugin": "codex-seo",
+    "servers": [
+      "dataforseo",
+      "firecrawl-mcp",
+      "nanobanana-mcp"
+    ],
+    "path": "plugins/BestLemoon/codex-seo/.mcp.json"
+  },
+  {
+    "plugin": "codex-usage-tracker",
+    "servers": [
+      "codex-usage-tracker"
+    ],
+    "path": "plugins/douglasmonsky/codex-usage-tracker/.mcp.json"
+  },
+  {
+    "plugin": "cometchat-skills",
+    "servers": [
+      "cometchat-docs"
+    ],
+    "path": "plugins/cometchat/cometchat-skills/.mcp.json"
+  },
+  {
+    "plugin": "computefirst",
+    "servers": [
+      "computefirst"
+    ],
+    "path": "plugins/321zz321/computefirst-skill/.mcp.json"
+  },
+  {
+    "plugin": "context-pack",
+    "servers": [
+      "context-pack"
+    ],
+    "path": "plugins/Rothschildiuk/context-pack/.mcp.json"
+  },
+  {
+    "plugin": "coolify",
+    "servers": [
+      "coolify"
+    ],
+    "path": "plugins/Sevi-py/coolify-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "court-rules",
+    "servers": [
+      "court-rules"
+    ],
+    "path": "plugins/foklepoint/court-rules-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "damnpdfs",
+    "servers": [
+      "damnpdfs"
+    ],
+    "path": "plugins/SouravBeraAkaSpeed/damnpdfs-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "darkmoon",
+    "servers": [
+      "darkmoon"
+    ],
+    "path": "plugins/ASCIT31/darkmoon-mcp-server/.mcp.json"
+  },
+  {
+    "plugin": "deed-page",
+    "servers": [
+      "deed-page"
+    ],
+    "path": "plugins/f-o-x11/deed-page-skill/.mcp.json"
+  },
+  {
+    "plugin": "deja-vu",
+    "servers": [
+      "deja"
+    ],
+    "path": "plugins/vshulcz/deja-vu/.mcp.json"
+  },
+  {
+    "plugin": "dodopayments",
+    "servers": [
+      "dodopayments-api",
+      "dodo-knowledge"
+    ],
+    "path": "plugins/dodopayments/dodo-agent-plugin/.mcp.json"
+  },
+  {
+    "plugin": "droplinked-codex-plugin",
+    "servers": [
+      "droplinked"
+    ],
+    "path": "plugins/droplinked/droplinked-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "dropthehassle",
+    "servers": [
+      "dropthehassle"
+    ],
+    "path": null
+  },
+  {
+    "plugin": "eigenheim-market",
+    "servers": [
+      "eigenheim-market"
+    ],
+    "path": "plugins/magicSEO/eigenheim-mcp/.mcp.json"
+  },
+  {
+    "plugin": "equibles",
+    "servers": [
+      "equibles"
+    ],
+    "path": "plugins/daniel3303/stock-market-mcp-server/.mcp.json"
+  },
+  {
+    "plugin": "exa",
+    "servers": [
+      "exa"
+    ],
+    "path": "plugins/zlsbksdxl/codex-exa/.mcp.json"
+  },
+  {
+    "plugin": "fantasy-football-manager",
+    "servers": [
+      "fantasy-football-manager",
+      "fantasy-football-espn",
+      "fantasy-football-portfolio"
+    ],
+    "path": "plugins/krmisystems/fantasy-football-manager/.mcp.json"
+  },
+  {
+    "plugin": "fxmacrodata",
+    "servers": [
+      "fxmacrodata"
+    ],
+    "path": "plugins/fxmacrodata/claude-plugin-fxmacrodata/.mcp.json"
+  },
+  {
+    "plugin": "kachilu-browser",
+    "servers": [
+      "kachilu_browser"
+    ],
+    "path": "plugins/kachilu-inc/kachilu-browser/.mcp.json"
+  },
+  {
+    "plugin": "kin",
+    "servers": [
+      "kin"
+    ],
+    "path": "plugins/kinlab-ai/kin-plugin/.mcp.json"
+  },
+  {
+    "plugin": "crawlberg",
+    "servers": [
+      "crawlberg"
+    ],
+    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/.mcp.json"
+  },
+  {
+    "plugin": "crawlberg",
+    "servers": [
+      "crawlberg"
+    ],
+    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/.mcp.json"
+  },
+  {
+    "plugin": "crawlberg",
+    "servers": [
+      "crawlberg"
+    ],
+    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/.mcp.json"
+  },
+  {
+    "plugin": "lacuna-music",
+    "servers": [
+      "lacuna"
+    ],
+    "path": "plugins/JOYLINK-LTD/lacuna-plugin/.mcp.json"
+  },
+  {
+    "plugin": "launchfast",
+    "servers": [
+      "launchfast"
+    ],
+    "path": "plugins/BlockchainHB/launchfast_codex_plugin/.mcp.json"
+  },
+  {
+    "plugin": "linkmcp",
+    "servers": [
+      "linkmcp"
+    ],
+    "path": "plugins/linkmcp-io/linkmcp/.mcp.json"
+  },
+  {
+    "plugin": "llmslim",
+    "servers": [
+      "llmslim"
+    ],
+    "path": "plugins/Thanatos9404/llmslim/.mcp.json"
+  },
+  {
+    "plugin": "local-mcp",
+    "servers": [
+      "local-mcp"
+    ],
+    "path": "plugins/colibird-ai/local-mcp-releases/.mcp.json"
+  },
+  {
+    "plugin": "loomaly",
+    "servers": [
+      "loomaly"
+    ],
+    "path": null
+  },
+  {
+    "plugin": "looot",
+    "servers": [
+      "looot"
+    ],
+    "path": "plugins/loootai/looot-plugin/.mcp.json"
+  },
+  {
+    "plugin": "maqami-travel",
+    "servers": [
+      "maqami-travel"
+    ],
+    "path": "plugins/negm17111995/mcp-server/.mcp.json"
+  },
+  {
+    "plugin": "mnemoverse",
+    "servers": [
+      "mnemoverse"
+    ],
+    "path": "plugins/mnemoverse/claude-plugin/.mcp.json"
+  },
+  {
+    "plugin": "moltnode",
+    "servers": [
+      "moltnode",
+      "chord"
+    ],
+    "path": "plugins/tuantqse90/moltnode-mcp/.mcp.json"
+  },
+  {
+    "plugin": "notfair",
+    "servers": [
+      "NotFair"
+    ],
+    "path": "plugins/nowork-studio/notfair-plugin/.mcp.json"
+  },
+  {
+    "plugin": "npmscan",
+    "servers": [
+      "npmscan"
+    ],
+    "path": "plugins/salemalem/npmscan-mcp-plugin/.mcp.json"
+  },
+  {
+    "plugin": "openproject-codex",
+    "servers": [
+      "openproject_codex"
+    ],
+    "path": "plugins/varaprasadreddy9676/openproject-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "ophis",
+    "servers": [
+      "ophis"
+    ],
+    "path": "plugins/ophis-fi/skills/.mcp.json"
+  },
+  {
+    "plugin": "orgx-codex-plugin",
+    "servers": [
+      "orgx"
+    ],
+    "path": "plugins/useorgx/orgx-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "papersflow-codex-plugin",
+    "servers": [
+      "papersflow-mcp"
+    ],
+    "path": "plugins/papersflow-ai/papersflow-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "placecall",
+    "servers": [
+      "placecall"
+    ],
+    "path": null
+  },
+  {
+    "plugin": "plori",
+    "servers": [
+      "plori"
+    ],
+    "path": "plugins/plori-ai/codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "posteverywhere",
+    "servers": [
+      "posteverywhere"
+    ],
+    "path": "plugins/posteverywhere/codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "pricewin",
+    "servers": [
+      "pricewin"
+    ],
+    "path": "plugins/PriceDotWin/pricewin-agent-plugin/.mcp.json"
+  },
+  {
+    "plugin": "pronounce",
+    "servers": [
+      "pronounce"
+    ],
+    "path": "plugins/anzy-renlab-ai/pronounce/.mcp.json"
+  },
+  {
+    "plugin": "omnimodal",
+    "servers": [
+      "omnimodal-recognize",
+      "omnimodal-capture-page",
+      "omnimodal-windows-capture",
+      "omnimodal-generation"
+    ],
+    "path": "plugins/ZXY1240/read-image/.mcp.json"
+  },
+  {
+    "plugin": "remotion",
+    "servers": [
+      "remotion-documentation"
+    ],
+    "path": "plugins/tim-osterhus/codex-remotion-plugin/.mcp.json"
+  },
+  {
+    "plugin": "revid",
+    "servers": [
+      "revid"
+    ],
+    "path": "plugins/tmakersas/revid-skills/.mcp.json"
+  },
+  {
+    "plugin": "roomcomm",
+    "servers": [
+      "roomcomm"
+    ],
+    "path": "plugins/kotinder/codex-roomcomm/.mcp.json"
+  },
+  {
+    "plugin": "self-starter",
+    "servers": [
+      "self_starter"
+    ],
+    "path": "plugins/hyprh/self-starter/.mcp.json"
+  },
+  {
+    "plugin": "sendpaper",
+    "servers": [
+      "sendpaper"
+    ],
+    "path": "plugins/ryan-tish/sendpaper-plugin/.mcp.json"
+  },
+  {
+    "plugin": "sendsets",
+    "servers": [
+      "sendsets"
+    ],
+    "path": "plugins/AddisonHoff/sendsets/.mcp.json"
+  },
+  {
+    "plugin": "seonix",
+    "servers": [
+      "seonix"
+    ],
+    "path": "plugins/seonix-ai/mcp/.mcp.json"
+  },
+  {
+    "plugin": "sfxmint",
+    "servers": [
+      "sfxmint"
+    ],
+    "path": "plugins/flreey/sfxmint-mcp/.mcp.json"
+  },
+  {
+    "plugin": "shots",
+    "servers": [
+      "shots"
+    ],
+    "path": "plugins/hitSlop/shots/.mcp.json"
+  },
+  {
+    "plugin": "svatlas",
+    "servers": [
+      "svatlas"
+    ],
+    "path": "plugins/phnx-labs/svatlas-mcp/.mcp.json"
+  },
+  {
+    "plugin": "solidping",
+    "servers": [
+      "solidping"
+    ],
+    "path": "plugins/fclairamb/solidping-plugin/.mcp.json"
+  },
+  {
+    "plugin": "storyflo-codex-plugin",
+    "servers": [
+      "storyflo"
+    ],
+    "path": "plugins/droplinked/storyflo-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "swapwallet",
+    "servers": [
+      "swapwallet"
+    ],
+    "path": "plugins/SwapWallet/swapwallet-mcp/.mcp.json"
+  },
+  {
+    "plugin": "n8n-mcp-synta-codex",
+    "servers": [
+      "synta-mcp"
+    ],
+    "path": "plugins/Synta-ai/n8n-mcp-codex-plugin-synta/.mcp.json"
+  },
+  {
+    "plugin": "tablejourney",
+    "servers": [
+      "tablejourney"
+    ],
+    "path": "plugins/lewismvaughan/tablejourney-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "taisly-agent-kit",
+    "servers": [
+      "taisly"
+    ],
+    "path": null
+  },
+  {
+    "plugin": "talivia-agent-kit",
+    "servers": [
+      "talivia"
+    ],
+    "path": null
+  },
+  {
+    "plugin": "task-scheduler",
+    "servers": [
+      "taskScheduler"
+    ],
+    "path": "plugins/6Delta9/task-scheduler-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "tokrepo-search",
+    "servers": [
+      "tokrepo"
+    ],
+    "path": "plugins/henu-wang/tokrepo-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "tweetapi",
+    "servers": [
+      "tweetapi"
+    ],
+    "path": "plugins/tweetapi/agent-skill/.mcp.json"
+  },
+  {
+    "plugin": "unified-ai-system",
+    "servers": [
+      "unified-ai-system"
+    ],
+    "path": "plugins/happy520ai/unified-ai-system/.mcp.json"
+  },
+  {
+    "plugin": "vals",
+    "servers": [
+      "valtown"
+    ],
+    "path": "plugins/val-town/plugins/.mcp.json"
+  },
+  {
+    "plugin": "varg",
+    "servers": [
+      "varg-how-to",
+      "varg"
+    ],
+    "path": "plugins/vargHQ/skills/.mcp.json"
+  },
+  {
+    "plugin": "wavespeed-cli",
+    "servers": [
+      "wavespeed"
+    ],
+    "path": "plugins/WaveSpeedAI/codex-plugin-wavespeed-cli/.mcp.json"
+  },
+  {
+    "plugin": "webly",
+    "servers": [
+      "webly"
+    ],
+    "path": "plugins/Webly-AI/webly-plugin/.mcp.json"
+  },
+  {
+    "plugin": "x-twitter-scraper",
+    "servers": [
+      "xquik"
+    ],
+    "path": "plugins/Xquik-dev/x-twitter-scraper/.mcp.json"
+  },
+  {
+    "plugin": "yandex-direct-for-all",
+    "servers": [
+      "yandexDirect",
+      "yandexSearch",
+      "yandexWordstat"
+    ],
+    "path": "plugins/nebelov/yandex-direct-for-all/.mcp.json"
+  }
+]

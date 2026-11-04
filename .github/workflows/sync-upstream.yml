@@ -1,0 +1,30 @@
+name: sync-upstream
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync upstream plugin content
+        run: |
+          git config user.name "codex-plugins-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git remote add upstream https://github.com/hashgraph-online/awesome-codex-plugins.git || true
+          git fetch --depth=1 upstream main
+          git checkout FETCH_HEAD -- .agents plugins
+          python3 scripts/build_catalog.py
+          git add .agents plugins catalog
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "sync upstream plugins"
+            git push
+          fi

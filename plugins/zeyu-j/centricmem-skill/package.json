@@ -1,0 +1,44 @@
+{
+  "name": "centricmem-skill",
+  "version": "1.0.37",
+  "private": true,
+  "scripts": {
+    "check:kiro": "node tools/check-kiro-docs.mjs",
+    "check:versions": "node tools/check-versions.mjs"
+  },
+  "description": "CentricMem Agent Skill package for the hosted librarian. GitHub package name centricmem-skill; skill folder centricmem-agent. Install: npx skills add zeyu-j/centricmem-skill --skill centricmem-agent -y",
+  "license": "MIT",
+  "author": "Dr. Z <zeyu@poppyg.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeyu-j/centricmem-skill.git"
+  },
+  "homepage": "https://centricmem.com",
+  "bugs": {
+    "url": "https://github.com/zeyu-j/centricmem-skill/issues"
+  },
+  "keywords": [
+    "skill",
+    "centricmem",
+    "cursor",
+    "claude-code",
+    "codex",
+    "copilot",
+    "kiro",
+    "kilo",
+    "pi",
+    "hermes",
+    "openclaw",
+    "dsh-plugin"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh/cordis.patch.yml"
+    }
+  }
+}

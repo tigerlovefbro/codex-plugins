@@ -1,0 +1,33 @@
+{
+  "name": "pixeltable-skill",
+  "version": "2.14.0",
+  "description": "Multimodal RAG, video search, image similarity search, agent memory, and embeddings stored with your data. Pixeltable tables, computed columns, and embedding indexes.",
+  "keywords": [
+    "pi-package",
+    "pixeltable",
+    "multimodal",
+    "ai",
+    "rag",
+    "multimodal-rag",
+    "video-search",
+    "image-similarity-search",
+    "agent-memory",
+    "embeddings",
+    "computed-columns",
+    "vector-search",
+    "audio-transcription",
+    "dataset-versioning",
+    "agent-skill"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixeltable/pixeltable-skill.git"
+  },
+  "homepage": "https://docs.pixeltable.com/",
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  }
+}
