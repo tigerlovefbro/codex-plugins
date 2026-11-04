@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-04T08:00:28.271173+00:00",
+    "generatedAt": "2026-11-04T08:05:49.847620+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 370,
-      "with_skills": 334,
+      "plugins": 371,
+      "with_skills": 335,
       "with_mcp": 135,
       "codex_only": 20
     },
-    "skillCount": 2979
+    "skillCount": 2980
   },
   "plugins": [
     {
@@ -19939,6 +19939,31 @@
         {
           "name": "mcp-sync",
           "path": "plugins/personal/mcp-sync/skills/mcp-sync/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "task-router",
+      "name": "task-router",
+      "displayName": "Task Router",
+      "description": "Portable routing skill: choose the right plugins/skills for each task and enforce review/guard steps.",
+      "version": "1.0.0",
+      "category": "Personal",
+      "author": "tigerlovefbro",
+      "repository": "",
+      "license": "MIT",
+      "codexPath": "plugins/personal/task-router",
+      "skills": [
+        {
+          "name": "task-router",
+          "path": "plugins/personal/task-router/skills/task-router/SKILL.md"
         }
       ],
       "mcpServers": [],

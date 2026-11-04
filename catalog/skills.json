@@ -14893,5 +14893,10 @@
     "plugin": "mcp-sync",
     "skill": "mcp-sync",
     "path": "plugins/personal/mcp-sync/skills/mcp-sync/SKILL.md"
+  },
+  {
+    "plugin": "task-router",
+    "skill": "task-router",
+    "path": "plugins/personal/task-router/skills/task-router/SKILL.md"
   }
 ]

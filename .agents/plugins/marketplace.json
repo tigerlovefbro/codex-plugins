@@ -5480,6 +5480,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Personal"
+    },
+    {
+      "name": "task-router",
+      "source": {
+        "source": "local",
+        "path": "./plugins/personal/task-router"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Personal"
     }
   ]
 }

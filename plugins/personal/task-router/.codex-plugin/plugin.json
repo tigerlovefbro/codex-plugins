@@ -1,0 +1,13 @@
+{
+  "name": "task-router",
+  "version": "1.0.0",
+  "description": "Portable routing skill: choose the right plugins/skills for each task and enforce review/guard steps.",
+  "author": { "name": "tigerlovefbro" },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Task Router",
+    "shortDescription": "Route tasks to the right plugins and skills",
+    "category": "Personal"
+  }
+}

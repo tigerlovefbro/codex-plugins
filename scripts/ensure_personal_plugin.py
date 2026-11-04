@@ -8,6 +8,7 @@ m = json.loads(p.read_text(encoding="utf-8"))
 plugins = [
     ("personal-toolkit", "./plugins/personal/personal-toolkit"),
     ("mcp-sync", "./plugins/personal/mcp-sync"),
+    ("task-router", "./plugins/personal/task-router"),
 ]
 changed = False
 for name, path in plugins:
