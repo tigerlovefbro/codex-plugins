@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "fair-value-calculator": {
-      "type": "http",
-      "url": "https://www.fairvalue-calculator.com/mcp"
-    }
-  }
-}
