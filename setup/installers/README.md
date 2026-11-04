@@ -1,5 +1,8 @@
 # Codex 安装包清单
 
+大文件已放到 Releases：
+https://github.com/tigerlovefbro/codex-plugins/releases/tag/assets-20261104
+
 这些文件不在 Git 仓库中，仅记录版本与校验值。原始位置：
 
 D:\云契·小白虎\codex\安装包
