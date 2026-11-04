@@ -1,0 +1,13 @@
+{
+  "name": "personal-toolkit",
+  "version": "1.0.0",
+  "description": "Personal toolkit: vmctl skill and MCP setup notes for Codex/Claude/DSH.",
+  "author": { "name": "tigerlovefbro" },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Personal Toolkit",
+    "shortDescription": "vmctl skill and personal MCP notes",
+    "category": "Personal"
+  }
+}

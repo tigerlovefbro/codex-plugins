@@ -1,0 +1,9 @@
+# Replace <USERNAME> with the actual Windows profile directory.
+# Merge these blocks into the existing Codex config; do not overwrite the file.
+
+[mcp_servers.win10-bridge]
+command = 'C:\Users\<USERNAME>\AppData\Local\Win10ComputerBridgeMCP\venv\Scripts\python.exe'
+args = ["-m", "win10_bridge_mcp"]
+
+[mcp_servers.win10-bridge.env]
+WIN10_BRIDGE_CONFIG = 'C:\Users\<USERNAME>\Win10_ComputerBridge\bridge_config.json'

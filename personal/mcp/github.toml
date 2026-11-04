@@ -1,0 +1,13 @@
+# Portable GitHub MCP configuration for Codex.
+#
+# On another computer, merge the [mcp_servers.github] block below into:
+#   %USERPROFILE%\.codex\config.toml
+# Then restart Codex completely.
+#
+# Codex can verify the configuration, MCP connection, and repository access.
+# You must provide the GitHub token yourself; it is intentionally not stored here.
+
+[mcp_servers.github]
+url = "https://api.githubcopilot.com/mcp/"
+bearer_token_env_var = "GITHUB_PAT_TOKEN"
+http_headers = { "X-MCP-Toolsets" = "repos,stargazers" }

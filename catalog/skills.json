@@ -14568,5 +14568,10 @@
     "plugin": "zotero-research-tools",
     "skill": "zotero-research",
     "path": "plugins/summer521521/Zotero_Research_plugin/skills/zotero-research/SKILL.md"
+  },
+  {
+    "plugin": "personal-toolkit",
+    "skill": "vmctl",
+    "path": "plugins/personal/personal-toolkit/skills/vmctl/SKILL.md"
   }
 ]

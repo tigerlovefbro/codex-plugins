@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-04T06:37:11.381565+00:00",
+    "generatedAt": "2026-11-04T06:49:25.609050+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 369,
-      "with_skills": 333,
+      "plugins": 370,
+      "with_skills": 334,
       "with_mcp": 136,
       "codex_only": 20
     },
-    "skillCount": 2914
+    "skillCount": 2915
   },
   "plugins": [
     {
@@ -19660,6 +19660,31 @@
         {
           "name": "zotero-research",
           "path": "plugins/summer521521/Zotero_Research_plugin/skills/zotero-research/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "personal-toolkit",
+      "name": "personal-toolkit",
+      "displayName": "Personal Toolkit",
+      "description": "Personal toolkit: vmctl skill and MCP setup notes for Codex/Claude/DSH.",
+      "version": "1.0.0",
+      "category": "Personal",
+      "author": "tigerlovefbro",
+      "repository": "",
+      "license": "MIT",
+      "codexPath": "plugins/personal/personal-toolkit",
+      "skills": [
+        {
+          "name": "vmctl",
+          "path": "plugins/personal/personal-toolkit/skills/vmctl/SKILL.md"
         }
       ],
       "mcpServers": [],
