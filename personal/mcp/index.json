@@ -1,0 +1,38 @@
+﻿[
+    {
+        "name":  "chrome-devtools",
+        "transport":  "stdio",
+        "enabled":  true,
+        "file":  "personal/mcp/chrome-devtools.json"
+    },
+    {
+        "name":  "codex-usage-tracker",
+        "transport":  "stdio",
+        "enabled":  true,
+        "file":  "personal/mcp/codex-usage-tracker.json"
+    },
+    {
+        "name":  "github",
+        "transport":  "streamable_http",
+        "enabled":  true,
+        "file":  "personal/mcp/github.json"
+    },
+    {
+        "name":  "local-mcp",
+        "transport":  "stdio",
+        "enabled":  true,
+        "file":  "personal/mcp/local-mcp.json"
+    },
+    {
+        "name":  "node_repl",
+        "transport":  "stdio",
+        "enabled":  true,
+        "file":  "personal/mcp/node_repl.json"
+    },
+    {
+        "name":  "win10-bridge",
+        "transport":  "stdio",
+        "enabled":  true,
+        "file":  "personal/mcp/win10-bridge.json"
+    }
+]

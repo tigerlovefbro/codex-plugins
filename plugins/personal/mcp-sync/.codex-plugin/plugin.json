@@ -1,0 +1,13 @@
+{
+  "name": "mcp-sync",
+  "version": "1.0.0",
+  "description": "Export and restore MCP server definitions through the codex-plugins GitHub repository.",
+  "author": { "name": "tigerlovefbro" },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MCP Sync",
+    "shortDescription": "Sync MCP definitions to GitHub and restore them anywhere",
+    "category": "Personal"
+  }
+}

@@ -1,0 +1,22 @@
+﻿{
+    "schema":  1,
+    "name":  "chrome-devtools",
+    "enabled":  true,
+    "transport":  {
+                      "type":  "stdio",
+                      "command":  "npx",
+                      "args":  [
+                                   "-y",
+                                   "chrome-devtools-mcp@latest"
+                               ],
+                      "env":  null,
+                      "env_vars":  [
+
+                                   ],
+                      "cwd":  null
+                  },
+    "startup_timeout_sec":  null,
+    "tool_timeout_sec":  null,
+    "source":  "codex",
+    "exported_at":  "2026-11-04T08:00:35.3043898Z"
+}

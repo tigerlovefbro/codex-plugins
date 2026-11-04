@@ -1,0 +1,37 @@
+﻿{
+    "schema":  1,
+    "name":  "node_repl",
+    "enabled":  true,
+    "transport":  {
+                      "type":  "stdio",
+                      "command":  "D:\\data\\ChatGPT-unpacked\\app\\resources\\cua_node\\bin\\node_repl.exe",
+                      "args":  [
+
+                               ],
+                      "env":  {
+                                  "BROWSER_USE_AVAILABLE_BACKENDS":  "chrome,iab",
+                                  "NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS":  "1000",
+                                  "NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S":  "57ee77a283eb230c6c6d47353af13a25cec4c331b511868c8fbf7ccd3dd1b2f6,7ed52dae165c3bc22b6d24f282e2c1fbc87f6949fbbe037767a7418d8f517f01",
+                                  "NODE_REPL_NODE_PATH":  "***REDACTED***",
+                                  "NODE_REPL_TRUSTED_CODE_PATHS":  "***REDACTED***",
+                                  "CODEX_HOME":  "C:\\Users\\Administrator\\.codex",
+                                  "CODEX_CLI_PATH":  "***REDACTED***",
+                                  "NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME":  "Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative.",
+                                  "BROWSER_USE_CODEX_APP_BUILD_FLAVOR":  "prod",
+                                  "SKY_CUA_NATIVE_PIPE_DIRECTORY":  "\\\\.\\pipe\\codex-computer-use-83acac0d-b4c6-4c7c-84d6-c5586da04b4d",
+                                  "NODE_REPL_NODE_MODULE_DIRS":  "D:\\data\\ChatGPT-unpacked\\app\\resources\\cua_node\\bin\\node_modules",
+                                  "BROWSER_USE_CODEX_APP_VERSION":  "26.707.71524",
+                                  "NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER":  "Control the in-app browser in conjunction with the Browser Plugin.",
+                                  "CODEX_CHROME_USER_DATA_DIR":  "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\User Data",
+                                  "SKY_CUA_NATIVE_PIPE":  "1"
+                              },
+                      "env_vars":  [
+
+                                   ],
+                      "cwd":  null
+                  },
+    "startup_timeout_sec":  120.0,
+    "tool_timeout_sec":  null,
+    "source":  "codex",
+    "exported_at":  "2026-11-04T08:00:35.3283063Z"
+}

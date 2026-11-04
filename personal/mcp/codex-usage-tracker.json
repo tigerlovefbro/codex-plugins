@@ -1,0 +1,21 @@
+﻿{
+    "schema":  1,
+    "name":  "codex-usage-tracker",
+    "enabled":  true,
+    "transport":  {
+                      "type":  "stdio",
+                      "command":  "codex-usage-tracker",
+                      "args":  [
+                                   "_mcp"
+                               ],
+                      "env":  null,
+                      "env_vars":  [
+
+                                   ],
+                      "cwd":  null
+                  },
+    "startup_timeout_sec":  30.0,
+    "tool_timeout_sec":  null,
+    "source":  "codex",
+    "exported_at":  "2026-11-04T08:00:35.3123601Z"
+}
