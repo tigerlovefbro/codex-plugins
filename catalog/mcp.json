@@ -318,6 +318,13 @@
     "path": "plugins/MiguelMedeiros/unforgit-codex-plugin/.mcp.json"
   },
   {
+    "plugin": "unity-mcp",
+    "servers": [
+      "unity-mcp"
+    ],
+    "path": "plugins/CoplayDev/unity-mcp/.mcp.json"
+  },
+  {
     "plugin": "waggle",
     "servers": [
       "waggle"

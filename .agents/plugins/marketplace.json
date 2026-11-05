@@ -2541,6 +2541,20 @@
       "icon": "./plugins/MiguelMedeiros/unforgit-codex-plugin/assets/icon.png"
     },
     {
+      "name": "unity-agent-skills",
+      "displayName": "Unity Agent Skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gamedev-skills/unity-agent-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development & Workflow",
+      "description": "8 general-purpose Unity 6.3 LTS development skills (gamedev-skills/awesome-gamedev-agent-skills, Apache-2.0): unity-animation, unity-build-pipeline, unity-csharp-scripting, unity-input-system, unity-navmesh, unity-physics, unity-scriptableobjects, unity-tilemap-2d."
+    },
+    {
       "name": "unity-agent-workflows",
       "displayName": "Unity Agent Workflows",
       "source": {
@@ -2554,6 +2568,20 @@
       "category": "Development & Workflow",
       "description": "Codex plugin and skill for Unity 2D agents that enforces \"No proof, no edit\" workflows with runtime-owner proof, Teach structure maps, and validation gates.",
       "icon": "./plugins/AUN-PN/unity-agent-workflows/assets/unity-workflows.png"
+    },
+    {
+      "name": "unity-mcp",
+      "displayName": "Unity MCP",
+      "source": {
+        "source": "local",
+        "path": "./plugins/CoplayDev/unity-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "Unity Editor MCP bridge (CoplayDev/unity-mcp, MIT) — drive the Unity Editor via MCP: GameObjects, scripts, scenes, prefabs, materials, VFX, and tests. Ships the unity-mcp-orchestrator skill. Connect via Unity Package Manager git URL and uvx mcpforunityserver."
     },
     {
       "name": "universal-design-principles",
@@ -3605,7 +3633,21 @@
       "category": "Tools & Integrations",
       "description": "Source-available skills and MCP server that let Codex model, render and verify mechanical parts natively in Blender 5.2 LTS, licensed under PolyForm Shield.",
       "icon": "./plugins/jangtrinh/design-os-3d-blender/docs/images/composer-icon.svg"
+    },    {
+      "name": "dsh-blender-plugin",
+      "displayName": "Blender Modeling (DSH)",
+      "source": {
+        "source": "local",
+        "path": "./plugins/sixtysevenlf/dsh-blender-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "DSH × Blender direct-connection plugin (sixtysevenlf/dsh-blender-plugin, BSD-3-Clause): 15 blender_rt_* model tools drive Blender directly (viewport/custom camera, persistent Python kernel, inner-loop parameter search, headless worker, job layer, transaction rollback) plus a 34-family/228-op contract layer. Ships the blender-modeling skill."
     },
+
     {
       "name": "design-os-code2flow",
       "displayName": "DESIGN:OS Code2Flow",
