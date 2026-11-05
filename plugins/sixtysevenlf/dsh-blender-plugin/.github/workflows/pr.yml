@@ -1,0 +1,149 @@
+name: PR gate
+
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  static-and-tests:
+    name: Static checks and PR tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONIOENCODING: utf-8
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install dependencies
+        run: |
+          npm ci --legacy-peer-deps
+          python -m pip install -r requirements-dev.txt -r requirements-typecheck.txt
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Script typecheck
+        run: npm run typecheck:scripts
+      - name: Lint
+        run: npm run lint
+      - name: Format check
+        run: npm run format:check
+      - name: Structure and build checks
+        run: |
+          npm run build
+          npm run check:structure
+          npm run check:build
+          npm run check:git-hygiene
+      - name: Unit and integration tests
+        run: |
+          npm run test:unit
+          npm run test:integration
+          npm run test:contract
+      - name: Python tests (no Blender)
+        env:
+          PYTHON: python
+          TMPDIR: ${{ runner.temp }}
+        run: npm run test:python
+      - name: Behavior matrix release gate
+        run: npm run test:matrix
+      - name: Package dry run
+        run: npm pack --dry-run
+
+  addon:
+    name: Blender addon unit tests and typecheck
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONIOENCODING: utf-8
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Create Python venv
+        run: python -m venv .venv
+      - name: Install dependencies
+        run: |
+          npm ci --legacy-peer-deps
+          .venv/bin/python -m pip install -r requirements-dev.txt -r requirements-typecheck.txt
+      - name: Addon unit tests (no Blender)
+        env:
+          PYTHON: .venv/bin/python
+          TMPDIR: ${{ runner.temp }}
+        run: npm run test:addon-unit
+      - name: Addon typecheck with fake-bpy stubs
+        run: npm run typecheck:addon
+      - name: Python static gate
+        env:
+          PYTHON: .venv/bin/python
+        run: npm run check:python-static
+
+  coverage:
+    name: Coverage ratchet
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONIOENCODING: utf-8
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install dependencies
+        run: |
+          npm ci --legacy-peer-deps
+          python -m pip install -r requirements-dev.txt
+      - name: JS coverage
+        run: npm run test:coverage
+      - name: Python coverage
+        env:
+          PYTHON: python
+          TMPDIR: ${{ runner.temp }}
+        run: |
+          python -m pytest tests/unit/python tests/integration/python --cov=addon --cov-branch --cov-report=json:coverage/python-coverage.json --cov-report=term
+      - name: Coverage ratchet gate
+        env:
+          COVERAGE_BASE_REF: v2.6.2
+        run: |
+          git rev-parse --verify "$COVERAGE_BASE_REF"
+          diff-cover coverage/lcov.info --compare-branch="$COVERAGE_BASE_REF" --json-report=coverage/diff-cover.json
+          npm run check:coverage
+      - name: Upload coverage artifacts
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: coverage
+          path: coverage/

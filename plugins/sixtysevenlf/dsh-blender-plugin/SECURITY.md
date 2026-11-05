@@ -1,0 +1,42 @@
+# Security Policy
+
+[简体中文](docs/zh/SECURITY.md)
+
+Security fixes are provided for the **latest release only** (see the `version` field in `package.json`).
+Upgrade older versions first.
+
+## Reporting a vulnerability
+
+Please **do not** report security issues in public issues. Use GitHub's private channel instead:
+
+1. <https://github.com/sixtysevenlf/dsh-blender-plugin/security/advisories/new>
+   (repository -> **Security** -> **Advisories** -> *Report a vulnerability*).
+2. If that channel is unavailable, open an issue containing **only** the sentence
+   "I would like to report a security issue; please provide a private contact." Do **not** include details.
+
+Please include the affected version, reproduction steps, impact (who can trigger it and what
+preconditions are required), and a proof of concept if available. We aim to respond within 7 days.
+After a fix is released, we will credit you in the advisory unless you ask to stay anonymous.
+
+## Execution surface (consider it when assessing trust)
+
+This plugin **by design** executes code and starts processes; it is not a read-only data plugin:
+
+| Surface | Description |
+|---|---|
+| Blender-side Python | `blender_rt_do` / `blender_rt_headless` / `blender_rt_worker` / `blender_rt_plan` pass caller-provided Python to Blender's `bpy`; `K` is a persistent kernel that survives across calls |
+| Local processes | Starts the backend `node lib/runtime/server.js` (after `npm run build`), headless `blender -b`, and external validators under `runtime/ext/` (glTF-Validator / open3d); uses `SIGTERM` then `SIGKILL` to clean up a residual backend when needed |
+| Local network | The backend listens only on `127.0.0.1` (default 9877); it talks to the Blender addon over TCP on `127.0.0.1:9876`. There is **no** outbound telemetry |
+| File I/O | Default work directory is `~/.dsh-blender-rt` (override with `DSH_BLENDER_*` environment variables or a root `dsh-blender.config.json`): renders, logs, and the job ledger |
+| Gate expressions | `gate_run`'s `pass_if` / `degrade_if` are **restricted expressions**: first checked against the syntax whitelist in `runtime/py/core/gate.py` (`_check_ast`), then evaluated node by node (`_eval_node`); **no `eval` / `exec`**; underscore attributes are denied; functions are limited to `min` / `max` / `len` / `abs` / `round` / `all` / `any` / `sum` / `float` / `int` / `str` |
+| Credentials | The plugin **does not read or store** any API key, token, or credential file |
+
+## Third-party dependencies / Blender addon
+
+- The Blender side requires the addon bundled with this repository (`DSH Blender Bridge` v1.8+);
+  the old `MCP for Blender` / category-action implementation has been unsupported since v2.3.
+  Its code is **not in this repository**; evaluate its source and version before installing.
+- The release package is produced by `npm pack` and contains only the files in the `files` whitelist in
+  `package.json`. Build dependencies come from the DSH checkout; runtime dependencies are injected by
+  the host (`peerDependencies`).
+- We recommend enabling Dependabot for this repository (see `.github/dependabot.yml`).
