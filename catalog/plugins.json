@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-05T13:04:14.493038+00:00",
+    "generatedAt": "2026-11-05T13:45:56.638103+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 376,
-      "with_skills": 340,
+      "plugins": 377,
+      "with_skills": 341,
       "with_mcp": 138,
       "codex_only": 20
     },
-    "skillCount": 2993
+    "skillCount": 2994
   },
   "plugins": [
     {
@@ -20127,6 +20127,31 @@
         {
           "name": "task-router",
           "path": "plugins/personal/task-router/skills/task-router/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "adams-modeling",
+      "name": "adams-modeling",
+      "displayName": "Adams Modeling",
+      "description": "MSC Adams multibody dynamics modeling, simulation, and result post-processing via the Adamspy Python API in headless View batch mode.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "tigerlovefbro",
+      "repository": "https://github.com/tigerlovefbro/codex-plugins",
+      "license": "MIT",
+      "codexPath": "plugins/personal/adams-modeling",
+      "skills": [
+        {
+          "name": "adams-modeling",
+          "path": "plugins/personal/adams-modeling/skills/adams-modeling/SKILL.md"
         }
       ],
       "mcpServers": [],

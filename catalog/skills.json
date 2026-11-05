@@ -14963,5 +14963,10 @@
     "plugin": "task-router",
     "skill": "task-router",
     "path": "plugins/personal/task-router/skills/task-router/SKILL.md"
+  },
+  {
+    "plugin": "adams-modeling",
+    "skill": "adams-modeling",
+    "path": "plugins/personal/adams-modeling/skills/adams-modeling/SKILL.md"
   }
 ]

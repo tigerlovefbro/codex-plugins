@@ -5564,6 +5564,20 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Personal"
+    },
+    {
+      "name": "adams-modeling",
+      "displayName": "Adams Modeling",
+      "source": {
+        "source": "local",
+        "path": "./plugins/personal/adams-modeling"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "MSC Adams multibody dynamics modeling + simulation + results via the Adamspy Python API in headless View batch mode. Covers rigid/FE parts, joints, forces, motions, design variables, model verify/save (.bin/.cmd/.adm/Parasolid), simulation (simple/script), result extraction (XFORM/JOINT/MOTION components), and an execute_cmd escape hatch. Ships the adams-modeling skill with 3 tested examples (oscillating slider / four-bar / piston-crank)."
     }
   ]
 }
