@@ -445,6 +445,13 @@
     "path": "plugins/getclera/mcp/.mcp.json"
   },
   {
+    "plugin": "clickwise",
+    "servers": [
+      "clickwise"
+    ],
+    "path": "plugins/softdevfz/clickwise-api/.mcp.json"
+  },
+  {
     "plugin": "codex-reset",
     "servers": [
       "codex-reset"
@@ -665,6 +672,13 @@
       "maqami-travel"
     ],
     "path": "plugins/negm17111995/mcp-server/.mcp.json"
+  },
+  {
+    "plugin": "metis-check",
+    "servers": [
+      "metis-check"
+    ],
+    "path": "plugins/MetisFoundry/metis-plugins/.mcp.json"
   },
   {
     "plugin": "mnemoverse",
