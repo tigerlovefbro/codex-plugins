@@ -1,0 +1,273 @@
+model_provider = "custom"
+model = "gpt-5.6-sol"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+model_reasoning_effort = "xhigh"
+model_auto_compact_token_limit = 500000
+model_context_window = 500000
+web_search = "live"
+tool_output_token_limit = 100000
+hide_agent_reasoning = false
+show_raw_agent_reasoning = true
+model_verbosity = "high"
+model_reasoning_summary = "detailed"
+disable_response_storage = true
+model_instructions_file = 'C:\Users\Administrator\.codex\prompts\system-prompt.md'
+
+personality = "pragmatic"
+service_tier = "default"
+
+
+notify = [ "D:\\data\\ChatGPT-unpacked\\app\\resources\\cua_node\\bin\\node_modules\\@oai\\sky\\bin\\windows\\codex-computer-use.exe", "turn-ended" ]
+
+[marketplaces.openai-bundled]
+last_updated = "2026-11-05T08:16:10Z"
+source_type = "local"
+source = '\\?\C:\Users\Administrator\.codex\.tmp\bundled-marketplaces\openai-bundled'
+
+[marketplaces.zhongjingyun-codex-plugins]
+last_updated = "2026-11-04T03:50:11Z"
+source_type = "git"
+source = "https://github.com/zhongjingyun/codex-plugins.git"
+ref = "main"
+sparse_paths = [".agents/plugins", "plugins"]
+
+[marketplaces.awesome-codex-plugins]
+last_updated = "2026-11-04T05:56:07Z"
+source_type = "git"
+source = "https://github.com/tigerlovefbro/codex-plugins.git"
+ref = "main"
+sparse_paths = [".agents/plugins", "plugins"]
+[model_providers.custom]
+name = "custom"
+# 中转服务地址：真实值在私有仓库 tigerlovefbro/codex-private 的 config.toml；公开仓库只放占位符，用前替换
+base_url = "https://YOUR-RELAY-HOST"
+wire_api = "responses"
+requires_openai_auth = true
+env_key = "MAOAPI_TOKEN"
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+[plugins."latex@openai-bundled"]
+enabled = true
+[features]
+js_repl = false
+hooks = true
+unified_exec = true
+shell_snapshot = true
+multi_agent = true
+memories = true
+undo = true
+codex_git_commit = true
+
+[mcp_servers.node_repl]
+args = []
+command = 'D:\data\ChatGPT-unpacked\app\resources\cua_node\bin\node_repl.exe'
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = 'D:\data\ChatGPT-unpacked\app\resources\cua_node\bin\node_modules'
+NODE_REPL_NODE_PATH = 'D:\data\ChatGPT-unpacked\app\resources\cua_node\bin\node.exe'
+NODE_REPL_TRUSTED_CODE_PATHS = 'C:\Users\Administrator\.codex'
+CODEX_HOME = 'C:\Users\Administrator\.codex'
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = "57ee77a283eb230c6c6d47353af13a25cec4c331b511868c8fbf7ccd3dd1b2f6,7ed52dae165c3bc22b6d24f282e2c1fbc87f6949fbbe037767a7418d8f517f01"
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = "Control the in-app browser in conjunction with the Browser Plugin."
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = "Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative."
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.707.71524"
+CODEX_CHROME_USER_DATA_DIR = 'C:\Users\Administrator\AppData\Local\Google\Chrome\User Data'
+SKY_CUA_NATIVE_PIPE = "1"
+SKY_CUA_NATIVE_PIPE_DIRECTORY = '\\.\pipe\codex-computer-use-3ff97e0f-9e56-4b0d-b6da-bdc47f7bb9d1'
+CODEX_CLI_PATH = 'D:\data\ChatGPT-unpacked\app\resources\codex.exe'
+
+[mcp_servers.github]
+url = "https://api.githubcopilot.com/mcp/"
+bearer_token_env_var = "GITHUB_PAT_TOKEN"
+
+[mcp_servers.github.http_headers]
+X-MCP-Toolsets = "repos,stargazers"
+
+[mcp_servers.win10-bridge]
+command = 'C:\Users\Administrator\AppData\Local\Win10ComputerBridgeMCP\venv313\Scripts\python.exe'
+args = ["-m", "win10_bridge_mcp"]
+
+[mcp_servers.win10-bridge.env]
+WIN10_BRIDGE_CONFIG = 'C:\Users\Administrator\Win10_ComputerBridge\bridge_config.json'
+
+[desktop]
+conversationDetailMode = "STEPS_PROSE"
+ambient-suggestions-enabled = false
+followUpQueueMode = "queue"
+integratedTerminalShell = "powershell"
+show-context-window-usage = true
+composerEnterBehavior = "enter"
+hotkey-window-projectless-default-enabled = false
+appearanceTheme = "dark"
+appearanceDarkCodeThemeId = "github"
+sansFontSize = 14
+codeFontSize = 12
+enabled-reasoning-efforts = ["low", "medium", "high", "xhigh", "max", "ultra"]
+show-ultra-in-model-picker-slider = true
+open-link-in-target-preference = "external-browser"
+open-local-url-in-target-preference = "external-browser"
+browser-download-directory = 'D:\data\gpt data'
+browser-download-prompt-enabled = true
+
+[desktop.open-in-target-preferences]
+global = "fileManager"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#1f6feb"
+contrast = 75
+ink = "#e6edf3"
+opaqueWindows = false
+surface = "#0d1117"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#3fb950"
+diffRemoved = "#f85149"
+skill = "#bc8cff"
+
+[windows]
+sandbox = 'unelevated'
+[projects.'c:\users\administrator\documents\codex\2026-11-01\nih']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\trae-cn\temp_20261101_06']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-01\he']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-01\github-mcp-github-mcp-d-codex']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-01\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-01\github-mcp-github-mcp-d-codex-2']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\trae-cn\temp_20261101_09\codex-sandbox-probe']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-01\01a19676-1947-7562-8c5d-14ad9ca6aa18']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-02\ni-sh']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-02\chatgpt']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-02\01a19a20-ddc9-70d3-b5dd-7656bcf2033b']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-02\01a19a20-ddc9-70d3-b5dd-7656bcf2033b-2']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-02\chatgpt-2']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-02\chatgpt-3']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-03\he']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-03\he-2']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\deepseek-harness\default-workspace']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-04\nih']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-04\github-plugin-github-zhongjingyun-codex-plugins']
+trust_level = "trusted"
+
+[projects.'c:\users\administrator\documents\codex\2026-11-05\new-chat']
+trust_level = "trusted"
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+[plugins."stop-that-shit@awesome-codex-plugins"]
+enabled = true
+
+[plugins."claude-octopus@awesome-codex-plugins"]
+enabled = true
+
+[plugins."research-agent-skills@awesome-codex-plugins"]
+enabled = true
+
+[plugins."firecrawl@awesome-codex-plugins"]
+enabled = true
+
+[plugins."codex-mem@awesome-codex-plugins"]
+enabled = true
+
+[plugins."codex-reviewer@awesome-codex-plugins"]
+enabled = true
+
+[plugins."chrome-devtools@awesome-codex-plugins"]
+enabled = true
+
+[plugins."local-mcp@awesome-codex-plugins"]
+enabled = true
+
+[plugins."codex-usage-tracker@awesome-codex-plugins"]
+enabled = true
+
+[plugins."codex-auto-resume@awesome-codex-plugins"]
+enabled = true
+
+[plugins."mcp-sync@awesome-codex-plugins"]
+enabled = true
+
+[plugins."skill-sync-publisher@awesome-codex-plugins"]
+enabled = true
+
+[plugins."task-router@awesome-codex-plugins"]
+enabled = true
+
+[plugins."agency-continuity-audit@awesome-codex-plugins"]
+enabled = true
+
+[tools]
+web_search = { context_size = "high" }
+view_image = true
+
+[notice]
+hide_full_access_warning = true
+hide_world_writable_warning = true
+hide_rate_limit_model_nudge = true
+
+[shell_environment_policy]
+inherit = "all"
+ignore_default_excludes = true
+
+[history]
+persistence = "save-all"
+
+[apps._default]
+default_tools_approval_mode = "approve"
+
+[sandbox_workspace_write]
+network_access = true
+
+[analytics]
+enabled = false
+
+[agents]
+max_threads = 8
+
+[tui]
+status_line = ["model-with-reasoning", "context-used", "task-progress"]

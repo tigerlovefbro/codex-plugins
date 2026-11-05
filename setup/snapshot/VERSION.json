@@ -1,0 +1,142 @@
+{
+  "captured_at": "2026-11-05T19:20+08:00",
+  "captured_from": "本机 Windows（用户 Administrator），DSH 会话快照",
+  "desktop_app": {
+    "winget_id": "OpenAI.ChatGPT",
+    "appx_name": "OpenAI.Codex",
+    "appx_version": "26.707.9564.0",
+    "package_full_name": "OpenAI.Codex_26.707.9564.0_x64__2p2nqsd0c76g0",
+    "app_build": "26.707.71524",
+    "chromium_runtime": "150.0.7871.115",
+    "install_location": "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.707.9564.0_x64__2p2nqsd0c76g0",
+    "old_version_still_present": "OpenAI.Codex_26.1016.8622.0_x64__2p2nqsd0c76g0",
+    "auto_update": "locked via hosts"
+  },
+  "cli": {
+    "version": "codex-cli 0.144.2",
+    "path": "%LOCALAPPDATA%\\OpenAI\\Codex\\bin\\3135b80b111fd431\\codex.exe",
+    "bundled_in_unpacked": "D:\\data\\ChatGPT-unpacked\\app\\resources\\codex.exe"
+  },
+  "model": {
+    "provider": "custom",
+    "base_url": "https://YOUR-RELAY-HOST",
+    "base_url_note": "真实地址在私有仓库 tigerlovefbro/codex-private 的 config.toml",
+    "wire_api": "responses",
+    "requires_openai_auth": true,
+    "env_key": "MAOAPI_TOKEN",
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "xhigh",
+    "context_window": 500000,
+    "auto_compact_token_limit": 500000,
+    "verbosity": "high",
+    "personality": "pragmatic"
+  },
+  "auth_flow": {
+    "login": "ChatGPT 账号登录（auth.json auth_mode=chatgpt），令牌随请求发往中转 base_url",
+    "relay_token": "用户环境变量 MAOAPI_TOKEN（不入库）",
+    "github_mcp": "用户环境变量 GITHUB_PAT_TOKEN（不入库）"
+  },
+  "plugins": {
+    "count": 18,
+    "marketplaces": {
+      "openai-bundled": {
+        "source_type": "local"
+      },
+      "zhongjingyun-codex-plugins": {
+        "source": "https://github.com/zhongjingyun/codex-plugins.git",
+        "ref": "main"
+      },
+      "awesome-codex-plugins": {
+        "source": "https://github.com/tigerlovefbro/codex-plugins.git",
+        "ref": "main"
+      }
+    },
+    "enabled": [
+      "visualize@openai-bundled",
+      "computer-use@openai-bundled",
+      "latex@openai-bundled",
+      "chrome@openai-bundled",
+      "stop-that-shit@awesome-codex-plugins",
+      "claude-octopus@awesome-codex-plugins",
+      "research-agent-skills@awesome-codex-plugins",
+      "firecrawl@awesome-codex-plugins",
+      "codex-mem@awesome-codex-plugins",
+      "codex-reviewer@awesome-codex-plugins",
+      "chrome-devtools@awesome-codex-plugins",
+      "local-mcp@awesome-codex-plugins",
+      "codex-usage-tracker@awesome-codex-plugins",
+      "codex-auto-resume@awesome-codex-plugins",
+      "mcp-sync@awesome-codex-plugins",
+      "skill-sync-publisher@awesome-codex-plugins",
+      "task-router@awesome-codex-plugins",
+      "agency-continuity-audit@awesome-codex-plugins"
+    ]
+  },
+  "mcp_servers": [
+    "node_repl",
+    "github",
+    "win10-bridge"
+  ],
+  "hosts_locked": [
+    "cdn.openai.com",
+    "updates.openai.com",
+    "persistent.oaistatic.com"
+  ],
+  "secrets_required": [
+    {
+      "name": "MAOAPI_TOKEN",
+      "scope": "User",
+      "note": "中转 token，不入库"
+    },
+    {
+      "name": "GITHUB_PAT_TOKEN",
+      "scope": "User",
+      "note": "GitHub MCP 用 PAT，不入库"
+    }
+  ],
+  "private_repo": {
+    "repo": "https://github.com/tigerlovefbro/codex-private",
+    "contains": [
+      "codex/config.toml 原值（含中转 base_url 真值）",
+      "codex/prompts/system-prompt.md"
+    ],
+    "apply_script": "APPLY-PRIVATE.ps1"
+  },
+  "public_repo_sanitized": "公开仓库的 codex/config.toml 已把 base_url 替换为 https://YOUR-RELAY-HOST；system-prompt.md 不在公开仓库。files_sha256 记录的是本机原文件哈希，不是公开副本的哈希。",
+  "files_sha256": {
+    "codex/config.toml": "f4ecc432357492e8bb1d2a2a0201e8891645d372ed322a7df61bf8527fb025fa",
+    "codex/prompts/system-prompt.md": "85f22204a69c8184d34d5da1ef29182813d67ed9362ef0a3fd66ddb3f1d01d5a",
+    "codex/AGENTS.md": "7325406c44b4ef3d672881681a377bfd31f17bb2259b0083d5a68cb4f176023e"
+  },
+  "elevated_unpacked_copy": {
+    "path": "D:\\data\\ChatGPT-unpacked",
+    "size": "1.8 GB",
+    "contents": [
+      "app/ (从 MSIX 26.707.9564.0 复制)",
+      "Launch-ChatGPT-Elevated.cmd",
+      "Launch-ChatGPT-Elevated.vbs",
+      "Update-ChatGPT-Unpacked.ps1"
+    ],
+    "desktop_shortcut": "C:\\Users\\Administrator\\Desktop\\ChatGPT (Admin).lnk -> wscript.exe Launch-ChatGPT-Elevated.vbs",
+    "why": "MSIX 包无法提权运行，解包副本用于管理员模式"
+  },
+  "desktop_settings": {
+    "appearanceTheme": "dark",
+    "appearanceDarkCodeThemeId": "github",
+    "accent": "#1f6feb",
+    "sansFontSize": 14,
+    "codeFontSize": 12,
+    "integratedTerminalShell": "powershell",
+    "browser_download_directory": "D:\\data\\gpt data",
+    "open_link_in": "external-browser",
+    "conversationDetailMode": "STEPS_PROSE",
+    "enabled_reasoning_efforts": [
+      "low",
+      "medium",
+      "high",
+      "xhigh",
+      "max",
+      "ultra"
+    ]
+  }
+}

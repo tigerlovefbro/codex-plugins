@@ -15,6 +15,11 @@ D:\云契·小白虎\codex\安装包+锁定版本\
 
 仓库只保留 setup/installers/README.md 与 SHA256SUMS.txt；安装包请留在本地，或用 GitHub Releases 附件分发。
 
+## 当前机器快照（2026-11-05）
+
+`setup/snapshot/` 固化了本机正在用的 Codex 桌面端：版本指纹、config.toml（中转地址为占位符）、AGENTS、启动器、APPLY/CHECK 脚本。系统提示词与中转地址真值在私有仓库 [codex-private](https://github.com/tigerlovefbro/codex-private)，用该仓库的 `APPLY-PRIVATE.ps1` 写回。
+完整还原步骤见 [`NEW-MACHINE.md`](./NEW-MACHINE.md)，快照说明见 [`snapshot/README.md`](./snapshot/README.md)。
+
 ## 锁定版本
 
 双击 锁定版本\锁定更新-双击运行.bat（需要管理员），会向 hosts 写入 3 个更新域名的屏蔽。
