@@ -318,13 +318,6 @@
     "path": "plugins/MiguelMedeiros/unforgit-codex-plugin/.mcp.json"
   },
   {
-    "plugin": "unity-mcp",
-    "servers": [
-      "unity-mcp"
-    ],
-    "path": "plugins/CoplayDev/unity-mcp/.mcp.json"
-  },
-  {
     "plugin": "waggle",
     "servers": [
       "waggle"
@@ -422,6 +415,13 @@
       "bestprice-shopping"
     ],
     "path": "plugins/TheBestCo/bestprice-mcp/.mcp.json"
+  },
+  {
+    "plugin": "brewpage",
+    "servers": [
+      "brewpage"
+    ],
+    "path": "plugins/kochetkov-ma/brewpage-codex-plugin/.mcp.json"
   },
   {
     "plugin": "bulktranscripts",
@@ -672,6 +672,13 @@
       "looot"
     ],
     "path": "plugins/loootai/looot-plugin/.mcp.json"
+  },
+  {
+    "plugin": "lurkapi",
+    "servers": [
+      "lurkapi"
+    ],
+    "path": "plugins/mesmerlord/lurkapi-claude-plugin/.mcp.json"
   },
   {
     "plugin": "maqami-travel",
@@ -956,7 +963,7 @@
     "servers": [
       "wavespeed"
     ],
-    "path": "plugins/WaveSpeedAI/codex-plugin-wavespeed-cli/.mcp.json"
+    "path": "plugins/WaveSpeedAI/codex-plugins/.mcp.json"
   },
   {
     "plugin": "webly",
