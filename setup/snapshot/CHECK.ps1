@@ -1,11 +1,12 @@
-# 校验本机是否与快照一致
+﻿# 校验本机是否与快照一致
 # 用法: ./CHECK.ps1 [-RunExec]
 param([switch]$RunExec)
 
 $ErrorActionPreference = 'Continue'
+try { [Console]::OutputEncoding = [System.Text.Encoding]::UTF8 } catch {}
 $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 $codex = Join-Path $env:USERPROFILE '.codex'
-$ver = Get-Content (Join-Path $here 'VERSION.json') -Raw | ConvertFrom-Json
+$ver = Get-Content (Join-Path $here 'VERSION.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $rows = @()
 
 function Add-Row([string]$name, [string]$got, [string]$want, [bool]$ok) {
@@ -55,7 +56,8 @@ foreach ($s in $ver.secrets_required) {
 
 # 8. 登录状态
 $login = ''
-try { $login = (& codex login status 2>&1 | Out-String) } catch { }
+$codexExe = Join-Path $env:LOCALAPPDATA 'OpenAI\Codex\bin\3135b80b111fd431\codex.exe'
+try { $login = (& $codexExe login status 2>&1 | Out-String) } catch { }
 $loginOk = $login -match 'Logged in'
 Add-Row 'ChatGPT 登录' ($(if($loginOk){'已登录'}else{'未登录'})) 'Logged in' $loginOk
 

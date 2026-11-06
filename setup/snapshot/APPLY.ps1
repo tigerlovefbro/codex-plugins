@@ -1,4 +1,4 @@
-# 把 setup/snapshot 写回本机 Codex 配置
+﻿# 把 setup/snapshot 写回本机 Codex 配置
 # 用法:
 #   ./APPLY.ps1                 # 写配置(自动备份旧文件)
 #   ./APPLY.ps1 -FixPaths       # 同时把快照里的旧用户名/解包路径改成当前机器
@@ -34,7 +34,7 @@ Backup-File (Join-Path $codex 'config.toml')
 Backup-File (Join-Path $codex 'AGENTS.md')
 Backup-File (Join-Path $codex 'prompts\system-prompt.md')
 
-$cfg = Get-Content (Join-Path $here 'codex\config.toml') -Raw
+$cfg = Get-Content (Join-Path $here 'codex\config.toml') -Raw -Encoding UTF8
 if ($FixPaths) {
     $oldHome = 'C:\Users\Administrator'
     $newHome = $env:USERPROFILE
@@ -42,7 +42,7 @@ if ($FixPaths) {
     $cfg = $cfg.Replace('D:\data\ChatGPT-unpacked', $UnpackedDir.TrimEnd('\'))
     Write-Host "[路径] 已替换 $oldHome -> $newHome ; 解包目录 -> $UnpackedDir" -ForegroundColor Yellow
 }
-Set-Content -Path (Join-Path $codex 'config.toml') -Value $cfg -Encoding UTF8 -NoNewline
+[System.IO.File]::WriteAllText((Join-Path $codex 'config.toml'), $cfg, (New-Object System.Text.UTF8Encoding $false))
 
 Copy-Item (Join-Path $here 'codex\AGENTS.md') (Join-Path $codex 'AGENTS.md') -Force
 $prmSrc = Join-Path $here 'codex\prompts\system-prompt.md'
