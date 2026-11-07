@@ -50,3 +50,30 @@ codex login
   `model_instructions_file`、`notify`、`mcp_servers.node_repl` 的 command/env。
 - 提权副本（`D:\data\ChatGPT-unpacked`）不是必须的：只在需要管理员权限跑桌面端时才要。做法是把 MSIX 安装目录 `app\` 整个 robocopy 出来，再放上 `launchers/` 里的启动器。
 - 更新锁定靠 hosts 屏蔽 3 个域名，脚本在 `../lock-version/`。
+
+## Chrome 插件自愈补丁（`Cannot redefine property: process`）
+
+Codex 桌面端 26.707.71524 的 `openai-bundled` Chrome/Browser 插件在 `node_repl` 里 import 时，
+`browser-client.mjs` 第 33–35 行会无保护地执行 `globalThis.process = processShim;`，而宿主把
+`process` 保护成只读，于是报 `Cannot redefine property: process`，Chrome 绑定装不上。
+
+问题是：桌面端每次启动会对 bundled 插件做哈希校验，发现被改就从只读的 WindowsApps 源重灌回原版，
+所以一次性补丁会被回滚。
+
+| 文件 | 说明 |
+|---|---|
+| `FIX-CHROME-PLUGIN.ps1` | 幂等补丁：把 6 个 `browser-client.mjs` 副本的 3 行改成安全写法（已打过的跳过） |
+| `INSTALL-FIX-CHROME-PLUGIN.ps1` | 把补丁复制到 `%USERPROFILE%\.codex\fix-chrome-plugin.ps1` + 注册计划任务 `CodexChromePluginFix`（每 2 分钟自动重打） |
+
+安装（一次即可）：
+
+~~~powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\setup\snapshot\INSTALL-FIX-CHROME-PLUGIN.ps1
+~~~
+
+补丁标记是 `Object.defineProperty(global, "process"`；重启桌面端后约 2 分钟内计划任务会自动把回滚的
+副本重新补丁。手动立即重打：
+
+~~~powershell
+powershell -ExecutionPolicy Bypass -File C:\Users\Administrator\.codex\fix-chrome-plugin.ps1
+~~~
