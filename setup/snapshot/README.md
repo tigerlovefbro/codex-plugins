@@ -77,3 +77,25 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\setup\snapshot\INSTALL-FIX
 ~~~powershell
 powershell -ExecutionPolicy Bypass -File C:\Users\Administrator\.codex\fix-chrome-plugin.ps1
 ~~~
+
+## Chrome 自动拉起（`Browser is not available: extension`）
+
+`Error: Browser is not available: extension` 的根因通常是 **Chrome 没在运行**——扩展要能连上，前提是浏览器开着。
+这个脚本会在「Chrome 未运行且 Codex 桌面端（ChatGPT.exe）在运行」时自动把 Chrome 拉起来。
+
+| 文件 | 说明 |
+|---|---|
+| `ENSURE-CHROME.ps1` | 检查 Chrome 是否运行；未运行且 Codex 在运行时自动 `Start-Process` 拉起（`-Force` 可跳过 Codex 判定） |
+| `INSTALL-ENSURE-CHROME.ps1` | 复制到 `%USERPROFILE%\.codex\ensure-chrome.ps1` + 注册计划任务 `CodexEnsureChrome`（登录时 + 每 2 分钟） |
+
+安装（一次即可）：
+
+~~~powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\setup\snapshot\INSTALL-ENSURE-CHROME.ps1
+~~~
+
+手动立即拉起：
+
+~~~powershell
+powershell -ExecutionPolicy Bypass -File C:\Users\Administrator\.codex\ensure-chrome.ps1 -Force
+~~~
