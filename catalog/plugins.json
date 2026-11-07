@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-06T10:25:44.324569+00:00",
+    "generatedAt": "2026-11-07T09:39:21.275592+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 376,
-      "with_skills": 340,
-      "with_mcp": 139,
+      "plugins": 385,
+      "with_skills": 349,
+      "with_mcp": 143,
       "codex_only": 20
     },
-    "skillCount": 3000
+    "skillCount": 3065
   },
   "plugins": [
     {
@@ -296,7 +296,7 @@
       "name": "agent-guard",
       "displayName": "Agent Guard",
       "description": "Local-by-default, no-telemetry hooks inspect user prompts, supported tool inputs, outputs, and changed files in every enabled Claude Code or Codex session to block or mask secret leaks. Includes opt-in PII filtering and Git/CI backstops.",
-      "version": "3.8.1",
+      "version": "3.8.2",
       "category": "Development & Workflow",
       "author": "Agent Guard contributors",
       "repository": "https://github.com/JeongJaeSoon/agent-guard",
@@ -884,6 +884,31 @@
       }
     },
     {
+      "id": "andon",
+      "name": "andon",
+      "displayName": "Andon",
+      "description": "Pull the cord on a false \"done\": a claim-check Stop hook, an auto-orient memory hook, wrap/orient commands and a log-mistake skill.",
+      "version": "0.1.1",
+      "category": "Development & Workflow",
+      "author": "PrimeFoldTools",
+      "repository": "https://github.com/PrimeFoldTools/andon",
+      "license": "MIT",
+      "codexPath": "plugins/PrimeFoldTools/Andon",
+      "skills": [
+        {
+          "name": "log-mistake",
+          "path": "plugins/PrimeFoldTools/Andon/codex/skills/log-mistake/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "repobrain",
       "name": "repobrain",
       "displayName": "repobrain",
@@ -913,7 +938,7 @@
       "name": "archcore",
       "displayName": "Archcore",
       "description": "Spec-driven development and context engineering for AI coding agents, backed by project context in Git.",
-      "version": "0.15.2",
+      "version": "0.15.3",
       "category": "Development & Workflow",
       "author": "Archcore",
       "repository": "https://github.com/archcore-ai/archcore",
@@ -2247,7 +2272,7 @@
       "name": "codex-auto-resume",
       "displayName": "Codex Auto Resume",
       "description": "Auto-resume and auto-retry for interrupted Codex tasks on Windows. Waits out a usage limit (until the reset time Codex reports, e.g. for a 5-hour or weekly window), a rate limit or a temporary failure, then continues the exact same conversation, so long-running or overnight work keeps going while that conversation is open in the Codex app. Setup downloads a checksum-verified release from GitHub; after that the watcher runs locally, read-only against Codex state, conservative by design.",
-      "version": "0.6.21",
+      "version": "0.6.22-beta",
       "category": "Development & Workflow",
       "author": "songyb111-gachon",
       "repository": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
@@ -3752,6 +3777,31 @@
       }
     },
     {
+      "id": "fanout",
+      "name": "fanout",
+      "displayName": "fanout",
+      "description": "Run many coding agents in parallel without merge chaos: each owns its own files, shared interfaces are frozen, and every branch is tested together before it merges.",
+      "version": "0.31.2",
+      "category": "Development & Workflow",
+      "author": "Breadstick-Crumbs",
+      "repository": "https://github.com/Breadstick-Crumbs/fanout",
+      "license": "MIT",
+      "codexPath": "plugins/Breadstick-Crumbs/fanout",
+      "skills": [
+        {
+          "name": "fanout",
+          "path": "plugins/Breadstick-Crumbs/fanout/skills/fanout/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "figma-maxxing",
       "name": "figma-maxxing",
       "displayName": "Figma Maxxing",
@@ -4664,7 +4714,7 @@
       "name": "joxo",
       "displayName": "Joxo",
       "description": "Joxo's setup skill for Codex: joins this agent to your team's Joxo project.",
-      "version": "0.2.120",
+      "version": "0.2.173",
       "category": "Development & Workflow",
       "author": "Joxo",
       "repository": "https://github.com/JoxoAI/joxo",
@@ -5983,7 +6033,7 @@
       "name": "memtomem",
       "displayName": "memtomem",
       "description": "Search, recall, save, and index Markdown-first agent memory with memtomem",
-      "version": "0.3.29",
+      "version": "0.3.30",
       "category": "Development & Workflow",
       "author": "memtomem",
       "repository": "https://github.com/memtomem/memtomem",
@@ -6123,7 +6173,7 @@
       "name": "multi-llm",
       "displayName": "Multi-LLM",
       "description": "Orchestrate plan reviews, task generation, implementation and code reviews across several LLM CLIs in parallel, or ask every model one free-text question about a plan.",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "category": "Development & Workflow",
       "author": "beastlabai",
       "repository": "https://github.com/beastlabai/multi-llm-plugin",
@@ -6150,7 +6200,7 @@
       "name": "nightshift",
       "displayName": "Nightshift",
       "description": "Accountable, time-bounded Codex shifts. Hand it your punch list, or let it research the product and ship complete improvements until quitting time. Progress stays on disk through compaction and resume. The morning is reviewable commits or artifact receipts, per-item token usage and time, a shift log, and the decisions that were made. When you are done reviewing the run, archive it dated so the live session stays lean.",
-      "version": "0.30.1",
+      "version": "0.30.2",
       "category": "Development & Workflow",
       "author": "Orwa Mahmoud",
       "repository": "https://github.com/orwa-mahmoud/nightshift",
@@ -6464,6 +6514,59 @@
         {
           "name": "pixeltable-skill",
           "path": "plugins/pixeltable/pixeltable-skill/skills/pixeltable-skill/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "plugin-stack",
+      "name": "plugin-stack",
+      "displayName": "Plugin Stack",
+      "description": "Skills for AI plugin builders: find openings, submit to stores, track launches, optimize listings, audit discoverability, design widgets and watch competitors, on live data from OpenApps",
+      "version": "1.0.0",
+      "category": "Development & Workflow",
+      "author": "The Open Apps, Inc.",
+      "repository": "https://github.com/theopenapps/plugin-stack",
+      "license": "MIT",
+      "codexPath": "plugins/theopenapps/plugin-stack",
+      "skills": [
+        {
+          "name": "find-opening",
+          "path": "plugins/theopenapps/plugin-stack/skills/find-opening/SKILL.md"
+        },
+        {
+          "name": "track-launch",
+          "path": "plugins/theopenapps/plugin-stack/skills/track-launch/SKILL.md"
+        },
+        {
+          "name": "plugin-stack",
+          "path": "plugins/theopenapps/plugin-stack/skills/plugin-stack/SKILL.md"
+        },
+        {
+          "name": "audit-discoverability",
+          "path": "plugins/theopenapps/plugin-stack/skills/audit-discoverability/SKILL.md"
+        },
+        {
+          "name": "design-widgets",
+          "path": "plugins/theopenapps/plugin-stack/skills/design-widgets/SKILL.md"
+        },
+        {
+          "name": "watch-competitors",
+          "path": "plugins/theopenapps/plugin-stack/skills/watch-competitors/SKILL.md"
+        },
+        {
+          "name": "optimize-listing",
+          "path": "plugins/theopenapps/plugin-stack/skills/optimize-listing/SKILL.md"
+        },
+        {
+          "name": "submit-plugin",
+          "path": "plugins/theopenapps/plugin-stack/skills/submit-plugin/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -9605,7 +9708,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.24.2",
+      "version": "4.24.4",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -9767,7 +9870,7 @@
       "name": "design",
       "displayName": "Design",
       "description": "Design skills — UX psychology, visual design, accessibility, and Apple featuring readiness for web, SaaS, and mobile apps",
-      "version": "2.8.0",
+      "version": "2.9.0",
       "category": "Development & Workflow",
       "author": "Tartiner Labs",
       "repository": "https://github.com/tartinerlabs/skills",
@@ -11861,7 +11964,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.127.2",
+      "version": "0.131.0",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -12388,6 +12491,47 @@
       }
     },
     {
+      "id": "bifrost",
+      "name": "bifrost",
+      "displayName": "Bifrost",
+      "description": "Bifrost — MSP automation platform. Build automation artifacts, migrate legacy Apps, and migrate Rewst automation with private API extraction, planning, testing, and cutover guidance.",
+      "version": "2.0.0",
+      "category": "Tools & Integrations",
+      "author": "Jack Musick",
+      "repository": "https://github.com/gobifrost/bifrost",
+      "license": "AGPL-3.0",
+      "codexPath": "plugins/gobifrost/bifrost",
+      "skills": [
+        {
+          "name": "bifrost-build",
+          "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-build/SKILL.md"
+        },
+        {
+          "name": "bifrost-copilot-cowork-package",
+          "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-copilot-cowork-package/SKILL.md"
+        },
+        {
+          "name": "bifrost-rewst-migration",
+          "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-rewst-migration/SKILL.md"
+        },
+        {
+          "name": "bifrost-setup",
+          "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-setup/SKILL.md"
+        },
+        {
+          "name": "bifrost-migrate",
+          "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-migrate/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "bkt",
       "name": "bkt",
       "displayName": "Bitbucket CLI",
@@ -12402,6 +12546,31 @@
         {
           "name": "bkt",
           "path": "plugins/avivsinai/bitbucket-cli/skills/bkt/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "bowmark",
+      "name": "bowmark",
+      "displayName": "Bowmark",
+      "description": "The web as callable functions: search flights across several aggregators, price a part across retailers, and other tasks that only exist behind a live site. The agent reads a typed function library, writes a short script, and Bowmark runs it on the real sites. Bundles the bowmark skill and auto-wires the hosted MCP server.",
+      "version": "4.33.0",
+      "category": "Tools & Integrations",
+      "author": "Bowmark AI",
+      "repository": "https://github.com/bowmark-ai/plugin",
+      "license": "MIT",
+      "codexPath": "plugins/bowmark-ai/plugin",
+      "skills": [
+        {
+          "name": "bowmark",
+          "path": "plugins/bowmark-ai/plugin/skills/bowmark/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -15435,8 +15604,8 @@
       "id": "fxmacrodata",
       "name": "fxmacrodata",
       "displayName": "FXMacroData",
-      "description": "Official-source FX, macroeconomic and central-bank data: release calendars, indicator histories, policy rates, FX rates, COT positioning and commodities across 22 currencies.",
-      "version": "1.0.1",
+      "description": "Official-source FX, macroeconomic and central-bank data: release calendars, actual release times, indicator histories, policy rates, FX rates, COT positioning, commodities, release replays and FX backtests.",
+      "version": "1.0.4",
       "category": "Tools & Integrations",
       "author": "FXMacroData",
       "repository": "https://github.com/fxmacrodata/claude-plugin-fxmacrodata",
@@ -15457,7 +15626,7 @@
         }
       ],
       "mcpServers": [
-        "fxmacrodata"
+        "FXMacroData"
       ],
       "tools": {
         "codex": true,
@@ -15517,11 +15686,209 @@
       }
     },
     {
+      "id": "host0",
+      "name": "host0",
+      "displayName": "host0",
+      "description": "Publish files, sites and apps with a shared database to a link you can share, and manage them from your agent.",
+      "version": "0.1.0",
+      "category": "Tools & Integrations",
+      "author": "host0",
+      "repository": "https://github.com/host0-ai/skills",
+      "license": "MIT",
+      "codexPath": "plugins/host0-ai/skills",
+      "skills": [
+        {
+          "name": "host0",
+          "path": "plugins/host0-ai/skills/skills/host0/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "host0"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "imagera",
+      "name": "imagera",
+      "displayName": "Imagera",
+      "description": "Generate and edit images, video, voice and music, and upscale media on Imagera credits.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "Imagera",
+      "repository": "https://github.com/alexadams6ix/imagera-skills",
+      "license": "MIT",
+      "codexPath": "plugins/alexadams6ix/imagera-skills",
+      "skills": [
+        {
+          "name": "imagera-product-film-website",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-film-website/SKILL.md"
+        },
+        {
+          "name": "imagera-storyboard-to-shots",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-storyboard-to-shots/SKILL.md"
+        },
+        {
+          "name": "imagera-static-ad-pack",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-static-ad-pack/SKILL.md"
+        },
+        {
+          "name": "imagera-object-id",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-object-id/SKILL.md"
+        },
+        {
+          "name": "imagera-character-id",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-character-id/SKILL.md"
+        },
+        {
+          "name": "imagera-marketing-studio",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-marketing-studio/SKILL.md"
+        },
+        {
+          "name": "imagera-music-video",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-music-video/SKILL.md"
+        },
+        {
+          "name": "imagera-restore-and-upscale",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-restore-and-upscale/SKILL.md"
+        },
+        {
+          "name": "imagera-poster-with-real-text",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-poster-with-real-text/SKILL.md"
+        },
+        {
+          "name": "imagera-brand-studio",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-brand-studio/SKILL.md"
+        },
+        {
+          "name": "imagera-headshot-set",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-headshot-set/SKILL.md"
+        },
+        {
+          "name": "imagera-product-listing-set",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-listing-set/SKILL.md"
+        },
+        {
+          "name": "imagera-ad-variations",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ad-variations/SKILL.md"
+        },
+        {
+          "name": "imagera-journey-website",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-journey-website/SKILL.md"
+        },
+        {
+          "name": "imagera-series-bible",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-series-bible/SKILL.md"
+        },
+        {
+          "name": "imagera-clay-explainer",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-clay-explainer/SKILL.md"
+        },
+        {
+          "name": "imagera-property-id",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-property-id/SKILL.md"
+        },
+        {
+          "name": "imagera-social-set",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-social-set/SKILL.md"
+        },
+        {
+          "name": "imagera-explainer-with-voice",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-explainer-with-voice/SKILL.md"
+        },
+        {
+          "name": "imagera-product-asmr",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-asmr/SKILL.md"
+        },
+        {
+          "name": "imagera-digital-id",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-digital-id/SKILL.md"
+        },
+        {
+          "name": "imagera-title-art",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-title-art/SKILL.md"
+        },
+        {
+          "name": "imagera-podcast-clip-ad",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-podcast-clip-ad/SKILL.md"
+        },
+        {
+          "name": "imagera-carousel-post",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-carousel-post/SKILL.md"
+        },
+        {
+          "name": "imagera-photo-dump",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-photo-dump/SKILL.md"
+        },
+        {
+          "name": "imagera-character-consistency",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-character-consistency/SKILL.md"
+        },
+        {
+          "name": "imagera-location-id",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-location-id/SKILL.md"
+        },
+        {
+          "name": "imagera-ai-director",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ai-director/SKILL.md"
+        },
+        {
+          "name": "imagera-try-on-video",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-try-on-video/SKILL.md"
+        },
+        {
+          "name": "imagera-cinematic-website",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-cinematic-website/SKILL.md"
+        },
+        {
+          "name": "imagera-ugc-talking-review",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ugc-talking-review/SKILL.md"
+        },
+        {
+          "name": "imagera-influencer-studio",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-influencer-studio/SKILL.md"
+        },
+        {
+          "name": "imagera-photo-to-reel",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-photo-to-reel/SKILL.md"
+        },
+        {
+          "name": "imagera-unboxing-video",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-unboxing-video/SKILL.md"
+        },
+        {
+          "name": "imagera-virtual-try-on",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-virtual-try-on/SKILL.md"
+        },
+        {
+          "name": "imagera-media",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-media/SKILL.md"
+        },
+        {
+          "name": "imagera-product-ad-video",
+          "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-ad-video/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "imagera"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "jk",
       "name": "jk",
       "displayName": "Jenkins CLI",
       "description": "GitHub CLI-style interface for Jenkins controllers - create multibranch jobs, inspect config.xml, and manage runs, logs, artifacts, credentials, nodes, and queues",
-      "version": "0.0.42",
+      "version": "0.0.43",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/jenkins-cli",
@@ -15692,7 +16059,7 @@
       "name": "kicad-happy",
       "displayName": "kicad-happy",
       "description": "KiCad electronics design review. Parse schematics and PCB layouts, run EMC pre-compliance and SPICE simulation, extract structured specs from datasheet PDFs, source components from major distributors, and prep boards for fabrication. Catches real design bugs before you order.",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "category": "Tools & Integrations",
       "author": "aklofas",
       "repository": "https://github.com/aklofas/kicad-happy",
@@ -16955,7 +17322,7 @@
       "name": "notfair",
       "displayName": "NotFair",
       "description": "The official ads, analytics, SEO, and GEO plugin from NotFair.",
-      "version": "0.27.17",
+      "version": "0.27.18",
       "category": "Tools & Integrations",
       "author": "NotFair",
       "repository": "https://github.com/nowork-studio/notfair-plugin",
@@ -17325,7 +17692,7 @@
       "name": "orgx-codex-plugin",
       "displayName": "OrgX for Codex",
       "description": "OrgX MCP access and initiative-aware Codex skills for operating inside OrgX workstreams.",
-      "version": "0.1.24",
+      "version": "0.1.25",
       "category": "Tools & Integrations",
       "author": "OrgX Team",
       "repository": "https://github.com/useorgx/orgx-codex-plugin",
@@ -17665,8 +18032,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1903+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.28.1",
+      "description": "Pronounce developer jargon out loud — 1920+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.29.0",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",
@@ -18084,6 +18451,33 @@
       ],
       "mcpServers": [
         "self_starter"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "seltz",
+      "name": "seltz",
+      "displayName": "Seltz",
+      "description": "Search the live web for current, source-backed context through Seltz's official MCP server.",
+      "version": "0.1.0",
+      "category": "Tools & Integrations",
+      "author": "Seltz",
+      "repository": "https://github.com/seltz-ai/seltz-codex-plugin",
+      "license": "Apache-2.0",
+      "codexPath": "plugins/seltz-ai/seltz-codex-plugin",
+      "skills": [
+        {
+          "name": "seltz",
+          "path": "plugins/seltz-ai/seltz-codex-plugin/skills/seltz/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "seltz"
       ],
       "tools": {
         "codex": true,
@@ -18702,6 +19096,69 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "sync",
+      "name": "sync",
+      "displayName": "sync. labs",
+      "description": "Lipsync videos, make photos and AI characters talk, translate and dub videos, fix spoken words, localize campaigns, run batch lipsync, and build sync. into apps. Uses the hosted sync. MCP server.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "sync. labs",
+      "repository": "https://github.com/synchronicity-labs/skills",
+      "license": "MIT",
+      "codexPath": "plugins/synchronicity-labs/skills",
+      "skills": [
+        {
+          "name": "sync-api",
+          "path": "plugins/synchronicity-labs/skills/skills/sync-api/SKILL.md"
+        },
+        {
+          "name": "talking-photo",
+          "path": "plugins/synchronicity-labs/skills/skills/talking-photo/SKILL.md"
+        },
+        {
+          "name": "setup",
+          "path": "plugins/synchronicity-labs/skills/skills/setup/SKILL.md"
+        },
+        {
+          "name": "ai-video-to-talking",
+          "path": "plugins/synchronicity-labs/skills/skills/ai-video-to-talking/SKILL.md"
+        },
+        {
+          "name": "localize-campaign",
+          "path": "plugins/synchronicity-labs/skills/skills/localize-campaign/SKILL.md"
+        },
+        {
+          "name": "troubleshoot",
+          "path": "plugins/synchronicity-labs/skills/skills/troubleshoot/SKILL.md"
+        },
+        {
+          "name": "edit-dialogue",
+          "path": "plugins/synchronicity-labs/skills/skills/edit-dialogue/SKILL.md"
+        },
+        {
+          "name": "translate-and-dub",
+          "path": "plugins/synchronicity-labs/skills/skills/translate-and-dub/SKILL.md"
+        },
+        {
+          "name": "batch-lipsync",
+          "path": "plugins/synchronicity-labs/skills/skills/batch-lipsync/SKILL.md"
+        },
+        {
+          "name": "lipsync",
+          "path": "plugins/synchronicity-labs/skills/skills/lipsync/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "sync"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -19779,7 +20236,7 @@
       "name": "webly",
       "displayName": "Webly",
       "description": "Publish a website, or share files and folders, at a live URL in seconds with no account. The person can claim it, edit it over MCP, and publish drafts they approve.",
-      "version": "0.14.18",
+      "version": "0.14.20",
       "category": "Tools & Integrations",
       "author": "Webly",
       "repository": "https://github.com/Webly-AI/webly-plugin",

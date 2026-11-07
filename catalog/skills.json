@@ -610,6 +610,11 @@
     "path": "plugins/epicsagas/alcove/registry/skills/alcove/SKILL.md"
   },
   {
+    "plugin": "andon",
+    "skill": "log-mistake",
+    "path": "plugins/PrimeFoldTools/Andon/codex/skills/log-mistake/SKILL.md"
+  },
+  {
     "plugin": "repobrain",
     "skill": "agent-repo-init",
     "path": "plugins/study8677/antigravity-workspace-template/skills/agent-repo-init/SKILL.md"
@@ -2513,6 +2518,11 @@
     "plugin": "falsegreen-skill",
     "skill": "falsegreen-skill",
     "path": "plugins/vinicq/falsegreen-skill/skills/falsegreen-skill/SKILL.md"
+  },
+  {
+    "plugin": "fanout",
+    "skill": "fanout",
+    "path": "plugins/Breadstick-Crumbs/fanout/skills/fanout/SKILL.md"
   },
   {
     "plugin": "figma-maxxing",
@@ -4808,6 +4818,46 @@
     "plugin": "pixeltable",
     "skill": "pixeltable-skill",
     "path": "plugins/pixeltable/pixeltable-skill/skills/pixeltable-skill/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "find-opening",
+    "path": "plugins/theopenapps/plugin-stack/skills/find-opening/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "track-launch",
+    "path": "plugins/theopenapps/plugin-stack/skills/track-launch/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "plugin-stack",
+    "path": "plugins/theopenapps/plugin-stack/skills/plugin-stack/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "audit-discoverability",
+    "path": "plugins/theopenapps/plugin-stack/skills/audit-discoverability/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "design-widgets",
+    "path": "plugins/theopenapps/plugin-stack/skills/design-widgets/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "watch-competitors",
+    "path": "plugins/theopenapps/plugin-stack/skills/watch-competitors/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "optimize-listing",
+    "path": "plugins/theopenapps/plugin-stack/skills/optimize-listing/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "submit-plugin",
+    "path": "plugins/theopenapps/plugin-stack/skills/submit-plugin/SKILL.md"
   },
   {
     "plugin": "project-memory-core",
@@ -9910,9 +9960,39 @@
     "path": "plugins/TheBestCo/bestprice-mcp/skills/bestprice-shopping/SKILL.md"
   },
   {
+    "plugin": "bifrost",
+    "skill": "bifrost-build",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-build/SKILL.md"
+  },
+  {
+    "plugin": "bifrost",
+    "skill": "bifrost-copilot-cowork-package",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-copilot-cowork-package/SKILL.md"
+  },
+  {
+    "plugin": "bifrost",
+    "skill": "bifrost-rewst-migration",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-rewst-migration/SKILL.md"
+  },
+  {
+    "plugin": "bifrost",
+    "skill": "bifrost-setup",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-setup/SKILL.md"
+  },
+  {
+    "plugin": "bifrost",
+    "skill": "bifrost-migrate",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-migrate/SKILL.md"
+  },
+  {
     "plugin": "bkt",
     "skill": "bkt",
     "path": "plugins/avivsinai/bitbucket-cli/skills/bkt/SKILL.md"
+  },
+  {
+    "plugin": "bowmark",
+    "skill": "bowmark",
+    "path": "plugins/bowmark-ai/plugin/skills/bowmark/SKILL.md"
   },
   {
     "plugin": "brewpage",
@@ -12180,6 +12260,196 @@
     "path": "plugins/Xquik-dev/hermes-tweet/skills/hermes-tweet/SKILL.md"
   },
   {
+    "plugin": "host0",
+    "skill": "host0",
+    "path": "plugins/host0-ai/skills/skills/host0/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-product-film-website",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-film-website/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-storyboard-to-shots",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-storyboard-to-shots/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-static-ad-pack",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-static-ad-pack/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-object-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-object-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-character-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-character-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-marketing-studio",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-marketing-studio/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-music-video",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-music-video/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-restore-and-upscale",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-restore-and-upscale/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-poster-with-real-text",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-poster-with-real-text/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-brand-studio",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-brand-studio/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-headshot-set",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-headshot-set/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-product-listing-set",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-listing-set/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-ad-variations",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ad-variations/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-journey-website",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-journey-website/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-series-bible",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-series-bible/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-clay-explainer",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-clay-explainer/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-property-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-property-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-social-set",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-social-set/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-explainer-with-voice",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-explainer-with-voice/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-product-asmr",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-asmr/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-digital-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-digital-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-title-art",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-title-art/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-podcast-clip-ad",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-podcast-clip-ad/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-carousel-post",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-carousel-post/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-photo-dump",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-photo-dump/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-character-consistency",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-character-consistency/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-location-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-location-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-ai-director",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ai-director/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-try-on-video",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-try-on-video/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-cinematic-website",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-cinematic-website/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-ugc-talking-review",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ugc-talking-review/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-influencer-studio",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-influencer-studio/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-photo-to-reel",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-photo-to-reel/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-unboxing-video",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-unboxing-video/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-virtual-try-on",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-virtual-try-on/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-media",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-media/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-product-ad-video",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-ad-video/SKILL.md"
+  },
+  {
     "plugin": "jk",
     "skill": "jk",
     "path": "plugins/avivsinai/jenkins-cli/skills/jk/SKILL.md"
@@ -13620,6 +13890,11 @@
     "path": "plugins/hyprh/self-starter/skills/triggers/SKILL.md"
   },
   {
+    "plugin": "seltz",
+    "skill": "seltz",
+    "path": "plugins/seltz-ai/seltz-codex-plugin/skills/seltz/SKILL.md"
+  },
+  {
     "plugin": "legends-seo-dungeon",
     "skill": "seo-audit",
     "path": "plugins/avalonreset/seo-dungeon/skills/seo-audit/SKILL.md"
@@ -13993,6 +14268,56 @@
     "plugin": "swarmmemo",
     "skill": "ask-other-agents",
     "path": "plugins/Hugo0/swarmmemo/skills/ask-other-agents/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "sync-api",
+    "path": "plugins/synchronicity-labs/skills/skills/sync-api/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "talking-photo",
+    "path": "plugins/synchronicity-labs/skills/skills/talking-photo/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "setup",
+    "path": "plugins/synchronicity-labs/skills/skills/setup/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "ai-video-to-talking",
+    "path": "plugins/synchronicity-labs/skills/skills/ai-video-to-talking/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "localize-campaign",
+    "path": "plugins/synchronicity-labs/skills/skills/localize-campaign/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "troubleshoot",
+    "path": "plugins/synchronicity-labs/skills/skills/troubleshoot/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "edit-dialogue",
+    "path": "plugins/synchronicity-labs/skills/skills/edit-dialogue/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "translate-and-dub",
+    "path": "plugins/synchronicity-labs/skills/skills/translate-and-dub/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "batch-lipsync",
+    "path": "plugins/synchronicity-labs/skills/skills/batch-lipsync/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "lipsync",
+    "path": "plugins/synchronicity-labs/skills/skills/lipsync/SKILL.md"
   },
   {
     "plugin": "tablejourney",

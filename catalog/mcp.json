@@ -599,9 +599,23 @@
   {
     "plugin": "fxmacrodata",
     "servers": [
-      "fxmacrodata"
+      "FXMacroData"
     ],
     "path": "plugins/fxmacrodata/claude-plugin-fxmacrodata/.mcp.json"
+  },
+  {
+    "plugin": "host0",
+    "servers": [
+      "host0"
+    ],
+    "path": "plugins/host0-ai/skills/.mcp.json"
+  },
+  {
+    "plugin": "imagera",
+    "servers": [
+      "imagera"
+    ],
+    "path": "plugins/alexadams6ix/imagera-skills/.mcp.json"
   },
   {
     "plugin": "kachilu-browser",
@@ -825,6 +839,13 @@
     "path": "plugins/hyprh/self-starter/.mcp.json"
   },
   {
+    "plugin": "seltz",
+    "servers": [
+      "seltz"
+    ],
+    "path": "plugins/seltz-ai/seltz-codex-plugin/.mcp.json"
+  },
+  {
     "plugin": "sendpaper",
     "servers": [
       "sendpaper"
@@ -886,6 +907,13 @@
       "swapwallet"
     ],
     "path": "plugins/SwapWallet/swapwallet-mcp/.mcp.json"
+  },
+  {
+    "plugin": "sync",
+    "servers": [
+      "sync"
+    ],
+    "path": "plugins/synchronicity-labs/skills/.mcp.json"
   },
   {
     "plugin": "n8n-mcp-synta-codex",
