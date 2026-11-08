@@ -129,7 +129,7 @@
     "path": "plugins/ValkyrLabs/GrayMatter/.mcp.json"
   },
   {
-    "plugin": "hol-guard-plugin",
+    "plugin": "hol-guard",
     "servers": [
       "hol-guard"
     ],
@@ -197,13 +197,6 @@
       "memtomem"
     ],
     "path": "plugins/memtomem/memtomem/.mcp.json"
-  },
-  {
-    "plugin": "model-salt",
-    "servers": [
-      "model-salt"
-    ],
-    "path": null
   },
   {
     "plugin": "multi-llm",
@@ -560,13 +553,6 @@
     "path": "plugins/droplinked/droplinked-codex-plugin/.mcp.json"
   },
   {
-    "plugin": "dropthehassle",
-    "servers": [
-      "dropthehassle"
-    ],
-    "path": null
-  },
-  {
     "plugin": "eigenheim-market",
     "servers": [
       "eigenheim-market"
@@ -599,9 +585,23 @@
   {
     "plugin": "fxmacrodata",
     "servers": [
-      "fxmacrodata"
+      "FXMacroData"
     ],
     "path": "plugins/fxmacrodata/claude-plugin-fxmacrodata/.mcp.json"
+  },
+  {
+    "plugin": "host0",
+    "servers": [
+      "host0"
+    ],
+    "path": "plugins/host0-ai/skills/.mcp.json"
+  },
+  {
+    "plugin": "imagera",
+    "servers": [
+      "imagera"
+    ],
+    "path": "plugins/alexadams6ix/imagera-skills/.mcp.json"
   },
   {
     "plugin": "kachilu-browser",
@@ -818,11 +818,25 @@
     "path": "plugins/kotinder/codex-roomcomm/.mcp.json"
   },
   {
+    "plugin": "ru-marketplace-mcp",
+    "servers": [
+      "marketplace"
+    ],
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/.mcp.json"
+  },
+  {
     "plugin": "self-starter",
     "servers": [
       "self_starter"
     ],
     "path": "plugins/hyprh/self-starter/.mcp.json"
+  },
+  {
+    "plugin": "seltz",
+    "servers": [
+      "seltz"
+    ],
+    "path": "plugins/seltz-ai/seltz-codex-plugin/.mcp.json"
   },
   {
     "plugin": "sendpaper",
@@ -886,6 +900,13 @@
       "swapwallet"
     ],
     "path": "plugins/SwapWallet/swapwallet-mcp/.mcp.json"
+  },
+  {
+    "plugin": "sync",
+    "servers": [
+      "sync"
+    ],
+    "path": "plugins/synchronicity-labs/skills/.mcp.json"
   },
   {
     "plugin": "n8n-mcp-synta-codex",

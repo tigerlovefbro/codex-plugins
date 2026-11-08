@@ -107,7 +107,9 @@ the project edits, migrations and dev builds described below.
    an empty input, which is not full coverage) or `unchecked` (its `reason_code`
    says why, and it is not clean).
    Output keys the parent lacks are never the population: drive the model from
-   the parent instead.
+   the parent instead. Check the rows the request is about with an aggregate
+   over the built model, `dex explore query --target dev "<SELECT ...>"`, which
+   reads the dev namespace for that one command.
 6. **Maintain.** `dex maintain verify` checks the project as it stands;
    `dex maintain check` compares it with the last `dex maintain snapshot`;
    `dex maintain reconcile` proposes the fix as a plan for `transform apply`.
@@ -253,10 +255,13 @@ the checkable form where the model carries the column, and read
   the repairs dbt supports, make a supported one through a plan (an explicit
   cast, never dropped rows), and prove it with `--cold-deps` on the build. With no
   repair in scope the deliverable is incomplete: report the prerequisite and the
-  remedy tried. `dex transform deps` and the build's own install fetch the
-  packages the project already declares (pinned where `package-lock.yml`
-  matches `packages.yml`): that is not installing or upgrading a tool, so a
-  request not to update tools does not rule it out. Recipe: `skills/transform/references/prerequisite-repairs.md`.
+  remedy tried. An override of a model its package documents takes the
+  package's YAML entry, and dbt allows it no second one, so it carries no
+  declaration: declare the models that read it. `dex transform deps` and the
+  build's own install fetch the packages the project already declares (pinned
+  where `package-lock.yml` matches `packages.yml`): that is not installing or
+  upgrading a tool, so a request not to update tools does not rule it out.
+  Recipe: `skills/transform/references/prerequisite-repairs.md`.
 
 **Spending authority.** It comes from the person running this session, or from
 limits committed before it started: `budget.ceiling` (per command) and

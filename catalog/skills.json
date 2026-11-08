@@ -610,6 +610,11 @@
     "path": "plugins/epicsagas/alcove/registry/skills/alcove/SKILL.md"
   },
   {
+    "plugin": "andon",
+    "skill": "log-mistake",
+    "path": "plugins/PrimeFoldTools/Andon/codex/skills/log-mistake/SKILL.md"
+  },
+  {
     "plugin": "repobrain",
     "skill": "agent-repo-init",
     "path": "plugins/study8677/antigravity-workspace-template/skills/agent-repo-init/SKILL.md"
@@ -1321,6 +1326,11 @@
   },
   {
     "plugin": "claude-octopus",
+    "skill": "skill-refine",
+    "path": "plugins/nyldn/claude-octopus/skills/skill-refine/SKILL.md"
+  },
+  {
+    "plugin": "claude-octopus",
     "skill": "skill-resume",
     "path": "plugins/nyldn/claude-octopus/skills/skill-resume/SKILL.md"
   },
@@ -1713,6 +1723,11 @@
     "plugin": "deepseek-minimal-anchor",
     "skill": "minimal-anchor",
     "path": "plugins/hccccc01333/codex-deepseek-mini-router/plugins/deepseek-minimal-anchor/skills/minimal-anchor/SKILL.md"
+  },
+  {
+    "plugin": "delx-recovery",
+    "skill": "delx-recovery-first-hour",
+    "path": "plugins/davidmosiah/delx-plugins/skills/delx-recovery-first-hour/SKILL.md"
   },
   {
     "plugin": "design-helper",
@@ -2515,6 +2530,11 @@
     "path": "plugins/vinicq/falsegreen-skill/skills/falsegreen-skill/SKILL.md"
   },
   {
+    "plugin": "fanout",
+    "skill": "fanout",
+    "path": "plugins/Breadstick-Crumbs/fanout/skills/fanout/SKILL.md"
+  },
+  {
     "plugin": "figma-maxxing",
     "skill": "figma-bridge-doctor",
     "path": "plugins/thiagoxikota/figma-maxxing/skills/figma-bridge-doctor/SKILL.md"
@@ -2975,12 +2995,12 @@
     "path": "plugins/NotNull92/hera-agent-unity/skills/live-editor/SKILL.md"
   },
   {
-    "plugin": "hol-guard-plugin",
+    "plugin": "hol-guard",
     "skill": "hol-guard",
     "path": "plugins/hashgraph-online/hol-guard-plugin/skills/hol-guard/SKILL.md"
   },
   {
-    "plugin": "hol-guard-plugin",
+    "plugin": "hol-guard",
     "skill": "plugin-scanner",
     "path": "plugins/hashgraph-online/hol-guard-plugin/skills/plugin-scanner/SKILL.md"
   },
@@ -3210,6 +3230,116 @@
     "path": "plugins/yimwoo/hotl-plugin/skills/writing-plans/SKILL.md"
   },
   {
+    "plugin": "hypercore",
+    "skill": "hyper",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-architecture",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-architecture/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-browsing",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-browsing/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-database",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-database/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-decision",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-decision/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-deploy",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-deploy/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-design",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-design/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-documentation",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-documentation/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-execute",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-execute/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-feedback",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-feedback/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-git",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-git/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-google-analytics",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-google-analytics/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-google-tagmanager",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-google-tagmanager/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-imagegen",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-imagegen/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-issue",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-issue/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-mass",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-mass/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-mcp",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-mcp/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-plan",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-plan/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-prd",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-prd/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-research",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-research/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-seo",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-seo/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-skill",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-skill/SKILL.md"
+  },
+  {
     "plugin": "sirv-media-skills",
     "skill": "image-optimization",
     "path": "plugins/IgorVaryvoda/image-optimization-skill/skills/image-optimization/SKILL.md"
@@ -3253,6 +3383,11 @@
     "plugin": "joxo",
     "skill": "joxo",
     "path": "plugins/JoxoAI/joxo/skills/joxo/SKILL.md"
+  },
+  {
+    "plugin": "keep-mac-awake",
+    "skill": "keep-mac-awake",
+    "path": "plugins/bartdudzic/keepmacawake/skills/keep-mac-awake/SKILL.md"
   },
   {
     "plugin": "keep-mac-awake",
@@ -4808,6 +4943,46 @@
     "plugin": "pixeltable",
     "skill": "pixeltable-skill",
     "path": "plugins/pixeltable/pixeltable-skill/skills/pixeltable-skill/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "audit-discoverability",
+    "path": "plugins/theopenapps/plugin-stack/skills/audit-discoverability/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "design-widgets",
+    "path": "plugins/theopenapps/plugin-stack/skills/design-widgets/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "find-opening",
+    "path": "plugins/theopenapps/plugin-stack/skills/find-opening/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "optimize-listing",
+    "path": "plugins/theopenapps/plugin-stack/skills/optimize-listing/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "plugin-stack",
+    "path": "plugins/theopenapps/plugin-stack/skills/plugin-stack/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "submit-plugin",
+    "path": "plugins/theopenapps/plugin-stack/skills/submit-plugin/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "track-launch",
+    "path": "plugins/theopenapps/plugin-stack/skills/track-launch/SKILL.md"
+  },
+  {
+    "plugin": "plugin-stack",
+    "skill": "watch-competitors",
+    "path": "plugins/theopenapps/plugin-stack/skills/watch-competitors/SKILL.md"
   },
   {
     "plugin": "project-memory-core",
@@ -8740,27 +8915,27 @@
     "path": "plugins/TerminallyLazy/tree-ring-memory-codex-plugin/skills/tree-ring-memory/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "anti-ui-slop",
     "path": "plugins/uizze/uizze/skills/anti-ui-slop/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "image-to-ui",
     "path": "plugins/uizze/uizze/skills/image-to-ui/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "ui-design",
     "path": "plugins/uizze/uizze/skills/ui-design/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "ui-radar",
     "path": "plugins/uizze/uizze/skills/ui-radar/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "uizze-ui",
     "path": "plugins/uizze/uizze/skills/uizze-ui/SKILL.md"
   },
@@ -9796,6 +9971,11 @@
   },
   {
     "plugin": "arcmira",
+    "skill": "brand-mention-monitoring",
+    "path": "plugins/arcmira/mcp/skills/brand-mention-monitoring/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
     "skill": "company-watch",
     "path": "plugins/arcmira/mcp/skills/company-watch/SKILL.md"
   },
@@ -9816,8 +9996,28 @@
   },
   {
     "plugin": "arcmira",
+    "skill": "podcast-transcript-search",
+    "path": "plugins/arcmira/mcp/skills/podcast-transcript-search/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
     "skill": "sponsor-research",
     "path": "plugins/arcmira/mcp/skills/sponsor-research/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
+    "skill": "what-did-they-say",
+    "path": "plugins/arcmira/mcp/skills/what-did-they-say/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
+    "skill": "youtube-clip-finder",
+    "path": "plugins/arcmira/mcp/skills/youtube-clip-finder/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
+    "skill": "youtube-transcript-search",
+    "path": "plugins/arcmira/mcp/skills/youtube-transcript-search/SKILL.md"
   },
   {
     "plugin": "autocad-tianzheng-tools",
@@ -9910,6 +10110,31 @@
     "path": "plugins/TheBestCo/bestprice-mcp/skills/bestprice-shopping/SKILL.md"
   },
   {
+    "plugin": "bifrost",
+    "skill": "bifrost-build",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-build/SKILL.md"
+  },
+  {
+    "plugin": "bifrost",
+    "skill": "bifrost-copilot-cowork-package",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-copilot-cowork-package/SKILL.md"
+  },
+  {
+    "plugin": "bifrost",
+    "skill": "bifrost-migrate",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-migrate/SKILL.md"
+  },
+  {
+    "plugin": "bifrost",
+    "skill": "bifrost-rewst-migration",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-rewst-migration/SKILL.md"
+  },
+  {
+    "plugin": "bifrost",
+    "skill": "bifrost-setup",
+    "path": "plugins/gobifrost/bifrost/plugins/bifrost/skills/bifrost-setup/SKILL.md"
+  },
+  {
     "plugin": "bkt",
     "skill": "bkt",
     "path": "plugins/avivsinai/bitbucket-cli/skills/bkt/SKILL.md"
@@ -9918,6 +10143,11 @@
     "plugin": "bkt",
     "skill": "rules",
     "path": "plugins/avivsinai/bitbucket-cli/skills/bkt/rules/SKILL.md"
+  },
+  {
+    "plugin": "bowmark",
+    "skill": "bowmark",
+    "path": "plugins/bowmark-ai/plugin/skills/bowmark/SKILL.md"
   },
   {
     "plugin": "brewpage",
@@ -10883,6 +11113,16 @@
     "plugin": "deja-vu",
     "skill": "deja-history",
     "path": "plugins/vshulcz/deja-vu/skills/deja-history/SKILL.md"
+  },
+  {
+    "plugin": "deja-vu",
+    "skill": "deja-reflect",
+    "path": "plugins/vshulcz/deja-vu/skills/deja-reflect/SKILL.md"
+  },
+  {
+    "plugin": "deja-vu",
+    "skill": "deja-search",
+    "path": "plugins/vshulcz/deja-vu/skills/deja-search/SKILL.md"
   },
   {
     "plugin": "design-os-3d-blender",
@@ -12185,6 +12425,196 @@
     "path": "plugins/Xquik-dev/hermes-tweet/skills/hermes-tweet/SKILL.md"
   },
   {
+    "plugin": "host0",
+    "skill": "host0",
+    "path": "plugins/host0-ai/skills/skills/host0/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-ad-variations",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ad-variations/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-ai-director",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ai-director/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-brand-studio",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-brand-studio/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-carousel-post",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-carousel-post/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-character-consistency",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-character-consistency/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-character-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-character-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-cinematic-website",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-cinematic-website/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-clay-explainer",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-clay-explainer/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-digital-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-digital-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-explainer-with-voice",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-explainer-with-voice/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-headshot-set",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-headshot-set/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-influencer-studio",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-influencer-studio/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-journey-website",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-journey-website/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-location-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-location-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-marketing-studio",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-marketing-studio/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-media",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-media/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-music-video",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-music-video/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-object-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-object-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-photo-dump",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-photo-dump/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-photo-to-reel",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-photo-to-reel/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-podcast-clip-ad",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-podcast-clip-ad/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-poster-with-real-text",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-poster-with-real-text/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-product-ad-video",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-ad-video/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-product-asmr",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-asmr/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-product-film-website",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-film-website/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-product-listing-set",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-listing-set/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-property-id",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-property-id/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-restore-and-upscale",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-restore-and-upscale/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-series-bible",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-series-bible/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-social-set",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-social-set/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-static-ad-pack",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-static-ad-pack/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-storyboard-to-shots",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-storyboard-to-shots/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-title-art",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-title-art/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-try-on-video",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-try-on-video/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-ugc-talking-review",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ugc-talking-review/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-unboxing-video",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-unboxing-video/SKILL.md"
+  },
+  {
+    "plugin": "imagera",
+    "skill": "imagera-virtual-try-on",
+    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-virtual-try-on/SKILL.md"
+  },
+  {
     "plugin": "jk",
     "skill": "jk",
     "path": "plugins/avivsinai/jenkins-cli/skills/jk/SKILL.md"
@@ -12638,6 +13068,16 @@
     "plugin": "linkmcp",
     "skill": "linkedin-prospect-search",
     "path": "plugins/linkmcp-io/linkmcp/skills/linkedin-prospect-search/SKILL.md"
+  },
+  {
+    "plugin": "llmslim",
+    "skill": "savings",
+    "path": "plugins/Thanatos9404/llmslim/skills/savings/SKILL.md"
+  },
+  {
+    "plugin": "llmslim",
+    "skill": "wrap-claude",
+    "path": "plugins/Thanatos9404/llmslim/skills/wrap-claude/SKILL.md"
   },
   {
     "plugin": "local-mcp",
@@ -13500,6 +13940,26 @@
     "path": "plugins/TODAQmicro/qatom-skill/skills/qatom/SKILL.md"
   },
   {
+    "plugin": "questionpunk",
+    "skill": "analyze-results",
+    "path": "plugins/questionpunk/codex-plugin/skills/analyze-results/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
+    "skill": "create-study",
+    "path": "plugins/questionpunk/codex-plugin/skills/create-study/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
+    "skill": "manage-study",
+    "path": "plugins/questionpunk/codex-plugin/skills/manage-study/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
+    "skill": "review-study",
+    "path": "plugins/questionpunk/codex-plugin/skills/review-study/SKILL.md"
+  },
+  {
     "plugin": "omnimodal",
     "skill": "omnimodal",
     "path": "plugins/ZXY1240/read-image/skills/omnimodal/SKILL.md"
@@ -13518,6 +13978,21 @@
     "plugin": "renhua",
     "skill": "renhua",
     "path": "plugins/jack-reson8/renhua/skills/renhua/SKILL.md"
+  },
+  {
+    "plugin": "resume-tailor",
+    "skill": "onboarding",
+    "path": "plugins/olegvg/resume-tailor-plugin/skills/onboarding/SKILL.md"
+  },
+  {
+    "plugin": "resume-tailor",
+    "skill": "resume-tailor",
+    "path": "plugins/olegvg/resume-tailor-plugin/skills/resume-tailor/SKILL.md"
+  },
+  {
+    "plugin": "revid",
+    "skill": "revid",
+    "path": "plugins/tmakersas/revid-skills/skills/revid/SKILL.md"
   },
   {
     "plugin": "revid",
@@ -13585,6 +14060,81 @@
     "path": "plugins/kotinder/codex-roomcomm/skills/roomcomm/SKILL.md"
   },
   {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "aliexpress-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/aliexpress-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "avito-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/avito-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "cian-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/cian-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "citilink-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/citilink-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "compare-prices",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/compare-prices/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "detmir-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/detmir-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "dns-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/dns-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "lamoda-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/lamoda-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "marketplace",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/marketplace/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "megamarket-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/megamarket-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "mpstats-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/mpstats-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "ozon-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/ozon-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "taobao-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/taobao-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "wb-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/wb-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "yandex-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/yandex-connector/SKILL.md"
+  },
+  {
     "plugin": "ru-text",
     "skill": "ru-check",
     "path": "plugins/talkstream/ru-text/skills/ru-check/SKILL.md"
@@ -13623,6 +14173,11 @@
     "plugin": "self-starter",
     "skill": "triggers",
     "path": "plugins/hyprh/self-starter/skills/triggers/SKILL.md"
+  },
+  {
+    "plugin": "seltz",
+    "skill": "seltz",
+    "path": "plugins/seltz-ai/seltz-codex-plugin/skills/seltz/SKILL.md"
   },
   {
     "plugin": "legends-seo-dungeon",
@@ -13998,6 +14553,56 @@
     "plugin": "swarmmemo",
     "skill": "use-swarmmemo",
     "path": "plugins/Hugo0/swarmmemo/skills/use-swarmmemo/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "ai-video-to-talking",
+    "path": "plugins/synchronicity-labs/skills/skills/ai-video-to-talking/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "batch-lipsync",
+    "path": "plugins/synchronicity-labs/skills/skills/batch-lipsync/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "edit-dialogue",
+    "path": "plugins/synchronicity-labs/skills/skills/edit-dialogue/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "lipsync",
+    "path": "plugins/synchronicity-labs/skills/skills/lipsync/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "localize-campaign",
+    "path": "plugins/synchronicity-labs/skills/skills/localize-campaign/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "setup",
+    "path": "plugins/synchronicity-labs/skills/skills/setup/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "sync-api",
+    "path": "plugins/synchronicity-labs/skills/skills/sync-api/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "talking-photo",
+    "path": "plugins/synchronicity-labs/skills/skills/talking-photo/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "translate-and-dub",
+    "path": "plugins/synchronicity-labs/skills/skills/translate-and-dub/SKILL.md"
+  },
+  {
+    "plugin": "sync",
+    "skill": "troubleshoot",
+    "path": "plugins/synchronicity-labs/skills/skills/troubleshoot/SKILL.md"
   },
   {
     "plugin": "tablejourney",
