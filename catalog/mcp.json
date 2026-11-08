@@ -987,5 +987,12 @@
       "yandexWordstat"
     ],
     "path": "plugins/nebelov/yandex-direct-for-all/.mcp.json"
+  },
+  {
+    "plugin": "unity-mcp",
+    "servers": [
+      "unity-mcp"
+    ],
+    "path": "plugins/CoplayDev/unity-mcp/.mcp.json"
   }
 ]

@@ -1,0 +1,25 @@
+{
+  "name": "unity-agent-skills",
+  "version": "1.0.0",
+  "description": "8 个 Unity 6.3 LTS 通用开发技能（gamedev-skills/awesome-gamedev-agent-skills，6.9k stars，Apache-2.0）：unity-animation（Animator/Mecanim 状态机/混合树/IK）、unity-build-pipeline（构建与 CI）、unity-csharp-scripting（C# 生命周期/协程）、unity-input-system（新输入系统/重绑定）、unity-navmesh（寻路）、unity-physics（射线/关节）、unity-scriptableobjects（事件通道）、unity-tilemap-2d（瓦片地图）。",
+  "author": {
+    "name": "Abhishek Barali",
+    "url": "https://github.com/gamedev-skills"
+  },
+  "repository": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+  "homepage": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "unity",
+    "gamedev",
+    "agent-skills",
+    "unity6",
+    "csharp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Unity Agent Skills",
+    "shortDescription": "8 个 Unity 6.3 LTS 通用开发技能（gamedev-skills，Apache-2.0）。",
+    "category": "Development & Workflow"
+  }
+}
