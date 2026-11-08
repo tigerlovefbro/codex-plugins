@@ -5800,7 +5800,7 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Personal",
-      "description": "Siemens TIA Portal V21 自动化（Openness API，PowerShell/.NET Framework 4.8）：打开项目、枚举设备/PLC 块、导出/编译、读写 tag table。含已实测坑与可运行模板 open_portal.ps1。"
+      "description": "Siemens TIA Portal V21 自动化（Openness）：首选小文老师博途 MCP（node 版，30 工具，破解版 V21 实测可用），打开项目/枚举设备/PLC 块/建 FC·FB/标签/LAD Main/SCL 导入。"
     }
   ]
 }

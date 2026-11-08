@@ -1,7 +1,7 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-08T18:20:08.703383+00:00",
+    "generatedAt": "2026-11-08T18:47:44.013973+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
@@ -21025,7 +21025,7 @@
       "id": "tia-portal-openness",
       "name": "tia-portal-openness",
       "displayName": "TIA Portal Openness",
-      "description": "Siemens TIA Portal V21 automation via the Openness API (PowerShell / .NET Framework 4.8): open projects, enumerate devices & PLC blocks, export/compile, read/write tag tables. Includes verified pitfalls and a runnable open_portal.ps1 template.",
+      "description": "Siemens TIA Portal V21 automation via Openness API. Verified working method: 小文老师博途 MCP (node server.js, 30 tools) wrapping the official Openness API on cracked V21; fallback raw PowerShell Openness API. Open projects, enumerate devices/PLC blocks, create FC/FB/tags, LAD Main generation, SCL import.",
       "version": "1.0.0",
       "category": "Personal",
       "author": "tigerlovefbro",
