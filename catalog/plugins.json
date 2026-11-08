@@ -1,23 +1,23 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-07T09:39:21.275592+00:00",
+    "generatedAt": "2026-11-08T09:52:54.721417+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 385,
-      "with_skills": 349,
-      "with_mcp": 143,
-      "codex_only": 20
+      "plugins": 388,
+      "with_skills": 355,
+      "with_mcp": 142,
+      "codex_only": 19
     },
-    "skillCount": 3065
+    "skillCount": 3121
   },
   "plugins": [
     {
       "id": "a-team",
       "name": "a-team",
       "displayName": "A Team",
-      "description": "A complete engineering team in one folder. 26 pre-configured specialists, 20 enforced workflow skills, a lead orchestrator, and a Pipeline Auditor — for Claude Code, Codex CLI, Cursor, OpenCode, and GitHub Copilot CLI.",
+      "description": "A complete engineering team in one folder: 26 specialist agents, 20 skills, orchestrated workflows and quality gates.",
       "version": "1.4.1",
       "category": "Development & Workflow",
       "author": "RBraga01",
@@ -938,7 +938,7 @@
       "name": "archcore",
       "displayName": "Archcore",
       "description": "Spec-driven development and context engineering for AI coding agents, backed by project context in Git.",
-      "version": "0.15.3",
+      "version": "0.15.5",
       "category": "Development & Workflow",
       "author": "Archcore",
       "repository": "https://github.com/archcore-ai/archcore",
@@ -1707,7 +1707,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.17.1",
+      "version": "11.18.0",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -1737,6 +1737,10 @@
         {
           "name": "skill-debug",
           "path": "plugins/nyldn/claude-octopus/skills/skill-debug/SKILL.md"
+        },
+        {
+          "name": "skill-refine",
+          "path": "plugins/nyldn/claude-octopus/skills/skill-refine/SKILL.md"
         },
         {
           "name": "octopus-quick",
@@ -2272,7 +2276,7 @@
       "name": "codex-auto-resume",
       "displayName": "Codex Auto Resume",
       "description": "Auto-resume and auto-retry for interrupted Codex tasks on Windows. Waits out a usage limit (until the reset time Codex reports, e.g. for a 5-hour or weekly window), a rate limit or a temporary failure, then continues the exact same conversation, so long-running or overnight work keeps going while that conversation is open in the Codex app. Setup downloads a checksum-verified release from GitHub; after that the watcher runs locally, read-only against Codex state, conservative by design.",
-      "version": "0.6.22-beta",
+      "version": "0.6.22-beta.2",
       "category": "Development & Workflow",
       "author": "songyb111-gachon",
       "repository": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
@@ -2803,21 +2807,26 @@
       "id": "delx-recovery",
       "name": "delx-recovery",
       "displayName": "Delx Recovery",
-      "description": "Free recovery, continuity, and witness protocol for AI agents: resume sessions, capture state, process failures, close with feedback. Free agent credentials protect private continuity; no payment.",
+      "description": "Free recovery, continuity, and witness protocol for AI agents: resume sessions, capture state, process failures, close with feedback. Optional opt-in Agents Hive guardian hooks seal a Continuity Capsule on compact/session end. Free agent credentials protect private continuity; no payment.",
       "version": "1.2.0",
       "category": "Development & Workflow",
       "author": "David Batista",
       "repository": "https://github.com/davidmosiah/delx-plugins",
       "license": "Apache-2.0",
       "codexPath": "plugins/davidmosiah/delx-plugins",
-      "skills": [],
+      "skills": [
+        {
+          "name": "delx-recovery-first-hour",
+          "path": "plugins/davidmosiah/delx-plugins/skills/delx-recovery-first-hour/SKILL.md"
+        }
+      ],
       "mcpServers": [
         "delx"
       ],
       "tools": {
         "codex": true,
-        "claude": false,
-        "dsh": false,
+        "claude": true,
+        "dsh": true,
         "mcp": true
       }
     },
@@ -3106,7 +3115,7 @@
       "id": "devrecap",
       "name": "devrecap",
       "displayName": "DevRecap",
-      "description": "Reconstruct evidence-backed developer work from authorized local coding history and turn it into polished recaps.",
+      "description": "Reconstruct evidence-backed developer work from authorized local coding history and let Codex turn it into polished recaps.",
       "version": "0.3.0",
       "category": "Development & Workflow",
       "author": "João Quinteiro",
@@ -3207,7 +3216,7 @@
     {
       "id": "dryforge",
       "name": "dryforge",
-      "displayName": "Dryforge",
+      "displayName": "dryforge",
       "description": "Intent to implementation: ready, then go.",
       "version": "1.3.8",
       "category": "Development & Workflow",
@@ -3781,7 +3790,7 @@
       "name": "fanout",
       "displayName": "fanout",
       "description": "Run many coding agents in parallel without merge chaos: each owns its own files, shared interfaces are frozen, and every branch is tested together before it merges.",
-      "version": "0.31.2",
+      "version": "0.32.1",
       "category": "Development & Workflow",
       "author": "Breadstick-Crumbs",
       "repository": "https://github.com/Breadstick-Crumbs/fanout",
@@ -4359,10 +4368,10 @@
       }
     },
     {
-      "id": "hol-guard-plugin",
-      "name": "hol-guard-plugin",
+      "id": "hol-guard",
+      "name": "hol-guard",
       "displayName": "HOL Guard Plugin",
-      "description": "Codex plugin for HOL Guard local AI harness protection across Codex, Claude Code, and other agent/plugin systems.",
+      "description": "Local-first AI agent security with Guard status, security receipts, approvals, MCP visibility, and pre-trust scanning for skills, plugins, and MCP servers.",
       "version": "0.1.1",
       "category": "Development & Workflow",
       "author": "Hashgraph Online",
@@ -4635,6 +4644,115 @@
       }
     },
     {
+      "id": "hypercore",
+      "name": "hypercore",
+      "displayName": "Hypercore",
+      "description": "Korean-first agent skills for Codex, Claude Code, Cursor, and Antigravity, from codebase analysis to release.",
+      "version": "1.1.0",
+      "category": "Development & Workflow",
+      "author": "alpoxdev",
+      "repository": "https://github.com/alpoxdev/hypercore",
+      "license": "MIT",
+      "codexPath": "plugins/alpoxdev/hypercore",
+      "skills": [
+        {
+          "name": "hyper-skill",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-skill/SKILL.md"
+        },
+        {
+          "name": "hyper-database",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-database/SKILL.md"
+        },
+        {
+          "name": "hyper-decision",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-decision/SKILL.md"
+        },
+        {
+          "name": "hyper-research",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-research/SKILL.md"
+        },
+        {
+          "name": "hyper",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper/SKILL.md"
+        },
+        {
+          "name": "hyper-architecture",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-architecture/SKILL.md"
+        },
+        {
+          "name": "hyper-seo",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-seo/SKILL.md"
+        },
+        {
+          "name": "hyper-issue",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-issue/SKILL.md"
+        },
+        {
+          "name": "hyper-deploy",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-deploy/SKILL.md"
+        },
+        {
+          "name": "hyper-feedback",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-feedback/SKILL.md"
+        },
+        {
+          "name": "hyper-documentation",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-documentation/SKILL.md"
+        },
+        {
+          "name": "hyper-google-analytics",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-google-analytics/SKILL.md"
+        },
+        {
+          "name": "hyper-plan",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-plan/SKILL.md"
+        },
+        {
+          "name": "hyper-imagegen",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-imagegen/SKILL.md"
+        },
+        {
+          "name": "hyper-google-tagmanager",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-google-tagmanager/SKILL.md"
+        },
+        {
+          "name": "hyper-execute",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-execute/SKILL.md"
+        },
+        {
+          "name": "hyper-git",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-git/SKILL.md"
+        },
+        {
+          "name": "hyper-browsing",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-browsing/SKILL.md"
+        },
+        {
+          "name": "hyper-mass",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-mass/SKILL.md"
+        },
+        {
+          "name": "hyper-mcp",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-mcp/SKILL.md"
+        },
+        {
+          "name": "hyper-design",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-design/SKILL.md"
+        },
+        {
+          "name": "hyper-prd",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-prd/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "sirv-media-skills",
       "name": "sirv-media-skills",
       "displayName": "Image & Media Skills",
@@ -4713,12 +4831,12 @@
       "id": "joxo",
       "name": "joxo",
       "displayName": "Joxo",
-      "description": "Joxo's setup skill for Codex: joins this agent to your team's Joxo project.",
+      "description": "Joxo's setup skill: joins this coding agent to your team's Joxo project.",
       "version": "0.2.173",
       "category": "Development & Workflow",
       "author": "Joxo",
       "repository": "https://github.com/JoxoAI/joxo",
-      "license": "Proprietary",
+      "license": "",
       "codexPath": "plugins/JoxoAI/joxo",
       "skills": [
         {
@@ -4741,7 +4859,7 @@
       "name": "keep-mac-awake",
       "displayName": "Keep Mac Awake",
       "description": "Lets your agent keep a MacBook with Apple silicon awake with the lid closed while long tasks run, through the keepmacawake command of the Keep Mac Awake app: it starts a timed session before long work, stops it after, and tells you when the app needs your attention. Requires the Keep Mac Awake app, a paid app with a free trial.",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "category": "Development & Workflow",
       "author": "Bart Dudzic",
       "repository": "https://github.com/bartdudzic/keepmacawake",
@@ -4751,6 +4869,10 @@
         {
           "name": "keepmacawake",
           "path": "plugins/bartdudzic/keepmacawake/skills/keepmacawake/SKILL.md"
+        },
+        {
+          "name": "keep-mac-awake",
+          "path": "plugins/bartdudzic/keepmacawake/skills/keep-mac-awake/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -6032,8 +6154,8 @@
       "id": "memtomem",
       "name": "memtomem",
       "displayName": "memtomem",
-      "description": "Search, recall, save, and index Markdown-first agent memory with memtomem",
-      "version": "0.3.30",
+      "description": "Markdown-first long-term memory shared across your coding agents: one local memtomem store, searchable from Hermes, Claude Code, Codex CLI and Kimi Code.",
+      "version": "0.1.18",
       "category": "Development & Workflow",
       "author": "memtomem",
       "repository": "https://github.com/memtomem/memtomem",
@@ -6144,9 +6266,9 @@
     {
       "id": "model-salt",
       "name": "model-salt",
-      "displayName": "Model Salt",
-      "description": "Varied results for creative requests that are still exactly what was asked: the model calls model_salt before a creative task and follows what it returns.",
-      "version": "1.0.0",
+      "displayName": "model-salt",
+      "description": "An MCP server that gives your model randomness from outside it, so one prompt gives different answers that still do what you asked.",
+      "version": "1.0.2",
       "category": "Development & Workflow",
       "author": "Chris Benjaminsen",
       "repository": "https://github.com/modelsalt/model-salt",
@@ -6158,14 +6280,12 @@
           "path": "plugins/modelsalt/model-salt/skills/model-salt/SKILL.md"
         }
       ],
-      "mcpServers": [
-        "model-salt"
-      ],
+      "mcpServers": [],
       "tools": {
         "codex": true,
         "claude": true,
         "dsh": true,
-        "mcp": true
+        "mcp": false
       }
     },
     {
@@ -6173,7 +6293,7 @@
       "name": "multi-llm",
       "displayName": "Multi-LLM",
       "description": "Orchestrate plan reviews, task generation, implementation and code reviews across several LLM CLIs in parallel, or ask every model one free-text question about a plan.",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "category": "Development & Workflow",
       "author": "beastlabai",
       "repository": "https://github.com/beastlabai/multi-llm-plugin",
@@ -6200,7 +6320,7 @@
       "name": "nightshift",
       "displayName": "Nightshift",
       "description": "Accountable, time-bounded Codex shifts. Hand it your punch list, or let it research the product and ship complete improvements until quitting time. Progress stays on disk through compaction and resume. The morning is reviewable commits or artifact receipts, per-item token usage and time, a shift log, and the decisions that were made. When you are done reviewing the run, archive it dated so the live session stays lean.",
-      "version": "0.30.2",
+      "version": "0.30.3",
       "category": "Development & Workflow",
       "author": "Orwa Mahmoud",
       "repository": "https://github.com/orwa-mahmoud/nightshift",
@@ -6503,7 +6623,7 @@
       "id": "pixeltable",
       "name": "pixeltable",
       "displayName": "Pixeltable",
-      "description": "Multimodal RAG, video search, image similarity search, agent memory, and embeddings stored with your data.",
+      "description": "Multimodal RAG, video search, image similarity search, agent memory, and embeddings stored with your data. Declarative tables, computed columns, retrieval, agents, and HTTP.",
       "version": "2.14.0",
       "category": "Development & Workflow",
       "author": "Pixeltable",
@@ -9351,7 +9471,7 @@
       "name": "board",
       "displayName": "stickypane board",
       "description": "Put notes, checklists, kanban boards, charts, diagrams, logs and questions on the user's stickypane board and read back what the user did there.",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "category": "Development & Workflow",
       "author": "LeeSwallow",
       "repository": "https://github.com/LeeSwallow/stickypane",
@@ -9708,7 +9828,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.24.4",
+      "version": "4.24.6",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -10750,8 +10870,8 @@
       }
     },
     {
-      "id": "uizze",
-      "name": "uizze",
+      "id": "uizze-ui-slop",
+      "name": "uizze-ui-slop",
       "displayName": "Uizze",
       "description": "UI design that stands out",
       "version": "1.3.1",
@@ -11886,7 +12006,7 @@
       "id": "codex-zcode-bridge",
       "name": "codex-zcode-bridge",
       "displayName": "Zcode Bridge",
-      "description": "让 Codex 通过本地 Bridge 委派、跟进并审查 ZCode 开发任务。",
+      "description": "Let Codex delegate development tasks to your local ZCode runtime and review their progress and results.",
       "version": "1.6.0",
       "category": "Development & Workflow",
       "author": "Sandy",
@@ -11964,7 +12084,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.131.0",
+      "version": "0.134.0",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -12110,7 +12230,7 @@
       "version": "1.0.0",
       "category": "Tools & Integrations",
       "author": "Ahel Technologies",
-      "repository": "https://github.com/ahel-technologies/ahel",
+      "repository": "https://ahel.ai",
       "license": "MIT",
       "codexPath": "plugins/ahel-technologies/ahel",
       "skills": [],
@@ -12261,9 +12381,9 @@
     {
       "id": "arcmira",
       "name": "arcmira",
-      "displayName": "Arcmira: Transcript Search",
-      "description": "Find timestamped quotes, speakers, sponsors and recommendations in YouTube and podcast transcripts.",
-      "version": "0.10.7",
+      "displayName": "Arcmira: YouTube Transcript Search",
+      "description": "YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers.",
+      "version": "0.10.11",
       "category": "Tools & Integrations",
       "author": "Arcmira",
       "repository": "https://github.com/arcmira/mcp",
@@ -12283,16 +12403,36 @@
           "path": "plugins/arcmira/mcp/skills/arcmira/SKILL.md"
         },
         {
+          "name": "what-did-they-say",
+          "path": "plugins/arcmira/mcp/skills/what-did-they-say/SKILL.md"
+        },
+        {
           "name": "person-research",
           "path": "plugins/arcmira/mcp/skills/person-research/SKILL.md"
+        },
+        {
+          "name": "podcast-transcript-search",
+          "path": "plugins/arcmira/mcp/skills/podcast-transcript-search/SKILL.md"
+        },
+        {
+          "name": "youtube-clip-finder",
+          "path": "plugins/arcmira/mcp/skills/youtube-clip-finder/SKILL.md"
         },
         {
           "name": "sponsor-research",
           "path": "plugins/arcmira/mcp/skills/sponsor-research/SKILL.md"
         },
         {
+          "name": "youtube-transcript-search",
+          "path": "plugins/arcmira/mcp/skills/youtube-transcript-search/SKILL.md"
+        },
+        {
           "name": "company-watch",
           "path": "plugins/arcmira/mcp/skills/company-watch/SKILL.md"
+        },
+        {
+          "name": "brand-mention-monitoring",
+          "path": "plugins/arcmira/mcp/skills/brand-mention-monitoring/SKILL.md"
         }
       ],
       "mcpServers": [
@@ -12411,7 +12551,7 @@
       "id": "babeldoc-pdf-translate",
       "name": "babeldoc-pdf-translate",
       "displayName": "BabelDOC PDF Translate",
-      "description": "Layout-preserving PDF translation with bilingual output, custom terminology and a configurable translation provider.",
+      "description": "Layout-preserving PDF translation with BabelDOC, bilingual output and custom terminology.",
       "version": "1.5.0-rc.28",
       "category": "Tools & Integrations",
       "author": "reliable-ly0411",
@@ -12440,8 +12580,8 @@
       "id": "bankbridge",
       "name": "bankbridge",
       "displayName": "BankBridge",
-      "description": "Ask Codex about your own money: read-only access to your US bank, credit card and investment accounts through the BankBridge remote MCP server, fetched live on every question.",
-      "version": "0.5.0",
+      "description": "Works in any MCP agent, including local models. Read-only access to your own US bank, credit card and investment accounts through the BankBridge hosted MCP server, $5/mo per connected bank. Includes a skill that maps money questions to the right tool.",
+      "version": "0.5.3",
       "category": "Tools & Integrations",
       "author": "Great Work LLC",
       "repository": "https://github.com/bankbridge-money/bankbridge-plugin",
@@ -12561,7 +12701,7 @@
       "name": "bowmark",
       "displayName": "Bowmark",
       "description": "The web as callable functions: search flights across several aggregators, price a part across retailers, and other tasks that only exist behind a live site. The agent reads a typed function library, writes a short script, and Bowmark runs it on the real sites. Bundles the bowmark skill and auto-wires the hosted MCP server.",
-      "version": "4.33.0",
+      "version": "4.34.0",
       "category": "Tools & Integrations",
       "author": "Bowmark AI",
       "repository": "https://github.com/bowmark-ai/plugin",
@@ -12657,8 +12797,8 @@
       "id": "bulktranscripts",
       "name": "bulktranscripts",
       "displayName": "BulkTranscripts: YouTube Transcripts",
-      "description": "YouTube transcripts for one video, a whole channel or a playlist, plus YouTube search and free new-upload tracking.",
-      "version": "1.2.0",
+      "description": "YouTube transcripts for one video, a whole channel or a playlist, plus YouTube search and free new-upload tracking, from the hosted BulkTranscripts MCP server.",
+      "version": "1.1.0",
       "category": "Tools & Integrations",
       "author": "BulkTranscripts",
       "repository": "https://github.com/pratie/bulktranscripts-mcp",
@@ -13384,7 +13524,7 @@
     {
       "id": "cohesivity",
       "name": "cohesivity",
-      "displayName": "Cohesivity",
+      "displayName": "cohesivity",
       "description": "Cohesivity backend infrastructure skill with local project bootstrap and a public remote MCP for documentation and management, with optional account OAuth.",
       "version": "5.1.0",
       "category": "Tools & Integrations",
@@ -13410,7 +13550,7 @@
       "id": "cometchat-skills",
       "name": "cometchat-skills",
       "displayName": "CometChat",
-      "description": "CometChat AI-coding skills — add real-time chat, voice/video calling and push to React, Angular, React Native, iOS, Android and Flutter apps, with the CometChat Docs MCP for always-current docs.",
+      "description": "CometChat AI-coding skills — add real-time chat, voice/video calling and push to your app via your AI coding agent, across React v7, Angular v5, React Native v5, Android v6 (Kotlin/Compose), iOS v5 (Swift/UIKit, SPM) and Flutter v6, plus headless Calls SDK skills. Ships the first-party CometChat Docs MCP so skills read always-current docs.",
       "version": "5.1.0",
       "category": "Tools & Integrations",
       "author": "CometChat",
@@ -14121,7 +14261,7 @@
       "id": "deja-vu",
       "name": "deja-vu",
       "displayName": "deja-vu",
-      "description": "deja-vu memory for Codex: your own past sessions, from every coding agent on the machine, recalled before you ask.",
+      "description": "deja-vu: memory for coding agents from the sessions already on your disk — Claude Code, Codex, Cursor, opencode and thirty-nine more — including work from before it was installed.",
       "version": "0.24.0",
       "category": "Tools & Integrations",
       "author": "vshulcz",
@@ -14132,6 +14272,14 @@
         {
           "name": "deja-history",
           "path": "plugins/vshulcz/deja-vu/skills/deja-history/SKILL.md"
+        },
+        {
+          "name": "deja-reflect",
+          "path": "plugins/vshulcz/deja-vu/skills/deja-reflect/SKILL.md"
+        },
+        {
+          "name": "deja-search",
+          "path": "plugins/vshulcz/deja-vu/skills/deja-search/SKILL.md"
         }
       ],
       "mcpServers": [
@@ -14268,8 +14416,8 @@
       "id": "digital-marketing-pro",
       "name": "digital-marketing-pro",
       "displayName": "Digital Marketing Pro",
-      "description": "Open-source AI marketing plugin for agencies & in-house teams — 164 skills, 24 agents, 12-Part Strategy Flow, Cowork team-persistent, EU AI Act Article 50 ready. Runs on Claude Code, Codex, Cursor, Copilot CLI, Antigravity, Hermes Agent, OpenClaw, Grok + 35+ more Agent Skills platforms.",
-      "version": "3.41.0",
+      "description": "Complete digital marketing operating system — 164 skills and 24 agents covering strategy, content, SEO/AEO, paid media, analytics, and compliance.",
+      "version": "3.42.0",
       "category": "Tools & Integrations",
       "author": "Indranil Banerjee",
       "repository": "https://github.com/indranilbanerjee/digital-marketing-pro",
@@ -14945,7 +15093,7 @@
       "id": "dodopayments",
       "name": "dodopayments",
       "displayName": "Dodo Payments",
-      "description": "Dodo Payments tools for Codex: integration skills + API/docs MCP servers.",
+      "description": "Dodo Payments tools for AI coding agents, including integration agent skills and the Dodo Payments API and docs MCP servers.",
       "version": "0.7.0",
       "category": "Tools & Integrations",
       "author": "Dodo Payments",
@@ -15068,7 +15216,7 @@
       "id": "dropthehassle",
       "name": "dropthehassle",
       "displayName": "DropTheHassle",
-      "description": "Your AI publishes a site to a free HTTPS link or your own .com. It never pays.",
+      "description": "Your AI can deploy a website to a free HTTPS link, buy a domain for it (.com €19 / $19 a year) and set up email on my domain. You pay; it never does.",
       "version": "1.0.5",
       "category": "Tools & Integrations",
       "author": "DropTheHassle",
@@ -15097,14 +15245,12 @@
           "path": "plugins/bosmdavid-gif/dropthehassle-skill/skills/custom-domain/SKILL.md"
         }
       ],
-      "mcpServers": [
-        "dropthehassle"
-      ],
+      "mcpServers": [],
       "tools": {
         "codex": true,
         "claude": true,
         "dsh": true,
-        "mcp": true
+        "mcp": false
       }
     },
     {
@@ -15183,7 +15329,7 @@
       "id": "equibles",
       "name": "equibles",
       "displayName": "Equibles",
-      "description": "US stock market research through the hosted Equibles MCP server: SEC filings with full-text search, XBRL financial statements, earnings call transcripts, insider and congressional trades, 13F institutional holdings, short interest, prices, options and macroeconomic data.",
+      "description": "Financial research with SEC filings, company financials, institutional holdings, earnings calls, prices, options, and macroeconomic data.",
       "version": "1.0.1",
       "category": "Tools & Integrations",
       "author": "Equibles",
@@ -15579,7 +15725,7 @@
       "id": "frugal",
       "name": "frugal",
       "displayName": "Frugal",
-      "description": "Before anything is bought, subscribed to or upgraded, find free tiers, the right plan, startup, student and open-source programs, verified promo codes and cheaper alternatives.",
+      "description": "Before your agent signs up for a paid API, LLM model, cloud service, SaaS plan, domain or anything else that costs money, it checks free tiers, right-sized plans and billing periods, startup, student, open-source and nonprofit programs, verified promo codes and cheaper alternatives, sized to the amount at stake. It never pays by itself.",
       "version": "1.0.2",
       "category": "Tools & Integrations",
       "author": "Nir Feinstein",
@@ -16123,7 +16269,7 @@
       "id": "kin",
       "name": "kin",
       "displayName": "Kin",
-      "description": "Use your accounts from Codex through Kin, even two of one service, each with its own rule per action: Allow, Ask me or Block.",
+      "description": "Use your accounts from your AI apps through Kin, even two of one service, each with its own rule per action: Allow, Ask me or Block.",
       "version": "0.9.0",
       "category": "Tools & Integrations",
       "author": "Kin Computing, Inc.",
@@ -16470,8 +16616,8 @@
       "id": "liendeadline",
       "name": "liendeadline",
       "displayName": "LienDeadline",
-      "description": "Jurisdiction-specific supplier notice and mechanics lien baselines with live discovery for the exact project scope. Calculations require a customer API key and use plan allowance; statute-cited guides for all 50 states and DC remain public.",
-      "version": "1.4.5",
+      "description": "Supplier notice and mechanics lien baselines for reviewed private scopes across all 50 states and DC. Live discovery checks the exact project scope. A customer API key is required; completed calculations use plan allowance. State guides are public.",
+      "version": "1.4.6",
       "category": "Tools & Integrations",
       "author": "LienDeadline",
       "repository": "https://github.com/LienDeadline/skills",
@@ -16568,7 +16714,7 @@
       "id": "linkmcp",
       "name": "linkmcp",
       "displayName": "LinkMCP",
-      "description": "Your own LinkedIn account in Codex: profile and company lookups, people and Sales Navigator search, inbox, posts, company pages, connection requests and work email finding, through the hosted LinkMCP server.",
+      "description": "Your own LinkedIn account in your AI agent: the hosted LinkMCP server and 7 skills for prospect lists with work emails, hiring signal leads, candidate shortlists, prospect search, call prep briefs, lead lists from post engagement and inbox follow-ups. Three skills can send a LinkedIn message or invitation, and only after you approve its exact text.",
       "version": "1.3.0",
       "category": "Tools & Integrations",
       "author": "LinkMCP",
@@ -16619,21 +16765,30 @@
       "id": "llmslim",
       "name": "llmslim",
       "displayName": "LLMSlim",
-      "description": "Long-term memory with no LLM in the loop: stores messages word for word in local SQLite and recalls the ones that answer a question within a token budget.",
+      "description": "Long-term memory with no LLM in the loop: a local MCP server stores messages word for word in SQLite and recalls the ones that answer a question within a token budget.",
       "version": "0.12.0",
       "category": "Tools & Integrations",
       "author": "Yashvardhan Thanvi",
       "repository": "https://github.com/Thanatos9404/llmslim",
       "license": "MIT",
       "codexPath": "plugins/Thanatos9404/llmslim",
-      "skills": [],
+      "skills": [
+        {
+          "name": "savings",
+          "path": "plugins/Thanatos9404/llmslim/skills/savings/SKILL.md"
+        },
+        {
+          "name": "wrap-claude",
+          "path": "plugins/Thanatos9404/llmslim/skills/wrap-claude/SKILL.md"
+        }
+      ],
       "mcpServers": [
         "llmslim"
       ],
       "tools": {
         "codex": true,
-        "claude": false,
-        "dsh": false,
+        "claude": true,
+        "dsh": true,
         "mcp": true
       }
     },
@@ -16807,7 +16962,7 @@
       "id": "lurkapi",
       "name": "lurkapi",
       "displayName": "LurkAPI",
-      "description": "Social media research skills and the LurkAPI MCP server: public profiles, posts, comments, transcripts and ads from TikTok, Instagram, YouTube, Reddit, X (Twitter), the Facebook Ad Library, LinkedIn and more as clean JSON, and whole jobs like a brand lurk, an ad library teardown, Reddit research or creator vetting. Paid per call, with 100 free credits at signup.",
+      "description": "Social media research skills and the LurkAPI MCP server: public profiles, posts, comments, transcripts and ads from TikTok, Instagram, YouTube, Reddit, X, LinkedIn and more, as JSON. Paid per call, with 100 free credits at signup.",
       "version": "1.4.0",
       "category": "Tools & Integrations",
       "author": "Mesmer s.r.o.",
@@ -17064,7 +17219,7 @@
       "id": "metamask-agent-wallet",
       "name": "metamask-agent-wallet",
       "displayName": "MetaMask Agent Wallet",
-      "description": "MetaMask Agent Wallet skills and session-start readiness for the mm CLI — auth, wallets, swaps, bridges, perps, prediction markets, and earn.",
+      "description": "MetaMask Agent Wallet skills for the mm CLI — auth, wallets, swaps, bridges, perps, prediction markets, and earn.",
       "version": "1.0.0",
       "category": "Tools & Integrations",
       "author": "MetaMask",
@@ -17093,8 +17248,8 @@
       "version": "1.0.3",
       "category": "Tools & Integrations",
       "author": "Metis Foundry",
-      "repository": "https://github.com/MetisFoundry/metis-plugins",
-      "license": "LicenseRef-Proprietary",
+      "repository": "https://metisfoundry.com",
+      "license": "Proprietary",
       "codexPath": "plugins/MetisFoundry/metis-plugins",
       "skills": [
         {
@@ -17120,7 +17275,7 @@
       "id": "mnemoverse",
       "name": "mnemoverse",
       "displayName": "Mnemoverse Memory",
-      "description": "Persistent memory for AI agents, shared across tools. Connects the hosted Mnemoverse memory server over MCP with a one-time OAuth sign-in: recall relevant memories before acting, save durable decisions and corrections, keep shared rooms (beta) across accounts. Bundles the CC0 agent-memory-discipline skill so the agent actually uses the memory it has.",
+      "description": "Persistent memory for AI agents, shared across tools. Connects the hosted Mnemoverse memory server over remote MCP with a one-time browser sign-in: recall relevant memories before acting, save durable decisions and corrections, keep shared rooms (beta) across accounts. Bundles the CC0 agent-memory-discipline skill so the agent actually uses the memory it has.",
       "version": "1.0.3",
       "category": "Tools & Integrations",
       "author": "Mnemoverse",
@@ -17321,7 +17476,7 @@
       "id": "notfair",
       "name": "notfair",
       "displayName": "NotFair",
-      "description": "The official ads, analytics, SEO, and GEO plugin from NotFair.",
+      "description": "Operate Google, Meta, X, LinkedIn, Reddit, and TikTok Ads plus GA4, Search Console, GoHighLevel, and WordPress through one OAuth MCP, and run open-source SEO, GEO, and content workflows.",
       "version": "0.27.18",
       "category": "Tools & Integrations",
       "author": "NotFair",
@@ -17638,7 +17793,7 @@
       "name": "openproject-codex",
       "displayName": "OpenProject Codex",
       "description": "Codex plugin for managing OpenProject work, teams, content, and bulk workflows through the OpenProject API.",
-      "version": "0.1.1+codex.20260629040058",
+      "version": "0.1.1+codex.20260626220500",
       "category": "Tools & Integrations",
       "author": "OpenProject Codex Contributors",
       "repository": "https://github.com/varaprasadreddy9676/openproject-codex-plugin",
@@ -18032,8 +18187,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1920+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.29.0",
+      "description": "Pronounce developer jargon out loud — 1927+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.31.0",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",
@@ -18092,6 +18247,43 @@
         "codex": true,
         "claude": false,
         "dsh": false,
+        "mcp": false
+      }
+    },
+    {
+      "id": "questionpunk",
+      "name": "questionpunk",
+      "displayName": "QuestionPunk",
+      "description": "Create and review survey drafts, publish requested studies, and analyze authorized QuestionPunk results.",
+      "version": "1.1.0",
+      "category": "Tools & Integrations",
+      "author": "QuestionPunk",
+      "repository": "https://github.com/questionpunk/codex-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/questionpunk/codex-plugin",
+      "skills": [
+        {
+          "name": "analyze-results",
+          "path": "plugins/questionpunk/codex-plugin/skills/analyze-results/SKILL.md"
+        },
+        {
+          "name": "review-study",
+          "path": "plugins/questionpunk/codex-plugin/skills/review-study/SKILL.md"
+        },
+        {
+          "name": "create-study",
+          "path": "plugins/questionpunk/codex-plugin/skills/create-study/SKILL.md"
+        },
+        {
+          "name": "manage-study",
+          "path": "plugins/questionpunk/codex-plugin/skills/manage-study/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
         "mcp": false
       }
     },
@@ -18213,12 +18405,21 @@
       "repository": "https://github.com/olegvg/resume-tailor-plugin",
       "license": "MIT",
       "codexPath": "plugins/olegvg/resume-tailor-plugin",
-      "skills": [],
+      "skills": [
+        {
+          "name": "onboarding",
+          "path": "plugins/olegvg/resume-tailor-plugin/skills/onboarding/SKILL.md"
+        },
+        {
+          "name": "resume-tailor",
+          "path": "plugins/olegvg/resume-tailor-plugin/skills/resume-tailor/SKILL.md"
+        }
+      ],
       "mcpServers": [],
       "tools": {
         "codex": true,
-        "claude": false,
-        "dsh": false,
+        "claude": true,
+        "dsh": true,
         "mcp": false
       }
     },
@@ -18226,7 +18427,7 @@
       "id": "revid",
       "name": "revid",
       "displayName": "Revid",
-      "description": "Research what goes viral, make finished short-form videos (voice, captions, music, AI footage) and post them to TikTok, YouTube, Instagram and X.",
+      "description": "Research what goes viral, make finished short-form videos (voice, captions, music, AI footage) and post them to TikTok, YouTube, Instagram and X with the hosted Revid MCP server and 12 skills.",
       "version": "1.0.1",
       "category": "Tools & Integrations",
       "author": "Revid",
@@ -18257,6 +18458,10 @@
         {
           "name": "revid-news-to-daily-short",
           "path": "plugins/tmakersas/revid-skills/skills/revid-news-to-daily-short/SKILL.md"
+        },
+        {
+          "name": "revid",
+          "path": "plugins/tmakersas/revid-skills/skills/revid/SKILL.md"
         },
         {
           "name": "revid-api-foundations",
@@ -18312,6 +18517,89 @@
       ],
       "mcpServers": [
         "roomcomm"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "ru-marketplace-mcp",
+      "name": "ru-marketplace-mcp",
+      "displayName": "ru-marketplace-mcp",
+      "description": "Двенадцать площадок РФ и Китая (Wildberries, Ozon, Яндекс Маркет, Авито, Циан, AliExpress, Taobao, Детский мир, Мегамаркет, Lamoda, DNS, Ситилинк) как MCP-серверы и 15 навыков. Сравнение цен без ключей API.",
+      "version": "2.9.1",
+      "category": "Tools & Integrations",
+      "author": "Vladimir-Human",
+      "repository": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
+      "license": "MIT",
+      "codexPath": "plugins/Vladimir-Human/ru-marketplace-mcp",
+      "skills": [
+        {
+          "name": "taobao-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/taobao-connector/SKILL.md"
+        },
+        {
+          "name": "lamoda-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/lamoda-connector/SKILL.md"
+        },
+        {
+          "name": "aliexpress-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/aliexpress-connector/SKILL.md"
+        },
+        {
+          "name": "compare-prices",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/compare-prices/SKILL.md"
+        },
+        {
+          "name": "marketplace",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/marketplace/SKILL.md"
+        },
+        {
+          "name": "citilink-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/citilink-connector/SKILL.md"
+        },
+        {
+          "name": "yandex-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/yandex-connector/SKILL.md"
+        },
+        {
+          "name": "wb-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/wb-connector/SKILL.md"
+        },
+        {
+          "name": "dns-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/dns-connector/SKILL.md"
+        },
+        {
+          "name": "mpstats-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/mpstats-connector/SKILL.md"
+        },
+        {
+          "name": "cian-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/cian-connector/SKILL.md"
+        },
+        {
+          "name": "detmir-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/detmir-connector/SKILL.md"
+        },
+        {
+          "name": "ozon-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/ozon-connector/SKILL.md"
+        },
+        {
+          "name": "avito-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/avito-connector/SKILL.md"
+        },
+        {
+          "name": "megamarket-connector",
+          "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/megamarket-connector/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "marketplace"
       ],
       "tools": {
         "codex": true,
@@ -18638,7 +18926,7 @@
       "id": "sendsets",
       "name": "sendsets",
       "displayName": "Sendsets",
-      "description": "Cold email for AI agents: connect and warm up sending mailboxes, turn a lead list into an outbound sequence, send a test, launch, and read and answer replies.",
+      "description": "Cold email for AI agents: the Sendsets MCP server plus skills for sending cold email sequences and running outbound campaigns.",
       "version": "1.0.0",
       "category": "Tools & Integrations",
       "author": "Sendsets",
@@ -19061,7 +19349,7 @@
       "id": "swarmmemo",
       "name": "swarmmemo",
       "displayName": "SwarmMemo",
-      "description": "Talk with agent swarms. With this plugin your assistant asks public questions and collects the answers, holds private conversations through a hosted identity, screens text before acting on it, and keeps notes between runs. Public posts are permanent. No payment tools.",
+      "description": "Talk with agent swarms. With this plugin your assistant asks public questions and collects the answers, holds private conversations through a hosted identity, finds paid tasks, and keeps notes between runs. Public posts are permanent. No payment tools.",
       "version": "1.0.2",
       "category": "Tools & Integrations",
       "author": "Hugo Montenegro",
@@ -20323,7 +20611,7 @@
       "id": "x-twitter-scraper",
       "name": "x-twitter-scraper",
       "displayName": "X Twitter Scraper",
-      "description": "Xquik is the world's fastest and cheapest X Twitter scraper service with the most complete X data. Use REST, MCP, SDKs, webhooks & exports. Not affiliated with X Corp.",
+      "description": "Skill for Xquik, the world's fastest and cheapest X Twitter scraper service with the most complete X data. Covers REST, MCP, webhooks, exports, and connected X account actions. Not affiliated with X Corp.",
       "version": "2.8.0",
       "category": "Tools & Integrations",
       "author": "Xquik",

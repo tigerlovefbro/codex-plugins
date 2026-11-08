@@ -1121,6 +1121,11 @@
   },
   {
     "plugin": "claude-octopus",
+    "skill": "skill-refine",
+    "path": "plugins/nyldn/claude-octopus/skills/skill-refine/SKILL.md"
+  },
+  {
+    "plugin": "claude-octopus",
     "skill": "octopus-quick",
     "path": "plugins/nyldn/claude-octopus/skills/octopus-quick/SKILL.md"
   },
@@ -1718,6 +1723,11 @@
     "plugin": "deepseek-minimal-anchor",
     "skill": "minimal-anchor",
     "path": "plugins/hccccc01333/codex-deepseek-mini-router/plugins/deepseek-minimal-anchor/skills/minimal-anchor/SKILL.md"
+  },
+  {
+    "plugin": "delx-recovery",
+    "skill": "delx-recovery-first-hour",
+    "path": "plugins/davidmosiah/delx-plugins/skills/delx-recovery-first-hour/SKILL.md"
   },
   {
     "plugin": "design-helper",
@@ -2985,12 +2995,12 @@
     "path": "plugins/NotNull92/hera-agent-unity/skills/live-editor/SKILL.md"
   },
   {
-    "plugin": "hol-guard-plugin",
+    "plugin": "hol-guard",
     "skill": "hol-guard",
     "path": "plugins/hashgraph-online/hol-guard-plugin/skills/hol-guard/SKILL.md"
   },
   {
-    "plugin": "hol-guard-plugin",
+    "plugin": "hol-guard",
     "skill": "plugin-scanner",
     "path": "plugins/hashgraph-online/hol-guard-plugin/skills/plugin-scanner/SKILL.md"
   },
@@ -3220,6 +3230,116 @@
     "path": "plugins/yimwoo/hotl-plugin/skills/pr-reviewing/SKILL.md"
   },
   {
+    "plugin": "hypercore",
+    "skill": "hyper-skill",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-skill/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-database",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-database/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-decision",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-decision/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-research",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-research/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-architecture",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-architecture/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-seo",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-seo/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-issue",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-issue/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-deploy",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-deploy/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-feedback",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-feedback/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-documentation",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-documentation/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-google-analytics",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-google-analytics/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-plan",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-plan/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-imagegen",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-imagegen/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-google-tagmanager",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-google-tagmanager/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-execute",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-execute/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-git",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-git/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-browsing",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-browsing/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-mass",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-mass/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-mcp",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-mcp/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-design",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-design/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-prd",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-prd/SKILL.md"
+  },
+  {
     "plugin": "sirv-media-skills",
     "skill": "sirv-api",
     "path": "plugins/IgorVaryvoda/image-optimization-skill/skills/sirv-api/SKILL.md"
@@ -3268,6 +3388,11 @@
     "plugin": "keep-mac-awake",
     "skill": "keepmacawake",
     "path": "plugins/bartdudzic/keepmacawake/skills/keepmacawake/SKILL.md"
+  },
+  {
+    "plugin": "keep-mac-awake",
+    "skill": "keep-mac-awake",
+    "path": "plugins/bartdudzic/keepmacawake/skills/keep-mac-awake/SKILL.md"
   },
   {
     "plugin": "kernel",
@@ -8790,27 +8915,27 @@
     "path": "plugins/TerminallyLazy/tree-ring-memory-codex-plugin/skills/tree-ring-memory/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "image-to-ui",
     "path": "plugins/uizze/uizze/skills/image-to-ui/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "anti-ui-slop",
     "path": "plugins/uizze/uizze/skills/anti-ui-slop/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "ui-design",
     "path": "plugins/uizze/uizze/skills/ui-design/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "uizze-ui",
     "path": "plugins/uizze/uizze/skills/uizze-ui/SKILL.md"
   },
   {
-    "plugin": "uizze",
+    "plugin": "uizze-ui-slop",
     "skill": "ui-radar",
     "path": "plugins/uizze/uizze/skills/ui-radar/SKILL.md"
   },
@@ -9856,8 +9981,23 @@
   },
   {
     "plugin": "arcmira",
+    "skill": "what-did-they-say",
+    "path": "plugins/arcmira/mcp/skills/what-did-they-say/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
     "skill": "person-research",
     "path": "plugins/arcmira/mcp/skills/person-research/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
+    "skill": "podcast-transcript-search",
+    "path": "plugins/arcmira/mcp/skills/podcast-transcript-search/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
+    "skill": "youtube-clip-finder",
+    "path": "plugins/arcmira/mcp/skills/youtube-clip-finder/SKILL.md"
   },
   {
     "plugin": "arcmira",
@@ -9866,8 +10006,18 @@
   },
   {
     "plugin": "arcmira",
+    "skill": "youtube-transcript-search",
+    "path": "plugins/arcmira/mcp/skills/youtube-transcript-search/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
     "skill": "company-watch",
     "path": "plugins/arcmira/mcp/skills/company-watch/SKILL.md"
+  },
+  {
+    "plugin": "arcmira",
+    "skill": "brand-mention-monitoring",
+    "path": "plugins/arcmira/mcp/skills/brand-mention-monitoring/SKILL.md"
   },
   {
     "plugin": "autocad-tianzheng-tools",
@@ -10958,6 +11108,16 @@
     "plugin": "deja-vu",
     "skill": "deja-history",
     "path": "plugins/vshulcz/deja-vu/skills/deja-history/SKILL.md"
+  },
+  {
+    "plugin": "deja-vu",
+    "skill": "deja-reflect",
+    "path": "plugins/vshulcz/deja-vu/skills/deja-reflect/SKILL.md"
+  },
+  {
+    "plugin": "deja-vu",
+    "skill": "deja-search",
+    "path": "plugins/vshulcz/deja-vu/skills/deja-search/SKILL.md"
   },
   {
     "plugin": "design-os-3d-blender",
@@ -12905,6 +13065,16 @@
     "path": "plugins/linkmcp-io/linkmcp/skills/linkedin-candidate-shortlist/SKILL.md"
   },
   {
+    "plugin": "llmslim",
+    "skill": "savings",
+    "path": "plugins/Thanatos9404/llmslim/skills/savings/SKILL.md"
+  },
+  {
+    "plugin": "llmslim",
+    "skill": "wrap-claude",
+    "path": "plugins/Thanatos9404/llmslim/skills/wrap-claude/SKILL.md"
+  },
+  {
     "plugin": "local-mcp",
     "skill": "local-mcp-messages",
     "path": "plugins/colibird-ai/local-mcp-releases/skills/local-mcp-messages/SKILL.md"
@@ -13765,6 +13935,26 @@
     "path": "plugins/TODAQmicro/qatom-skill/skills/qatom/SKILL.md"
   },
   {
+    "plugin": "questionpunk",
+    "skill": "analyze-results",
+    "path": "plugins/questionpunk/codex-plugin/skills/analyze-results/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
+    "skill": "review-study",
+    "path": "plugins/questionpunk/codex-plugin/skills/review-study/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
+    "skill": "create-study",
+    "path": "plugins/questionpunk/codex-plugin/skills/create-study/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
+    "skill": "manage-study",
+    "path": "plugins/questionpunk/codex-plugin/skills/manage-study/SKILL.md"
+  },
+  {
     "plugin": "omnimodal",
     "skill": "omnimodal",
     "path": "plugins/ZXY1240/read-image/skills/omnimodal/SKILL.md"
@@ -13783,6 +13973,16 @@
     "plugin": "renhua",
     "skill": "renhua",
     "path": "plugins/jack-reson8/renhua/skills/renhua/SKILL.md"
+  },
+  {
+    "plugin": "resume-tailor",
+    "skill": "onboarding",
+    "path": "plugins/olegvg/resume-tailor-plugin/skills/onboarding/SKILL.md"
+  },
+  {
+    "plugin": "resume-tailor",
+    "skill": "resume-tailor",
+    "path": "plugins/olegvg/resume-tailor-plugin/skills/resume-tailor/SKILL.md"
   },
   {
     "plugin": "revid",
@@ -13813,6 +14013,11 @@
     "plugin": "revid",
     "skill": "revid-news-to-daily-short",
     "path": "plugins/tmakersas/revid-skills/skills/revid-news-to-daily-short/SKILL.md"
+  },
+  {
+    "plugin": "revid",
+    "skill": "revid",
+    "path": "plugins/tmakersas/revid-skills/skills/revid/SKILL.md"
   },
   {
     "plugin": "revid",
@@ -13848,6 +14053,81 @@
     "plugin": "roomcomm",
     "skill": "roomcomm",
     "path": "plugins/kotinder/codex-roomcomm/skills/roomcomm/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "taobao-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/taobao-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "lamoda-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/lamoda-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "aliexpress-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/aliexpress-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "compare-prices",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/compare-prices/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "marketplace",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/marketplace/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "citilink-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/citilink-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "yandex-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/yandex-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "wb-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/wb-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "dns-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/dns-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "mpstats-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/mpstats-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "cian-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/cian-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "detmir-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/detmir-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "ozon-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/ozon-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "avito-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/avito-connector/SKILL.md"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "skill": "megamarket-connector",
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/skills/megamarket-connector/SKILL.md"
   },
   {
     "plugin": "ru-text",

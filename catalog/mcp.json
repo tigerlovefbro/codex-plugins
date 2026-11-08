@@ -129,7 +129,7 @@
     "path": "plugins/ValkyrLabs/GrayMatter/.mcp.json"
   },
   {
-    "plugin": "hol-guard-plugin",
+    "plugin": "hol-guard",
     "servers": [
       "hol-guard"
     ],
@@ -197,13 +197,6 @@
       "memtomem"
     ],
     "path": "plugins/memtomem/memtomem/.mcp.json"
-  },
-  {
-    "plugin": "model-salt",
-    "servers": [
-      "model-salt"
-    ],
-    "path": null
   },
   {
     "plugin": "multi-llm",
@@ -560,13 +553,6 @@
     "path": "plugins/droplinked/droplinked-codex-plugin/.mcp.json"
   },
   {
-    "plugin": "dropthehassle",
-    "servers": [
-      "dropthehassle"
-    ],
-    "path": null
-  },
-  {
     "plugin": "eigenheim-market",
     "servers": [
       "eigenheim-market"
@@ -830,6 +816,13 @@
       "roomcomm"
     ],
     "path": "plugins/kotinder/codex-roomcomm/.mcp.json"
+  },
+  {
+    "plugin": "ru-marketplace-mcp",
+    "servers": [
+      "marketplace"
+    ],
+    "path": "plugins/Vladimir-Human/ru-marketplace-mcp/.mcp.json"
   },
   {
     "plugin": "self-starter",
