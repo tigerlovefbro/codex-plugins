@@ -227,6 +227,13 @@
     "path": "plugins/Suraj1235/open-dynamic-workflows/.mcp.json"
   },
   {
+    "plugin": "plugin-stack",
+    "servers": [
+      "openapps"
+    ],
+    "path": "plugins/theopenapps/plugin-stack/.mcp.json"
+  },
+  {
     "plugin": "rag-reviewer",
     "servers": [
       "reviewer"
@@ -1008,12 +1015,5 @@
       "yandexWordstat"
     ],
     "path": "plugins/nebelov/yandex-direct-for-all/.mcp.json"
-  },
-  {
-    "plugin": "unity-mcp",
-    "servers": [
-      "unity-mcp"
-    ],
-    "path": "plugins/CoplayDev/unity-mcp/.mcp.json"
   }
 ]

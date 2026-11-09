@@ -4453,6 +4453,21 @@
       "icon": "./plugins/magichourhq/skills/assets/logo.svg"
     },
     {
+      "name": "manuwright",
+      "displayName": "ManuWright",
+      "source": {
+        "source": "local",
+        "path": "./plugins/grotyx/Academic_writing_c_claudecode"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "Medical manuscript workflow that blocks drafting without approved plans, checks citations against an evidence ledger and checks reported numbers against results CSV files.",
+      "icon": "./plugins/grotyx/Academic_writing_c_claudecode/assets/icon.png"
+    },
+    {
       "name": "maqami-travel",
       "displayName": "MAQAMI Travel",
       "source": {
@@ -5743,64 +5758,6 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Personal"
-    }
-,
-    {
-      "name": "adams-modeling",
-      "displayName": "Adams Modeling",
-      "source": {
-        "source": "local",
-        "path": "./plugins/personal/adams-modeling"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Personal",
-      "description": "MSC Adams multibody dynamics modeling, simulation, and result post-processing via the Adamspy Python API in headless View batch mode."
-    },
-    {
-      "name": "unity-mcp",
-      "displayName": "Unity MCP",
-      "source": {
-        "source": "local",
-        "path": "./plugins/CoplayDev/unity-mcp"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Tools & Integrations",
-      "description": "Unity 编辑器 MCP 桥接（CoplayDev/unity-mcp，MIT）+ unity-mcp-orchestrator 编排技能：创建/修改 GameObject、编辑脚本、管理场景/Prefab/材质/VFX、跑测试。MCP 侧 uvx mcpforunityserver。"
-    },
-    {
-      "name": "unity-agent-skills",
-      "displayName": "Unity Agent Skills",
-      "source": {
-        "source": "local",
-        "path": "./plugins/gamedev-skills/unity-agent-skills"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Development & Workflow",
-      "description": "8 个 Unity 6.3 LTS 通用开发技能（gamedev-skills/awesome-gamedev-agent-skills，Apache-2.0）：animation、build-pipeline、csharp-scripting、input-system、navmesh、physics、scriptableobjects、tilemap-2d。"
-    }
-,
-    {
-      "name": "tia-portal-openness",
-      "displayName": "TIA Portal Openness",
-      "source": {
-        "source": "local",
-        "path": "./plugins/personal/tia-portal-openness"
-      },
-      "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "ON_INSTALL"
-      },
-      "category": "Personal",
-      "description": "Siemens TIA Portal V21 自动化（Openness）：首选小文老师博途 MCP（node 版，30 工具，破解版 V21 实测可用），打开项目/枚举设备/PLC 块/建 FC·FB/标签/LAD Main/SCL 导入。"
     }
   ]
 }
