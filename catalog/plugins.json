@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-09T10:56:06.355350+00:00",
+    "generatedAt": "2026-11-10T10:47:47.798934+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 389,
-      "with_skills": 356,
-      "with_mcp": 143,
+      "plugins": 393,
+      "with_skills": 360,
+      "with_mcp": 145,
       "codex_only": 19
     },
-    "skillCount": 3125
+    "skillCount": 3141
   },
   "plugins": [
     {
@@ -112,6 +112,45 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "actera",
+      "name": "actera",
+      "displayName": "Actera",
+      "description": "Check Codex tool calls against Actera policies, hold calls that need approval, and report their outcomes",
+      "version": "0.2.5",
+      "category": "Development & Workflow",
+      "author": "Actera",
+      "repository": "https://github.com/Actera-AI/actera-codex",
+      "license": "Apache-2.0",
+      "codexPath": "plugins/Actera-AI/actera-codex",
+      "skills": [
+        {
+          "name": "actera-connect",
+          "path": "plugins/Actera-AI/actera-codex/skills/actera-connect/SKILL.md"
+        },
+        {
+          "name": "actera-mode",
+          "path": "plugins/Actera-AI/actera-codex/skills/actera-mode/SKILL.md"
+        },
+        {
+          "name": "actera-status",
+          "path": "plugins/Actera-AI/actera-codex/skills/actera-status/SKILL.md"
+        },
+        {
+          "name": "actera-disconnect",
+          "path": "plugins/Actera-AI/actera-codex/skills/actera-disconnect/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "actera"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -888,7 +927,7 @@
       "name": "andon",
       "displayName": "Andon",
       "description": "Pull the cord on a false \"done\": a claim-check Stop hook, an auto-orient memory hook, wrap/orient commands and a log-mistake skill.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "category": "Development & Workflow",
       "author": "PrimeFoldTools",
       "repository": "https://github.com/PrimeFoldTools/andon",
@@ -1707,7 +1746,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.18.0",
+      "version": "11.20.0",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -2676,7 +2715,7 @@
       "name": "context-guard",
       "displayName": "Context Guard",
       "description": "Preserve task requirements and verify evidence, scope, surfaces, and multimodal assets across compaction.",
-      "version": "0.16.1",
+      "version": "0.17.1",
       "category": "Development & Workflow",
       "author": "Gerui Lv",
       "repository": "https://github.com/GreenLv/codex-context-guard",
@@ -4230,7 +4269,7 @@
       "name": "codex-goal-progress",
       "displayName": "Goal Progress",
       "description": "Explicitly attach deterministic progress tracking to one native Codex Goal.",
-      "version": "0.3.10",
+      "version": "0.3.11",
       "category": "Development & Workflow",
       "author": "Codex Goal Progress Contributors",
       "repository": "https://github.com/ezra-y/codex-goal-progress",
@@ -4672,6 +4711,10 @@
           "path": "plugins/alpoxdev/hypercore/skills/hyper-research/SKILL.md"
         },
         {
+          "name": "hyper-handoff",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-handoff/SKILL.md"
+        },
+        {
           "name": "hyper",
           "path": "plugins/alpoxdev/hypercore/skills/hyper/SKILL.md"
         },
@@ -4724,6 +4767,10 @@
           "path": "plugins/alpoxdev/hypercore/skills/hyper-execute/SKILL.md"
         },
         {
+          "name": "hyper-frontend",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-frontend/SKILL.md"
+        },
+        {
           "name": "hyper-git",
           "path": "plugins/alpoxdev/hypercore/skills/hyper-git/SKILL.md"
         },
@@ -4732,8 +4779,20 @@
           "path": "plugins/alpoxdev/hypercore/skills/hyper-browsing/SKILL.md"
         },
         {
+          "name": "hyper-debug",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-debug/SKILL.md"
+        },
+        {
           "name": "hyper-mass",
           "path": "plugins/alpoxdev/hypercore/skills/hyper-mass/SKILL.md"
+        },
+        {
+          "name": "hyper-data",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-data/SKILL.md"
+        },
+        {
+          "name": "hyper-loop",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-loop/SKILL.md"
         },
         {
           "name": "hyper-mcp",
@@ -6324,7 +6383,7 @@
       "name": "nightshift",
       "displayName": "Nightshift",
       "description": "Accountable, time-bounded Codex shifts. Hand it your punch list, or let it research the product and ship complete improvements until quitting time. Progress stays on disk through compaction and resume. The morning is reviewable commits or artifact receipts, per-item token usage and time, a shift log, and the decisions that were made. When you are done reviewing the run, archive it dated so the live session stays lean.",
-      "version": "0.32.0",
+      "version": "0.33.0",
       "category": "Development & Workflow",
       "author": "Orwa Mahmoud",
       "repository": "https://github.com/orwa-mahmoud/nightshift",
@@ -6456,7 +6515,7 @@
       "name": "oh-my-openspec",
       "displayName": "oh-my-openspec",
       "description": "OpenSpec multi-agent flow for Codex CLI: $omos-init / $omos-plan / $omos-apply / $omos-retro with seven role subagents and a mechanical openspec_validate MCP gate",
-      "version": "1.16.0",
+      "version": "1.16.1",
       "category": "Development & Workflow",
       "author": "Alexeyco",
       "repository": "https://github.com/alexeyco/oh-my-openspec",
@@ -9158,6 +9217,43 @@
       }
     },
     {
+      "id": "smart-glasses-skills",
+      "name": "smart-glasses-skills",
+      "displayName": "Smart Glasses Skills",
+      "description": "Agent skills for building apps on smart glasses from every major brand: Even Realities G2, Meta Ray-Ban Display, Rokid, Vuzix Z100, audio-only glasses like Ray-Ban Meta, and USB-C display glasses. Pick a target, get text onto the display, handle input and audio, test without hardware, and check what you can publish today.",
+      "version": "1.0.1",
+      "category": "Development & Workflow",
+      "author": "Hinty",
+      "repository": "https://github.com/hinty-eu/smart-glasses-skills",
+      "license": "Apache-2.0",
+      "codexPath": "plugins/hinty-eu/smart-glasses-skills",
+      "skills": [
+        {
+          "name": "smart-glasses-live-captions",
+          "path": "plugins/hinty-eu/smart-glasses-skills/skills/smart-glasses-live-captions/SKILL.md"
+        },
+        {
+          "name": "smart-glasses-rokid",
+          "path": "plugins/hinty-eu/smart-glasses-skills/skills/smart-glasses-rokid/SKILL.md"
+        },
+        {
+          "name": "smart-glasses-vuzix",
+          "path": "plugins/hinty-eu/smart-glasses-skills/skills/smart-glasses-vuzix/SKILL.md"
+        },
+        {
+          "name": "smart-glasses",
+          "path": "plugins/hinty-eu/smart-glasses-skills/skills/smart-glasses/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "sno-station-standalone",
       "name": "sno-station-standalone",
       "displayName": "Sno Station Skills",
@@ -9838,7 +9934,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.24.8",
+      "version": "4.25.0",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -12090,11 +12186,38 @@
       }
     },
     {
+      "id": "admakeai",
+      "name": "admakeai",
+      "displayName": "AdMakeAI",
+      "description": "AI ad generator: design ad creatives and copy, make UGC video ads, research competitors' Meta Ad Library ads, and draft and report on Meta campaigns with the AdMakeAI MCP server.",
+      "version": "1.1.0",
+      "category": "Tools & Integrations",
+      "author": "Mesmer s.r.o.",
+      "repository": "https://github.com/mesmerlord/admakeai-claude-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/mesmerlord/admakeai-claude-plugin",
+      "skills": [
+        {
+          "name": "admakeai-api",
+          "path": "plugins/mesmerlord/admakeai-claude-plugin/skills/admakeai-api/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "admakeai"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "amq-cli",
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.137.0",
+      "version": "0.137.9",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -12686,7 +12809,7 @@
       "name": "bkt",
       "displayName": "Bitbucket CLI",
       "description": "Bitbucket CLI - manage repos, PRs, branches, issues, webhooks, and pipelines for both Data Center and Cloud",
-      "version": "0.37.0",
+      "version": "0.38.1",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/bitbucket-cli",
@@ -12711,7 +12834,7 @@
       "name": "bowmark",
       "displayName": "Bowmark",
       "description": "The web as callable functions: search flights across several aggregators, price a part across retailers, and other tasks that only exist behind a live site. The agent reads a typed function library, writes a short script, and Bowmark runs it on the real sites. Bundles the bowmark skill and auto-wires the hosted MCP server.",
-      "version": "4.34.0",
+      "version": "4.35.0",
       "category": "Tools & Integrations",
       "author": "Bowmark AI",
       "repository": "https://github.com/bowmark-ai/plugin",
@@ -13070,7 +13193,7 @@
       "name": "centricmem-skill",
       "displayName": "CentricMem",
       "description": "Hosted CentricMem librarian: organise and retrieve Markdown memory via host MCP.",
-      "version": "1.0.40",
+      "version": "1.0.41",
       "category": "Tools & Integrations",
       "author": "Dr. Z",
       "repository": "https://github.com/zeyu-j/centricmem-skill",
@@ -14394,7 +14517,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.17.4",
+      "version": "1.17.5",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -15103,8 +15226,8 @@
       "id": "dodopayments",
       "name": "dodopayments",
       "displayName": "Dodo Payments",
-      "description": "Dodo Payments tools for AI coding agents, including integration agent skills and the Dodo Payments API and docs MCP servers.",
-      "version": "0.7.0",
+      "description": "Dodo Payments tools for AI coding agents: the dodo-payments integration skill and the Dodo Payments MCP server.",
+      "version": "0.8.0",
       "category": "Tools & Integrations",
       "author": "Dodo Payments",
       "repository": "https://github.com/dodopayments/dodo-agent-plugin",
@@ -15114,6 +15237,10 @@
         {
           "name": "license-keys",
           "path": "plugins/dodopayments/dodo-agent-plugin/skills/license-keys/SKILL.md"
+        },
+        {
+          "name": "dodo-payments",
+          "path": "plugins/dodopayments/dodo-agent-plugin/skills/dodo-payments/SKILL.md"
         },
         {
           "name": "product-catalog-management",
@@ -15185,8 +15312,7 @@
         }
       ],
       "mcpServers": [
-        "dodopayments-api",
-        "dodo-knowledge"
+        "dodopayments"
       ],
       "tools": {
         "codex": true,
@@ -15428,6 +15554,31 @@
         {
           "name": "exotic-rental-cost",
           "path": "plugins/sergebulaev/exotic-car-rental-skills/skills/exotic-rental-cost/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "fair-value-calculator",
+      "name": "fair-value-calculator",
+      "displayName": "Fair Value Calculator",
+      "description": "Look up fair value, quality score, uptrend and the three buy rules for 40,000+ stocks, compare and screen them, and manage a watchlist.",
+      "version": "1.0.1",
+      "category": "Tools & Integrations",
+      "author": "Fair Value Calculator",
+      "repository": "https://github.com/petz00711/fair-value-calculator-mcp",
+      "license": "CC-BY-4.0",
+      "codexPath": "plugins/petz00711/fair-value-calculator-mcp",
+      "skills": [
+        {
+          "name": "fair-value-calculator",
+          "path": "plugins/petz00711/fair-value-calculator-mcp/skills/fair-value-calculator/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -16044,7 +16195,7 @@
       "name": "jk",
       "displayName": "Jenkins CLI",
       "description": "GitHub CLI-style interface for Jenkins controllers - create multibranch jobs, inspect config.xml, and manage runs, logs, artifacts, credentials, nodes, and queues",
-      "version": "0.0.43",
+      "version": "0.0.45",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/jenkins-cli",
@@ -16602,7 +16753,7 @@
       "name": "launch-film",
       "displayName": "launch-film",
       "description": "A launch film from a website or an App Store page: its real logo, colors, fonts and screens, rendered locally with Chrome and ffmpeg.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "Tools & Integrations",
       "author": "Emin Budak",
       "repository": "https://github.com/EminBudak/launch-film",
@@ -17731,7 +17882,7 @@
       "name": "npmscan",
       "displayName": "NPMScan",
       "description": "Detect malicious, vulnerable, or typosquatted npm packages from a conversation. Search the npm registry, or compare 2-5 candidates side-by-side before adding a new dependency; inspect maintainers, install scripts, and Sigstore publish provenance before installing; audit a whole package.json/lockfile/SBOM/GitHub repo — including transitive dependencies, license compliance, and before/after PR diffs or npm audit output — against OSV.dev / GitHub Security Advisories / NIST NVD (with CISA KEV and FIRST EPSS enrichment); then get a prioritized remediation ranking, concrete incident-response playbooks, a CI-ready PASS/WARN/FAIL merge gate, safer-alternative suggestions, and a generated CycloneDX/SPDX SBOM — via npmscan.com's free, read-only MCP server.",
-      "version": "3.1.2",
+      "version": "3.1.3",
       "category": "Tools & Integrations",
       "author": "BlockHacks.io",
       "repository": "https://github.com/salemalem/npmscan-mcp-plugin",
@@ -17993,7 +18144,7 @@
       "name": "placecall",
       "displayName": "PlaceCall",
       "description": "PlaceCall makes AI phone calls that book, confirm, and reach US businesses. It places a real outbound call and returns a structured outcome plus a full transcript. Sign in on first use, no API key needed.",
-      "version": "6.6.0",
+      "version": "6.6.1",
       "category": "Tools & Integrations",
       "author": "VOYGR",
       "repository": "https://github.com/voygr-tech/placecall",
@@ -18226,8 +18377,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1927+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.32.0",
+      "description": "Pronounce developer jargon out loud — 1932+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.34.0",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",
@@ -19515,7 +19666,7 @@
       "name": "sysknife",
       "displayName": "SysKnife",
       "description": "Linux sysadmin co-pilot as an MCP server: plain-language requests become typed, risk-classified actions that a privileged daemon runs only after out-of-band terminal approval, with an Ed25519-signed audit chain and automatic rollback.",
-      "version": "0.30.0",
+      "version": "0.30.1",
       "category": "Tools & Integrations",
       "author": "LACS Project",
       "repository": "https://github.com/lacs-project/sysknife",
@@ -20382,7 +20533,7 @@
       "name": "voicemoat-skills",
       "displayName": "VoiceMoat Skills",
       "description": "Skills for posting on LinkedIn and Twitter/X: write in your voice, audit a draft before you publish, draft comments that add something, fix a dead opening, read your numbers honestly, and plan the week. They work on their own from what you paste, and can connect to VoiceMoat for a voice profile trained on your own published posts.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "category": "Tools & Integrations",
       "author": "VoiceMoat",
       "repository": "https://github.com/prateeks367/voicemoat-skills",
@@ -20563,7 +20714,7 @@
       "name": "webly",
       "displayName": "Webly",
       "description": "Publish a website, or share files and folders, at a live URL in seconds with no account. The person can claim it, edit it over MCP, and publish drafts they approve.",
-      "version": "0.14.20",
+      "version": "0.14.24",
       "category": "Tools & Integrations",
       "author": "Webly",
       "repository": "https://github.com/Webly-AI/webly-plugin",
@@ -20651,7 +20802,7 @@
       "name": "x-twitter-scraper",
       "displayName": "X Twitter Scraper",
       "description": "Skill for Xquik, the world's fastest and cheapest X Twitter scraper service with the most complete X data. Covers REST, MCP, webhooks, exports, and connected X account actions. Not affiliated with X Corp.",
-      "version": "2.8.0",
+      "version": "2.8.1",
       "category": "Tools & Integrations",
       "author": "Xquik",
       "repository": "https://github.com/Xquik-dev/x-twitter-scraper",

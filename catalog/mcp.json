@@ -1,5 +1,12 @@
 [
   {
+    "plugin": "actera",
+    "servers": [
+      "actera"
+    ],
+    "path": "plugins/Actera-AI/actera-codex/.mcp.json"
+  },
+  {
     "plugin": "agent-deck",
     "servers": [
       "agent-deck"
@@ -339,6 +346,13 @@
     "path": "plugins/Sandyzzx/codex-zcode-bridge/.mcp.json"
   },
   {
+    "plugin": "admakeai",
+    "servers": [
+      "admakeai"
+    ],
+    "path": "plugins/mesmerlord/admakeai-claude-plugin/.mcp.json"
+  },
+  {
     "plugin": "agentmart",
     "servers": [
       "agentmart"
@@ -547,8 +561,7 @@
   {
     "plugin": "dodopayments",
     "servers": [
-      "dodopayments-api",
-      "dodo-knowledge"
+      "dodopayments"
     ],
     "path": "plugins/dodopayments/dodo-agent-plugin/.mcp.json"
   },

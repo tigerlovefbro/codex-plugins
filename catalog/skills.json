@@ -100,6 +100,26 @@
     "path": "plugins/RBraga01/a-team/skills/skill-duplication-audit/SKILL.md"
   },
   {
+    "plugin": "actera",
+    "skill": "actera-connect",
+    "path": "plugins/Actera-AI/actera-codex/skills/actera-connect/SKILL.md"
+  },
+  {
+    "plugin": "actera",
+    "skill": "actera-mode",
+    "path": "plugins/Actera-AI/actera-codex/skills/actera-mode/SKILL.md"
+  },
+  {
+    "plugin": "actera",
+    "skill": "actera-status",
+    "path": "plugins/Actera-AI/actera-codex/skills/actera-status/SKILL.md"
+  },
+  {
+    "plugin": "actera",
+    "skill": "actera-disconnect",
+    "path": "plugins/Actera-AI/actera-codex/skills/actera-disconnect/SKILL.md"
+  },
+  {
     "plugin": "aegis",
     "skill": "long-task-continuation",
     "path": "plugins/GanyuanRan/Aegis/skills/long-task-continuation/SKILL.md"
@@ -3251,6 +3271,11 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-handoff",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-handoff/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper",
     "path": "plugins/alpoxdev/hypercore/skills/hyper/SKILL.md"
   },
@@ -3316,6 +3341,11 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-frontend",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-frontend/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper-git",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-git/SKILL.md"
   },
@@ -3326,8 +3356,23 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-debug",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-debug/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper-mass",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-mass/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-data",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-data/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-loop",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-loop/SKILL.md"
   },
   {
     "plugin": "hypercore",
@@ -7360,6 +7405,26 @@
     "path": "plugins/liuyewang/skill-sync-publisher/skills/skill-sync-publisher/SKILL.md"
   },
   {
+    "plugin": "smart-glasses-skills",
+    "skill": "smart-glasses-live-captions",
+    "path": "plugins/hinty-eu/smart-glasses-skills/skills/smart-glasses-live-captions/SKILL.md"
+  },
+  {
+    "plugin": "smart-glasses-skills",
+    "skill": "smart-glasses-rokid",
+    "path": "plugins/hinty-eu/smart-glasses-skills/skills/smart-glasses-rokid/SKILL.md"
+  },
+  {
+    "plugin": "smart-glasses-skills",
+    "skill": "smart-glasses-vuzix",
+    "path": "plugins/hinty-eu/smart-glasses-skills/skills/smart-glasses-vuzix/SKILL.md"
+  },
+  {
+    "plugin": "smart-glasses-skills",
+    "skill": "smart-glasses",
+    "path": "plugins/hinty-eu/smart-glasses-skills/skills/smart-glasses/SKILL.md"
+  },
+  {
     "plugin": "sno-station-standalone",
     "skill": "e2e-environment-preflight",
     "path": "plugins/sno-ai/sno-station-skills/skills/e2e-environment-preflight/SKILL.md"
@@ -9905,6 +9970,11 @@
     "path": "plugins/kubec/abuzzhive.com/skills/abuzzhive/SKILL.md"
   },
   {
+    "plugin": "admakeai",
+    "skill": "admakeai-api",
+    "path": "plugins/mesmerlord/admakeai-claude-plugin/skills/admakeai-api/SKILL.md"
+  },
+  {
     "plugin": "amq-cli",
     "skill": "amq-spec",
     "path": "plugins/avivsinai/agent-message-queue/skills/amq-spec/SKILL.md"
@@ -12001,6 +12071,11 @@
   },
   {
     "plugin": "dodopayments",
+    "skill": "dodo-payments",
+    "path": "plugins/dodopayments/dodo-agent-plugin/skills/dodo-payments/SKILL.md"
+  },
+  {
+    "plugin": "dodopayments",
     "skill": "product-catalog-management",
     "path": "plugins/dodopayments/dodo-agent-plugin/skills/product-catalog-management/SKILL.md"
   },
@@ -12168,6 +12243,11 @@
     "plugin": "exotic-car-rental-skills",
     "skill": "exotic-rental-cost",
     "path": "plugins/sergebulaev/exotic-car-rental-skills/skills/exotic-rental-cost/SKILL.md"
+  },
+  {
+    "plugin": "fair-value-calculator",
+    "skill": "fair-value-calculator",
+    "path": "plugins/petz00711/fair-value-calculator-mcp/skills/fair-value-calculator/SKILL.md"
   },
   {
     "plugin": "fantasy-football-manager",
