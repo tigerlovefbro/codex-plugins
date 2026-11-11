@@ -617,13 +617,6 @@
     "path": "plugins/host0-ai/skills/.mcp.json"
   },
   {
-    "plugin": "imagera",
-    "servers": [
-      "imagera"
-    ],
-    "path": "plugins/alexadams6ix/imagera-skills/.mcp.json"
-  },
-  {
     "plugin": "kachilu-browser",
     "servers": [
       "kachilu_browser"
@@ -758,6 +751,13 @@
     "path": "plugins/ophis-fi/skills/.mcp.json"
   },
   {
+    "plugin": "option-desk",
+    "servers": [
+      "optiondesk"
+    ],
+    "path": "plugins/Iman/agent-driven-options-desk-and-skills/.mcp.json"
+  },
+  {
     "plugin": "orgx-codex-plugin",
     "servers": [
       "orgx"
@@ -829,6 +829,13 @@
       "revid"
     ],
     "path": "plugins/tmakersas/revid-skills/.mcp.json"
+  },
+  {
+    "plugin": "risk-desk",
+    "servers": [
+      "riskdesk"
+    ],
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/.mcp.json"
   },
   {
     "plugin": "roomcomm",

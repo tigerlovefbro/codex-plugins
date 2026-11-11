@@ -2035,6 +2035,21 @@
     "path": "plugins/prekuter/dryforge/skills/ready/SKILL.md"
   },
   {
+    "plugin": "e2e",
+    "skill": "e2e",
+    "path": "plugins/tester-army/e2e/skills/e2e/SKILL.md"
+  },
+  {
+    "plugin": "e2e",
+    "skill": "migrate-to-e2e",
+    "path": "plugins/tester-army/e2e/skills/migrate-to-e2e/SKILL.md"
+  },
+  {
+    "plugin": "e2e",
+    "skill": "create-verification-skill",
+    "path": "plugins/tester-army/e2e/skills/create-verification-skill/SKILL.md"
+  },
+  {
     "plugin": "emulo",
     "skill": "mine",
     "path": "plugins/ohad6k/emulo/skills/mine/SKILL.md"
@@ -2981,6 +2996,11 @@
   },
   {
     "plugin": "graymatter",
+    "skill": "graymatter-onboarding",
+    "path": "plugins/ValkyrLabs/GrayMatter/skills/graymatter-onboarding/SKILL.md"
+  },
+  {
+    "plugin": "graymatter",
     "skill": "graymatter-memory",
     "path": "plugins/ValkyrLabs/GrayMatter/skills/graymatter-memory/SKILL.md"
   },
@@ -3013,6 +3033,91 @@
     "plugin": "hera-unity",
     "skill": "live-editor",
     "path": "plugins/NotNull92/hera-agent-unity/skills/live-editor/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "skill-forge",
+    "path": "plugins/This-HW/hiway-kit/skills/skill-forge/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "agent-creator",
+    "path": "plugins/This-HW/hiway-kit/skills/agent-creator/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "test",
+    "path": "plugins/This-HW/hiway-kit/skills/test/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "harness-export",
+    "path": "plugins/This-HW/hiway-kit/skills/harness-export/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "plan-task",
+    "path": "plugins/This-HW/hiway-kit/skills/plan-task/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "debug",
+    "path": "plugins/This-HW/hiway-kit/skills/debug/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "child-session",
+    "path": "plugins/This-HW/hiway-kit/skills/child-session/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "web-research",
+    "path": "plugins/This-HW/hiway-kit/skills/web-research/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "multi-perspective-review",
+    "path": "plugins/This-HW/hiway-kit/skills/multi-perspective-review/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "control-loop",
+    "path": "plugins/This-HW/hiway-kit/skills/control-loop/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "code-intel",
+    "path": "plugins/This-HW/hiway-kit/skills/code-intel/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "brainstorming",
+    "path": "plugins/This-HW/hiway-kit/skills/brainstorming/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "auto-dev",
+    "path": "plugins/This-HW/hiway-kit/skills/auto-dev/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "using-hiway-kit",
+    "path": "plugins/This-HW/hiway-kit/skills/using-hiway-kit/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "cross-engine-review",
+    "path": "plugins/This-HW/hiway-kit/skills/cross-engine-review/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "review",
+    "path": "plugins/This-HW/hiway-kit/skills/review/SKILL.md"
+  },
+  {
+    "plugin": "hiway-kit",
+    "skill": "session-history",
+    "path": "plugins/This-HW/hiway-kit/skills/session-history/SKILL.md"
   },
   {
     "plugin": "hol-guard",
@@ -3256,6 +3361,11 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-review",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-review/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper-database",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-database/SKILL.md"
   },
@@ -3263,6 +3373,11 @@
     "plugin": "hypercore",
     "skill": "hyper-decision",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-decision/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-cleanup",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-cleanup/SKILL.md"
   },
   {
     "plugin": "hypercore",
@@ -3328,6 +3443,11 @@
     "plugin": "hypercore",
     "skill": "hyper-imagegen",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-imagegen/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-debate",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-debate/SKILL.md"
   },
   {
     "plugin": "hypercore",
@@ -12515,191 +12635,6 @@
     "path": "plugins/host0-ai/skills/skills/host0/SKILL.md"
   },
   {
-    "plugin": "imagera",
-    "skill": "imagera-product-film-website",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-film-website/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-storyboard-to-shots",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-storyboard-to-shots/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-static-ad-pack",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-static-ad-pack/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-object-id",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-object-id/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-character-id",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-character-id/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-marketing-studio",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-marketing-studio/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-music-video",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-music-video/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-restore-and-upscale",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-restore-and-upscale/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-poster-with-real-text",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-poster-with-real-text/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-brand-studio",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-brand-studio/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-headshot-set",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-headshot-set/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-product-listing-set",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-listing-set/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-ad-variations",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ad-variations/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-journey-website",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-journey-website/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-series-bible",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-series-bible/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-clay-explainer",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-clay-explainer/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-property-id",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-property-id/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-social-set",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-social-set/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-explainer-with-voice",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-explainer-with-voice/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-product-asmr",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-asmr/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-digital-id",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-digital-id/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-title-art",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-title-art/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-podcast-clip-ad",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-podcast-clip-ad/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-carousel-post",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-carousel-post/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-photo-dump",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-photo-dump/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-character-consistency",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-character-consistency/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-location-id",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-location-id/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-ai-director",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ai-director/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-try-on-video",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-try-on-video/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-cinematic-website",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-cinematic-website/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-ugc-talking-review",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-ugc-talking-review/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-influencer-studio",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-influencer-studio/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-photo-to-reel",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-photo-to-reel/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-unboxing-video",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-unboxing-video/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-virtual-try-on",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-virtual-try-on/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-media",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-media/SKILL.md"
-  },
-  {
-    "plugin": "imagera",
-    "skill": "imagera-product-ad-video",
-    "path": "plugins/alexadams6ix/imagera-skills/skills/imagera-product-ad-video/SKILL.md"
-  },
-  {
     "plugin": "jk",
     "skill": "jk",
     "path": "plugins/avivsinai/jenkins-cli/skills/jk/SKILL.md"
@@ -13880,6 +13815,46 @@
     "path": "plugins/ophis-fi/skills/skills/ophis-swap/SKILL.md"
   },
   {
+    "plugin": "option-desk",
+    "skill": "options-lean",
+    "path": "plugins/Iman/agent-driven-options-desk-and-skills/skills/options-lean/SKILL.md"
+  },
+  {
+    "plugin": "option-desk",
+    "skill": "options-pricing",
+    "path": "plugins/Iman/agent-driven-options-desk-and-skills/skills/options-pricing/SKILL.md"
+  },
+  {
+    "plugin": "option-desk",
+    "skill": "options-backtest",
+    "path": "plugins/Iman/agent-driven-options-desk-and-skills/skills/options-backtest/SKILL.md"
+  },
+  {
+    "plugin": "option-desk",
+    "skill": "desk-setup",
+    "path": "plugins/Iman/agent-driven-options-desk-and-skills/skills/desk-setup/SKILL.md"
+  },
+  {
+    "plugin": "option-desk",
+    "skill": "options-strategy",
+    "path": "plugins/Iman/agent-driven-options-desk-and-skills/skills/options-strategy/SKILL.md"
+  },
+  {
+    "plugin": "option-desk",
+    "skill": "options-simulation",
+    "path": "plugins/Iman/agent-driven-options-desk-and-skills/skills/options-simulation/SKILL.md"
+  },
+  {
+    "plugin": "option-desk",
+    "skill": "options-greeks",
+    "path": "plugins/Iman/agent-driven-options-desk-and-skills/skills/options-greeks/SKILL.md"
+  },
+  {
+    "plugin": "option-desk",
+    "skill": "options-positioning",
+    "path": "plugins/Iman/agent-driven-options-desk-and-skills/skills/options-positioning/SKILL.md"
+  },
+  {
     "plugin": "orgx-codex-plugin",
     "skill": "orgx-runtime-reporting",
     "path": "plugins/useorgx/orgx-codex-plugin/skills/orgx-runtime-reporting/SKILL.md"
@@ -14148,6 +14123,76 @@
     "plugin": "revid",
     "skill": "revid-script-with-custom-media",
     "path": "plugins/tmakersas/revid-skills/skills/revid-script-with-custom-media/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-liquidity",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-liquidity/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-credit",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-credit/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-portfolio",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-portfolio/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-derivatives",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-derivatives/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-attribution",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-attribution/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-limits",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-limits/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-xva",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-xva/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-data-import",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-data-import/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-stress",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-stress/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-setup",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-setup/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-backtest",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-backtest/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-frtb",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-frtb/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-counterparty",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-counterparty/SKILL.md"
+  },
+  {
+    "plugin": "risk-desk",
+    "skill": "risk-tail",
+    "path": "plugins/Iman/agent-driven-risk-desk-and-skills/skills/risk-tail/SKILL.md"
   },
   {
     "plugin": "roomcomm",
@@ -15026,6 +15071,11 @@
   },
   {
     "plugin": "varg",
+    "skill": "code-game-trailer",
+    "path": "plugins/vargHQ/skills/code-game-trailer/SKILL.md"
+  },
+  {
+    "plugin": "varg",
     "skill": "gpt-image-gif",
     "path": "plugins/vargHQ/skills/gpt-image-gif/SKILL.md"
   },
@@ -15128,6 +15178,11 @@
     "plugin": "varg",
     "skill": "varg-mascot-jingle-ad",
     "path": "plugins/vargHQ/skills/varg-mascot-jingle-ad/SKILL.md"
+  },
+  {
+    "plugin": "varg",
+    "skill": "code-path-traced-film",
+    "path": "plugins/vargHQ/skills/code-path-traced-film/SKILL.md"
   },
   {
     "plugin": "varg",
@@ -15236,6 +15291,11 @@
   },
   {
     "plugin": "varg",
+    "skill": "code-3d-explainer",
+    "path": "plugins/vargHQ/skills/code-3d-explainer/SKILL.md"
+  },
+  {
+    "plugin": "varg",
     "skill": "video-animate",
     "path": "plugins/vargHQ/skills/video-animate/SKILL.md"
   },
@@ -15256,6 +15316,11 @@
   },
   {
     "plugin": "varg",
+    "skill": "model-split-screen",
+    "path": "plugins/vargHQ/skills/model-split-screen/SKILL.md"
+  },
+  {
+    "plugin": "varg",
     "skill": "threejs-animatic",
     "path": "plugins/vargHQ/skills/threejs-animatic/SKILL.md"
   },
@@ -15273,6 +15338,11 @@
     "plugin": "varg",
     "skill": "gpt-image-markup-edit",
     "path": "plugins/vargHQ/skills/gpt-image-markup-edit/SKILL.md"
+  },
+  {
+    "plugin": "varg",
+    "skill": "blender-code-film",
+    "path": "plugins/vargHQ/skills/blender-code-film/SKILL.md"
   },
   {
     "plugin": "vidseeds",
@@ -15683,6 +15753,11 @@
     "plugin": "youtube-skills",
     "skill": "subtitles",
     "path": "plugins/ZeroPointRepo/youtube-skills/skills/subtitles/SKILL.md"
+  },
+  {
+    "plugin": "zenifra",
+    "skill": "zenifra",
+    "path": "plugins/zenifra/zenifra-codex-plugin/skills/zenifra/SKILL.md"
   },
   {
     "plugin": "zotero-research-tools",
