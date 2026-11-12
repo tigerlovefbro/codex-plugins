@@ -7976,6 +7976,11 @@
   },
   {
     "plugin": "suede-skills",
+    "skill": "suede-reverse-engineer-anyone",
+    "path": "plugins/JasonColapietro/suede-creator-skills/skills/suede-reverse-engineer-anyone/SKILL.md"
+  },
+  {
+    "plugin": "suede-skills",
     "skill": "suede-onboarding",
     "path": "plugins/JasonColapietro/suede-creator-skills/skills/suede-onboarding/SKILL.md"
   },
@@ -14510,6 +14515,16 @@
     "path": "plugins/phnx-labs/svatlas-mcp/skills/find-customers/SKILL.md"
   },
   {
+    "plugin": "sofya",
+    "skill": "sofya-search",
+    "path": "plugins/sofya-co/sofya-mcp/skills/sofya-search/SKILL.md"
+  },
+  {
+    "plugin": "sofya",
+    "skill": "sofya-research",
+    "path": "plugins/sofya-co/sofya-mcp/skills/sofya-research/SKILL.md"
+  },
+  {
     "plugin": "solidping",
     "skill": "solidping-monitoring",
     "path": "plugins/fclairamb/solidping-plugin/skills/solidping-monitoring/SKILL.md"
@@ -14663,6 +14678,16 @@
     "plugin": "storyflo-codex-plugin",
     "skill": "storyflo",
     "path": "plugins/droplinked/storyflo-codex-plugin/skills/storyflo/SKILL.md"
+  },
+  {
+    "plugin": "stupidmirror",
+    "skill": "stupidmirror-device-use",
+    "path": "plugins/LiuTianjie/StupidMirror/skills/stupidmirror-device-use/SKILL.md"
+  },
+  {
+    "plugin": "stupidmirror",
+    "skill": "stupidmirror-setup",
+    "path": "plugins/LiuTianjie/StupidMirror/skills/stupidmirror-setup/SKILL.md"
   },
   {
     "plugin": "swapwallet",
@@ -14843,11 +14868,6 @@
     "plugin": "tokenchronicle",
     "skill": "tokenchronicle-setup",
     "path": "plugins/HuaHuiJian/tokenchronicle-marketplace/skills/tokenchronicle-setup/SKILL.md"
-  },
-  {
-    "plugin": "tokrepo-search",
-    "skill": "tokrepo-search",
-    "path": "plugins/henu-wang/tokrepo-codex-plugin/skills/tokrepo-search/SKILL.md"
   },
   {
     "plugin": "treza",

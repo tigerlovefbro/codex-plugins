@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-11T10:23:27.767132+00:00",
+    "generatedAt": "2026-11-12T10:40:48.455320+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 397,
-      "with_skills": 364,
-      "with_mcp": 146,
-      "codex_only": 19
+      "plugins": 400,
+      "with_skills": 365,
+      "with_mcp": 147,
+      "codex_only": 21
     },
-    "skillCount": 3156
+    "skillCount": 3160
   },
   "plugins": [
     {
@@ -1723,8 +1723,8 @@
       "id": "claude-code-skills",
       "name": "claude-code-skills",
       "displayName": "Claude Code Skills",
-      "description": "411 production-ready skills across 20 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 807 Python tools, 917 reference guides, 129 agents (cs-* + personas), 169 slash commands, 110 marketplace plugins. The largest open-source skills library for AI coding agents.",
-      "version": "2.14.10",
+      "description": "415 production-ready skills across 20 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 824 Python tools, 931 reference guides, 131 agents (cs-* + personas), 173 slash commands, 112 marketplace plugins. The largest open-source skills library for AI coding agents.",
+      "version": "2.14.11",
       "category": "Development & Workflow",
       "author": "Alireza Rezvani",
       "repository": "https://github.com/alirezarezvani/claude-skills",
@@ -1746,7 +1746,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.22.0",
+      "version": "11.22.2",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -2315,7 +2315,7 @@
       "name": "codex-auto-resume",
       "displayName": "Codex Auto Resume",
       "description": "Auto-resume and auto-retry for interrupted Codex tasks on Windows. Waits out a usage limit (until the reset time Codex reports, e.g. for a 5-hour or weekly window), a rate limit or a temporary failure, then continues the exact same conversation, so long-running or overnight work keeps going while that conversation is open in the Codex app. Setup downloads a checksum-verified release from GitHub; after that the watcher runs locally, read-only against Codex state, conservative by design.",
-      "version": "0.6.23-beta",
+      "version": "0.6.23-beta.2",
       "category": "Development & Workflow",
       "author": "songyb111-gachon",
       "repository": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
@@ -9014,7 +9014,7 @@
       "name": "session-orchestrator",
       "displayName": "Session Orchestrator",
       "description": "A repeatable Plan, Go, Close workflow for AI coding sessions: /session reads your repo and agrees the scope, /go runs the work in waves with a quality gate between each, /close verifies and commits. Runs on Claude Code, Codex CLI, Cursor and Pi.",
-      "version": "5.17.0+codex.20261101111338",
+      "version": "5.18.0+codex.20261110221425",
       "category": "Development & Workflow",
       "author": "",
       "repository": "",
@@ -9935,6 +9935,10 @@
         {
           "name": "suede-revops",
           "path": "plugins/JasonColapietro/suede-creator-skills/skills/suede-revops/SKILL.md"
+        },
+        {
+          "name": "suede-reverse-engineer-anyone",
+          "path": "plugins/JasonColapietro/suede-creator-skills/skills/suede-reverse-engineer-anyone/SKILL.md"
         },
         {
           "name": "suede-onboarding",
@@ -11041,7 +11045,7 @@
       "name": "token-optimizer",
       "displayName": "Token Optimizer",
       "description": "Context-window optimization: caching, compression, and smart file tooling that cut token usage 60-90%.",
-      "version": "7.9.0",
+      "version": "7.10.0",
       "category": "Development & Workflow",
       "author": "ooples",
       "repository": "https://github.com/ooples/token-optimizer-mcp",
@@ -12146,7 +12150,7 @@
       "name": "wtfm",
       "displayName": "WTFM",
       "description": "Your coding agent writes the user docs from your codebase, screenshots included.",
-      "version": "0.7.3",
+      "version": "0.7.4",
       "category": "Development & Workflow",
       "author": "SupportPages.io",
       "repository": "https://github.com/SupportPages-io/wtfm",
@@ -12355,7 +12359,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.139.0",
+      "version": "0.141.0",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -12567,6 +12571,26 @@
         "claude": true,
         "dsh": true,
         "mcp": true
+      }
+    },
+    {
+      "id": "amazon-search-terms-bytes-counter",
+      "name": "amazon-search-terms-bytes-counter",
+      "displayName": "Amazon 249-Byte Terms & HTML Optimizer",
+      "description": "Amazon 249-byte search terms optimizer, listing HTML sanitizer, and Rufus AI optimization rules",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "",
+      "repository": "https://github.com/kuaai/amazon-search-terms-bytes-counter",
+      "license": "MIT",
+      "codexPath": "plugins/kuaai/amazon-search-terms-bytes-counter",
+      "skills": [],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": false,
+        "dsh": false,
+        "mcp": false
       }
     },
     {
@@ -13331,7 +13355,7 @@
       "name": "centricmem-skill",
       "displayName": "CentricMem",
       "description": "Hosted CentricMem librarian: organise and retrieve Markdown memory via host MCP.",
-      "version": "1.0.42",
+      "version": "1.0.43",
       "category": "Tools & Integrations",
       "author": "Dr. Z",
       "repository": "https://github.com/zeyu-j/centricmem-skill",
@@ -14655,7 +14679,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.17.6",
+      "version": "1.17.7",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -15532,7 +15556,7 @@
       "name": "easybrandkit",
       "displayName": "easybrandkit",
       "description": "Get a website's real logo files, colors, fonts and first screen as a brand kit your coding agent can read.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "category": "Tools & Integrations",
       "author": "Emin Budak",
       "repository": "https://github.com/EminBudak/easybrandkit",
@@ -17433,7 +17457,7 @@
       "name": "mnemoverse",
       "displayName": "Mnemoverse Memory",
       "description": "Persistent memory for AI agents, shared across tools. Connects the hosted Mnemoverse memory server over remote MCP with a one-time browser sign-in: recall relevant memories before acting, save durable decisions and corrections, keep shared rooms across accounts. Bundles the CC0 agent-memory-discipline skill so the agent actually uses the memory it has.",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "category": "Tools & Integrations",
       "author": "Mnemoverse",
       "repository": "https://github.com/mnemoverse/claude-plugin",
@@ -17634,7 +17658,7 @@
       "name": "notfair",
       "displayName": "NotFair",
       "description": "Operate Google, Meta, X, LinkedIn, Reddit, and TikTok Ads plus GA4, Search Console, GoHighLevel, and WordPress through one OAuth MCP, and run open-source SEO, GEO, and content workflows.",
-      "version": "0.27.23",
+      "version": "0.27.25",
       "category": "Tools & Integrations",
       "author": "NotFair",
       "repository": "https://github.com/nowork-studio/notfair-plugin",
@@ -18399,8 +18423,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1934+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.35.0",
+      "description": "Pronounce developer jargon out loud — 1936+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.36.0",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",
@@ -18560,8 +18584,8 @@
       "id": "remove-ai-watermarks",
       "name": "remove-ai-watermarks",
       "displayName": "Remove AI Watermarks",
-      "description": "Identify and remove AI provenance marks from images and video the user generated or edited, using the remove-ai-watermarks CLI.",
-      "version": "1.0.18",
+      "description": "Identify and remove AI provenance marks from images, video, and text the user generated or edited, using the remove-ai-watermarks CLI.",
+      "version": "1.0.19",
       "category": "Tools & Integrations",
       "author": "wiltodelta",
       "repository": "https://github.com/wiltodelta/remove-ai-watermarks",
@@ -19363,6 +19387,26 @@
       }
     },
     {
+      "id": "shopify-liquid-ai-seo",
+      "name": "shopify-liquid-ai-seo",
+      "displayName": "Shopify AI SEO & Liquid",
+      "description": "Shopify Liquid and AI SEO plugin for Cursor and Codex",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "",
+      "repository": "https://github.com/kuaai/shopify-liquid-ai-seo",
+      "license": "MIT",
+      "codexPath": "plugins/kuaai/shopify-liquid-ai-seo",
+      "skills": [],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": false,
+        "dsh": false,
+        "mcp": false
+      }
+    },
+    {
       "id": "svatlas",
       "name": "svatlas",
       "displayName": "Silicon Valley Atlas",
@@ -19389,6 +19433,37 @@
       ],
       "mcpServers": [
         "svatlas"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "sofya",
+      "name": "sofya",
+      "displayName": "Sofya",
+      "description": "Web search, page fetch, extraction and cited research from Sofya's own search index. Search returns page content, not just snippets; fetch returns clean markdown, PDFs and Office files included.",
+      "version": "1.1.0",
+      "category": "Tools & Integrations",
+      "author": "Sofya, Inc.",
+      "repository": "https://github.com/sofya-co/sofya-mcp",
+      "license": "MIT",
+      "codexPath": "plugins/sofya-co/sofya-mcp",
+      "skills": [
+        {
+          "name": "sofya-search",
+          "path": "plugins/sofya-co/sofya-mcp/skills/sofya-search/SKILL.md"
+        },
+        {
+          "name": "sofya-research",
+          "path": "plugins/sofya-co/sofya-mcp/skills/sofya-research/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "sofya"
       ],
       "tools": {
         "codex": true,
@@ -19601,6 +19676,37 @@
       ],
       "mcpServers": [
         "storyflo"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "stupidmirror",
+      "name": "stupidmirror",
+      "displayName": "StupidMirror",
+      "description": "Observe and control real iPhone and Android devices through the StupidMirror Mac app.",
+      "version": "0.2.8",
+      "category": "Tools & Integrations",
+      "author": "StupidMirror",
+      "repository": "https://github.com/LiuTianjie/StupidMirror",
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "codexPath": "plugins/LiuTianjie/StupidMirror",
+      "skills": [
+        {
+          "name": "stupidmirror-device-use",
+          "path": "plugins/LiuTianjie/StupidMirror/skills/stupidmirror-device-use/SKILL.md"
+        },
+        {
+          "name": "stupidmirror-setup",
+          "path": "plugins/LiuTianjie/StupidMirror/skills/stupidmirror-setup/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "stupidmirror"
       ],
       "tools": {
         "codex": true,
@@ -20015,33 +20121,6 @@
         "claude": true,
         "dsh": true,
         "mcp": false
-      }
-    },
-    {
-      "id": "tokrepo-search",
-      "name": "tokrepo-search",
-      "displayName": "TokRepo Search",
-      "description": "Search and install AI assets from TokRepo using a bundled skill and MCP server.",
-      "version": "1.0.0",
-      "category": "Tools & Integrations",
-      "author": "henu-wang",
-      "repository": "https://github.com/henu-wang/tokrepo-codex-plugin",
-      "license": "MIT",
-      "codexPath": "plugins/henu-wang/tokrepo-codex-plugin",
-      "skills": [
-        {
-          "name": "tokrepo-search",
-          "path": "plugins/henu-wang/tokrepo-codex-plugin/skills/tokrepo-search/SKILL.md"
-        }
-      ],
-      "mcpServers": [
-        "tokrepo"
-      ],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": true
       }
     },
     {

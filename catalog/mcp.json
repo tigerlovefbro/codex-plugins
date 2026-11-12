@@ -908,6 +908,13 @@
     "path": "plugins/phnx-labs/svatlas-mcp/.mcp.json"
   },
   {
+    "plugin": "sofya",
+    "servers": [
+      "sofya"
+    ],
+    "path": "plugins/sofya-co/sofya-mcp/.mcp.json"
+  },
+  {
     "plugin": "solidping",
     "servers": [
       "solidping"
@@ -920,6 +927,13 @@
       "storyflo"
     ],
     "path": "plugins/droplinked/storyflo-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "stupidmirror",
+    "servers": [
+      "stupidmirror"
+    ],
+    "path": "plugins/LiuTianjie/StupidMirror/.mcp.json"
   },
   {
     "plugin": "swapwallet",
@@ -969,13 +983,6 @@
       "taskScheduler"
     ],
     "path": "plugins/6Delta9/task-scheduler-codex-plugin/.mcp.json"
-  },
-  {
-    "plugin": "tokrepo-search",
-    "servers": [
-      "tokrepo"
-    ],
-    "path": "plugins/henu-wang/tokrepo-codex-plugin/.mcp.json"
   },
   {
     "plugin": "tweetapi",
