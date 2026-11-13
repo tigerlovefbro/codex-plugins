@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-12T10:40:48.455320+00:00",
+    "generatedAt": "2026-11-13T10:34:09.439072+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 400,
-      "with_skills": 365,
-      "with_mcp": 147,
+      "plugins": 409,
+      "with_skills": 374,
+      "with_mcp": 154,
       "codex_only": 21
     },
-    "skillCount": 3160
+    "skillCount": 3191
   },
   "plugins": [
     {
@@ -296,7 +296,7 @@
       "name": "agent-deck",
       "displayName": "Agent Deck",
       "description": "Decks of MCP tools, keys, and self-improving playbooks that bind per-workspace.",
-      "version": "2.4.0",
+      "version": "2.5.1",
       "category": "Development & Workflow",
       "author": "not-so-fat",
       "repository": "https://github.com/not-so-fat/agent-deck",
@@ -1563,6 +1563,31 @@
       }
     },
     {
+      "id": "bulkhead",
+      "name": "bulkhead",
+      "displayName": "bulkhead",
+      "description": "Guards for a machine where many coding agent sessions run at once: blocks name-based kills of another session's processes, port collisions, git commands that would move or delete another session's tree, whole-disk scans and long foreground sleeps, and holds heavy commands back when RAM runs low.",
+      "version": "0.3.7",
+      "category": "Development & Workflow",
+      "author": "Myeongseok Kang",
+      "repository": "https://github.com/dooly6276/claude-bulkhead",
+      "license": "MIT",
+      "codexPath": "plugins/dooly6276/claude-bulkhead",
+      "skills": [
+        {
+          "name": "bulkhead",
+          "path": "plugins/dooly6276/claude-bulkhead/skills/bulkhead/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "casefile",
       "name": "casefile",
       "displayName": "Casefile",
@@ -1746,7 +1771,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.22.2",
+      "version": "11.23.0",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -2336,6 +2361,33 @@
       }
     },
     {
+      "id": "codexdesign",
+      "name": "codexdesign",
+      "displayName": "Codex Design",
+      "description": "Generate images into a persistent React Flow canvas and open it in the Codex in-app browser.",
+      "version": "0.2.2",
+      "category": "Development & Workflow",
+      "author": "Weixuan",
+      "repository": "",
+      "license": "GPL-3.0-only",
+      "codexPath": "plugins/ummydev/codexdesign",
+      "skills": [
+        {
+          "name": "ui-design-canvas",
+          "path": "plugins/ummydev/codexdesign/skills/ui-design-canvas/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "codexdesign"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "codex-howto",
       "name": "codex-howto",
       "displayName": "Codex How To",
@@ -2693,7 +2745,7 @@
       "name": "codex-attachment-manager",
       "displayName": "Context Attachment Manager",
       "description": "Choose which images from a Codex task's history go out with the next message. Unchecked images become short placeholders; the task and the conversation stay the same.",
-      "version": "0.11.0",
+      "version": "0.11.1",
       "category": "Development & Workflow",
       "author": "chipfighter",
       "repository": "https://github.com/chipfighter/context-attachment-manager",
@@ -2899,7 +2951,7 @@
       "name": "designer-skill",
       "displayName": "Designer Skill",
       "description": "Plug-and-play MCP that gives your agent UI superpowers. One install: design skill + MCP server, zero config.",
-      "version": "0.22.0",
+      "version": "0.27.0",
       "category": "Development & Workflow",
       "author": "PyModel",
       "repository": "https://github.com/PyModel/designer-skill",
@@ -3037,8 +3089,8 @@
       "id": "development-skills",
       "name": "development-skills",
       "displayName": "Development Skills",
-      "description": "Language-agnostic development workflows with risk-based paths, persistent decisions, focused proof, and independent review.",
-      "version": "0.11.2",
+      "description": "Language-agnostic development workflows with brainstorming-first sizing, persistent decisions, focused proof, and independent review.",
+      "version": "0.12.0",
       "category": "Development & Workflow",
       "author": "",
       "repository": "https://github.com/reidemeister94/development-skills",
@@ -3048,6 +3100,10 @@
         {
           "name": "using-development-skills",
           "path": "plugins/reidemeister94/development-skills/skills/using-development-skills/SKILL.md"
+        },
+        {
+          "name": "align-standards",
+          "path": "plugins/reidemeister94/development-skills/skills/align-standards/SKILL.md"
         },
         {
           "name": "evolve-loop",
@@ -3233,6 +3289,51 @@
       }
     },
     {
+      "id": "docspring-agent-playbook",
+      "name": "docspring-agent-playbook",
+      "displayName": "DocSpring Agent Playbook",
+      "description": "DocSpring's engineering principles, AGENTS.md templates and six workflow skills (ticket kickoff, PR review, second-opinion review, fix CI, browser QA, session wrap-up) for Claude Code, Codex and other agents.",
+      "version": "1.0.1",
+      "category": "Development & Workflow",
+      "author": "DocSpring",
+      "repository": "https://github.com/DocSpring/docspring-agent-playbook",
+      "license": "MIT",
+      "codexPath": "plugins/DocSpring/docspring-agent-playbook",
+      "skills": [
+        {
+          "name": "session-wrap-up",
+          "path": "plugins/DocSpring/docspring-agent-playbook/skills/session-wrap-up/SKILL.md"
+        },
+        {
+          "name": "second-opinion-review",
+          "path": "plugins/DocSpring/docspring-agent-playbook/skills/second-opinion-review/SKILL.md"
+        },
+        {
+          "name": "ui-qa-pass",
+          "path": "plugins/DocSpring/docspring-agent-playbook/skills/ui-qa-pass/SKILL.md"
+        },
+        {
+          "name": "pr-review",
+          "path": "plugins/DocSpring/docspring-agent-playbook/skills/pr-review/SKILL.md"
+        },
+        {
+          "name": "story-kickoff",
+          "path": "plugins/DocSpring/docspring-agent-playbook/skills/story-kickoff/SKILL.md"
+        },
+        {
+          "name": "fix-ci",
+          "path": "plugins/DocSpring/docspring-agent-playbook/skills/fix-ci/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "done-gate",
       "name": "done-gate",
       "displayName": "done-gate",
@@ -3310,12 +3411,14 @@
           "path": "plugins/tester-army/e2e/skills/create-verification-skill/SKILL.md"
         }
       ],
-      "mcpServers": [],
+      "mcpServers": [
+        "e2e"
+      ],
       "tools": {
         "codex": true,
         "claude": true,
         "dsh": true,
-        "mcp": false
+        "mcp": true
       }
     },
     {
@@ -5271,6 +5374,57 @@
       }
     },
     {
+      "id": "loom",
+      "name": "loom",
+      "displayName": "ClickHouse Loom",
+      "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
+      "version": "1.2.21",
+      "category": "Development & Workflow",
+      "author": "ClickHouse",
+      "repository": "https://github.com/ClickHouse/loom",
+      "license": "Apache-2.0",
+      "codexPath": "plugins/ClickHouse/loom",
+      "skills": [
+        {
+          "name": "loom-session",
+          "path": "plugins/ClickHouse/loom/skills/loom-session/SKILL.md"
+        },
+        {
+          "name": "improve-loom-for-my-repo",
+          "path": "plugins/ClickHouse/loom/skills/improve-loom-for-my-repo/SKILL.md"
+        },
+        {
+          "name": "loom-status",
+          "path": "plugins/ClickHouse/loom/skills/loom-status/SKILL.md"
+        },
+        {
+          "name": "loom-mentor",
+          "path": "plugins/ClickHouse/loom/skills/loom-mentor/SKILL.md"
+        },
+        {
+          "name": "loom-optimize",
+          "path": "plugins/ClickHouse/loom/skills/loom-optimize/SKILL.md"
+        },
+        {
+          "name": "loom-code",
+          "path": "plugins/ClickHouse/loom/skills/loom-code/SKILL.md"
+        },
+        {
+          "name": "loom-memory",
+          "path": "plugins/ClickHouse/loom/skills/loom-memory/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "loom"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "lvtd-skills",
       "name": "lvtd-skills",
       "displayName": "LVTD Skills",
@@ -6494,7 +6648,7 @@
       "name": "multi-llm",
       "displayName": "Multi-LLM",
       "description": "Orchestrate plan reviews, task generation, implementation and code reviews across several LLM CLIs in parallel, or ask every model one free-text question about a plan.",
-      "version": "0.1.6",
+      "version": "0.1.8",
       "category": "Development & Workflow",
       "author": "beastlabai",
       "repository": "https://github.com/beastlabai/multi-llm-plugin",
@@ -8977,6 +9131,53 @@
       }
     },
     {
+      "id": "rush-cloud",
+      "name": "rush-cloud",
+      "displayName": "Rush",
+      "description": "Hand Rush a task: an agent does the work in its own cloud computer and returns a pull request, a report, files or an answer, with a record of what it did.",
+      "version": "1.2.0",
+      "category": "Development & Workflow",
+      "author": "Phoenix Horizon, Inc.",
+      "repository": "https://github.com/phnx-labs/rush-mcp",
+      "license": "MIT",
+      "codexPath": "plugins/phnx-labs/rush-mcp",
+      "skills": [
+        {
+          "name": "hand-off-a-task",
+          "path": "plugins/phnx-labs/rush-mcp/skills/hand-off-a-task/SKILL.md"
+        },
+        {
+          "name": "review-a-pr",
+          "path": "plugins/phnx-labs/rush-mcp/skills/review-a-pr/SKILL.md"
+        },
+        {
+          "name": "run-in-parallel",
+          "path": "plugins/phnx-labs/rush-mcp/skills/run-in-parallel/SKILL.md"
+        },
+        {
+          "name": "fix-a-bug",
+          "path": "plugins/phnx-labs/rush-mcp/skills/fix-a-bug/SKILL.md"
+        },
+        {
+          "name": "save-an-agent",
+          "path": "plugins/phnx-labs/rush-mcp/skills/save-an-agent/SKILL.md"
+        },
+        {
+          "name": "get-started",
+          "path": "plugins/phnx-labs/rush-mcp/skills/get-started/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "rush"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "sealos",
       "name": "sealos",
       "displayName": "Sealos",
@@ -9396,7 +9597,7 @@
       "name": "sno-station-standalone",
       "displayName": "Sno Station Skills",
       "description": "Twelve Sno Station skills for review, intent checks, end-to-end triage, work briefs, Shell, TypeScript, Python and Rust coding, and test writing that run without Sno Station programs or hooks.",
-      "version": "1.0.202611041726",
+      "version": "1.0.202611122214",
       "category": "Development & Workflow",
       "author": "Sno Station Skills contributors",
       "repository": "https://github.com/sno-ai/sno-station-skills",
@@ -10076,7 +10277,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.27.0",
+      "version": "4.28.0",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -12255,7 +12456,7 @@
       "name": "codex-zcode-bridge",
       "displayName": "Zcode Bridge",
       "description": "Let Codex delegate development tasks to your local ZCode runtime and review their progress and results.",
-      "version": "1.6.0",
+      "version": "1.7.1",
       "category": "Development & Workflow",
       "author": "Sandy",
       "repository": "https://github.com/Sandyzzx/codex-zcode-bridge",
@@ -12359,7 +12560,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.141.0",
+      "version": "0.142.2",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -12439,6 +12640,33 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "agentdrives",
+      "name": "agentdrives",
+      "displayName": "AgentDrives",
+      "description": "Look up a SaaS tool, API or provider before your agent picks it: its agent level (0-5), where our agent stopped, and whether an agent can sign up, get a key and pay on its own.",
+      "version": "1.1.0",
+      "category": "Tools & Integrations",
+      "author": "AgentDrives",
+      "repository": "https://github.com/AgentDrives/agentdrives-mcp",
+      "license": "MIT",
+      "codexPath": "plugins/AgentDrives/agentdrives-mcp",
+      "skills": [
+        {
+          "name": "check-agent-access",
+          "path": "plugins/AgentDrives/agentdrives-mcp/skills/check-agent-access/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "agentdrives"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -12678,7 +12906,7 @@
       "name": "arcmira",
       "displayName": "Arcmira: YouTube Transcript Search",
       "description": "YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers.",
-      "version": "0.10.19",
+      "version": "0.10.20",
       "category": "Tools & Integrations",
       "author": "Arcmira",
       "repository": "https://github.com/arcmira/mcp",
@@ -13355,7 +13583,7 @@
       "name": "centricmem-skill",
       "displayName": "CentricMem",
       "description": "Hosted CentricMem librarian: organise and retrieve Markdown memory via host MCP.",
-      "version": "1.0.43",
+      "version": "1.0.50",
       "category": "Tools & Integrations",
       "author": "Dr. Z",
       "repository": "https://github.com/zeyu-j/centricmem-skill",
@@ -13477,6 +13705,37 @@
       ],
       "mcpServers": [
         "clickwise"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "cloudgpu",
+      "name": "cloudgpu",
+      "displayName": "CloudGPU",
+      "description": "Rent a per-minute GPU from your agent, run a job, download results, shut it down.",
+      "version": "0.12.1",
+      "category": "Tools & Integrations",
+      "author": "CloudGPU",
+      "repository": "https://github.com/cloudgpu-app/cloudgpu-mcp",
+      "license": "MIT",
+      "codexPath": "plugins/mrhy7176/cloudgpu-mcp",
+      "skills": [
+        {
+          "name": "cloudgpu-model-api",
+          "path": "plugins/mrhy7176/cloudgpu-mcp/skills/cloudgpu-model-api/SKILL.md"
+        },
+        {
+          "name": "cloudgpu",
+          "path": "plugins/mrhy7176/cloudgpu-mcp/skills/cloudgpu/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "cloudgpu"
       ],
       "tools": {
         "codex": true,
@@ -14530,7 +14789,7 @@
       "name": "deed-page",
       "displayName": "deed.page",
       "description": "Publish files to a public deed.page URL only when the user asks to publish, deploy, host, or share a link. Create-only stays local. No account.",
-      "version": "1.8.0",
+      "version": "1.8.1",
       "category": "Tools & Integrations",
       "author": "Avatar 8 LLC",
       "repository": "https://github.com/f-o-x11/deed-page-skill",
@@ -14557,7 +14816,7 @@
       "name": "deja-vu",
       "displayName": "deja-vu",
       "description": "deja-vu: memory for coding agents from the sessions already on your disk — Claude Code, Codex, Cursor, opencode and thirty-nine more — including work from before it was installed.",
-      "version": "0.24.1",
+      "version": "0.24.2",
       "category": "Tools & Integrations",
       "author": "vshulcz",
       "repository": "https://github.com/vshulcz/deja-vu",
@@ -14679,7 +14938,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.17.7",
+      "version": "1.17.8",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -15559,7 +15818,7 @@
       "version": "0.4.1",
       "category": "Tools & Integrations",
       "author": "Emin Budak",
-      "repository": "https://github.com/EminBudak/easybrandkit",
+      "repository": "https://github.com/MakersMCP/easybrandkit",
       "license": "MIT",
       "codexPath": "plugins/EminBudak/easybrandkit",
       "skills": [
@@ -15731,7 +15990,7 @@
       "name": "fair-value-calculator",
       "displayName": "Fair Value Calculator",
       "description": "Look up fair value, quality score, uptrend and the three buy rules for 40,000+ stocks, compare and screen them, and manage a watchlist.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "Tools & Integrations",
       "author": "Fair Value Calculator",
       "repository": "https://github.com/petz00711/fair-value-calculator-mcp",
@@ -16744,16 +17003,61 @@
       "name": "launch-film",
       "displayName": "launch-film",
       "description": "A launch film from a website or an App Store page: its real logo, colors, fonts and screens, rendered locally with Chrome and ffmpeg.",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "category": "Tools & Integrations",
       "author": "Emin Budak",
-      "repository": "https://github.com/EminBudak/launch-film",
+      "repository": "https://github.com/MakersMCP/launch-film",
       "license": "MIT",
       "codexPath": "plugins/EminBudak/launch-film",
       "skills": [
         {
           "name": "launch-film",
           "path": "plugins/EminBudak/launch-film/skills/launch-film/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "leeway",
+      "name": "leeway",
+      "displayName": "Leeway",
+      "description": "Leeway is a drive for you and your agents. This plugin connects Codex to your Leeway drive at https://leeway.to/mcp and teaches it the drive's working rules: save without overwriting anyone's change, find what's there, undo from history, edit in a workspace and publish, and leave a hand-off note.",
+      "version": "0.1.0",
+      "category": "Tools & Integrations",
+      "author": "The Primal Team LLC",
+      "repository": "https://leeway.to/agents/",
+      "license": "",
+      "codexPath": "plugins/supersethvos/leeway-codex",
+      "skills": [
+        {
+          "name": "save-to-drive",
+          "path": "plugins/supersethvos/leeway-codex/skills/save-to-drive/SKILL.md"
+        },
+        {
+          "name": "history-and-undo",
+          "path": "plugins/supersethvos/leeway-codex/skills/history-and-undo/SKILL.md"
+        },
+        {
+          "name": "workspace-publish",
+          "path": "plugins/supersethvos/leeway-codex/skills/workspace-publish/SKILL.md"
+        },
+        {
+          "name": "handoff-note",
+          "path": "plugins/supersethvos/leeway-codex/skills/handoff-note/SKILL.md"
+        },
+        {
+          "name": "get-started",
+          "path": "plugins/supersethvos/leeway-codex/skills/get-started/SKILL.md"
+        },
+        {
+          "name": "find-in-drive",
+          "path": "plugins/supersethvos/leeway-codex/skills/find-in-drive/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -18186,6 +18490,33 @@
       }
     },
     {
+      "id": "phonedriver",
+      "name": "phonedriver",
+      "displayName": "phonedriver",
+      "description": "Lets an agent see and operate Android phones and iPhones: the screen as text, taps by element number, and a question to you before any tap that pays. Bundles the phonedriver MCP server and its skill.",
+      "version": "0.1.2",
+      "category": "Tools & Integrations",
+      "author": "Hridya Agrawal",
+      "repository": "https://github.com/hridaya423/phonedriver",
+      "license": "AGPL-3.0-only",
+      "codexPath": "plugins/hridaya423/phonedriver",
+      "skills": [
+        {
+          "name": "phonedriver",
+          "path": "plugins/hridaya423/phonedriver/skills/phonedriver/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "phonedriver"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "placecall",
       "name": "placecall",
       "displayName": "PlaceCall",
@@ -18423,8 +18754,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1936+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.36.0",
+      "description": "Pronounce developer jargon out loud — 1973+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.38.0",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",
@@ -18845,7 +19176,7 @@
       "name": "ru-marketplace-mcp",
       "displayName": "ru-marketplace-mcp",
       "description": "Двенадцать площадок РФ и Китая (Wildberries, Ozon, Яндекс Маркет, Авито, Циан, AliExpress, Taobao, Детский мир, Мегамаркет, Lamoda, DNS, Ситилинк) как MCP-серверы и 15 навыков. Сравнение цен без ключей API.",
-      "version": "2.9.1",
+      "version": "2.9.2",
       "category": "Tools & Integrations",
       "author": "Vladimir-Human",
       "repository": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
@@ -18979,6 +19310,33 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "scrapely",
+      "name": "scrapely",
+      "displayName": "scrapely",
+      "description": "Find ready-made scrapers in the Scrape.ly Store, run them in the cloud, and read their results, datasets and logs.",
+      "version": "0.3.17",
+      "category": "Tools & Integrations",
+      "author": "Scrape.ly",
+      "repository": "https://github.com/scrapely-app/scrapely-mcp",
+      "license": "MIT",
+      "codexPath": "plugins/scrapely-app/scrapely-mcp",
+      "skills": [
+        {
+          "name": "scrapely-scrape",
+          "path": "plugins/scrapely-app/scrapely-mcp/skills/scrapely-scrape/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "scrapely"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -19545,7 +19903,7 @@
       "name": "story-skills",
       "displayName": "Story Skills",
       "description": "A suite of cross-referenced skills and CLI maintenance tools for end-to-end fiction writing in markdown, in English or any other language. Covers premise development, story initialization, character management, worldbuilding, plot structure, theme, scene craft, outlined and discovery drafting, chapter writing, interactive fiction with branching paths, series and sequels, verse, genre craft, voice and style, line editing, revision passes, continuity, pacing and fair-play checks, beta-reader feedback and simulated reader panels, editorial review, research, query letters and submission tracking, publishing and print production, adaptation, validation, reporting, indexing, word counts, and manuscript export.",
-      "version": "0.24.1",
+      "version": "0.25.0",
       "category": "Tools & Integrations",
       "author": "Daniel Dewhurst",
       "repository": "https://github.com/danjdewhurst/story-skills",
@@ -19676,37 +20034,6 @@
       ],
       "mcpServers": [
         "storyflo"
-      ],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": true
-      }
-    },
-    {
-      "id": "stupidmirror",
-      "name": "stupidmirror",
-      "displayName": "StupidMirror",
-      "description": "Observe and control real iPhone and Android devices through the StupidMirror Mac app.",
-      "version": "0.2.8",
-      "category": "Tools & Integrations",
-      "author": "StupidMirror",
-      "repository": "https://github.com/LiuTianjie/StupidMirror",
-      "license": "PolyForm-Noncommercial-1.0.0",
-      "codexPath": "plugins/LiuTianjie/StupidMirror",
-      "skills": [
-        {
-          "name": "stupidmirror-device-use",
-          "path": "plugins/LiuTianjie/StupidMirror/skills/stupidmirror-device-use/SKILL.md"
-        },
-        {
-          "name": "stupidmirror-setup",
-          "path": "plugins/LiuTianjie/StupidMirror/skills/stupidmirror-setup/SKILL.md"
-        }
-      ],
-      "mcpServers": [
-        "stupidmirror"
       ],
       "tools": {
         "codex": true,
@@ -20914,7 +21241,7 @@
       "name": "webly",
       "displayName": "Webly",
       "description": "Publish a website, or share files and folders, at a live URL in seconds with no account. The person can claim it, edit it over MCP, and publish drafts they approve.",
-      "version": "0.14.24",
+      "version": "0.14.29",
       "category": "Tools & Integrations",
       "author": "Webly",
       "repository": "https://github.com/Webly-AI/webly-plugin",

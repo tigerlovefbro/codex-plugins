@@ -1050,6 +1050,11 @@
     "path": "plugins/hyhmrright/brooks-lint/skills/brooks-health/SKILL.md"
   },
   {
+    "plugin": "bulkhead",
+    "skill": "bulkhead",
+    "path": "plugins/dooly6276/claude-bulkhead/skills/bulkhead/SKILL.md"
+  },
+  {
     "plugin": "casefile",
     "skill": "casefile",
     "path": "plugins/x4cc3/casefile/skills/casefile/SKILL.md"
@@ -1585,6 +1590,11 @@
     "path": "plugins/songyb111-gachon/codex-auto-resume-windows/skills/codex-auto-resume/SKILL.md"
   },
   {
+    "plugin": "codexdesign",
+    "skill": "ui-design-canvas",
+    "path": "plugins/ummydev/codexdesign/skills/ui-design-canvas/SKILL.md"
+  },
+  {
     "plugin": "codex-howto",
     "skill": "build-backend",
     "path": "plugins/Phelan164/codex-howto/skills/build-backend/SKILL.md"
@@ -1856,6 +1866,11 @@
   },
   {
     "plugin": "development-skills",
+    "skill": "align-standards",
+    "path": "plugins/reidemeister94/development-skills/skills/align-standards/SKILL.md"
+  },
+  {
+    "plugin": "development-skills",
     "skill": "evolve-loop",
     "path": "plugins/reidemeister94/development-skills/skills/evolve-loop/SKILL.md"
   },
@@ -2018,6 +2033,36 @@
     "plugin": "docflow",
     "skill": "adopt",
     "path": "plugins/MedAdemBHA/docflow/skills/adopt/SKILL.md"
+  },
+  {
+    "plugin": "docspring-agent-playbook",
+    "skill": "session-wrap-up",
+    "path": "plugins/DocSpring/docspring-agent-playbook/skills/session-wrap-up/SKILL.md"
+  },
+  {
+    "plugin": "docspring-agent-playbook",
+    "skill": "second-opinion-review",
+    "path": "plugins/DocSpring/docspring-agent-playbook/skills/second-opinion-review/SKILL.md"
+  },
+  {
+    "plugin": "docspring-agent-playbook",
+    "skill": "ui-qa-pass",
+    "path": "plugins/DocSpring/docspring-agent-playbook/skills/ui-qa-pass/SKILL.md"
+  },
+  {
+    "plugin": "docspring-agent-playbook",
+    "skill": "pr-review",
+    "path": "plugins/DocSpring/docspring-agent-playbook/skills/pr-review/SKILL.md"
+  },
+  {
+    "plugin": "docspring-agent-playbook",
+    "skill": "story-kickoff",
+    "path": "plugins/DocSpring/docspring-agent-playbook/skills/story-kickoff/SKILL.md"
+  },
+  {
+    "plugin": "docspring-agent-playbook",
+    "skill": "fix-ci",
+    "path": "plugins/DocSpring/docspring-agent-playbook/skills/fix-ci/SKILL.md"
   },
   {
     "plugin": "dryforge",
@@ -3718,6 +3763,41 @@
     "plugin": "krypton",
     "skill": "krypton-vps-codex-app",
     "path": "plugins/jturntdev/krypton/skills/krypton-vps-codex-app/SKILL.md"
+  },
+  {
+    "plugin": "loom",
+    "skill": "loom-session",
+    "path": "plugins/ClickHouse/loom/skills/loom-session/SKILL.md"
+  },
+  {
+    "plugin": "loom",
+    "skill": "improve-loom-for-my-repo",
+    "path": "plugins/ClickHouse/loom/skills/improve-loom-for-my-repo/SKILL.md"
+  },
+  {
+    "plugin": "loom",
+    "skill": "loom-status",
+    "path": "plugins/ClickHouse/loom/skills/loom-status/SKILL.md"
+  },
+  {
+    "plugin": "loom",
+    "skill": "loom-mentor",
+    "path": "plugins/ClickHouse/loom/skills/loom-mentor/SKILL.md"
+  },
+  {
+    "plugin": "loom",
+    "skill": "loom-optimize",
+    "path": "plugins/ClickHouse/loom/skills/loom-optimize/SKILL.md"
+  },
+  {
+    "plugin": "loom",
+    "skill": "loom-code",
+    "path": "plugins/ClickHouse/loom/skills/loom-code/SKILL.md"
+  },
+  {
+    "plugin": "loom",
+    "skill": "loom-memory",
+    "path": "plugins/ClickHouse/loom/skills/loom-memory/SKILL.md"
   },
   {
     "plugin": "lvtd-skills",
@@ -7215,6 +7295,36 @@
     "path": "plugins/runtypelabs/skills/skills/runtype-build-product/SKILL.md"
   },
   {
+    "plugin": "rush-cloud",
+    "skill": "hand-off-a-task",
+    "path": "plugins/phnx-labs/rush-mcp/skills/hand-off-a-task/SKILL.md"
+  },
+  {
+    "plugin": "rush-cloud",
+    "skill": "review-a-pr",
+    "path": "plugins/phnx-labs/rush-mcp/skills/review-a-pr/SKILL.md"
+  },
+  {
+    "plugin": "rush-cloud",
+    "skill": "run-in-parallel",
+    "path": "plugins/phnx-labs/rush-mcp/skills/run-in-parallel/SKILL.md"
+  },
+  {
+    "plugin": "rush-cloud",
+    "skill": "fix-a-bug",
+    "path": "plugins/phnx-labs/rush-mcp/skills/fix-a-bug/SKILL.md"
+  },
+  {
+    "plugin": "rush-cloud",
+    "skill": "save-an-agent",
+    "path": "plugins/phnx-labs/rush-mcp/skills/save-an-agent/SKILL.md"
+  },
+  {
+    "plugin": "rush-cloud",
+    "skill": "get-started",
+    "path": "plugins/phnx-labs/rush-mcp/skills/get-started/SKILL.md"
+  },
+  {
     "plugin": "sealos",
     "skill": "k8s-kaniko-job",
     "path": "plugins/labring/sealos-skills/plugins/sealos/skills/k8s-kaniko-job/SKILL.md"
@@ -10130,6 +10240,11 @@
     "path": "plugins/tashfeenahmed/AgentDomains-skill/plugins/agentdomains/skills/agentdomains/SKILL.md"
   },
   {
+    "plugin": "agentdrives",
+    "skill": "check-agent-access",
+    "path": "plugins/AgentDrives/agentdrives-mcp/skills/check-agent-access/SKILL.md"
+  },
+  {
     "plugin": "agentgram",
     "skill": "agentgram",
     "path": "plugins/jerryfane/agentgram/skills/agentgram/SKILL.md"
@@ -10553,6 +10668,16 @@
     "plugin": "clickwise",
     "skill": "clickwise-affiliate-links",
     "path": "plugins/softdevfz/clickwise-api/skills/clickwise-affiliate-links/SKILL.md"
+  },
+  {
+    "plugin": "cloudgpu",
+    "skill": "cloudgpu-model-api",
+    "path": "plugins/mrhy7176/cloudgpu-mcp/skills/cloudgpu-model-api/SKILL.md"
+  },
+  {
+    "plugin": "cloudgpu",
+    "skill": "cloudgpu",
+    "path": "plugins/mrhy7176/cloudgpu-mcp/skills/cloudgpu/SKILL.md"
   },
   {
     "plugin": "be-serious",
@@ -12990,6 +13115,36 @@
     "path": "plugins/EminBudak/launch-film/skills/launch-film/SKILL.md"
   },
   {
+    "plugin": "leeway",
+    "skill": "save-to-drive",
+    "path": "plugins/supersethvos/leeway-codex/skills/save-to-drive/SKILL.md"
+  },
+  {
+    "plugin": "leeway",
+    "skill": "history-and-undo",
+    "path": "plugins/supersethvos/leeway-codex/skills/history-and-undo/SKILL.md"
+  },
+  {
+    "plugin": "leeway",
+    "skill": "workspace-publish",
+    "path": "plugins/supersethvos/leeway-codex/skills/workspace-publish/SKILL.md"
+  },
+  {
+    "plugin": "leeway",
+    "skill": "handoff-note",
+    "path": "plugins/supersethvos/leeway-codex/skills/handoff-note/SKILL.md"
+  },
+  {
+    "plugin": "leeway",
+    "skill": "get-started",
+    "path": "plugins/supersethvos/leeway-codex/skills/get-started/SKILL.md"
+  },
+  {
+    "plugin": "leeway",
+    "skill": "find-in-drive",
+    "path": "plugins/supersethvos/leeway-codex/skills/find-in-drive/SKILL.md"
+  },
+  {
     "plugin": "liendeadline",
     "skill": "liendeadline",
     "path": "plugins/LienDeadline/skills/skills/liendeadline/SKILL.md"
@@ -13910,6 +14065,11 @@
     "path": "plugins/papersflow-ai/papersflow-codex-plugin/skills/research-briefing/SKILL.md"
   },
   {
+    "plugin": "phonedriver",
+    "skill": "phonedriver",
+    "path": "plugins/hridaya423/phonedriver/skills/phonedriver/SKILL.md"
+  },
+  {
     "plugin": "placecall",
     "skill": "placecall",
     "path": "plugins/voygr-tech/placecall/skills/placecall/SKILL.md"
@@ -14300,6 +14460,11 @@
     "path": "plugins/jingjing2222/rust-reverse-engineering-skill/skills/rust-reverse-engineering/SKILL.md"
   },
   {
+    "plugin": "scrapely",
+    "skill": "scrapely-scrape",
+    "path": "plugins/scrapely-app/scrapely-mcp/skills/scrapely-scrape/SKILL.md"
+  },
+  {
     "plugin": "just-scrape",
     "skill": "just-scrape",
     "path": "plugins/ScrapeGraphAI/just-scrape/skills/just-scrape/SKILL.md"
@@ -14678,16 +14843,6 @@
     "plugin": "storyflo-codex-plugin",
     "skill": "storyflo",
     "path": "plugins/droplinked/storyflo-codex-plugin/skills/storyflo/SKILL.md"
-  },
-  {
-    "plugin": "stupidmirror",
-    "skill": "stupidmirror-device-use",
-    "path": "plugins/LiuTianjie/StupidMirror/skills/stupidmirror-device-use/SKILL.md"
-  },
-  {
-    "plugin": "stupidmirror",
-    "skill": "stupidmirror-setup",
-    "path": "plugins/LiuTianjie/StupidMirror/skills/stupidmirror-setup/SKILL.md"
   },
   {
     "plugin": "swapwallet",

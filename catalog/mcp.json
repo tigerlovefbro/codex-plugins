@@ -101,6 +101,13 @@
     "path": "plugins/TohmaN233/codex-agents-workflow/.mcp.json"
   },
   {
+    "plugin": "codexdesign",
+    "servers": [
+      "codexdesign"
+    ],
+    "path": "plugins/ummydev/codexdesign/.mcp.json"
+  },
+  {
     "plugin": "codex-claude-council",
     "servers": [
       "council"
@@ -120,6 +127,13 @@
       "delx"
     ],
     "path": "plugins/davidmosiah/delx-plugins/.mcp.json"
+  },
+  {
+    "plugin": "e2e",
+    "servers": [
+      "e2e"
+    ],
+    "path": "plugins/tester-army/e2e/.mcp.json"
   },
   {
     "plugin": "ejentum",
@@ -162,6 +176,13 @@
       "joxo"
     ],
     "path": "plugins/JoxoAI/joxo/.mcp.json"
+  },
+  {
+    "plugin": "loom",
+    "servers": [
+      "loom"
+    ],
+    "path": "plugins/ClickHouse/loom/.mcp.json"
   },
   {
     "plugin": "macbox",
@@ -269,6 +290,13 @@
     "path": "plugins/MykytaStel/repopilot/.mcp.json"
   },
   {
+    "plugin": "rush-cloud",
+    "servers": [
+      "rush"
+    ],
+    "path": "plugins/phnx-labs/rush-mcp/.mcp.json"
+  },
+  {
     "plugin": "session-orchestrator",
     "servers": [
       "session-orchestrator"
@@ -351,6 +379,13 @@
       "admakeai"
     ],
     "path": "plugins/mesmerlord/admakeai-claude-plugin/.mcp.json"
+  },
+  {
+    "plugin": "agentdrives",
+    "servers": [
+      "agentdrives"
+    ],
+    "path": "plugins/AgentDrives/agentdrives-mcp/.mcp.json"
   },
   {
     "plugin": "agentmart",
@@ -471,6 +506,13 @@
       "clickwise"
     ],
     "path": "plugins/softdevfz/clickwise-api/.mcp.json"
+  },
+  {
+    "plugin": "cloudgpu",
+    "servers": [
+      "cloudgpu"
+    ],
+    "path": "plugins/mrhy7176/cloudgpu-mcp/.mcp.json"
   },
   {
     "plugin": "codex-reset",
@@ -772,6 +814,13 @@
     "path": "plugins/papersflow-ai/papersflow-codex-plugin/.mcp.json"
   },
   {
+    "plugin": "phonedriver",
+    "servers": [
+      "phonedriver"
+    ],
+    "path": "plugins/hridaya423/phonedriver/.mcp.json"
+  },
+  {
     "plugin": "placecall",
     "servers": [
       "placecall"
@@ -852,6 +901,13 @@
     "path": "plugins/Vladimir-Human/ru-marketplace-mcp/.mcp.json"
   },
   {
+    "plugin": "scrapely",
+    "servers": [
+      "scrapely"
+    ],
+    "path": "plugins/scrapely-app/scrapely-mcp/.mcp.json"
+  },
+  {
     "plugin": "self-starter",
     "servers": [
       "self_starter"
@@ -927,13 +983,6 @@
       "storyflo"
     ],
     "path": "plugins/droplinked/storyflo-codex-plugin/.mcp.json"
-  },
-  {
-    "plugin": "stupidmirror",
-    "servers": [
-      "stupidmirror"
-    ],
-    "path": "plugins/LiuTianjie/StupidMirror/.mcp.json"
   },
   {
     "plugin": "swapwallet",
