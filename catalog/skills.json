@@ -3406,6 +3406,11 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-pptx",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-pptx/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper-review",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-review/SKILL.md"
   },
@@ -3418,6 +3423,16 @@
     "plugin": "hypercore",
     "skill": "hyper-decision",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-decision/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-excel",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-excel/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-docx",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-docx/SKILL.md"
   },
   {
     "plugin": "hypercore",
@@ -3471,6 +3486,11 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-pdf",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-pdf/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper-google-analytics",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-google-analytics/SKILL.md"
   },
@@ -3506,6 +3526,11 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-hwp",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-hwp/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper-frontend",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-frontend/SKILL.md"
   },
@@ -3538,6 +3563,11 @@
     "plugin": "hypercore",
     "skill": "hyper-loop",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-loop/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
+    "skill": "hyper-report",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-report/SKILL.md"
   },
   {
     "plugin": "hypercore",
@@ -7715,6 +7745,16 @@
     "path": "plugins/sno-ai/sno-station-skills/skills/rust-coder/SKILL.md"
   },
   {
+    "plugin": "ssh-ops",
+    "skill": "ssh-ops",
+    "path": "plugins/leehom0123/ssh-ops/SKILL.md"
+  },
+  {
+    "plugin": "ssh-ops",
+    "skill": "ssh-ops",
+    "path": "plugins/leehom0123/ssh-ops/skills/ssh-ops/SKILL.md"
+  },
+  {
     "plugin": "spec-driven",
     "skill": "spec-workflow",
     "path": "plugins/Habib0x0/spec-driven-plugin/skills/spec-workflow/SKILL.md"
@@ -10058,6 +10098,41 @@
     "plugin": "vibe-portrait",
     "skill": "vibe-portrait",
     "path": "plugins/dadwadw233/VibePortrait/skills/vibe-portrait/SKILL.md"
+  },
+  {
+    "plugin": "vidbyte-memory",
+    "skill": "create-verifier",
+    "path": "plugins/cerredz/vidbyte-memory/skills/create-verifier/SKILL.md"
+  },
+  {
+    "plugin": "vidbyte-memory",
+    "skill": "verify-generation",
+    "path": "plugins/cerredz/vidbyte-memory/skills/verify-generation/SKILL.md"
+  },
+  {
+    "plugin": "vidbyte-memory",
+    "skill": "update-memory",
+    "path": "plugins/cerredz/vidbyte-memory/skills/update-memory/SKILL.md"
+  },
+  {
+    "plugin": "vidbyte-memory",
+    "skill": "create-test",
+    "path": "plugins/cerredz/vidbyte-memory/skills/create-test/SKILL.md"
+  },
+  {
+    "plugin": "vidbyte-memory",
+    "skill": "install-memory",
+    "path": "plugins/cerredz/vidbyte-memory/skills/install-memory/SKILL.md"
+  },
+  {
+    "plugin": "vidbyte-memory",
+    "skill": "handle-feedback",
+    "path": "plugins/cerredz/vidbyte-memory/skills/handle-feedback/SKILL.md"
+  },
+  {
+    "plugin": "vidbyte-memory",
+    "skill": "create-fact",
+    "path": "plugins/cerredz/vidbyte-memory/skills/create-fact/SKILL.md"
   },
   {
     "plugin": "villagesql",
@@ -14030,6 +14105,11 @@
     "path": "plugins/useorgx/orgx-codex-plugin/skills/orgx-deviation-reporting/SKILL.md"
   },
   {
+    "plugin": "osmo",
+    "skill": "osmo-phone-calls",
+    "path": "plugins/Mountainheads-Private-limited/osmo-ai-plugins/skills/osmo-phone-calls/SKILL.md"
+  },
+  {
     "plugin": "panews",
     "skill": "panews",
     "path": "plugins/panewslab/skills/skills/panews/SKILL.md"
@@ -14176,13 +14256,33 @@
   },
   {
     "plugin": "questionpunk",
+    "skill": "group-forms",
+    "path": "plugins/questionpunk/codex-plugin/skills/group-forms/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
     "skill": "analyze-results",
     "path": "plugins/questionpunk/codex-plugin/skills/analyze-results/SKILL.md"
   },
   {
     "plugin": "questionpunk",
+    "skill": "create-quiz",
+    "path": "plugins/questionpunk/codex-plugin/skills/create-quiz/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
     "skill": "review-study",
     "path": "plugins/questionpunk/codex-plugin/skills/review-study/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
+    "skill": "import-survey",
+    "path": "plugins/questionpunk/codex-plugin/skills/import-survey/SKILL.md"
+  },
+  {
+    "plugin": "questionpunk",
+    "skill": "ai-interview",
+    "path": "plugins/questionpunk/codex-plugin/skills/ai-interview/SKILL.md"
   },
   {
     "plugin": "questionpunk",
@@ -15136,6 +15236,11 @@
   },
   {
     "plugin": "varg",
+    "skill": "multi-angle-monologue",
+    "path": "plugins/vargHQ/skills/multi-angle-monologue/SKILL.md"
+  },
+  {
+    "plugin": "varg",
     "skill": "ad-creative-testing",
     "path": "plugins/vargHQ/skills/ad-creative-testing/SKILL.md"
   },
@@ -15346,6 +15451,11 @@
   },
   {
     "plugin": "varg",
+    "skill": "ai-parody-video",
+    "path": "plugins/vargHQ/skills/ai-parody-video/SKILL.md"
+  },
+  {
+    "plugin": "varg",
     "skill": "tiktok-shop-video",
     "path": "plugins/vargHQ/skills/tiktok-shop-video/SKILL.md"
   },
@@ -15386,6 +15496,11 @@
   },
   {
     "plugin": "varg",
+    "skill": "find-movie-clips",
+    "path": "plugins/vargHQ/skills/find-movie-clips/SKILL.md"
+  },
+  {
+    "plugin": "varg",
     "skill": "varg-unboxing-video",
     "path": "plugins/vargHQ/skills/varg-unboxing-video/SKILL.md"
   },
@@ -15423,6 +15538,11 @@
     "plugin": "varg",
     "skill": "varg-birthday-video",
     "path": "plugins/vargHQ/skills/varg-birthday-video/SKILL.md"
+  },
+  {
+    "plugin": "varg",
+    "skill": "stickman-video",
+    "path": "plugins/vargHQ/skills/stickman-video/SKILL.md"
   },
   {
     "plugin": "varg",
@@ -15498,6 +15618,11 @@
     "plugin": "varg",
     "skill": "threejs-animatic",
     "path": "plugins/vargHQ/skills/threejs-animatic/SKILL.md"
+  },
+  {
+    "plugin": "varg",
+    "skill": "scene-recast-video",
+    "path": "plugins/vargHQ/skills/scene-recast-video/SKILL.md"
   },
   {
     "plugin": "varg",
@@ -15708,6 +15833,36 @@
     "plugin": "webly",
     "skill": "webly",
     "path": "plugins/Webly-AI/webly-plugin/skills/webly/SKILL.md"
+  },
+  {
+    "plugin": "worktable",
+    "skill": "worktable-create-or-manage-records",
+    "path": "plugins/worktable/worktable-plugin/skills/worktable-create-or-manage-records/SKILL.md"
+  },
+  {
+    "plugin": "worktable",
+    "skill": "worktable-find-and-synthesize-context",
+    "path": "plugins/worktable/worktable-plugin/skills/worktable-find-and-synthesize-context/SKILL.md"
+  },
+  {
+    "plugin": "worktable",
+    "skill": "worktable-review-with-annotations",
+    "path": "plugins/worktable/worktable-plugin/skills/worktable-review-with-annotations/SKILL.md"
+  },
+  {
+    "plugin": "worktable",
+    "skill": "worktable-create-or-manage-interactive-html",
+    "path": "plugins/worktable/worktable-plugin/skills/worktable-create-or-manage-interactive-html/SKILL.md"
+  },
+  {
+    "plugin": "worktable",
+    "skill": "worktable-collaborate-threads",
+    "path": "plugins/worktable/worktable-plugin/skills/worktable-collaborate-threads/SKILL.md"
+  },
+  {
+    "plugin": "worktable",
+    "skill": "worktable-create-or-update-docs",
+    "path": "plugins/worktable/worktable-plugin/skills/worktable-create-or-update-docs/SKILL.md"
   },
   {
     "plugin": "x-skills",

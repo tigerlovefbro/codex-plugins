@@ -311,6 +311,13 @@
     "path": "plugins/MohammadHijjawi97/since-cutoff/.mcp.json"
   },
   {
+    "plugin": "ssh-ops",
+    "servers": [
+      "ssh-ops"
+    ],
+    "path": "plugins/leehom0123/ssh-ops/.mcp.json"
+  },
+  {
     "plugin": "suede-skills",
     "servers": [
       "suede_skills_mcp"
@@ -540,7 +547,7 @@
   {
     "plugin": "cometchat-skills",
     "servers": [
-      "cometchat-docs"
+      "cometchat"
     ],
     "path": "plugins/cometchat/cometchat-skills/.mcp.json"
   },
@@ -805,6 +812,13 @@
       "orgx"
     ],
     "path": "plugins/useorgx/orgx-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "osmo",
+    "servers": [
+      "osmo"
+    ],
+    "path": null
   },
   {
     "plugin": "papersflow-codex-plugin",
@@ -1075,6 +1089,13 @@
       "webly"
     ],
     "path": "plugins/Webly-AI/webly-plugin/.mcp.json"
+  },
+  {
+    "plugin": "worktable",
+    "servers": [
+      "worktable"
+    ],
+    "path": "plugins/worktable/worktable-plugin/.mcp.json"
   },
   {
     "plugin": "x-twitter-scraper",

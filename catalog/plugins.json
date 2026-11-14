@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-13T10:34:09.439072+00:00",
+    "generatedAt": "2026-11-14T09:50:09.389083+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 409,
-      "with_skills": 374,
-      "with_mcp": 154,
+      "plugins": 413,
+      "with_skills": 378,
+      "with_mcp": 157,
       "codex_only": 21
     },
-    "skillCount": 3191
+    "skillCount": 3222
   },
   "plugins": [
     {
@@ -158,7 +158,7 @@
       "name": "aegis",
       "displayName": "Aegis",
       "description": "An agentic skills framework & software development methodology that works: planning, TDD, debugging, and collaboration workflows.",
-      "version": "2.15.0",
+      "version": "2.15.2",
       "category": "Development & Workflow",
       "author": "Aegis Maintainers",
       "repository": "https://github.com/GanyuanRan/Aegis",
@@ -296,7 +296,7 @@
       "name": "agent-deck",
       "displayName": "Agent Deck",
       "description": "Decks of MCP tools, keys, and self-improving playbooks that bind per-workspace.",
-      "version": "2.5.1",
+      "version": "2.5.2",
       "category": "Development & Workflow",
       "author": "not-so-fat",
       "repository": "https://github.com/not-so-fat/agent-deck",
@@ -1567,7 +1567,7 @@
       "name": "bulkhead",
       "displayName": "bulkhead",
       "description": "Guards for a machine where many coding agent sessions run at once: blocks name-based kills of another session's processes, port collisions, git commands that would move or delete another session's tree, whole-disk scans and long foreground sleeps, and holds heavy commands back when RAM runs low.",
-      "version": "0.3.7",
+      "version": "0.4.0",
       "category": "Development & Workflow",
       "author": "Myeongseok Kang",
       "repository": "https://github.com/dooly6276/claude-bulkhead",
@@ -2767,7 +2767,7 @@
       "name": "context-guard",
       "displayName": "Context Guard",
       "description": "Preserve task requirements and verify evidence, scope, surfaces, and multimodal assets across compaction.",
-      "version": "0.17.2",
+      "version": "0.17.3",
       "category": "Development & Workflow",
       "author": "Gerui Lv",
       "repository": "https://github.com/GreenLv/codex-context-guard",
@@ -3293,7 +3293,7 @@
       "name": "docspring-agent-playbook",
       "displayName": "DocSpring Agent Playbook",
       "description": "DocSpring's engineering principles, AGENTS.md templates and six workflow skills (ticket kickoff, PR review, second-opinion review, fix CI, browser QA, session wrap-up) for Claude Code, Codex and other agents.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "Development & Workflow",
       "author": "DocSpring",
       "repository": "https://github.com/DocSpring/docspring-agent-playbook",
@@ -3391,9 +3391,9 @@
       "name": "e2e",
       "displayName": "e2e",
       "description": "Write, run, and debug end-to-end tests for web and mobile apps with e2e, the open source agentic test runner.",
-      "version": "0.23.0",
+      "version": "0.23.1",
       "category": "Development & Workflow",
-      "author": "TesterArmy",
+      "author": "e2e",
       "repository": "https://github.com/e2e-inc/e2e",
       "license": "Apache-2.0",
       "codexPath": "plugins/tester-army/e2e",
@@ -4928,6 +4928,10 @@
           "path": "plugins/alpoxdev/hypercore/skills/hyper-skill/SKILL.md"
         },
         {
+          "name": "hyper-pptx",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-pptx/SKILL.md"
+        },
+        {
           "name": "hyper-review",
           "path": "plugins/alpoxdev/hypercore/skills/hyper-review/SKILL.md"
         },
@@ -4938,6 +4942,14 @@
         {
           "name": "hyper-decision",
           "path": "plugins/alpoxdev/hypercore/skills/hyper-decision/SKILL.md"
+        },
+        {
+          "name": "hyper-excel",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-excel/SKILL.md"
+        },
+        {
+          "name": "hyper-docx",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-docx/SKILL.md"
         },
         {
           "name": "hyper-cleanup",
@@ -4980,6 +4992,10 @@
           "path": "plugins/alpoxdev/hypercore/skills/hyper-documentation/SKILL.md"
         },
         {
+          "name": "hyper-pdf",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-pdf/SKILL.md"
+        },
+        {
           "name": "hyper-google-analytics",
           "path": "plugins/alpoxdev/hypercore/skills/hyper-google-analytics/SKILL.md"
         },
@@ -5008,6 +5024,10 @@
           "path": "plugins/alpoxdev/hypercore/skills/hyper-execute/SKILL.md"
         },
         {
+          "name": "hyper-hwp",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-hwp/SKILL.md"
+        },
+        {
           "name": "hyper-frontend",
           "path": "plugins/alpoxdev/hypercore/skills/hyper-frontend/SKILL.md"
         },
@@ -5034,6 +5054,10 @@
         {
           "name": "hyper-loop",
           "path": "plugins/alpoxdev/hypercore/skills/hyper-loop/SKILL.md"
+        },
+        {
+          "name": "hyper-report",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-report/SKILL.md"
         },
         {
           "name": "hyper-mcp",
@@ -5378,7 +5402,7 @@
       "name": "loom",
       "displayName": "ClickHouse Loom",
       "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
-      "version": "1.2.21",
+      "version": "1.2.22",
       "category": "Development & Workflow",
       "author": "ClickHouse",
       "repository": "https://github.com/ClickHouse/loom",
@@ -6510,7 +6534,7 @@
       "name": "memtomem",
       "displayName": "memtomem",
       "description": "Markdown-first long-term memory shared across your coding agents: one local memtomem store, searchable from Hermes, Claude Code, Codex CLI and Kimi Code.",
-      "version": "0.1.20",
+      "version": "0.1.21",
       "category": "Development & Workflow",
       "author": "memtomem",
       "repository": "https://github.com/memtomem/memtomem",
@@ -6675,7 +6699,7 @@
       "name": "nightshift",
       "displayName": "Nightshift",
       "description": "Accountable, time-bounded Codex shifts. Hand it your punch list, or let it research the product and ship complete improvements until quitting time. Progress stays on disk through compaction and resume. The morning is reviewable commits or artifact receipts, per-item token usage and time, a shift log, and the decisions that were made. When you are done reviewing the run, archive it dated so the live session stays lean.",
-      "version": "0.33.2",
+      "version": "0.34.0",
       "category": "Development & Workflow",
       "author": "Orwa Mahmoud",
       "repository": "https://github.com/orwa-mahmoud/nightshift",
@@ -6780,7 +6804,7 @@
       "name": "oh-my-cassette",
       "displayName": "Oh My Cassette",
       "description": "Edit video with the Cassette agent from Codex: import local media, send editing turns, read the timeline, export.",
-      "version": "0.6.0",
+      "version": "0.7.0",
       "category": "Development & Workflow",
       "author": "Oh My Cassette contributors",
       "repository": "https://github.com/Cassette-Editor/oh-my-cassette",
@@ -6983,7 +7007,7 @@
       "name": "pixeltable",
       "displayName": "Pixeltable",
       "description": "Multimodal RAG, video search, image similarity search, agent memory, and embeddings stored with your data. Declarative tables, computed columns, retrieval, agents, and HTTP.",
-      "version": "2.14.0",
+      "version": "2.14.1",
       "category": "Development & Workflow",
       "author": "Pixeltable",
       "repository": "https://github.com/pixeltable/pixeltable-skill",
@@ -9215,7 +9239,7 @@
       "name": "session-orchestrator",
       "displayName": "Session Orchestrator",
       "description": "A repeatable Plan, Go, Close workflow for AI coding sessions: /session reads your repo and agrees the scope, /go runs the work in waves with a quality gate between each, /close verifies and commits. Runs on Claude Code, Codex CLI, Cursor and Pi.",
-      "version": "5.18.0+codex.20261110221425",
+      "version": "5.19.0+codex.20261113130433",
       "category": "Development & Workflow",
       "author": "",
       "repository": "",
@@ -9597,7 +9621,7 @@
       "name": "sno-station-standalone",
       "displayName": "Sno Station Skills",
       "description": "Twelve Sno Station skills for review, intent checks, end-to-end triage, work briefs, Shell, TypeScript, Python and Rust coding, and test writing that run without Sno Station programs or hooks.",
-      "version": "1.0.202611122214",
+      "version": "1.0.202611131744",
       "category": "Development & Workflow",
       "author": "Sno Station Skills contributors",
       "repository": "https://github.com/sno-ai/sno-station-skills",
@@ -9659,6 +9683,37 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "ssh-ops",
+      "name": "ssh-ops",
+      "displayName": "SSH Ops",
+      "description": "Operate Linux and Windows servers via SSH from Codex and the CLI using YAML configuration: run commands, deploy code, inspect logs, restart services, transfer files, and manage background jobs on bash servers. Connections are reused within each process.",
+      "version": "1.0.0",
+      "category": "Development & Workflow",
+      "author": "leehom0123",
+      "repository": "https://github.com/leehom0123/ssh-ops",
+      "license": "MIT",
+      "codexPath": "plugins/leehom0123/ssh-ops",
+      "skills": [
+        {
+          "name": "ssh-ops",
+          "path": "plugins/leehom0123/ssh-ops/SKILL.md"
+        },
+        {
+          "name": "ssh-ops",
+          "path": "plugins/leehom0123/ssh-ops/skills/ssh-ops/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "ssh-ops"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -12177,6 +12232,55 @@
       }
     },
     {
+      "id": "vidbyte-memory",
+      "name": "vidbyte-memory",
+      "displayName": "vidbyte-memory",
+      "description": "Correction-driven memory for coding agents: every correction becomes a fact, a test and a footprint commit in your repo. No API key, no database, no service.",
+      "version": "0.3.0",
+      "category": "Development & Workflow",
+      "author": "cerredz",
+      "repository": "https://github.com/cerredz/vidbyte-memory",
+      "license": "MIT",
+      "codexPath": "plugins/cerredz/vidbyte-memory",
+      "skills": [
+        {
+          "name": "create-verifier",
+          "path": "plugins/cerredz/vidbyte-memory/skills/create-verifier/SKILL.md"
+        },
+        {
+          "name": "verify-generation",
+          "path": "plugins/cerredz/vidbyte-memory/skills/verify-generation/SKILL.md"
+        },
+        {
+          "name": "update-memory",
+          "path": "plugins/cerredz/vidbyte-memory/skills/update-memory/SKILL.md"
+        },
+        {
+          "name": "create-test",
+          "path": "plugins/cerredz/vidbyte-memory/skills/create-test/SKILL.md"
+        },
+        {
+          "name": "install-memory",
+          "path": "plugins/cerredz/vidbyte-memory/skills/install-memory/SKILL.md"
+        },
+        {
+          "name": "handle-feedback",
+          "path": "plugins/cerredz/vidbyte-memory/skills/handle-feedback/SKILL.md"
+        },
+        {
+          "name": "create-fact",
+          "path": "plugins/cerredz/vidbyte-memory/skills/create-fact/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "villagesql",
       "name": "villagesql",
       "displayName": "VillageSQL Skills",
@@ -12456,7 +12560,7 @@
       "name": "codex-zcode-bridge",
       "displayName": "Zcode Bridge",
       "description": "Let Codex delegate development tasks to your local ZCode runtime and review their progress and results.",
-      "version": "1.7.1",
+      "version": "1.7.2",
       "category": "Development & Workflow",
       "author": "Sandy",
       "repository": "https://github.com/Sandyzzx/codex-zcode-bridge",
@@ -12560,7 +12664,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.142.2",
+      "version": "0.143.0",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -12699,7 +12803,7 @@
       "name": "agentmart",
       "displayName": "AgentMart",
       "description": "Ready, hosted parts for coding agents: a public webhook inbox URL, memory shared across sessions and machines, wake-up calls and schedules that run after the session ends, uptime watch, a task queue, a form backend, and tested code kits (Stripe billing, Supabase auth). Its two skills make the agent check the shelf before building, which saves time, tokens and effort, and buy only with your human's yes. Searching is free.",
-      "version": "1.1.9",
+      "version": "1.1.10",
       "category": "Tools & Integrations",
       "author": "Ciphyr Tech OÜ",
       "repository": "https://github.com/mustafaakmese/agentmart-plugins",
@@ -14104,8 +14208,8 @@
       "id": "cometchat-skills",
       "name": "cometchat-skills",
       "displayName": "CometChat",
-      "description": "CometChat AI-coding skills — add real-time chat, voice/video calling and push to your app via your AI coding agent, across React v7, Angular v5, React Native v5, Android v6 (Kotlin/Compose), iOS v5 (Swift/UIKit, SPM) and Flutter v6, plus headless Calls SDK skills. Ships the first-party CometChat Docs MCP so skills read always-current docs.",
-      "version": "5.1.0",
+      "description": "CometChat AI-coding skills — add real-time chat, voice/video calling and push to your app via your AI coding agent, across React v7, Angular v5, React Native v5, Android v6 (Kotlin/Compose), iOS v5 (Swift/UIKit, SPM) and Flutter v6, plus headless Calls SDK skills. Ships the CometChat MCP: always-current docs with no sign-in, and your CometChat account once you sign in.",
+      "version": "5.2.0",
       "category": "Tools & Integrations",
       "author": "CometChat",
       "repository": "https://github.com/cometchat/cometchat-skills",
@@ -14506,7 +14610,7 @@
         }
       ],
       "mcpServers": [
-        "cometchat-docs"
+        "cometchat"
       ],
       "tools": {
         "codex": true,
@@ -14938,7 +15042,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.17.8",
+      "version": "1.17.9",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -18253,7 +18357,7 @@
       "name": "oc-codex-multi-auth",
       "displayName": "oc-codex-multi-auth",
       "description": "Install and operate oc-codex-multi-auth for OpenCode with ChatGPT Plus/Pro OAuth, Codex/GPT-5 routing, multi-account rotation, account switching, health checks, diagnostics, quota status, and recovery tools.",
-      "version": "6.31.0",
+      "version": "6.32.0",
       "category": "Tools & Integrations",
       "author": "",
       "repository": "",
@@ -18418,6 +18522,33 @@
       }
     },
     {
+      "id": "osmo",
+      "name": "osmo",
+      "displayName": "OsmO Phone Calls",
+      "description": "OsmO's AI makes real phone calls for you: call a business or helpline, then get the summary and transcript. Every call is confirmed by you first. Sign in with your phone number; no API key. 50 free credits for new users in the US, Canada, UK and Australia: with free credits, OsmO calls businesses and toll-free numbers; calling your contacts and scheduling calls need an OsmO app plan.",
+      "version": "1.1.0",
+      "category": "Tools & Integrations",
+      "author": "OsmO AI",
+      "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+      "license": "MIT",
+      "codexPath": "plugins/Mountainheads-Private-limited/osmo-ai-plugins",
+      "skills": [
+        {
+          "name": "osmo-phone-calls",
+          "path": "plugins/Mountainheads-Private-limited/osmo-ai-plugins/skills/osmo-phone-calls/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "osmo"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "panews",
       "name": "panews",
       "displayName": "PANews Agent Toolkit",
@@ -18494,7 +18625,7 @@
       "name": "phonedriver",
       "displayName": "phonedriver",
       "description": "Lets an agent see and operate Android phones and iPhones: the screen as text, taps by element number, and a question to you before any tap that pays. Bundles the phonedriver MCP server and its skill.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "category": "Tools & Integrations",
       "author": "Hridya Agrawal",
       "repository": "https://github.com/hridaya423/phonedriver",
@@ -18822,7 +18953,7 @@
       "name": "questionpunk",
       "displayName": "QuestionPunk",
       "description": "Create and review survey drafts, publish requested studies, and analyze authorized QuestionPunk results.",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "category": "Tools & Integrations",
       "author": "QuestionPunk",
       "repository": "https://github.com/questionpunk/codex-plugin",
@@ -18830,12 +18961,28 @@
       "codexPath": "plugins/questionpunk/codex-plugin",
       "skills": [
         {
+          "name": "group-forms",
+          "path": "plugins/questionpunk/codex-plugin/skills/group-forms/SKILL.md"
+        },
+        {
           "name": "analyze-results",
           "path": "plugins/questionpunk/codex-plugin/skills/analyze-results/SKILL.md"
         },
         {
+          "name": "create-quiz",
+          "path": "plugins/questionpunk/codex-plugin/skills/create-quiz/SKILL.md"
+        },
+        {
           "name": "review-study",
           "path": "plugins/questionpunk/codex-plugin/skills/review-study/SKILL.md"
+        },
+        {
+          "name": "import-survey",
+          "path": "plugins/questionpunk/codex-plugin/skills/import-survey/SKILL.md"
+        },
+        {
+          "name": "ai-interview",
+          "path": "plugins/questionpunk/codex-plugin/skills/ai-interview/SKILL.md"
         },
         {
           "name": "create-study",
@@ -20683,6 +20830,10 @@
           "path": "plugins/vargHQ/skills/find-references/SKILL.md"
         },
         {
+          "name": "multi-angle-monologue",
+          "path": "plugins/vargHQ/skills/multi-angle-monologue/SKILL.md"
+        },
+        {
           "name": "ad-creative-testing",
           "path": "plugins/vargHQ/skills/ad-creative-testing/SKILL.md"
         },
@@ -20851,6 +21002,10 @@
           "path": "plugins/vargHQ/skills/video-sound/SKILL.md"
         },
         {
+          "name": "ai-parody-video",
+          "path": "plugins/vargHQ/skills/ai-parody-video/SKILL.md"
+        },
+        {
           "name": "tiktok-shop-video",
           "path": "plugins/vargHQ/skills/tiktok-shop-video/SKILL.md"
         },
@@ -20883,6 +21038,10 @@
           "path": "plugins/vargHQ/skills/varg-publish-skill/SKILL.md"
         },
         {
+          "name": "find-movie-clips",
+          "path": "plugins/vargHQ/skills/find-movie-clips/SKILL.md"
+        },
+        {
           "name": "varg-unboxing-video",
           "path": "plugins/vargHQ/skills/varg-unboxing-video/SKILL.md"
         },
@@ -20913,6 +21072,10 @@
         {
           "name": "varg-birthday-video",
           "path": "plugins/vargHQ/skills/varg-birthday-video/SKILL.md"
+        },
+        {
+          "name": "stickman-video",
+          "path": "plugins/vargHQ/skills/stickman-video/SKILL.md"
         },
         {
           "name": "varg-character-absurd",
@@ -20973,6 +21136,10 @@
         {
           "name": "threejs-animatic",
           "path": "plugins/vargHQ/skills/threejs-animatic/SKILL.md"
+        },
+        {
+          "name": "scene-recast-video",
+          "path": "plugins/vargHQ/skills/scene-recast-video/SKILL.md"
         },
         {
           "name": "varg-character-cringe",
@@ -21255,6 +21422,53 @@
       ],
       "mcpServers": [
         "webly"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "worktable",
+      "name": "worktable",
+      "displayName": "Worktable",
+      "description": "Build shared Docs, live HTML workspaces, structured Records, annotations, and durable agent threads in Worktable.",
+      "version": "0.1.8",
+      "category": "Tools & Integrations",
+      "author": "Reva Labs",
+      "repository": "https://github.com/worktable/worktable-dev",
+      "license": "MIT",
+      "codexPath": "plugins/worktable/worktable-plugin",
+      "skills": [
+        {
+          "name": "worktable-create-or-manage-records",
+          "path": "plugins/worktable/worktable-plugin/skills/worktable-create-or-manage-records/SKILL.md"
+        },
+        {
+          "name": "worktable-find-and-synthesize-context",
+          "path": "plugins/worktable/worktable-plugin/skills/worktable-find-and-synthesize-context/SKILL.md"
+        },
+        {
+          "name": "worktable-review-with-annotations",
+          "path": "plugins/worktable/worktable-plugin/skills/worktable-review-with-annotations/SKILL.md"
+        },
+        {
+          "name": "worktable-create-or-manage-interactive-html",
+          "path": "plugins/worktable/worktable-plugin/skills/worktable-create-or-manage-interactive-html/SKILL.md"
+        },
+        {
+          "name": "worktable-collaborate-threads",
+          "path": "plugins/worktable/worktable-plugin/skills/worktable-collaborate-threads/SKILL.md"
+        },
+        {
+          "name": "worktable-create-or-update-docs",
+          "path": "plugins/worktable/worktable-plugin/skills/worktable-create-or-update-docs/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "worktable"
       ],
       "tools": {
         "codex": true,
