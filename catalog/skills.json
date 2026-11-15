@@ -3556,6 +3556,11 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-uiux-design",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-uiux-design/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper-data",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-data/SKILL.md"
   },
@@ -7418,6 +7423,11 @@
     "plugin": "session-orchestrator",
     "skill": "portfolio",
     "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/portfolio/SKILL.md"
+  },
+  {
+    "plugin": "session-orchestrator",
+    "skill": "backlog",
+    "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/backlog/SKILL.md"
   },
   {
     "plugin": "session-orchestrator",
