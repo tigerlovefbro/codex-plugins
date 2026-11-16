@@ -9255,6 +9255,11 @@
     "path": "plugins/Colin4k1024/tsp/skills/roles/architect/SKILL.md"
   },
   {
+    "plugin": "telegram-bot-ui",
+    "skill": "telegram-bot-ui",
+    "path": "plugins/hlibsuslov/telegram-bot-ui/skills/telegram-bot-ui/SKILL.md"
+  },
+  {
     "plugin": "tmcra-memory",
     "skill": "manage-tmcra-memory",
     "path": "plugins/reshuibuduo/tmcra-plugin-codex/skills/manage-tmcra-memory/SKILL.md"
@@ -11515,6 +11520,11 @@
     "path": "plugins/entropy-data/dataproduct-builder-dbt/skills/entropy-data-teams/SKILL.md"
   },
   {
+    "plugin": "dawn",
+    "skill": "dawn",
+    "path": "plugins/hraness/product-skills/plugins/dawn/skills/dawn/SKILL.md"
+  },
+  {
     "plugin": "deed-page",
     "skill": "deed-page",
     "path": "plugins/f-o-x11/deed-page-skill/skills/deed-page/SKILL.md"
@@ -12835,6 +12845,16 @@
     "path": "plugins/fxmacrodata/claude-plugin-fxmacrodata/skills/research-provenance/SKILL.md"
   },
   {
+    "plugin": "youtube-transcript",
+    "skill": "youtube-transcript-api",
+    "path": "plugins/tubeagentkit/youtube-mcp/skills/youtube-transcript-api/SKILL.md"
+  },
+  {
+    "plugin": "youtube-transcript",
+    "skill": "youtube",
+    "path": "plugins/tubeagentkit/youtube-mcp/skills/youtube/SKILL.md"
+  },
+  {
     "plugin": "gh-project-plugin",
     "skill": "gh-project",
     "path": "plugins/zfifteen/gh-project-plugin/skills/gh-project/SKILL.md"
@@ -14120,6 +14140,11 @@
     "path": "plugins/Mountainheads-Private-limited/osmo-ai-plugins/skills/osmo-phone-calls/SKILL.md"
   },
   {
+    "plugin": "osmo",
+    "skill": "osmo-ai-receptionist",
+    "path": "plugins/Mountainheads-Private-limited/osmo-ai-plugins/skills/osmo-ai-receptionist/SKILL.md"
+  },
+  {
     "plugin": "panews",
     "skill": "panews",
     "path": "plugins/panewslab/skills/skills/panews/SKILL.md"
@@ -14830,6 +14855,11 @@
     "path": "plugins/Erfouni/solidworks-GPT-plugin/plugins/solidworks-gpt-plugin/skills/sw-pre-start/SKILL.md"
   },
   {
+    "plugin": "sponge",
+    "skill": "sponge",
+    "path": "plugins/hraness/product-skills/plugins/sponge/skills/sponge/SKILL.md"
+  },
+  {
     "plugin": "story-skills",
     "skill": "reader-panel",
     "path": "plugins/danjdewhurst/story-skills/skills/reader-panel/SKILL.md"
@@ -15058,6 +15088,11 @@
     "plugin": "teaching-skills",
     "skill": "teaching-suite",
     "path": "plugins/YujxZJCN/teaching-skills-codex/skills/teaching-suite/SKILL.md"
+  },
+  {
+    "plugin": "textmock",
+    "skill": "textmock",
+    "path": "plugins/hraness/product-skills/plugins/textmock/skills/textmock/SKILL.md"
   },
   {
     "plugin": "thermal-fluid-research-workflow",
@@ -16033,6 +16068,11 @@
     "plugin": "yandex-direct-for-all",
     "skill": "amocrm-api-control",
     "path": "plugins/nebelov/yandex-direct-for-all/skills/amocrm-api-control/SKILL.md"
+  },
+  {
+    "plugin": "yaptake",
+    "skill": "yaptake",
+    "path": "plugins/hraness/product-skills/plugins/yaptake/skills/yaptake/SKILL.md"
   },
   {
     "plugin": "youtube-skills",

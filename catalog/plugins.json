@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-15T10:25:47.457370+00:00",
+    "generatedAt": "2026-11-16T10:40:38.013396+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 413,
-      "with_skills": 378,
-      "with_mcp": 157,
+      "plugins": 419,
+      "with_skills": 384,
+      "with_mcp": 159,
       "codex_only": 21
     },
-    "skillCount": 3224
+    "skillCount": 3232
   },
   "plugins": [
     {
@@ -335,7 +335,7 @@
       "name": "agent-guard",
       "displayName": "Agent Guard",
       "description": "Local-by-default, no-telemetry hooks inspect user prompts, supported tool inputs, outputs, and changed files in every enabled Claude Code or Codex session to block or mask secret leaks. Includes opt-in PII filtering and Git/CI backstops.",
-      "version": "3.9.0",
+      "version": "3.11.2",
       "category": "Development & Workflow",
       "author": "Agent Guard contributors",
       "repository": "https://github.com/JeongJaeSoon/agent-guard",
@@ -533,7 +533,7 @@
       "name": "agentops",
       "displayName": "AgentOps",
       "description": "Engineering guidance for coding agents: behavior-driven planning, shared domain language, independent validation, and reusable improvements.",
-      "version": "3.12.0",
+      "version": "3.12.1",
       "category": "Development & Workflow",
       "author": "",
       "repository": "",
@@ -1771,7 +1771,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.23.0",
+      "version": "11.24.1",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -2767,7 +2767,7 @@
       "name": "context-guard",
       "displayName": "Context Guard",
       "description": "Preserve task requirements and verify evidence, scope, surfaces, and multimodal assets across compaction.",
-      "version": "0.17.3",
+      "version": "0.18.0",
       "category": "Development & Workflow",
       "author": "Gerui Lv",
       "repository": "https://github.com/GreenLv/codex-context-guard",
@@ -6538,7 +6538,7 @@
       "name": "memtomem",
       "displayName": "memtomem",
       "description": "Markdown-first long-term memory shared across your coding agents: one local memtomem store, searchable from Hermes, Claude Code, Codex CLI and Kimi Code.",
-      "version": "0.1.22",
+      "version": "0.1.23",
       "category": "Development & Workflow",
       "author": "memtomem",
       "repository": "https://github.com/memtomem/memtomem",
@@ -9629,7 +9629,7 @@
       "name": "sno-station-standalone",
       "displayName": "Sno Station Skills",
       "description": "Twelve Sno Station skills for review, intent checks, end-to-end triage, work briefs, Shell, TypeScript, Python and Rust coding, and test writing that run without Sno Station programs or hooks.",
-      "version": "1.0.202611142021",
+      "version": "1.0.202611152351",
       "category": "Development & Workflow",
       "author": "Sno Station Skills contributors",
       "repository": "https://github.com/sno-ai/sno-station-skills",
@@ -10049,7 +10049,7 @@
       "name": "suede-skills",
       "displayName": "Suede AI Skills",
       "description": "Open-source AI skills for SEO, marketing, and business operations in Claude Code and Codex. Includes code review, app delivery, creator tools, and reusable workflows.",
-      "version": "0.19.3",
+      "version": "0.19.4",
       "category": "Development & Workflow",
       "author": "Jason Colapietro",
       "repository": "https://github.com/JasonColapietro/suede-creator-skills",
@@ -10502,7 +10502,7 @@
       "name": "design",
       "displayName": "Design",
       "description": "Design skills — UX psychology, visual design, accessibility, and Apple featuring readiness for web, SaaS, and mobile apps",
-      "version": "2.11.0",
+      "version": "2.12.0",
       "category": "Development & Workflow",
       "author": "Tartiner Labs",
       "repository": "https://github.com/tartinerlabs/skills",
@@ -11245,6 +11245,31 @@
         {
           "name": "architect",
           "path": "plugins/Colin4k1024/tsp/skills/roles/architect/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "telegram-bot-ui",
+      "name": "telegram-bot-ui",
+      "displayName": "Telegram Bot UI",
+      "description": "Design, build, review and operate Telegram bots with the newest Bot API: bot screens and keyboards, streaming AI replies, HTML widgets, premium emoji, product flows, channel publishing, agent-operated bots and Bot API lookups. Bundles the telegram-bot-ui skill and five subagents.",
+      "version": "2.2.1",
+      "category": "Development & Workflow",
+      "author": "hlibsuslov",
+      "repository": "https://github.com/hlibsuslov/telegram-bot-ui",
+      "license": "MIT",
+      "codexPath": "plugins/hlibsuslov/telegram-bot-ui",
+      "skills": [
+        {
+          "name": "telegram-bot-ui",
+          "path": "plugins/hlibsuslov/telegram-bot-ui/skills/telegram-bot-ui/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -12672,7 +12697,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.146.0",
+      "version": "0.149.1",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -13695,7 +13720,7 @@
       "name": "centricmem-skill",
       "displayName": "CentricMem",
       "description": "Hosted CentricMem librarian: organise and retrieve Markdown memory via host MCP.",
-      "version": "1.0.50",
+      "version": "1.0.51",
       "category": "Tools & Integrations",
       "author": "Dr. Z",
       "repository": "https://github.com/zeyu-j/centricmem-skill",
@@ -14897,6 +14922,31 @@
       }
     },
     {
+      "id": "dawn",
+      "name": "dawn",
+      "displayName": "Dawn",
+      "description": "A TypeScript music SDK and headless CLI for composing, arranging and rendering songs offline.",
+      "version": "0.1.2",
+      "category": "Tools & Integrations",
+      "author": "Hraness",
+      "repository": "https://github.com/hraness/product-skills",
+      "license": "MIT",
+      "codexPath": "plugins/hraness/product-skills/plugins/dawn",
+      "skills": [
+        {
+          "name": "dawn",
+          "path": "plugins/hraness/product-skills/plugins/dawn/skills/dawn/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "deed-page",
       "name": "deed-page",
       "displayName": "deed.page",
@@ -14927,7 +14977,7 @@
       "id": "deja-vu",
       "name": "deja-vu",
       "displayName": "deja-vu",
-      "description": "deja-vu: memory for coding agents from the sessions already on your disk — Claude Code, Codex, Cursor, opencode and forty-two more — including work from before it was installed.",
+      "description": "deja-vu: memory for coding agents from the sessions already on your disk — Claude Code, Codex, Cursor, opencode and forty-four more — including work from before it was installed.",
       "version": "0.24.2",
       "category": "Tools & Integrations",
       "author": "vshulcz",
@@ -15927,7 +15977,7 @@
       "name": "easybrandkit",
       "displayName": "easybrandkit",
       "description": "Get a website's real logo files, colors, fonts and first screen as a brand kit your coding agent can read.",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "category": "Tools & Integrations",
       "author": "Emin Budak",
       "repository": "https://github.com/MakersMCP/easybrandkit",
@@ -16476,6 +16526,35 @@
       }
     },
     {
+      "id": "youtube-transcript",
+      "name": "youtube-transcript",
+      "displayName": "GetYouTubeTranscript",
+      "description": "YouTube transcripts, video and channel search, channel browsing, and playlist extraction for AI agents and chat assistants, via the hosted getyoutubetranscript.com MCP server. Sign in with OAuth or use an API key.",
+      "version": "1.3.0",
+      "category": "Tools & Integrations",
+      "author": "TubeAgentKit",
+      "repository": "https://github.com/tubeagentkit/youtube-mcp",
+      "license": "MIT",
+      "codexPath": "plugins/tubeagentkit/youtube-mcp",
+      "skills": [
+        {
+          "name": "youtube-transcript-api",
+          "path": "plugins/tubeagentkit/youtube-mcp/skills/youtube-transcript-api/SKILL.md"
+        },
+        {
+          "name": "youtube",
+          "path": "plugins/tubeagentkit/youtube-mcp/skills/youtube/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "gh-project-plugin",
       "name": "gh-project-plugin",
       "displayName": "GH Project",
@@ -16728,7 +16807,7 @@
       "name": "kicad-happy",
       "displayName": "kicad-happy",
       "description": "KiCad electronics design review. Parse schematics and PCB layouts, run EMC pre-compliance and SPICE simulation, extract structured specs from datasheet PDFs, source components from major distributors, and prep boards for fabrication. Catches real design bugs before you order.",
-      "version": "3.0.1",
+      "version": "3.0.2",
       "category": "Tools & Integrations",
       "author": "aklofas",
       "repository": "https://github.com/aklofas/kicad-happy",
@@ -17115,7 +17194,7 @@
       "name": "launch-film",
       "displayName": "launch-film",
       "description": "A launch film from a website or an App Store page: its real logo, colors, fonts and screens, rendered locally with Chrome and ffmpeg.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "category": "Tools & Integrations",
       "author": "Emin Budak",
       "repository": "https://github.com/MakersMCP/launch-film",
@@ -18534,7 +18613,7 @@
       "name": "osmo",
       "displayName": "OsmO Phone Calls",
       "description": "OsmO's AI makes real phone calls for you: call a business or helpline, then get the summary and transcript. Every call is confirmed by you first. Sign in with your phone number; no API key. 50 free credits for new users in the US, Canada, UK and Australia: with free credits, OsmO calls businesses and toll-free numbers; calling your contacts and scheduling calls need an OsmO app plan.",
-      "version": "1.1.0",
+      "version": "1.3.0",
       "category": "Tools & Integrations",
       "author": "OsmO AI",
       "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
@@ -18544,6 +18623,10 @@
         {
           "name": "osmo-phone-calls",
           "path": "plugins/Mountainheads-Private-limited/osmo-ai-plugins/skills/osmo-phone-calls/SKILL.md"
+        },
+        {
+          "name": "osmo-ai-receptionist",
+          "path": "plugins/Mountainheads-Private-limited/osmo-ai-plugins/skills/osmo-ai-receptionist/SKILL.md"
         }
       ],
       "mcpServers": [
@@ -19331,7 +19414,7 @@
       "name": "ru-marketplace-mcp",
       "displayName": "ru-marketplace-mcp",
       "description": "Двенадцать площадок РФ и Китая (Wildberries, Ozon, Яндекс Маркет, Авито, Циан, AliExpress, Taobao, Детский мир, Мегамаркет, Lamoda, DNS, Ситилинк) как MCP-серверы и 15 навыков. Сравнение цен без ключей API.",
-      "version": "2.9.2",
+      "version": "2.9.3",
       "category": "Tools & Integrations",
       "author": "Vladimir-Human",
       "repository": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
@@ -19549,7 +19632,7 @@
       "name": "self-starter",
       "displayName": "Self-Starter",
       "description": "Define custom events in plain language and let Codex act when they happen, with no model tokens spent while waiting.",
-      "version": "0.0.7",
+      "version": "0.1.0",
       "category": "Tools & Integrations",
       "author": "hyprh",
       "repository": "https://github.com/hyprh/self-starter",
@@ -20054,6 +20137,33 @@
       }
     },
     {
+      "id": "sponge",
+      "name": "sponge",
+      "displayName": "Sponge",
+      "description": "Save articles and PDFs to a reading library captured by a computer you control. Highlight passages, keep notes, and find ideas through search or your coding agent.",
+      "version": "0.1.4",
+      "category": "Tools & Integrations",
+      "author": "Hraness",
+      "repository": "https://github.com/hraness/product-skills",
+      "license": "MIT",
+      "codexPath": "plugins/hraness/product-skills/plugins/sponge",
+      "skills": [
+        {
+          "name": "sponge",
+          "path": "plugins/hraness/product-skills/plugins/sponge/skills/sponge/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "sponge"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "story-skills",
       "name": "story-skills",
       "displayName": "Story Skills",
@@ -20493,6 +20603,31 @@
         {
           "name": "teaching-suite",
           "path": "plugins/YujxZJCN/teaching-skills-codex/skills/teaching-suite/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "textmock",
+      "name": "textmock",
+      "displayName": "Textmock",
+      "description": "Make iMessage-style conversations and save them as images or videos.",
+      "version": "0.1.2",
+      "category": "Tools & Integrations",
+      "author": "Hraness",
+      "repository": "https://github.com/hraness/product-skills",
+      "license": "MIT",
+      "codexPath": "plugins/hraness/product-skills/plugins/textmock",
+      "skills": [
+        {
+          "name": "textmock",
+          "path": "plugins/hraness/product-skills/plugins/textmock/skills/textmock/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -21674,6 +21809,33 @@
         "yandexDirect",
         "yandexSearch",
         "yandexWordstat"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "yaptake",
+      "name": "yaptake",
+      "displayName": "Yaptake",
+      "description": "Edit video for every feed (9:16, 4:5, 1:1 or 16:9) in a native Mac app with a transcript, captions and timeline. Local tools let coding agents work on the same project.",
+      "version": "0.1.3",
+      "category": "Tools & Integrations",
+      "author": "Hraness",
+      "repository": "https://github.com/hraness/product-skills",
+      "license": "MIT",
+      "codexPath": "plugins/hraness/product-skills/plugins/yaptake",
+      "skills": [
+        {
+          "name": "yaptake",
+          "path": "plugins/hraness/product-skills/plugins/yaptake/skills/yaptake/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "yaptake"
       ],
       "tools": {
         "codex": true,

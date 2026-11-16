@@ -992,6 +992,13 @@
     "path": "plugins/fclairamb/solidping-plugin/.mcp.json"
   },
   {
+    "plugin": "sponge",
+    "servers": [
+      "sponge"
+    ],
+    "path": "plugins/hraness/product-skills/plugins/sponge/.mcp.json"
+  },
+  {
     "plugin": "storyflo-codex-plugin",
     "servers": [
       "storyflo"
@@ -1112,5 +1119,12 @@
       "yandexWordstat"
     ],
     "path": "plugins/nebelov/yandex-direct-for-all/.mcp.json"
+  },
+  {
+    "plugin": "yaptake",
+    "servers": [
+      "yaptake"
+    ],
+    "path": "plugins/hraness/product-skills/plugins/yaptake/.mcp.json"
   }
 ]
