@@ -660,6 +660,16 @@
     "path": "plugins/archcore-ai/archcore/skills/review/SKILL.md"
   },
   {
+    "plugin": "asitis",
+    "skill": "steering-check",
+    "path": "plugins/Katta041/asitis-agent-tools/skills/steering-check/SKILL.md"
+  },
+  {
+    "plugin": "asitis",
+    "skill": "markdown-byte-clean",
+    "path": "plugins/Katta041/asitis-agent-tools/skills/markdown-byte-clean/SKILL.md"
+  },
+  {
     "plugin": "assay",
     "skill": "checking-a-page",
     "path": "plugins/awss1i/assay/skills/checking-a-page/SKILL.md"
@@ -1015,6 +1025,11 @@
     "path": "plugins/echoVic/boss-skill/skill/skills/qa/integration-testing/SKILL.md"
   },
   {
+    "plugin": "brief2mp4",
+    "skill": "brief2mp4",
+    "path": "plugins/qualixar/brief2mp4/skills/brief2mp4/SKILL.md"
+  },
+  {
     "plugin": "bringyour-migration-auditor",
     "skill": "bringyour-migration-auditor",
     "path": "plugins/unitedideas/bringyour-mcp/skills/bringyour-migration-auditor/SKILL.md"
@@ -1058,6 +1073,26 @@
     "plugin": "casefile",
     "skill": "casefile",
     "path": "plugins/x4cc3/casefile/skills/casefile/SKILL.md"
+  },
+  {
+    "plugin": "ccx",
+    "skill": "to-claude",
+    "path": "plugins/AaronWong1999/ccx/skills/to-claude/SKILL.md"
+  },
+  {
+    "plugin": "ccx",
+    "skill": "from-claude",
+    "path": "plugins/AaronWong1999/ccx/skills/from-claude/SKILL.md"
+  },
+  {
+    "plugin": "ccx",
+    "skill": "from-antigravity",
+    "path": "plugins/AaronWong1999/ccx/skills/from-antigravity/SKILL.md"
+  },
+  {
+    "plugin": "ccx",
+    "skill": "to-antigravity",
+    "path": "plugins/AaronWong1999/ccx/skills/to-antigravity/SKILL.md"
   },
   {
     "plugin": "chatgpt-agent",
@@ -3030,6 +3065,11 @@
     "path": "plugins/SamurAIGPT/Generative-Media-Skills/library/visual/blog-header/SKILL.md"
   },
   {
+    "plugin": "gitranks-contribute",
+    "skill": "contribute",
+    "path": "plugins/gitranks/contribute/skills/contribute/SKILL.md"
+  },
+  {
     "plugin": "codex-goal-progress",
     "skill": "goal-progress",
     "path": "plugins/ezra-y/codex-goal-progress/skills/goal-progress/SKILL.md"
@@ -3798,6 +3838,101 @@
     "plugin": "krypton",
     "skill": "krypton-vps-codex-app",
     "path": "plugins/jturntdev/krypton/skills/krypton-vps-codex-app/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-incident-response",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-incident-response/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-legal-basis",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-legal-basis/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-encryption-keys",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-encryption-keys/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-vendor-audit",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-vendor-audit/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-dsar",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-dsar/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-international-transfer",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-international-transfer/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-data-mapping",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-data-mapping/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-privacy-policy",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-privacy-policy/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-consent-schema",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-consent-schema/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-eca-digital-minors",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-eca-digital-minors/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-ripd",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-ripd/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-audit",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-audit/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-legacy-retrofit",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-legacy-retrofit/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-dpo-encarregado",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-dpo-encarregado/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-ropa",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-ropa/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-retention-erasure",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-retention-erasure/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-dpa",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-dpa/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-anonymization",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-anonymization/SKILL.md"
+  },
+  {
+    "plugin": "lgpd-skills",
+    "skill": "lgpd-audit-logging",
+    "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-audit-logging/SKILL.md"
   },
   {
     "plugin": "loom",
@@ -7173,6 +7308,61 @@
     "plugin": "research-agent-skills",
     "skill": "pytdc",
     "path": "plugins/KalarisLabs/research-agent-skills/skills/pytdc/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "add-subscriptions",
+    "path": "plugins/moonetix/revenue-skills/skills/add-subscriptions/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "add-referral-program",
+    "path": "plugins/moonetix/revenue-skills/skills/add-referral-program/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "add-offerwall",
+    "path": "plugins/moonetix/revenue-skills/skills/add-offerwall/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "money-audit",
+    "path": "plugins/moonetix/revenue-skills/skills/money-audit/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "build-ledger",
+    "path": "plugins/moonetix/revenue-skills/skills/build-ledger/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "add-payouts",
+    "path": "plugins/moonetix/revenue-skills/skills/add-payouts/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "guard-signups",
+    "path": "plugins/moonetix/revenue-skills/skills/guard-signups/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "design-reward-economy",
+    "path": "plugins/moonetix/revenue-skills/skills/design-reward-economy/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "add-usage-credits",
+    "path": "plugins/moonetix/revenue-skills/skills/add-usage-credits/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "handle-refunds-and-reversals",
+    "path": "plugins/moonetix/revenue-skills/skills/handle-refunds-and-reversals/SKILL.md"
+  },
+  {
+    "plugin": "revenue-skills",
+    "skill": "build-webhook-endpoint",
+    "path": "plugins/moonetix/revenue-skills/skills/build-webhook-endpoint/SKILL.md"
   },
   {
     "plugin": "reviewable-html-workbench",
@@ -15168,6 +15358,11 @@
     "plugin": "tokenchronicle",
     "skill": "tokenchronicle-setup",
     "path": "plugins/HuaHuiJian/tokenchronicle-marketplace/skills/tokenchronicle-setup/SKILL.md"
+  },
+  {
+    "plugin": "tossithere",
+    "skill": "tossithere",
+    "path": "plugins/kush-daga/tossithere-plugin/skills/tossithere/SKILL.md"
   },
   {
     "plugin": "treza",

@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-16T10:40:38.013396+00:00",
+    "generatedAt": "2026-11-17T11:30:13.976904+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 419,
-      "with_skills": 384,
-      "with_mcp": 159,
+      "plugins": 426,
+      "with_skills": 391,
+      "with_mcp": 162,
       "codex_only": 21
     },
-    "skillCount": 3232
+    "skillCount": 3271
   },
   "plugins": [
     {
@@ -296,7 +296,7 @@
       "name": "agent-deck",
       "displayName": "Agent Deck",
       "description": "Decks of MCP tools, keys, and self-improving playbooks that bind per-workspace.",
-      "version": "2.5.2",
+      "version": "2.5.3",
       "category": "Development & Workflow",
       "author": "not-so-fat",
       "repository": "https://github.com/not-so-fat/agent-deck",
@@ -1014,7 +1014,7 @@
       "name": "armorcodex",
       "displayName": "ArmorCodex",
       "description": "ArmorIQ intent-based security enforcement for Codex: Bash command guardrails with intent verification, optional CSRG cryptographic proofs, and audit logging. Codex hooks currently fire for Bash, apply_patch, and MCP tool calls; non-Bash file/web activity may need supplemental controls. See CODEX_HARNESS_LIMITATIONS.md.",
-      "version": "0.3.2",
+      "version": "0.3.7",
       "category": "Development & Workflow",
       "author": "ArmorIQ",
       "repository": "https://github.com/armoriq/armorCodex",
@@ -1028,6 +1028,37 @@
         "codex": true,
         "claude": false,
         "dsh": false,
+        "mcp": true
+      }
+    },
+    {
+      "id": "asitis",
+      "name": "asitis",
+      "displayName": "AsItIs",
+      "description": "Read-only linter for AGENTS.md, CLAUDE.md, SKILL.md and other agent steering files: what each agent loads, token budgets, hidden instructions.",
+      "version": "0.4.4",
+      "category": "Development & Workflow",
+      "author": "AsItIs",
+      "repository": "https://github.com/Katta041/asitis-agent-tools",
+      "license": "MIT",
+      "codexPath": "plugins/Katta041/asitis-agent-tools",
+      "skills": [
+        {
+          "name": "steering-check",
+          "path": "plugins/Katta041/asitis-agent-tools/skills/steering-check/SKILL.md"
+        },
+        {
+          "name": "markdown-byte-clean",
+          "path": "plugins/Katta041/asitis-agent-tools/skills/markdown-byte-clean/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "asitis"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
         "mcp": true
       }
     },
@@ -1493,6 +1524,31 @@
       }
     },
     {
+      "id": "brief2mp4",
+      "name": "brief2mp4",
+      "displayName": "brief2mp4",
+      "description": "Turn a written brief into a finished, checked MP4 motion graphic: HyperFrames, Three.js, an optional 3D pack (CAD, materials, physics), Blender and ffmpeg. macOS, Windows, Linux.",
+      "version": "0.3.0",
+      "category": "Development & Workflow",
+      "author": "Varun Pratap Bhardwaj",
+      "repository": "https://github.com/qualixar/brief2mp4",
+      "license": "MIT",
+      "codexPath": "plugins/qualixar/brief2mp4",
+      "skills": [
+        {
+          "name": "brief2mp4",
+          "path": "plugins/qualixar/brief2mp4/skills/brief2mp4/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "bringyour-migration-auditor",
       "name": "bringyour-migration-auditor",
       "displayName": "Bring Your AI Migration Auditor",
@@ -1522,7 +1578,7 @@
       "name": "brooks-lint",
       "displayName": "Brooks Lint",
       "description": "AI code reviews grounded in twelve classic engineering books — decay risk diagnostics with book citations, severity labels, and six analysis modes (PR review, architecture audit, tech debt, test quality, health dashboard, full-sweep auto-fix)",
-      "version": "1.9.1",
+      "version": "2.0.0",
       "category": "Development & Workflow",
       "author": "hyhmrright",
       "repository": "https://github.com/hyhmrright/brooks-lint",
@@ -1612,6 +1668,43 @@
         "claude": true,
         "dsh": true,
         "mcp": true
+      }
+    },
+    {
+      "id": "ccx",
+      "name": "ccx",
+      "displayName": "ccx - claudecodex",
+      "description": "ccx: continue the same task in Claude, Codex and Antigravity. Needs the ccx app on this Mac: github.com/aaronwong1999/ccx",
+      "version": "0.1.3",
+      "category": "Development & Workflow",
+      "author": "Aaron Wong",
+      "repository": "https://github.com/aaronwong1999/ccx",
+      "license": "MIT",
+      "codexPath": "plugins/AaronWong1999/ccx",
+      "skills": [
+        {
+          "name": "to-claude",
+          "path": "plugins/AaronWong1999/ccx/skills/to-claude/SKILL.md"
+        },
+        {
+          "name": "from-claude",
+          "path": "plugins/AaronWong1999/ccx/skills/from-claude/SKILL.md"
+        },
+        {
+          "name": "from-antigravity",
+          "path": "plugins/AaronWong1999/ccx/skills/from-antigravity/SKILL.md"
+        },
+        {
+          "name": "to-antigravity",
+          "path": "plugins/AaronWong1999/ccx/skills/to-antigravity/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
       }
     },
     {
@@ -1748,8 +1841,8 @@
       "id": "claude-code-skills",
       "name": "claude-code-skills",
       "displayName": "Claude Code Skills",
-      "description": "415 production-ready skills across 20 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 824 Python tools, 931 reference guides, 131 agents (cs-* + personas), 173 slash commands, 112 marketplace plugins. The largest open-source skills library for AI coding agents.",
-      "version": "2.14.11",
+      "description": "417 production-ready skills across 20 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 826 Python tools, 934 reference guides, 131 agents (cs-* + personas), 173 slash commands, 113 marketplace plugins. The largest open-source skills library for AI coding agents.",
+      "version": "2.14.12",
       "category": "Development & Workflow",
       "author": "Alireza Rezvani",
       "repository": "https://github.com/alirezarezvani/claude-skills",
@@ -1771,7 +1864,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.24.1",
+      "version": "11.24.2",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -2340,7 +2433,7 @@
       "name": "codex-auto-resume",
       "displayName": "Codex Auto Resume",
       "description": "Auto-resume and auto-retry for interrupted Codex tasks on Windows. Waits out a usage limit (until the reset time Codex reports, e.g. for a 5-hour or weekly window), a rate limit or a temporary failure, then continues the exact same conversation, so long-running or overnight work keeps going while that conversation is open in the Codex app. Setup downloads a checksum-verified release from GitHub; after that the watcher runs locally, read-only against Codex state, conservative by design.",
-      "version": "0.6.23",
+      "version": "0.6.24-beta",
       "category": "Development & Workflow",
       "author": "songyb111-gachon",
       "repository": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
@@ -4401,6 +4494,33 @@
       }
     },
     {
+      "id": "gitranks-contribute",
+      "name": "gitranks-contribute",
+      "displayName": "GitRanks Contribute",
+      "description": "Find open-source GitHub issues matched to your skills, fix one with your agent, and approve the pull request yourself.",
+      "version": "0.3.1",
+      "category": "Development & Workflow",
+      "author": "GitRanks",
+      "repository": "https://github.com/gitranks/contribute",
+      "license": "MIT",
+      "codexPath": "plugins/gitranks/contribute",
+      "skills": [
+        {
+          "name": "contribute",
+          "path": "plugins/gitranks/contribute/skills/contribute/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "gitranks"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "codex-goal-progress",
       "name": "codex-goal-progress",
       "displayName": "Goal Progress",
@@ -5382,6 +5502,103 @@
       }
     },
     {
+      "id": "lgpd-skills",
+      "name": "lgpd-skills",
+      "displayName": "LGPD Privacy Engineering Toolkit",
+      "description": "LGPD Privacy Engineering Toolkit — auditoria de código assistida por IA, implementação e governança para LGPD (Lei 13.709/2018), normas da ANPD e ECA Digital (Lei 15.211/2025). 1 maestro + 18 sub-skills.",
+      "version": "1.3.0",
+      "category": "Development & Workflow",
+      "author": "goul4rt",
+      "repository": "https://github.com/goul4rt/lgpd-skills",
+      "license": "MIT",
+      "codexPath": "plugins/goul4rt/lgpd-skills",
+      "skills": [
+        {
+          "name": "lgpd-incident-response",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-incident-response/SKILL.md"
+        },
+        {
+          "name": "lgpd-legal-basis",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-legal-basis/SKILL.md"
+        },
+        {
+          "name": "lgpd-encryption-keys",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-encryption-keys/SKILL.md"
+        },
+        {
+          "name": "lgpd-vendor-audit",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-vendor-audit/SKILL.md"
+        },
+        {
+          "name": "lgpd-dsar",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-dsar/SKILL.md"
+        },
+        {
+          "name": "lgpd-international-transfer",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-international-transfer/SKILL.md"
+        },
+        {
+          "name": "lgpd-data-mapping",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-data-mapping/SKILL.md"
+        },
+        {
+          "name": "lgpd-privacy-policy",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-privacy-policy/SKILL.md"
+        },
+        {
+          "name": "lgpd-consent-schema",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-consent-schema/SKILL.md"
+        },
+        {
+          "name": "lgpd-eca-digital-minors",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-eca-digital-minors/SKILL.md"
+        },
+        {
+          "name": "lgpd-ripd",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-ripd/SKILL.md"
+        },
+        {
+          "name": "lgpd-audit",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-audit/SKILL.md"
+        },
+        {
+          "name": "lgpd-legacy-retrofit",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-legacy-retrofit/SKILL.md"
+        },
+        {
+          "name": "lgpd-dpo-encarregado",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-dpo-encarregado/SKILL.md"
+        },
+        {
+          "name": "lgpd-ropa",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-ropa/SKILL.md"
+        },
+        {
+          "name": "lgpd-retention-erasure",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-retention-erasure/SKILL.md"
+        },
+        {
+          "name": "lgpd-dpa",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-dpa/SKILL.md"
+        },
+        {
+          "name": "lgpd-anonymization",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-anonymization/SKILL.md"
+        },
+        {
+          "name": "lgpd-audit-logging",
+          "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-audit-logging/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "llm-transpile",
       "name": "llm-transpile",
       "displayName": "LLM Transpile",
@@ -5406,7 +5623,7 @@
       "name": "loom",
       "displayName": "ClickHouse Loom",
       "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
-      "version": "1.2.22",
+      "version": "1.2.23",
       "category": "Development & Workflow",
       "author": "ClickHouse",
       "repository": "https://github.com/ClickHouse/loom",
@@ -6703,7 +6920,7 @@
       "name": "nightshift",
       "displayName": "Nightshift",
       "description": "Accountable, time-bounded Codex shifts. Hand it your punch list, or let it research the product and ship complete improvements until quitting time. Progress stays on disk through compaction and resume. The morning is reviewable commits or artifact receipts, per-item token usage and time, a shift log, and the decisions that were made. When you are done reviewing the run, archive it dated so the live session stays lean.",
-      "version": "0.34.0",
+      "version": "0.36.0",
       "category": "Development & Workflow",
       "author": "Orwa Mahmoud",
       "repository": "https://github.com/orwa-mahmoud/nightshift",
@@ -8940,6 +9157,71 @@
         {
           "name": "pytdc",
           "path": "plugins/KalarisLabs/research-agent-skills/skills/pytdc/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "revenue-skills",
+      "name": "revenue-skills",
+      "displayName": "Revenue Skills",
+      "description": "Agent skills that find and fix the bugs that cost an app money: a money-path audit that quotes the code and attaches a proof to every finding, plus builder skills for ledgers, webhooks, credits, subscriptions, refunds, referrals and payouts.",
+      "version": "1.3.5",
+      "category": "Development & Workflow",
+      "author": "Moonetix",
+      "repository": "https://github.com/moonetix/revenue-skills",
+      "license": "MIT",
+      "codexPath": "plugins/moonetix/revenue-skills",
+      "skills": [
+        {
+          "name": "add-subscriptions",
+          "path": "plugins/moonetix/revenue-skills/skills/add-subscriptions/SKILL.md"
+        },
+        {
+          "name": "add-referral-program",
+          "path": "plugins/moonetix/revenue-skills/skills/add-referral-program/SKILL.md"
+        },
+        {
+          "name": "add-offerwall",
+          "path": "plugins/moonetix/revenue-skills/skills/add-offerwall/SKILL.md"
+        },
+        {
+          "name": "money-audit",
+          "path": "plugins/moonetix/revenue-skills/skills/money-audit/SKILL.md"
+        },
+        {
+          "name": "build-ledger",
+          "path": "plugins/moonetix/revenue-skills/skills/build-ledger/SKILL.md"
+        },
+        {
+          "name": "add-payouts",
+          "path": "plugins/moonetix/revenue-skills/skills/add-payouts/SKILL.md"
+        },
+        {
+          "name": "guard-signups",
+          "path": "plugins/moonetix/revenue-skills/skills/guard-signups/SKILL.md"
+        },
+        {
+          "name": "design-reward-economy",
+          "path": "plugins/moonetix/revenue-skills/skills/design-reward-economy/SKILL.md"
+        },
+        {
+          "name": "add-usage-credits",
+          "path": "plugins/moonetix/revenue-skills/skills/add-usage-credits/SKILL.md"
+        },
+        {
+          "name": "handle-refunds-and-reversals",
+          "path": "plugins/moonetix/revenue-skills/skills/handle-refunds-and-reversals/SKILL.md"
+        },
+        {
+          "name": "build-webhook-endpoint",
+          "path": "plugins/moonetix/revenue-skills/skills/build-webhook-endpoint/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -12697,7 +12979,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.149.1",
+      "version": "0.152.0",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -13336,7 +13618,7 @@
       "name": "bkt",
       "displayName": "Bitbucket CLI",
       "description": "Bitbucket CLI - manage repos, PRs, branches, webhooks, and pipelines for both Data Center and Cloud",
-      "version": "0.39.0",
+      "version": "0.40.1",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/bitbucket-cli",
@@ -15100,7 +15382,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.17.9",
+      "version": "1.18.0",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -18612,8 +18894,8 @@
       "id": "osmo",
       "name": "osmo",
       "displayName": "OsmO Phone Calls",
-      "description": "OsmO's AI makes real phone calls for you: call a business or helpline, then get the summary and transcript. Every call is confirmed by you first. Sign in with your phone number; no API key. 50 free credits for new users in the US, Canada, UK and Australia: with free credits, OsmO calls businesses and toll-free numbers; calling your contacts and scheduling calls need an OsmO app plan.",
-      "version": "1.3.0",
+      "description": "OsmO's AI makes real phone calls for you and answers calls to your number as your AI phone receptionist (answering service). Calls: find a business or a company's customer-care number, call it (or up to 5 numbers at once), book, reschedule or cancel, ask about hours, prices or stock, get through phone menus, wait on hold and pass on a message; then get the outcome, summary, transcript and a recording link. Every call is confirmed by you first. Receptionist: see who called and what they wanted, pause the AI, choose who is put through live, edit VIP and block lists and caller rules, switch the assistant or its language (English or Hindi), and read bookings, Facts and connection status. Sign in with your phone number; no API key. 50 free credits for new users in the US, Canada, UK and Australia (an answered call uses 3; unanswered calls are free) call businesses and toll-free numbers; calling your contacts, calling back callers, scheduling calls and the receptionist need an OsmO app plan.",
+      "version": "1.4.0",
       "category": "Tools & Integrations",
       "author": "OsmO AI",
       "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
@@ -18743,7 +19025,7 @@
       "name": "placecall",
       "displayName": "PlaceCall",
       "description": "PlaceCall makes AI phone calls that book, confirm, and reach US businesses. It places a real outbound call and returns a structured outcome plus a full transcript. Sign in on first use, no API key needed.",
-      "version": "6.6.1",
+      "version": "6.6.2",
       "category": "Tools & Integrations",
       "author": "VOYGR",
       "repository": "https://github.com/voygr-tech/placecall",
@@ -19153,8 +19435,8 @@
       "id": "remove-ai-watermarks",
       "name": "remove-ai-watermarks",
       "displayName": "Remove AI Watermarks",
-      "description": "Identify and remove AI provenance marks from images, video, and text the user generated or edited, using the remove-ai-watermarks CLI.",
-      "version": "1.0.20",
+      "description": "Identify and remove AI provenance marks from images, video, audio, and text the user generated or edited, using the remove-ai-watermarks CLI.",
+      "version": "1.0.21",
       "category": "Tools & Integrations",
       "author": "wiltodelta",
       "repository": "https://github.com/wiltodelta/remove-ai-watermarks",
@@ -19414,7 +19696,7 @@
       "name": "ru-marketplace-mcp",
       "displayName": "ru-marketplace-mcp",
       "description": "Двенадцать площадок РФ и Китая (Wildberries, Ozon, Яндекс Маркет, Авито, Циан, AliExpress, Taobao, Детский мир, Мегамаркет, Lamoda, DNS, Ситилинк) как MCP-серверы и 15 навыков. Сравнение цен без ключей API.",
-      "version": "2.9.3",
+      "version": "2.9.4",
       "category": "Tools & Integrations",
       "author": "Vladimir-Human",
       "repository": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
@@ -19632,7 +19914,7 @@
       "name": "self-starter",
       "displayName": "Self-Starter",
       "description": "Define custom events in plain language and let Codex act when they happen, with no model tokens spent while waiting.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "Tools & Integrations",
       "author": "hyprh",
       "repository": "https://github.com/hyprh/self-starter",
@@ -19873,7 +20155,7 @@
       "name": "seonix",
       "displayName": "Seonix",
       "description": "Connect your Seonix SEO project: Site Health and fix plan, Google Search Console, keywords, articles and SEO playbooks, with skills that fix a site in code and ship content through Seonix.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "category": "Tools & Integrations",
       "author": "Seonix",
       "repository": "https://github.com/seonix-ai/mcp",
@@ -20741,6 +21023,33 @@
       }
     },
     {
+      "id": "tossithere",
+      "name": "tossithere",
+      "displayName": "tossithere",
+      "description": "Share HTML as a link people can comment on, element by element, and read every comment back with the exact markup it points at. Publish a report, plan, dashboard or prototype, get a link that opens on any screen, then fix what reviewers flagged and publish the next version to the same link.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "tossithere",
+      "repository": "https://github.com/kush-daga/tossithere-plugin",
+      "license": "AGPL-3.0-only",
+      "codexPath": "plugins/kush-daga/tossithere-plugin",
+      "skills": [
+        {
+          "name": "tossithere",
+          "path": "plugins/kush-daga/tossithere-plugin/skills/tossithere/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "tossithere"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "treza",
       "name": "treza",
       "displayName": "Treza",
@@ -21578,7 +21887,7 @@
       "name": "worktable",
       "displayName": "Worktable",
       "description": "Build shared Docs, live HTML workspaces, structured Records, annotations, and durable agent threads in Worktable.",
-      "version": "0.1.8",
+      "version": "0.1.10",
       "category": "Tools & Integrations",
       "author": "Reva Labs",
       "repository": "https://github.com/worktable/worktable-dev",

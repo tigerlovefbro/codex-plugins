@@ -35,6 +35,13 @@
     "path": "plugins/armoriq/armorCodex/.mcp.json"
   },
   {
+    "plugin": "asitis",
+    "servers": [
+      "asitis"
+    ],
+    "path": "plugins/Katta041/asitis-agent-tools/.mcp.json"
+  },
+  {
     "plugin": "atomlane",
     "servers": [
       "atomlane"
@@ -141,6 +148,13 @@
       "ejentum"
     ],
     "path": "plugins/ejentum/ejentum-mcp/.mcp.json"
+  },
+  {
+    "plugin": "gitranks-contribute",
+    "servers": [
+      "gitranks"
+    ],
+    "path": "plugins/gitranks/contribute/.mcp.json"
   },
   {
     "plugin": "graymatter",
@@ -1053,6 +1067,13 @@
       "taskScheduler"
     ],
     "path": "plugins/6Delta9/task-scheduler-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "tossithere",
+    "servers": [
+      "tossithere"
+    ],
+    "path": "plugins/kush-daga/tossithere-plugin/.mcp.json"
   },
   {
     "plugin": "tweetapi",
