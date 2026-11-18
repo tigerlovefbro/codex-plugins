@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-17T11:30:13.976904+00:00",
+    "generatedAt": "2026-11-18T11:10:54.551474+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 426,
-      "with_skills": 391,
-      "with_mcp": 162,
-      "codex_only": 21
+      "plugins": 437,
+      "with_skills": 401,
+      "with_mcp": 168,
+      "codex_only": 22
     },
-    "skillCount": 3271
+    "skillCount": 3170
   },
   "plugins": [
     {
@@ -296,7 +296,7 @@
       "name": "agent-deck",
       "displayName": "Agent Deck",
       "description": "Decks of MCP tools, keys, and self-improving playbooks that bind per-workspace.",
-      "version": "2.5.3",
+      "version": "2.5.4",
       "category": "Development & Workflow",
       "author": "not-so-fat",
       "repository": "https://github.com/not-so-fat/agent-deck",
@@ -335,7 +335,7 @@
       "name": "agent-guard",
       "displayName": "Agent Guard",
       "description": "Local-by-default, no-telemetry hooks inspect user prompts, supported tool inputs, outputs, and changed files in every enabled Claude Code or Codex session to block or mask secret leaks. Includes opt-in PII filtering and Git/CI backstops.",
-      "version": "3.11.2",
+      "version": "3.11.7",
       "category": "Development & Workflow",
       "author": "Agent Guard contributors",
       "repository": "https://github.com/JeongJaeSoon/agent-guard",
@@ -468,6 +468,33 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "agentavow-trust",
+      "name": "agentavow-trust",
+      "displayName": "AgentAvow Trust",
+      "description": "Checks your MCP servers and packages with AgentAvow before Codex uses them. When a session starts it checks the servers in ~/.codex/config.toml and a trusted project's .codex/config.toml. When Codex runs codex mcp add, or installs a package by name with npm, pnpm, yarn, bun, pip, uv, pipx or poetry, it checks that exact version first: Do not connect stops the step and says why, Review before you connect is a one-line note, and Safe to connect stays silent. Every answer has its reason and a signed 0-100 trust score you can verify offline. Also bundles the AgentAvow connector and the scan-before-connect skill. The hooks run only while you trust them (/hooks). Fail-open. What leaves your machine: the server URL or package name being checked, and a random install ID used only to count active installs, also sent once a day with the plugin version and app type (turn it off with AGENTAVOW_ANON_ID=off).",
+      "version": "0.1.45",
+      "category": "Development & Workflow",
+      "author": "AgentAvow",
+      "repository": "https://github.com/AgentAvow/agentavow-codex-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/AgentAvow/agentavow-codex-plugin",
+      "skills": [
+        {
+          "name": "scan-before-connect",
+          "path": "plugins/AgentAvow/agentavow-codex-plugin/skills/scan-before-connect/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "agentavow"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -977,7 +1004,7 @@
       "name": "archcore",
       "displayName": "Archcore",
       "description": "Spec-driven development and context engineering for AI coding agents, backed by project context in Git.",
-      "version": "0.15.5",
+      "version": "0.15.6",
       "category": "Development & Workflow",
       "author": "Archcore",
       "repository": "https://github.com/archcore-ai/archcore",
@@ -1014,7 +1041,7 @@
       "name": "armorcodex",
       "displayName": "ArmorCodex",
       "description": "ArmorIQ intent-based security enforcement for Codex: Bash command guardrails with intent verification, optional CSRG cryptographic proofs, and audit logging. Codex hooks currently fire for Bash, apply_patch, and MCP tool calls; non-Bash file/web activity may need supplemental controls. See CODEX_HARNESS_LIMITATIONS.md.",
-      "version": "0.3.7",
+      "version": "0.3.8",
       "category": "Development & Workflow",
       "author": "ArmorIQ",
       "repository": "https://github.com/armoriq/armorCodex",
@@ -1036,7 +1063,7 @@
       "name": "asitis",
       "displayName": "AsItIs",
       "description": "Read-only linter for AGENTS.md, CLAUDE.md, SKILL.md and other agent steering files: what each agent loads, token budgets, hidden instructions.",
-      "version": "0.4.4",
+      "version": "0.4.5",
       "category": "Development & Workflow",
       "author": "AsItIs",
       "repository": "https://github.com/Katta041/asitis-agent-tools",
@@ -1528,7 +1555,7 @@
       "name": "brief2mp4",
       "displayName": "brief2mp4",
       "description": "Turn a written brief into a finished, checked MP4 motion graphic: HyperFrames, Three.js, an optional 3D pack (CAD, materials, physics), Blender and ffmpeg. macOS, Windows, Linux.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "Development & Workflow",
       "author": "Varun Pratap Bhardwaj",
       "repository": "https://github.com/qualixar/brief2mp4",
@@ -1737,6 +1764,31 @@
       }
     },
     {
+      "id": "chunsik-garage",
+      "name": "chunsik-garage",
+      "displayName": "Chunsik's Garage",
+      "description": "AQ checkup for Claude Code and Codex: scores how well you set up and use your AI coding tools, computed on your own PC.",
+      "version": "0.5.0",
+      "category": "Development & Workflow",
+      "author": "yeunlee1",
+      "repository": "https://github.com/yeunlee1/chunsik-garage",
+      "license": "MIT",
+      "codexPath": "plugins/yeunlee1/chunsik-garage",
+      "skills": [
+        {
+          "name": "aq",
+          "path": "plugins/yeunlee1/chunsik-garage/skills/aq/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "claude-code",
       "name": "claude-code",
       "displayName": "Claude Code",
@@ -1841,8 +1893,8 @@
       "id": "claude-code-skills",
       "name": "claude-code-skills",
       "displayName": "Claude Code Skills",
-      "description": "417 production-ready skills across 20 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 826 Python tools, 934 reference guides, 131 agents (cs-* + personas), 173 slash commands, 113 marketplace plugins. The largest open-source skills library for AI coding agents.",
-      "version": "2.14.12",
+      "description": "428 production-ready skills across 20 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 861 Python tools, 967 reference guides, 136 agents (cs-* + personas), 185 slash commands, 120 marketplace plugins. The largest open-source skills library for AI coding agents.",
+      "version": "2.14.14",
       "category": "Development & Workflow",
       "author": "Alireza Rezvani",
       "repository": "https://github.com/alirezarezvani/claude-skills",
@@ -1864,7 +1916,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.24.2",
+      "version": "11.25.2",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -2401,7 +2453,7 @@
       "name": "codex-agents-workflow",
       "displayName": "Codex Agents Workflow",
       "description": "A Codex MCP Extension workbench for reusable agent Workflows, Roles, Providers and recoverable Runs.",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "category": "Development & Workflow",
       "author": "TohmaN233",
       "repository": "https://github.com/TohmaN233/codex-agents-workflow",
@@ -2433,7 +2485,7 @@
       "name": "codex-auto-resume",
       "displayName": "Codex Auto Resume",
       "description": "Auto-resume and auto-retry for interrupted Codex tasks on Windows. Waits out a usage limit (until the reset time Codex reports, e.g. for a 5-hour or weekly window), a rate limit or a temporary failure, then continues the exact same conversation, so long-running or overnight work keeps going while that conversation is open in the Codex app. Setup downloads a checksum-verified release from GitHub; after that the watcher runs locally, read-only against Codex state, conservative by design.",
-      "version": "0.6.24-beta",
+      "version": "0.6.24-beta.2",
       "category": "Development & Workflow",
       "author": "songyb111-gachon",
       "repository": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
@@ -2838,7 +2890,7 @@
       "name": "codex-attachment-manager",
       "displayName": "Context Attachment Manager",
       "description": "For Codex tasks with many images: earlier images go out as short placeholders instead of being sent again with every message, the model fetches the original back by its ID (also after compaction), and the prompt cache keeps working.",
-      "version": "0.11.2",
+      "version": "0.11.3",
       "category": "Development & Workflow",
       "author": "chipfighter",
       "repository": "https://github.com/chipfighter/context-attachment-manager",
@@ -3851,7 +3903,7 @@
       "name": "epic",
       "displayName": "Epic Harness",
       "description": "Auto-trigger skills + self-evolving agent harness. Includes orbit, evolve, team, tdd, audit, ship and more.",
-      "version": "0.8.13",
+      "version": "0.9.1",
       "category": "Development & Workflow",
       "author": "epicsagas",
       "repository": "https://github.com/epicsagas/epic-harness",
@@ -4498,7 +4550,7 @@
       "name": "gitranks-contribute",
       "displayName": "GitRanks Contribute",
       "description": "Find open-source GitHub issues matched to your skills, fix one with your agent, and approve the pull request yourself.",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "category": "Development & Workflow",
       "author": "GitRanks",
       "repository": "https://github.com/gitranks/contribute",
@@ -5307,6 +5359,63 @@
       }
     },
     {
+      "id": "kaoyan-study-skills",
+      "name": "kaoyan-study-skills",
+      "displayName": "考研备考 skills",
+      "description": "考研备考 skill：讲题、交卷判分、阶段复盘、学习记录归档、每日资料包、PDF 报告排版。",
+      "version": "0.1.1",
+      "category": "Development & Workflow",
+      "author": "keienhrri-bit",
+      "repository": "https://github.com/keienhrri-bit/kaoyan-study-skills",
+      "license": "MIT",
+      "codexPath": "plugins/keienhrri-bit/kaoyan-study-skills",
+      "skills": [
+        {
+          "name": "kaoyan-plan",
+          "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-plan/SKILL.md"
+        },
+        {
+          "name": "kaoyan-setup",
+          "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-setup/SKILL.md"
+        },
+        {
+          "name": "physics-svg-tutor",
+          "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/physics-svg-tutor/SKILL.md"
+        },
+        {
+          "name": "kaoyan-tutor",
+          "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-tutor/SKILL.md"
+        },
+        {
+          "name": "kaoyan-retro",
+          "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-retro/SKILL.md"
+        },
+        {
+          "name": "kaoyan-daily-pack",
+          "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-daily-pack/SKILL.md"
+        },
+        {
+          "name": "kaoyan-grading",
+          "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-grading/SKILL.md"
+        },
+        {
+          "name": "kaoyan-report",
+          "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-report/SKILL.md"
+        },
+        {
+          "name": "kaoyan-archive",
+          "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-archive/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "keep-mac-awake",
       "name": "keep-mac-awake",
       "displayName": "Keep Mac Awake",
@@ -5623,7 +5732,7 @@
       "name": "loom",
       "displayName": "ClickHouse Loom",
       "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
-      "version": "1.2.23",
+      "version": "1.2.29",
       "category": "Development & Workflow",
       "author": "ClickHouse",
       "repository": "https://github.com/ClickHouse/loom",
@@ -5667,871 +5776,6 @@
         "claude": true,
         "dsh": true,
         "mcp": true
-      }
-    },
-    {
-      "id": "lvtd-skills",
-      "name": "lvtd-skills",
-      "displayName": "LVTD Skills",
-      "description": "Cross-host Agent Skills catalog for coding, marketing, traction, SEO, and publishing workflows.",
-      "version": "0.1.2",
-      "category": "Development & Workflow",
-      "author": "LVTD",
-      "repository": "https://github.com/LVTD-LLC/skills",
-      "license": "MIT",
-      "codexPath": "plugins/LVTD-LLC/skills",
-      "skills": [
-        {
-          "name": "documentation-information-architecture",
-          "path": "plugins/LVTD-LLC/skills/skills/documentation-information-architecture/SKILL.md"
-        },
-        {
-          "name": "lvtd-skills-router",
-          "path": "plugins/LVTD-LLC/skills/skills/lvtd-skills-router/SKILL.md"
-        },
-        {
-          "name": "traction-bullseye",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-bullseye/SKILL.md"
-        },
-        {
-          "name": "documentation-quality-metrics",
-          "path": "plugins/LVTD-LLC/skills/skills/documentation-quality-metrics/SKILL.md"
-        },
-        {
-          "name": "docs-feedback-triage",
-          "path": "plugins/LVTD-LLC/skills/skills/docs-feedback-triage/SKILL.md"
-        },
-        {
-          "name": "relationship-led-link-building",
-          "path": "plugins/LVTD-LLC/skills/skills/relationship-led-link-building/SKILL.md"
-        },
-        {
-          "name": "game-interface-feedback",
-          "path": "plugins/LVTD-LLC/skills/skills/game-interface-feedback/SKILL.md"
-        },
-        {
-          "name": "game-mesh-voxel-conversion",
-          "path": "plugins/LVTD-LLC/skills/skills/game-mesh-voxel-conversion/SKILL.md"
-        },
-        {
-          "name": "django-db-side-computation",
-          "path": "plugins/LVTD-LLC/skills/skills/django-db-side-computation/SKILL.md"
-        },
-        {
-          "name": "traction-email-marketing",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-email-marketing/SKILL.md"
-        },
-        {
-          "name": "seo-persona-intent-mapping",
-          "path": "plugins/LVTD-LLC/skills/skills/seo-persona-intent-mapping/SKILL.md"
-        },
-        {
-          "name": "django-pagination-performance",
-          "path": "plugins/LVTD-LLC/skills/skills/django-pagination-performance/SKILL.md"
-        },
-        {
-          "name": "traction-critical-path",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-critical-path/SKILL.md"
-        },
-        {
-          "name": "linkedin-post-experimentation",
-          "path": "plugins/LVTD-LLC/skills/skills/linkedin-post-experimentation/SKILL.md"
-        },
-        {
-          "name": "eighty-twenty-power-curve",
-          "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-power-curve/SKILL.md"
-        },
-        {
-          "name": "linkedin-content-ideation",
-          "path": "plugins/LVTD-LLC/skills/skills/linkedin-content-ideation/SKILL.md"
-        },
-        {
-          "name": "django-db-performance",
-          "path": "plugins/LVTD-LLC/skills/skills/django-db-performance/SKILL.md"
-        },
-        {
-          "name": "game-prototype-loop",
-          "path": "plugins/LVTD-LLC/skills/skills/game-prototype-loop/SKILL.md"
-        },
-        {
-          "name": "rust-deployable-service",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-deployable-service/SKILL.md"
-        },
-        {
-          "name": "game-mechanics-design",
-          "path": "plugins/LVTD-LLC/skills/skills/game-mechanics-design/SKILL.md"
-        },
-        {
-          "name": "beta-reader-feedback",
-          "path": "plugins/LVTD-LLC/skills/skills/beta-reader-feedback/SKILL.md"
-        },
-        {
-          "name": "manuscript-engagement-analytics",
-          "path": "plugins/LVTD-LLC/skills/skills/manuscript-engagement-analytics/SKILL.md"
-        },
-        {
-          "name": "customer-segment-slicing",
-          "path": "plugins/LVTD-LLC/skills/skills/customer-segment-slicing/SKILL.md"
-        },
-        {
-          "name": "b2b-reach-engineering",
-          "path": "plugins/LVTD-LLC/skills/skills/b2b-reach-engineering/SKILL.md"
-        },
-        {
-          "name": "django-index-design",
-          "path": "plugins/LVTD-LLC/skills/skills/django-index-design/SKILL.md"
-        },
-        {
-          "name": "rust-data-driven-game-content",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-data-driven-game-content/SKILL.md"
-        },
-        {
-          "name": "rust-library-performance-features",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-library-performance-features/SKILL.md"
-        },
-        {
-          "name": "sales-page-citability-audit",
-          "path": "plugins/LVTD-LLC/skills/skills/sales-page-citability-audit/SKILL.md"
-        },
-        {
-          "name": "linkedin-comment-writing",
-          "path": "plugins/LVTD-LLC/skills/skills/linkedin-comment-writing/SKILL.md"
-        },
-        {
-          "name": "saas-documentation",
-          "path": "plugins/LVTD-LLC/skills/skills/saas-documentation/SKILL.md"
-        },
-        {
-          "name": "book-sales-optimization",
-          "path": "plugins/LVTD-LLC/skills/skills/book-sales-optimization/SKILL.md"
-        },
-        {
-          "name": "traction-partnership-sales",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-partnership-sales/SKILL.md"
-        },
-        {
-          "name": "rust-api-test-harness",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-api-test-harness/SKILL.md"
-        },
-        {
-          "name": "link-building-strategy",
-          "path": "plugins/LVTD-LLC/skills/skills/link-building-strategy/SKILL.md"
-        },
-        {
-          "name": "code-sample-documentation",
-          "path": "plugins/LVTD-LLC/skills/skills/code-sample-documentation/SKILL.md"
-        },
-        {
-          "name": "traction-viral-engineering",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-viral-engineering/SKILL.md"
-        },
-        {
-          "name": "go-cobra-applications",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cobra-applications/SKILL.md"
-        },
-        {
-          "name": "digital-pr-survey-campaigns",
-          "path": "plugins/LVTD-LLC/skills/skills/digital-pr-survey-campaigns/SKILL.md"
-        },
-        {
-          "name": "django-test-data",
-          "path": "plugins/LVTD-LLC/skills/skills/django-test-data/SKILL.md"
-        },
-        {
-          "name": "responsive-layout-math",
-          "path": "plugins/LVTD-LLC/skills/skills/responsive-layout-math/SKILL.md"
-        },
-        {
-          "name": "traction-events-community",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-events-community/SKILL.md"
-        },
-        {
-          "name": "technical-manuscript-verification",
-          "path": "plugins/LVTD-LLC/skills/skills/technical-manuscript-verification/SKILL.md"
-        },
-        {
-          "name": "traction-test-planner",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-test-planner/SKILL.md"
-        },
-        {
-          "name": "go-cli-release-automation",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cli-release-automation/SKILL.md"
-        },
-        {
-          "name": "rustdoc-library-documentation",
-          "path": "plugins/LVTD-LLC/skills/skills/rustdoc-library-documentation/SKILL.md"
-        },
-        {
-          "name": "htmx-foundations",
-          "path": "plugins/LVTD-LLC/skills/skills/htmx-foundations/SKILL.md"
-        },
-        {
-          "name": "htmx-security",
-          "path": "plugins/LVTD-LLC/skills/skills/htmx-security/SKILL.md"
-        },
-        {
-          "name": "cookiecutter",
-          "path": "plugins/LVTD-LLC/skills/skills/cookiecutter/SKILL.md"
-        },
-        {
-          "name": "go-language-correctness",
-          "path": "plugins/LVTD-LLC/skills/skills/go-language-correctness/SKILL.md"
-        },
-        {
-          "name": "documentation-platform-selection",
-          "path": "plugins/LVTD-LLC/skills/skills/documentation-platform-selection/SKILL.md"
-        },
-        {
-          "name": "guest-post-placement",
-          "path": "plugins/LVTD-LLC/skills/skills/guest-post-placement/SKILL.md"
-        },
-        {
-          "name": "rust-game-polish-release",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-game-polish-release/SKILL.md"
-        },
-        {
-          "name": "traction-channel-research",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-channel-research/SKILL.md"
-        },
-        {
-          "name": "experimentation-culture-rollout",
-          "path": "plugins/LVTD-LLC/skills/skills/experimentation-culture-rollout/SKILL.md"
-        },
-        {
-          "name": "eighty-twenty-usp-guarantee",
-          "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-usp-guarantee/SKILL.md"
-        },
-        {
-          "name": "evergreen-technical-book",
-          "path": "plugins/LVTD-LLC/skills/skills/evergreen-technical-book/SKILL.md"
-        },
-        {
-          "name": "b2b-timing-engine",
-          "path": "plugins/LVTD-LLC/skills/skills/b2b-timing-engine/SKILL.md"
-        },
-        {
-          "name": "long-term-impact-evaluation",
-          "path": "plugins/LVTD-LLC/skills/skills/long-term-impact-evaluation/SKILL.md"
-        },
-        {
-          "name": "django-ci-test-optimization",
-          "path": "plugins/LVTD-LLC/skills/skills/django-ci-test-optimization/SKILL.md"
-        },
-        {
-          "name": "rust-turn-intent-systems",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-turn-intent-systems/SKILL.md"
-        },
-        {
-          "name": "trust-and-liking",
-          "path": "plugins/LVTD-LLC/skills/skills/trust-and-liking/SKILL.md"
-        },
-        {
-          "name": "traction-review",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-review/SKILL.md"
-        },
-        {
-          "name": "rust-idempotent-workflows",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-idempotent-workflows/SKILL.md"
-        },
-        {
-          "name": "htmx-endpoint-design",
-          "path": "plugins/LVTD-LLC/skills/skills/htmx-endpoint-design/SKILL.md"
-        },
-        {
-          "name": "ml-experiment-evaluation",
-          "path": "plugins/LVTD-LLC/skills/skills/ml-experiment-evaluation/SKILL.md"
-        },
-        {
-          "name": "technical-book-lab-design",
-          "path": "plugins/LVTD-LLC/skills/skills/technical-book-lab-design/SKILL.md"
-        },
-        {
-          "name": "ab-testing-platform-strategy",
-          "path": "plugins/LVTD-LLC/skills/skills/ab-testing-platform-strategy/SKILL.md"
-        },
-        {
-          "name": "go-cli-terminal-experience",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cli-terminal-experience/SKILL.md"
-        },
-        {
-          "name": "influence-audit",
-          "path": "plugins/LVTD-LLC/skills/skills/influence-audit/SKILL.md"
-        },
-        {
-          "name": "local-sponsorship-link-building",
-          "path": "plugins/LVTD-LLC/skills/skills/local-sponsorship-link-building/SKILL.md"
-        },
-        {
-          "name": "book-seed-marketing",
-          "path": "plugins/LVTD-LLC/skills/skills/book-seed-marketing/SKILL.md"
-        },
-        {
-          "name": "game-playtest-planning",
-          "path": "plugins/LVTD-LLC/skills/skills/game-playtest-planning/SKILL.md"
-        },
-        {
-          "name": "inclusive-experiment-analysis",
-          "path": "plugins/LVTD-LLC/skills/skills/inclusive-experiment-analysis/SKILL.md"
-        },
-        {
-          "name": "go-http-server-applications",
-          "path": "plugins/LVTD-LLC/skills/skills/go-http-server-applications/SKILL.md"
-        },
-        {
-          "name": "customer-commitment-validation",
-          "path": "plugins/LVTD-LLC/skills/skills/customer-commitment-validation/SKILL.md"
-        },
-        {
-          "name": "django-htmx",
-          "path": "plugins/LVTD-LLC/skills/skills/django-htmx/SKILL.md"
-        },
-        {
-          "name": "htmx-realtime",
-          "path": "plugins/LVTD-LLC/skills/skills/htmx-realtime/SKILL.md"
-        },
-        {
-          "name": "ethical-persuasion-design",
-          "path": "plugins/LVTD-LLC/skills/skills/ethical-persuasion-design/SKILL.md"
-        },
-        {
-          "name": "game-balance-economy",
-          "path": "plugins/LVTD-LLC/skills/skills/game-balance-economy/SKILL.md"
-        },
-        {
-          "name": "scaled-link-outreach-operations",
-          "path": "plugins/LVTD-LLC/skills/skills/scaled-link-outreach-operations/SKILL.md"
-        },
-        {
-          "name": "customer-learning-notes",
-          "path": "plugins/LVTD-LLC/skills/skills/customer-learning-notes/SKILL.md"
-        },
-        {
-          "name": "broken-link-building",
-          "path": "plugins/LVTD-LLC/skills/skills/broken-link-building/SKILL.md"
-        },
-        {
-          "name": "python-mock-isolation-design",
-          "path": "plugins/LVTD-LLC/skills/skills/python-mock-isolation-design/SKILL.md"
-        },
-        {
-          "name": "django-query-plan-reading",
-          "path": "plugins/LVTD-LLC/skills/skills/django-query-plan-reading/SKILL.md"
-        },
-        {
-          "name": "django-q2",
-          "path": "plugins/LVTD-LLC/skills/skills/django-q2/SKILL.md"
-        },
-        {
-          "name": "reciprocity-offer-design",
-          "path": "plugins/LVTD-LLC/skills/skills/reciprocity-offer-design/SKILL.md"
-        },
-        {
-          "name": "trustworthy-experiment-insights",
-          "path": "plugins/LVTD-LLC/skills/skills/trustworthy-experiment-insights/SKILL.md"
-        },
-        {
-          "name": "alpinejs-django",
-          "path": "plugins/LVTD-LLC/skills/skills/alpinejs-django/SKILL.md"
-        },
-        {
-          "name": "django-test-performance",
-          "path": "plugins/LVTD-LLC/skills/skills/django-test-performance/SKILL.md"
-        },
-        {
-          "name": "ab-test-results-readout",
-          "path": "plugins/LVTD-LLC/skills/skills/ab-test-results-readout/SKILL.md"
-        },
-        {
-          "name": "b2b-trust-engineering",
-          "path": "plugins/LVTD-LLC/skills/skills/b2b-trust-engineering/SKILL.md"
-        },
-        {
-          "name": "eighty-twenty-market-selection",
-          "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-market-selection/SKILL.md"
-        },
-        {
-          "name": "go-cli-process-control",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cli-process-control/SKILL.md"
-        },
-        {
-          "name": "game-design-docs",
-          "path": "plugins/LVTD-LLC/skills/skills/game-design-docs/SKILL.md"
-        },
-        {
-          "name": "developer-docs-audience-research",
-          "path": "plugins/LVTD-LLC/skills/skills/developer-docs-audience-research/SKILL.md"
-        },
-        {
-          "name": "rust-tilemap-camera-rendering",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-tilemap-camera-rendering/SKILL.md"
-        },
-        {
-          "name": "css-math-units",
-          "path": "plugins/LVTD-LLC/skills/skills/css-math-units/SKILL.md"
-        },
-        {
-          "name": "go-concurrency-pipelines",
-          "path": "plugins/LVTD-LLC/skills/skills/go-concurrency-pipelines/SKILL.md"
-        },
-        {
-          "name": "django-orm-query-optimization",
-          "path": "plugins/LVTD-LLC/skills/skills/django-orm-query-optimization/SKILL.md"
-        },
-        {
-          "name": "experiment-sensitivity-optimization",
-          "path": "plugins/LVTD-LLC/skills/skills/experiment-sensitivity-optimization/SKILL.md"
-        },
-        {
-          "name": "fastmcp-django",
-          "path": "plugins/LVTD-LLC/skills/skills/fastmcp-django/SKILL.md"
-        },
-        {
-          "name": "rust-legion-ecs-gameplay",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-legion-ecs-gameplay/SKILL.md"
-        },
-        {
-          "name": "authority-credibility",
-          "path": "plugins/LVTD-LLC/skills/skills/authority-credibility/SKILL.md"
-        },
-        {
-          "name": "rust-ownership-borrowing",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-ownership-borrowing/SKILL.md"
-        },
-        {
-          "name": "test-architecture-strategy",
-          "path": "plugins/LVTD-LLC/skills/skills/test-architecture-strategy/SKILL.md"
-        },
-        {
-          "name": "htmx-recipes",
-          "path": "plugins/LVTD-LLC/skills/skills/htmx-recipes/SKILL.md"
-        },
-        {
-          "name": "game-responsibility-review",
-          "path": "plugins/LVTD-LLC/skills/skills/game-responsibility-review/SKILL.md"
-        },
-        {
-          "name": "experimentation-strategy-roadmap",
-          "path": "plugins/LVTD-LLC/skills/skills/experimentation-strategy-roadmap/SKILL.md"
-        },
-        {
-          "name": "contrast-framing",
-          "path": "plugins/LVTD-LLC/skills/skills/contrast-framing/SKILL.md"
-        },
-        {
-          "name": "scarcity-urgency",
-          "path": "plugins/LVTD-LLC/skills/skills/scarcity-urgency/SKILL.md"
-        },
-        {
-          "name": "django-test-parallelization",
-          "path": "plugins/LVTD-LLC/skills/skills/django-test-parallelization/SKILL.md"
-        },
-        {
-          "name": "developer-docs-technical-research",
-          "path": "plugins/LVTD-LLC/skills/skills/developer-docs-technical-research/SKILL.md"
-        },
-        {
-          "name": "htmx-js-api",
-          "path": "plugins/LVTD-LLC/skills/skills/htmx-js-api/SKILL.md"
-        },
-        {
-          "name": "link-prospect-qualification",
-          "path": "plugins/LVTD-LLC/skills/skills/link-prospect-qualification/SKILL.md"
-        },
-        {
-          "name": "go-idiomatic-api-design",
-          "path": "plugins/LVTD-LLC/skills/skills/go-idiomatic-api-design/SKILL.md"
-        },
-        {
-          "name": "commitment-ladder-design",
-          "path": "plugins/LVTD-LLC/skills/skills/commitment-ladder-design/SKILL.md"
-        },
-        {
-          "name": "django-deployment-test-loop",
-          "path": "plugins/LVTD-LLC/skills/skills/django-deployment-test-loop/SKILL.md"
-        },
-        {
-          "name": "django-selenium-functional-tests",
-          "path": "plugins/LVTD-LLC/skills/skills/django-selenium-functional-tests/SKILL.md"
-        },
-        {
-          "name": "game-vector-math-primitives",
-          "path": "plugins/LVTD-LLC/skills/skills/game-vector-math-primitives/SKILL.md"
-        },
-        {
-          "name": "adaptive-experimentation-strategy",
-          "path": "plugins/LVTD-LLC/skills/skills/adaptive-experimentation-strategy/SKILL.md"
-        },
-        {
-          "name": "linkable-content-architecture",
-          "path": "plugins/LVTD-LLC/skills/skills/linkable-content-architecture/SKILL.md"
-        },
-        {
-          "name": "experiment-type-selection",
-          "path": "plugins/LVTD-LLC/skills/skills/experiment-type-selection/SKILL.md"
-        },
-        {
-          "name": "browser-javascript-tdd",
-          "path": "plugins/LVTD-LLC/skills/skills/browser-javascript-tdd/SKILL.md"
-        },
-        {
-          "name": "eighty-twenty-funnel-economics",
-          "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-funnel-economics/SKILL.md"
-        },
-        {
-          "name": "go-cli-errors-observability",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cli-errors-observability/SKILL.md"
-        },
-        {
-          "name": "frontend-math-foundations",
-          "path": "plugins/LVTD-LLC/skills/skills/frontend-math-foundations/SKILL.md"
-        },
-        {
-          "name": "linkedin-post-writing",
-          "path": "plugins/LVTD-LLC/skills/skills/linkedin-post-writing/SKILL.md"
-        },
-        {
-          "name": "go-cli-application-architecture",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cli-application-architecture/SKILL.md"
-        },
-        {
-          "name": "visual-docs-diagrams",
-          "path": "plugins/LVTD-LLC/skills/skills/visual-docs-diagrams/SKILL.md"
-        },
-        {
-          "name": "self-publishing-production",
-          "path": "plugins/LVTD-LLC/skills/skills/self-publishing-production/SKILL.md"
-        },
-        {
-          "name": "rust-unsafe-boundaries",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-unsafe-boundaries/SKILL.md"
-        },
-        {
-          "name": "developer-docs-editing-review",
-          "path": "plugins/LVTD-LLC/skills/skills/developer-docs-editing-review/SKILL.md"
-        },
-        {
-          "name": "experimentation-throughput-strategy",
-          "path": "plugins/LVTD-LLC/skills/skills/experimentation-throughput-strategy/SKILL.md"
-        },
-        {
-          "name": "flexbox-math",
-          "path": "plugins/LVTD-LLC/skills/skills/flexbox-math/SKILL.md"
-        },
-        {
-          "name": "make-product-viral",
-          "path": "plugins/LVTD-LLC/skills/skills/make-product-viral/SKILL.md"
-        },
-        {
-          "name": "go-cli-testing",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cli-testing/SKILL.md"
-        },
-        {
-          "name": "go-performance-testing",
-          "path": "plugins/LVTD-LLC/skills/skills/go-performance-testing/SKILL.md"
-        },
-        {
-          "name": "rust-bevy-procedural-world-builder",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-procedural-world-builder/SKILL.md"
-        },
-        {
-          "name": "linkable-asset-planning",
-          "path": "plugins/LVTD-LLC/skills/skills/linkable-asset-planning/SKILL.md"
-        },
-        {
-          "name": "rust-bevy-state-flow",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-state-flow/SKILL.md"
-        },
-        {
-          "name": "eighty-twenty-customer-value-rfm",
-          "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-customer-value-rfm/SKILL.md"
-        },
-        {
-          "name": "django-spike-despike-workflow",
-          "path": "plugins/LVTD-LLC/skills/skills/django-spike-despike-workflow/SKILL.md"
-        },
-        {
-          "name": "rust-bevy-asset-pipeline",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-asset-pipeline/SKILL.md"
-        },
-        {
-          "name": "customer-conversation-access",
-          "path": "plugins/LVTD-LLC/skills/skills/customer-conversation-access/SKILL.md"
-        },
-        {
-          "name": "rust-trait-api-design",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-trait-api-design/SKILL.md"
-        },
-        {
-          "name": "django-targeted-mocking",
-          "path": "plugins/LVTD-LLC/skills/skills/django-targeted-mocking/SKILL.md"
-        },
-        {
-          "name": "traction-paid-acquisition",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-paid-acquisition/SKILL.md"
-        },
-        {
-          "name": "game-sdf-and-field-modeling",
-          "path": "plugins/LVTD-LLC/skills/skills/game-sdf-and-field-modeling/SKILL.md"
-        },
-        {
-          "name": "django-test-profiling",
-          "path": "plugins/LVTD-LLC/skills/skills/django-test-profiling/SKILL.md"
-        },
-        {
-          "name": "color-math-accessibility",
-          "path": "plugins/LVTD-LLC/skills/skills/color-math-accessibility/SKILL.md"
-        },
-        {
-          "name": "rust-bevy-fixed-step-physics",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-fixed-step-physics/SKILL.md"
-        },
-        {
-          "name": "docs-release-maintenance",
-          "path": "plugins/LVTD-LLC/skills/skills/docs-release-maintenance/SKILL.md"
-        },
-        {
-          "name": "rust-bevy-collision-broadphase",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-collision-broadphase/SKILL.md"
-        },
-        {
-          "name": "rust-service-security",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-service-security/SKILL.md"
-        },
-        {
-          "name": "rust-concurrency-primitives",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-concurrency-primitives/SKILL.md"
-        },
-        {
-          "name": "game-transform-systems",
-          "path": "plugins/LVTD-LLC/skills/skills/game-transform-systems/SKILL.md"
-        },
-        {
-          "name": "eighty-twenty-conversion-message",
-          "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-conversion-message/SKILL.md"
-        },
-        {
-          "name": "rust-ffi-safe-wrappers",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-ffi-safe-wrappers/SKILL.md"
-        },
-        {
-          "name": "django-query-profiling",
-          "path": "plugins/LVTD-LLC/skills/skills/django-query-profiling/SKILL.md"
-        },
-        {
-          "name": "product-led-seo-strategy",
-          "path": "plugins/LVTD-LLC/skills/skills/product-led-seo-strategy/SKILL.md"
-        },
-        {
-          "name": "django-materialized-views",
-          "path": "plugins/LVTD-LLC/skills/skills/django-materialized-views/SKILL.md"
-        },
-        {
-          "name": "ab-test-design-brief",
-          "path": "plugins/LVTD-LLC/skills/skills/ab-test-design-brief/SKILL.md"
-        },
-        {
-          "name": "technical-seo-triage",
-          "path": "plugins/LVTD-LLC/skills/skills/technical-seo-triage/SKILL.md"
-        },
-        {
-          "name": "customer-discovery-conversations",
-          "path": "plugins/LVTD-LLC/skills/skills/customer-discovery-conversations/SKILL.md"
-        },
-        {
-          "name": "player-experience-modeling",
-          "path": "plugins/LVTD-LLC/skills/skills/player-experience-modeling/SKILL.md"
-        },
-        {
-          "name": "developer-docs-planning",
-          "path": "plugins/LVTD-LLC/skills/skills/developer-docs-planning/SKILL.md"
-        },
-        {
-          "name": "rust-roguelike-procgen-ai",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-roguelike-procgen-ai/SKILL.md"
-        },
-        {
-          "name": "javascript-ui-math",
-          "path": "plugins/LVTD-LLC/skills/skills/javascript-ui-math/SKILL.md"
-        },
-        {
-          "name": "b2b-resonance-audit",
-          "path": "plugins/LVTD-LLC/skills/skills/b2b-resonance-audit/SKILL.md"
-        },
-        {
-          "name": "b2b-sales-constraint-diagnosis",
-          "path": "plugins/LVTD-LLC/skills/skills/b2b-sales-constraint-diagnosis/SKILL.md"
-        },
-        {
-          "name": "social-proof-evidence",
-          "path": "plugins/LVTD-LLC/skills/skills/social-proof-evidence/SKILL.md"
-        },
-        {
-          "name": "eighty-twenty-traffic-strategy",
-          "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-traffic-strategy/SKILL.md"
-        },
-        {
-          "name": "link-outreach-acquisition",
-          "path": "plugins/LVTD-LLC/skills/skills/link-outreach-acquisition/SKILL.md"
-        },
-        {
-          "name": "seo-roadmap-prioritization",
-          "path": "plugins/LVTD-LLC/skills/skills/seo-roadmap-prioritization/SKILL.md"
-        },
-        {
-          "name": "go-cli-sql-storage",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cli-sql-storage/SKILL.md"
-        },
-        {
-          "name": "django-outside-in-tdd",
-          "path": "plugins/LVTD-LLC/skills/skills/django-outside-in-tdd/SKILL.md"
-        },
-        {
-          "name": "link-prospecting-research",
-          "path": "plugins/LVTD-LLC/skills/skills/link-prospecting-research/SKILL.md"
-        },
-        {
-          "name": "game-story-world-character",
-          "path": "plugins/LVTD-LLC/skills/skills/game-story-world-character/SKILL.md"
-        },
-        {
-          "name": "reader-experience-edit",
-          "path": "plugins/LVTD-LLC/skills/skills/reader-experience-edit/SKILL.md"
-        },
-        {
-          "name": "link-reclamation-attribution",
-          "path": "plugins/LVTD-LLC/skills/skills/link-reclamation-attribution/SKILL.md"
-        },
-        {
-          "name": "traction-pr-playbook",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-pr-playbook/SKILL.md"
-        },
-        {
-          "name": "traction-seo-content",
-          "path": "plugins/LVTD-LLC/skills/skills/traction-seo-content/SKILL.md"
-        },
-        {
-          "name": "rust-async-task-design",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-async-task-design/SKILL.md"
-        },
-        {
-          "name": "rust-game-slice-planning",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-game-slice-planning/SKILL.md"
-        },
-        {
-          "name": "rust-error-observability",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-error-observability/SKILL.md"
-        },
-        {
-          "name": "game-spatial-queries",
-          "path": "plugins/LVTD-LLC/skills/skills/game-spatial-queries/SKILL.md"
-        },
-        {
-          "name": "directory-link-evaluation",
-          "path": "plugins/LVTD-LLC/skills/skills/directory-link-evaluation/SKILL.md"
-        },
-        {
-          "name": "docs-agile-integration",
-          "path": "plugins/LVTD-LLC/skills/skills/docs-agile-integration/SKILL.md"
-        },
-        {
-          "name": "linkedin-article-newsletter-writing",
-          "path": "plugins/LVTD-LLC/skills/skills/linkedin-article-newsletter-writing/SKILL.md"
-        },
-        {
-          "name": "eighty-twenty-time-team-leverage",
-          "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-time-team-leverage/SKILL.md"
-        },
-        {
-          "name": "rust-sqlx-postgres-service",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-sqlx-postgres-service/SKILL.md"
-        },
-        {
-          "name": "rust-crate-publishing-readiness",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-crate-publishing-readiness/SKILL.md"
-        },
-        {
-          "name": "book-toc-lab",
-          "path": "plugins/LVTD-LLC/skills/skills/book-toc-lab/SKILL.md"
-        },
-        {
-          "name": "rust-bracket-game-loop",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-bracket-game-loop/SKILL.md"
-        },
-        {
-          "name": "django-forms-validation-tdd",
-          "path": "plugins/LVTD-LLC/skills/skills/django-forms-validation-tdd/SKILL.md"
-        },
-        {
-          "name": "developer-docs-drafting",
-          "path": "plugins/LVTD-LLC/skills/skills/developer-docs-drafting/SKILL.md"
-        },
-        {
-          "name": "book-reader-conversations",
-          "path": "plugins/LVTD-LLC/skills/skills/book-reader-conversations/SKILL.md"
-        },
-        {
-          "name": "rust-domain-boundaries",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-domain-boundaries/SKILL.md"
-        },
-        {
-          "name": "experiment-verification-monitoring",
-          "path": "plugins/LVTD-LLC/skills/skills/experiment-verification-monitoring/SKILL.md"
-        },
-        {
-          "name": "go-cli-distribution",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cli-distribution/SKILL.md"
-        },
-        {
-          "name": "rust-iterator-collections",
-          "path": "plugins/LVTD-LLC/skills/skills/rust-iterator-collections/SKILL.md"
-        },
-        {
-          "name": "go-cli-command-design",
-          "path": "plugins/LVTD-LLC/skills/skills/go-cli-command-design/SKILL.md"
-        },
-        {
-          "name": "calibredb",
-          "path": "plugins/LVTD-LLC/skills/skills/calibredb/SKILL.md"
-        },
-        {
-          "name": "go-http-client-resilience",
-          "path": "plugins/LVTD-LLC/skills/skills/go-http-client-resilience/SKILL.md"
-        },
-        {
-          "name": "holdback-experiment-design",
-          "path": "plugins/LVTD-LLC/skills/skills/holdback-experiment-design/SKILL.md"
-        },
-        {
-          "name": "game-geometry-representation-choice",
-          "path": "plugins/LVTD-LLC/skills/skills/game-geometry-representation-choice/SKILL.md"
-        },
-        {
-          "name": "css-grid-math",
-          "path": "plugins/LVTD-LLC/skills/skills/css-grid-math/SKILL.md"
-        },
-        {
-          "name": "game-smooth-curves-and-motion",
-          "path": "plugins/LVTD-LLC/skills/skills/game-smooth-curves-and-motion/SKILL.md"
-        },
-        {
-          "name": "django-queryset-batch-processing",
-          "path": "plugins/LVTD-LLC/skills/skills/django-queryset-batch-processing/SKILL.md"
-        },
-        {
-          "name": "seo-opportunity-research",
-          "path": "plugins/LVTD-LLC/skills/skills/seo-opportunity-research/SKILL.md"
-        },
-        {
-          "name": "htmx-interactivity",
-          "path": "plugins/LVTD-LLC/skills/skills/htmx-interactivity/SKILL.md"
-        }
-      ],
-      "mcpServers": [],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": false
       }
     },
     {
@@ -6755,7 +5999,7 @@
       "name": "memtomem",
       "displayName": "memtomem",
       "description": "Markdown-first long-term memory shared across your coding agents: one local memtomem store, searchable from Hermes, Claude Code, Codex CLI and Kimi Code.",
-      "version": "0.1.23",
+      "version": "0.1.25",
       "category": "Development & Workflow",
       "author": "memtomem",
       "repository": "https://github.com/memtomem/memtomem",
@@ -6916,11 +6160,284 @@
       }
     },
     {
+      "id": "mycelium",
+      "name": "mycelium",
+      "displayName": "mycelium",
+      "description": "I realized I let the agent start coding before I was sure it was working on the right thing, so I built this. Now it doesn't get to write code before there's a reason. The agent asks who this is for. It asks what you're assuming, and what would show you wrong. The rules run as hooks, so once you have started it in a repo the build stays shut until the answers are there. Purpose, strategy, opportunities, then delivery and market feedback. It adds skills and hooks, keeps its own state in a .claude/ folder, and won't edit the files already in your repo unless you ask it to.",
+      "version": "0.337.1",
+      "category": "Development & Workflow",
+      "author": "Håvard Bartnes",
+      "repository": "https://github.com/haabe/mycelium",
+      "license": "MIT",
+      "codexPath": "plugins/haabe/mycelium",
+      "skills": [
+        {
+          "name": "friction-log",
+          "path": "plugins/haabe/mycelium/skills/friction-log/SKILL.md"
+        },
+        {
+          "name": "ost-builder",
+          "path": "plugins/haabe/mycelium/skills/ost-builder/SKILL.md"
+        },
+        {
+          "name": "security-review",
+          "path": "plugins/haabe/mycelium/skills/security-review/SKILL.md"
+        },
+        {
+          "name": "fan-out",
+          "path": "plugins/haabe/mycelium/skills/fan-out/SKILL.md"
+        },
+        {
+          "name": "usability-check",
+          "path": "plugins/haabe/mycelium/skills/usability-check/SKILL.md"
+        },
+        {
+          "name": "retrospective",
+          "path": "plugins/haabe/mycelium/skills/retrospective/SKILL.md"
+        },
+        {
+          "name": "delivery-bootstrap",
+          "path": "plugins/haabe/mycelium/skills/delivery-bootstrap/SKILL.md"
+        },
+        {
+          "name": "metrics-pull",
+          "path": "plugins/haabe/mycelium/skills/metrics-pull/SKILL.md"
+        },
+        {
+          "name": "corrections-audit",
+          "path": "plugins/haabe/mycelium/skills/corrections-audit/SKILL.md"
+        },
+        {
+          "name": "assumption-test",
+          "path": "plugins/haabe/mycelium/skills/assumption-test/SKILL.md"
+        },
+        {
+          "name": "setup",
+          "path": "plugins/haabe/mycelium/skills/setup/SKILL.md"
+        },
+        {
+          "name": "ost-render",
+          "path": "plugins/haabe/mycelium/skills/ost-render/SKILL.md"
+        },
+        {
+          "name": "cycle-render",
+          "path": "plugins/haabe/mycelium/skills/cycle-render/SKILL.md"
+        },
+        {
+          "name": "receipt-render",
+          "path": "plugins/haabe/mycelium/skills/receipt-render/SKILL.md"
+        },
+        {
+          "name": "user-interview",
+          "path": "plugins/haabe/mycelium/skills/user-interview/SKILL.md"
+        },
+        {
+          "name": "feedback-review",
+          "path": "plugins/haabe/mycelium/skills/feedback-review/SKILL.md"
+        },
+        {
+          "name": "prompt-optimizer",
+          "path": "plugins/haabe/mycelium/skills/prompt-optimizer/SKILL.md"
+        },
+        {
+          "name": "start",
+          "path": "plugins/haabe/mycelium/skills/start/SKILL.md"
+        },
+        {
+          "name": "eval-runner",
+          "path": "plugins/haabe/mycelium/skills/eval-runner/SKILL.md"
+        },
+        {
+          "name": "ping",
+          "path": "plugins/haabe/mycelium/skills/ping/SKILL.md"
+        },
+        {
+          "name": "wiring-contract",
+          "path": "plugins/haabe/mycelium/skills/wiring-contract/SKILL.md"
+        },
+        {
+          "name": "bvssh-check",
+          "path": "plugins/haabe/mycelium/skills/bvssh-check/SKILL.md"
+        },
+        {
+          "name": "diamond-progress",
+          "path": "plugins/haabe/mycelium/skills/diamond-progress/SKILL.md"
+        },
+        {
+          "name": "regulatory-review",
+          "path": "plugins/haabe/mycelium/skills/regulatory-review/SKILL.md"
+        },
+        {
+          "name": "dora-check",
+          "path": "plugins/haabe/mycelium/skills/dora-check/SKILL.md"
+        },
+        {
+          "name": "ice-score",
+          "path": "plugins/haabe/mycelium/skills/ice-score/SKILL.md"
+        },
+        {
+          "name": "threat-model",
+          "path": "plugins/haabe/mycelium/skills/threat-model/SKILL.md"
+        },
+        {
+          "name": "launch-tier",
+          "path": "plugins/haabe/mycelium/skills/launch-tier/SKILL.md"
+        },
+        {
+          "name": "gist-plan",
+          "path": "plugins/haabe/mycelium/skills/gist-plan/SKILL.md"
+        },
+        {
+          "name": "reflexion",
+          "path": "plugins/haabe/mycelium/skills/reflexion/SKILL.md"
+        },
+        {
+          "name": "harms-check",
+          "path": "plugins/haabe/mycelium/skills/harms-check/SKILL.md"
+        },
+        {
+          "name": "canvas-sync",
+          "path": "plugins/haabe/mycelium/skills/canvas-sync/SKILL.md"
+        },
+        {
+          "name": "canvas-health",
+          "path": "plugins/haabe/mycelium/skills/canvas-health/SKILL.md"
+        },
+        {
+          "name": "privacy-check",
+          "path": "plugins/haabe/mycelium/skills/privacy-check/SKILL.md"
+        },
+        {
+          "name": "purpose-properties",
+          "path": "plugins/haabe/mycelium/skills/purpose-properties/SKILL.md"
+        },
+        {
+          "name": "definition-of-done",
+          "path": "plugins/haabe/mycelium/skills/definition-of-done/SKILL.md"
+        },
+        {
+          "name": "interview",
+          "path": "plugins/haabe/mycelium/skills/interview/SKILL.md"
+        },
+        {
+          "name": "wardley-map",
+          "path": "plugins/haabe/mycelium/skills/wardley-map/SKILL.md"
+        },
+        {
+          "name": "framework-health",
+          "path": "plugins/haabe/mycelium/skills/framework-health/SKILL.md"
+        },
+        {
+          "name": "diamond-assess",
+          "path": "plugins/haabe/mycelium/skills/diamond-assess/SKILL.md"
+        },
+        {
+          "name": "preflight",
+          "path": "plugins/haabe/mycelium/skills/preflight/SKILL.md"
+        },
+        {
+          "name": "xai-check",
+          "path": "plugins/haabe/mycelium/skills/xai-check/SKILL.md"
+        },
+        {
+          "name": "count",
+          "path": "plugins/haabe/mycelium/skills/count/SKILL.md"
+        },
+        {
+          "name": "migrate-from-legacy",
+          "path": "plugins/haabe/mycelium/skills/migrate-from-legacy/SKILL.md"
+        },
+        {
+          "name": "scaffold-cost-check",
+          "path": "plugins/haabe/mycelium/skills/scaffold-cost-check/SKILL.md"
+        },
+        {
+          "name": "diamond-render",
+          "path": "plugins/haabe/mycelium/skills/diamond-render/SKILL.md"
+        },
+        {
+          "name": "cynefin-classify",
+          "path": "plugins/haabe/mycelium/skills/cynefin-classify/SKILL.md"
+        },
+        {
+          "name": "canvas-update",
+          "path": "plugins/haabe/mycelium/skills/canvas-update/SKILL.md"
+        },
+        {
+          "name": "log-evidence",
+          "path": "plugins/haabe/mycelium/skills/log-evidence/SKILL.md"
+        },
+        {
+          "name": "devils-advocate",
+          "path": "plugins/haabe/mycelium/skills/devils-advocate/SKILL.md"
+        },
+        {
+          "name": "a11y-check",
+          "path": "plugins/haabe/mycelium/skills/a11y-check/SKILL.md"
+        },
+        {
+          "name": "service-check",
+          "path": "plugins/haabe/mycelium/skills/service-check/SKILL.md"
+        },
+        {
+          "name": "define-done",
+          "path": "plugins/haabe/mycelium/skills/define-done/SKILL.md"
+        },
+        {
+          "name": "adopt",
+          "path": "plugins/haabe/mycelium/skills/adopt/SKILL.md"
+        },
+        {
+          "name": "user-needs-map",
+          "path": "plugins/haabe/mycelium/skills/user-needs-map/SKILL.md"
+        },
+        {
+          "name": "jtbd-map",
+          "path": "plugins/haabe/mycelium/skills/jtbd-map/SKILL.md"
+        },
+        {
+          "name": "bias-check",
+          "path": "plugins/haabe/mycelium/skills/bias-check/SKILL.md"
+        },
+        {
+          "name": "theory-fidelity",
+          "path": "plugins/haabe/mycelium/skills/theory-fidelity/SKILL.md"
+        },
+        {
+          "name": "metrics-detect",
+          "path": "plugins/haabe/mycelium/skills/metrics-detect/SKILL.md"
+        },
+        {
+          "name": "team-shape",
+          "path": "plugins/haabe/mycelium/skills/team-shape/SKILL.md"
+        },
+        {
+          "name": "render",
+          "path": "plugins/haabe/mycelium/skills/render/SKILL.md"
+        },
+        {
+          "name": "handoff",
+          "path": "plugins/haabe/mycelium/skills/handoff/SKILL.md"
+        },
+        {
+          "name": "mocked-persona-interview",
+          "path": "plugins/haabe/mycelium/skills/mocked-persona-interview/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "nightshift",
       "name": "nightshift",
       "displayName": "Nightshift",
       "description": "Accountable, time-bounded Codex shifts. Hand it your punch list, or let it research the product and ship complete improvements until quitting time. Progress stays on disk through compaction and resume. The morning is reviewable commits or artifact receipts, per-item token usage and time, a shift log, and the decisions that were made. When you are done reviewing the run, archive it dated so the live session stays lean.",
-      "version": "0.36.0",
+      "version": "0.37.0",
       "category": "Development & Workflow",
       "author": "Orwa Mahmoud",
       "repository": "https://github.com/orwa-mahmoud/nightshift",
@@ -7025,7 +6542,7 @@
       "name": "oh-my-cassette",
       "displayName": "Oh My Cassette",
       "description": "Edit video with the Cassette agent from Codex: import local media, send editing turns, read the timeline, export.",
-      "version": "0.7.3",
+      "version": "0.7.4",
       "category": "Development & Workflow",
       "author": "Oh My Cassette contributors",
       "repository": "https://github.com/Cassette-Editor/oh-my-cassette",
@@ -8026,8 +7543,8 @@
       "id": "research-agent-skills",
       "name": "research-agent-skills",
       "displayName": "Research Agent Skills",
-      "description": "281 Agent Skills for researchers: scientific and research paper writing, journal formats, literature review, citations, data science, ML research and domain science.",
-      "version": "1.1.1",
+      "description": "283 Agent Skills for researchers: scientific and research paper writing, journal formats, literature review, citations, data science, ML research and domain science.",
+      "version": "1.2.0",
       "category": "Development & Workflow",
       "author": "Kalaris Labs",
       "repository": "https://github.com/KalarisLabs/research-agent-skills",
@@ -8295,6 +7812,10 @@
           "path": "plugins/KalarisLabs/research-agent-skills/skills/simpo-training/SKILL.md"
         },
         {
+          "name": "paper-card",
+          "path": "plugins/KalarisLabs/research-agent-skills/skills/paper-card/SKILL.md"
+        },
+        {
           "name": "pinecone",
           "path": "plugins/KalarisLabs/research-agent-skills/skills/pinecone/SKILL.md"
         },
@@ -8361,6 +7882,10 @@
         {
           "name": "nnsight-remote-interpretability",
           "path": "plugins/KalarisLabs/research-agent-skills/skills/nnsight-remote-interpretability/SKILL.md"
+        },
+        {
+          "name": "fulltext-acquisition",
+          "path": "plugins/KalarisLabs/research-agent-skills/skills/fulltext-acquisition/SKILL.md"
         },
         {
           "name": "datalad",
@@ -9841,6 +9366,26 @@
       }
     },
     {
+      "id": "skill-check",
+      "name": "skill-check",
+      "displayName": "skill-check",
+      "description": "Warns when a skill is used while out of date. Reads metadata.version / metadata.source from SKILL.md, and knows Spec Kit projects and npx skills installs.",
+      "version": "0.6.0",
+      "category": "Development & Workflow",
+      "author": "Louis Esterhuizen",
+      "repository": "https://github.com/louis8408/skill-check",
+      "license": "Apache-2.0",
+      "codexPath": "plugins/louis8408/skill-check",
+      "skills": [],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": false,
+        "dsh": false,
+        "mcp": false
+      }
+    },
+    {
       "id": "skill-sync-publisher",
       "name": "skill-sync-publisher",
       "displayName": "Skill Sync Publisher",
@@ -9911,7 +9456,7 @@
       "name": "sno-station-standalone",
       "displayName": "Sno Station Skills",
       "description": "Twelve Sno Station skills for review, intent checks, end-to-end triage, work briefs, Shell, TypeScript, Python and Rust coding, and test writing that run without Sno Station programs or hooks.",
-      "version": "1.0.202611152351",
+      "version": "1.0.202611180543",
       "category": "Development & Workflow",
       "author": "Sno Station Skills contributors",
       "repository": "https://github.com/sno-ai/sno-station-skills",
@@ -12979,7 +12524,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.152.0",
+      "version": "0.153.2",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -13546,6 +13091,31 @@
       }
     },
     {
+      "id": "banking-access-index",
+      "name": "banking-access-index",
+      "displayName": "Banking Access Index",
+      "description": "What 19 US business banking providers publish about applicants who are not US tax residents but own a US LLC, across 8 countries. Every cell carries its source URL and the date that URL was read. Absence from a prohibited list is never reported as acceptance.",
+      "version": "0.2.0",
+      "category": "Tools & Integrations",
+      "author": "Global Solo",
+      "repository": "https://github.com/global-solo/banking-access-index-mcp",
+      "license": "MIT",
+      "codexPath": "plugins/global-solo/banking-access-index-mcp",
+      "skills": [
+        {
+          "name": "banking-access-index",
+          "path": "plugins/global-solo/banking-access-index-mcp/skills/banking-access-index/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "bestprice-shopping",
       "name": "bestprice-shopping",
       "displayName": "BestPrice",
@@ -13618,7 +13188,7 @@
       "name": "bkt",
       "displayName": "Bitbucket CLI",
       "description": "Bitbucket CLI - manage repos, PRs, branches, webhooks, and pipelines for both Data Center and Cloud",
-      "version": "0.40.1",
+      "version": "0.40.2",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/bitbucket-cli",
@@ -14136,8 +13706,8 @@
       "id": "cloudgpu",
       "name": "cloudgpu",
       "displayName": "CloudGPU",
-      "description": "Rent a per-minute GPU from your agent, run a job, download results, shut it down.",
-      "version": "0.12.1",
+      "description": "Compute infrastructure for AI agents: inspect supply, review billing, run jobs and save results.",
+      "version": "0.16.4",
       "category": "Tools & Integrations",
       "author": "CloudGPU",
       "repository": "https://github.com/cloudgpu-app/cloudgpu-mcp",
@@ -14434,6 +14004,37 @@
         "dataforseo",
         "firecrawl-mcp",
         "nanobanana-mcp"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "telegram",
+      "name": "telegram",
+      "displayName": "Codex Telegram",
+      "description": "One shared Codex conversation in your terminal and Telegram.",
+      "version": "0.4.37",
+      "category": "Tools & Integrations",
+      "author": "Aleksandr",
+      "repository": "https://github.com/AXEG0/codex-telegram",
+      "license": "MIT",
+      "codexPath": "plugins/AXEG0/codex-telegram",
+      "skills": [
+        {
+          "name": "configure",
+          "path": "plugins/AXEG0/codex-telegram/skills/configure/SKILL.md"
+        },
+        {
+          "name": "access",
+          "path": "plugins/AXEG0/codex-telegram/skills/access/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "telegram"
       ],
       "tools": {
         "codex": true,
@@ -18894,8 +18495,8 @@
       "id": "osmo",
       "name": "osmo",
       "displayName": "OsmO Phone Calls",
-      "description": "OsmO's AI makes real phone calls for you and answers calls to your number as your AI phone receptionist (answering service). Calls: find a business or a company's customer-care number, call it (or up to 5 numbers at once), book, reschedule or cancel, ask about hours, prices or stock, get through phone menus, wait on hold and pass on a message; then get the outcome, summary, transcript and a recording link. Every call is confirmed by you first. Receptionist: see who called and what they wanted, pause the AI, choose who is put through live, edit VIP and block lists and caller rules, switch the assistant or its language (English or Hindi), and read bookings, Facts and connection status. Sign in with your phone number; no API key. 50 free credits for new users in the US, Canada, UK and Australia (an answered call uses 3; unanswered calls are free) call businesses and toll-free numbers; calling your contacts, calling back callers, scheduling calls and the receptionist need an OsmO app plan.",
-      "version": "1.4.0",
+      "description": "OsmO's AI makes real phone calls for you and answers calls to your number as your AI phone receptionist (answering service). Calls: find a business or a company's customer-care number, call it (or up to 5 numbers at once), book, reschedule or cancel, ask about hours, prices or stock, get through phone menus, wait on hold and pass on a message; then get the outcome, summary, transcript and a recording link. In apps that show cards (such as Claude) a live call card follows each call (up to 5 calls together in one card) with Call again and Schedule buttons; in Claude and ChatGPT a short call's result comes back in the same turn; scheduled calls use your own time zone. Every call is confirmed by you first. Receptionist: see who called and what they wanted, pause the AI, choose who is put through live, edit VIP and block lists and caller rules, switch the assistant or its language (English or Hindi), and read bookings, Facts and connection status. Sign in with your phone number; no API key. 50 free credits for new users in the US, Canada, UK and Australia (an answered call uses 3; unanswered calls are free) call businesses and toll-free numbers; calling your contacts, calling back callers, scheduling calls and the receptionist need an OsmO app plan.",
+      "version": "1.5.0",
       "category": "Tools & Integrations",
       "author": "OsmO AI",
       "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
@@ -18998,7 +18599,7 @@
       "name": "phonedriver",
       "displayName": "phonedriver",
       "description": "Lets an agent see and operate Android phones and iPhones: the screen as text, taps by element number, and a question to you before any tap that pays. Bundles the phonedriver MCP server and its skill.",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "category": "Tools & Integrations",
       "author": "Hridya Agrawal",
       "repository": "https://github.com/hridaya423/phonedriver",
@@ -19025,7 +18626,7 @@
       "name": "placecall",
       "displayName": "PlaceCall",
       "description": "PlaceCall makes AI phone calls that book, confirm, and reach US businesses. It places a real outbound call and returns a structured outcome plus a full transcript. Sign in on first use, no API key needed.",
-      "version": "6.6.2",
+      "version": "6.6.3",
       "category": "Tools & Integrations",
       "author": "VOYGR",
       "repository": "https://github.com/voygr-tech/placecall",
@@ -19695,8 +19296,8 @@
       "id": "ru-marketplace-mcp",
       "name": "ru-marketplace-mcp",
       "displayName": "ru-marketplace-mcp",
-      "description": "Двенадцать площадок РФ и Китая (Wildberries, Ozon, Яндекс Маркет, Авито, Циан, AliExpress, Taobao, Детский мир, Мегамаркет, Lamoda, DNS, Ситилинк) как MCP-серверы и 15 навыков. Сравнение цен без ключей API.",
-      "version": "2.9.4",
+      "description": "Двенадцать площадок РФ и Китая (Wildberries, Ozon, Яндекс Маркет, Авито, Циан, AliExpress, Taobao, Детский мир, Мегамаркет, Lamoda, DNS, Ситилинк) как MCP-серверы и 14 навыков. Сравнение цен без ключей API.",
+      "version": "2.10.0",
       "category": "Tools & Integrations",
       "author": "Vladimir-Human",
       "repository": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
@@ -19805,6 +19406,60 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "runheed",
+      "name": "runheed",
+      "displayName": "Runheed",
+      "description": "Error tracking your coding agent can read. Search production errors, read stack traces with context, fix them and mark them resolved.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "Great Work LLC",
+      "repository": "https://github.com/getrunheed/runheed-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/getrunheed/runheed-plugin",
+      "skills": [
+        {
+          "name": "runheed",
+          "path": "plugins/getrunheed/runheed-plugin/skills/runheed/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "runheed"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "runlater",
+      "name": "runlater",
+      "displayName": "RunLater",
+      "description": "Schedule HTTP requests from Codex: call any URL once at an exact time or on a cron schedule, with retries and a log of every run, through the RunLater remote MCP server.",
+      "version": "1.1.1",
+      "category": "Tools & Integrations",
+      "author": "Great Work LLC",
+      "repository": "https://github.com/runlater-app/runlater-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/runlater-app/runlater-plugin",
+      "skills": [
+        {
+          "name": "runlater",
+          "path": "plugins/runlater-app/runlater-plugin/skills/runlater/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "runlater"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -20154,8 +19809,8 @@
       "id": "seonix",
       "name": "seonix",
       "displayName": "Seonix",
-      "description": "Connect your Seonix SEO project: Site Health and fix plan, Google Search Console, keywords, articles and SEO playbooks, with skills that fix a site in code and ship content through Seonix.",
-      "version": "1.1.0",
+      "description": "Connect your Seonix SEO project: Site Health and fix plan, Google Search Console, keywords, articles and SEO playbooks, with skills that work through Site Health findings without breaking what already ranks, and draft content through Seonix.",
+      "version": "1.2.0",
       "category": "Tools & Integrations",
       "author": "Seonix",
       "repository": "https://github.com/seonix-ai/mcp",
@@ -20215,7 +19870,7 @@
       "name": "sfxmint",
       "displayName": "SFXMint",
       "description": "Free CC0 sound effects for apps and games: find a sound by event, set or description and download it into the project.",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "category": "Tools & Integrations",
       "author": "SFXMint",
       "repository": "https://github.com/sfxmint/sfxmint-mcp",
@@ -20437,6 +20092,105 @@
       ],
       "mcpServers": [
         "sponge"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "stalkchain",
+      "name": "stalkchain",
+      "displayName": "StalkChain",
+      "description": "Crypto research in plain English: see what FOMO's top traders are buying, check a coin before you buy, vet a trader before you copy them, review a wallet and set price alerts. Never trades or moves funds.",
+      "version": "1.3.6",
+      "category": "Tools & Integrations",
+      "author": "StalkChain",
+      "repository": "https://github.com/StalkC/stalkchain-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/StalkC/stalkchain-plugin",
+      "skills": [
+        {
+          "name": "stonkfun-launch-guide",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/stonkfun-launch-guide/SKILL.md"
+        },
+        {
+          "name": "trader-playbook",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/trader-playbook/SKILL.md"
+        },
+        {
+          "name": "token-compare",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/token-compare/SKILL.md"
+        },
+        {
+          "name": "narrative-tracker",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/narrative-tracker/SKILL.md"
+        },
+        {
+          "name": "defi-safety",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/defi-safety/SKILL.md"
+        },
+        {
+          "name": "holder-tracker",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/holder-tracker/SKILL.md"
+        },
+        {
+          "name": "wallet-lookup",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/wallet-lookup/SKILL.md"
+        },
+        {
+          "name": "launch-screener",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/launch-screener/SKILL.md"
+        },
+        {
+          "name": "universal-trade-review",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/universal-trade-review/SKILL.md"
+        },
+        {
+          "name": "portfolio-review",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/portfolio-review/SKILL.md"
+        },
+        {
+          "name": "smart-money-radar",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/smart-money-radar/SKILL.md"
+        },
+        {
+          "name": "whale-watch",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/whale-watch/SKILL.md"
+        },
+        {
+          "name": "rug-post-mortem",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/rug-post-mortem/SKILL.md"
+        },
+        {
+          "name": "token-check",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/token-check/SKILL.md"
+        },
+        {
+          "name": "stonkfun-research",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/stonkfun-research/SKILL.md"
+        },
+        {
+          "name": "trader-check",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/trader-check/SKILL.md"
+        },
+        {
+          "name": "liquidity-pools",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/liquidity-pools/SKILL.md"
+        },
+        {
+          "name": "price-alerts",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/price-alerts/SKILL.md"
+        },
+        {
+          "name": "perps-check",
+          "path": "plugins/StalkC/stalkchain-plugin/skills/perps-check/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "stalkchain"
       ],
       "tools": {
         "codex": true,
@@ -20871,6 +20625,49 @@
       }
     },
     {
+      "id": "taskhold",
+      "name": "taskhold",
+      "displayName": "Taskhold",
+      "description": "A task list you share with Codex: Codex picks up the next task, splits it into steps, reports progress and asks you when it is blocked, through the Taskhold remote MCP server. You watch a live board of every agent's progress.",
+      "version": "1.2.0",
+      "category": "Tools & Integrations",
+      "author": "Great Work LLC",
+      "repository": "https://github.com/gettaskhold/taskhold-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/gettaskhold/taskhold-plugin",
+      "skills": [
+        {
+          "name": "taskhold-for-jira",
+          "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold-for-jira/SKILL.md"
+        },
+        {
+          "name": "taskhold-todos-to-tasks",
+          "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold-todos-to-tasks/SKILL.md"
+        },
+        {
+          "name": "taskhold",
+          "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold/SKILL.md"
+        },
+        {
+          "name": "taskhold-live-progress",
+          "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold-live-progress/SKILL.md"
+        },
+        {
+          "name": "taskhold-ask-when-blocked",
+          "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold-ask-when-blocked/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "taskhold"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "teaching-skills",
       "name": "teaching-skills",
       "displayName": "Teaching Skills",
@@ -20885,6 +20682,43 @@
         {
           "name": "teaching-suite",
           "path": "plugins/YujxZJCN/teaching-skills-codex/skills/teaching-suite/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "tensorust",
+      "name": "tensorust",
+      "displayName": "tensorust",
+      "description": "Public-records data the model does not have, through the hosted Tensorust Ontology MCP server: who owns and controls a US company or home, vendor and purchase-line screening against DoD 1260H, Section 889, FCC Covered List, UFLPA and BIOSECURE, BDC private credit loan marks and lender disagreement from SEC filings, No Surprises Act IDR offer bands and arbitrator loss rates from the CMS public use file, and dated LLM API prices.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "Matthew Busel",
+      "repository": "https://github.com/Mattbusel/tensorust-skills",
+      "license": "MIT",
+      "codexPath": "plugins/Mattbusel/tensorust-skills",
+      "skills": [
+        {
+          "name": "llm-api-cost",
+          "path": "plugins/Mattbusel/tensorust-skills/skills/llm-api-cost/SKILL.md"
+        },
+        {
+          "name": "idr-offer",
+          "path": "plugins/Mattbusel/tensorust-skills/skills/idr-offer/SKILL.md"
+        },
+        {
+          "name": "bdc-mark-crosscheck",
+          "path": "plugins/Mattbusel/tensorust-skills/skills/bdc-mark-crosscheck/SKILL.md"
+        },
+        {
+          "name": "counterparty-screen",
+          "path": "plugins/Mattbusel/tensorust-skills/skills/counterparty-screen/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -21860,7 +21694,7 @@
       "name": "webly",
       "displayName": "Webly",
       "description": "Publish a website, or share files and folders, at a live URL in seconds with no account. The person can claim it, edit it over MCP, and publish drafts they approve.",
-      "version": "0.14.29",
+      "version": "0.15.4",
       "category": "Tools & Integrations",
       "author": "Webly",
       "repository": "https://github.com/Webly-AI/webly-plugin",
@@ -21887,7 +21721,7 @@
       "name": "worktable",
       "displayName": "Worktable",
       "description": "Build shared Docs, live HTML workspaces, structured Records, annotations, and durable agent threads in Worktable.",
-      "version": "0.1.10",
+      "version": "0.2.0",
       "category": "Tools & Integrations",
       "author": "Reva Labs",
       "repository": "https://github.com/worktable/worktable-dev",
@@ -21897,6 +21731,10 @@
         {
           "name": "worktable-create-or-manage-records",
           "path": "plugins/worktable/worktable-plugin/skills/worktable-create-or-manage-records/SKILL.md"
+        },
+        {
+          "name": "worktable-library",
+          "path": "plugins/worktable/worktable-plugin/skills/worktable-library/SKILL.md"
         },
         {
           "name": "worktable-find-and-synthesize-context",

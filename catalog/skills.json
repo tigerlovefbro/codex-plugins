@@ -330,6 +330,11 @@
     "path": "plugins/1139030773-cmd/agent-workflow-system/skills/agent-project-master/SKILL.md"
   },
   {
+    "plugin": "agentavow-trust",
+    "skill": "scan-before-connect",
+    "path": "plugins/AgentAvow/agentavow-codex-plugin/skills/scan-before-connect/SKILL.md"
+  },
+  {
     "plugin": "agentic-readiness-assessment",
     "skill": "agentic-readiness-assessment",
     "path": "plugins/exadel-inc/agentic-readiness-assessment/skills/agentic-readiness-assessment/SKILL.md"
@@ -1103,6 +1108,11 @@
     "plugin": "chatgpt-agent",
     "skill": "chatgpt-agent",
     "path": "plugins/TohmaN233/chatgpt-review-agent-skill/skills/chatgpt-agent/SKILL.md"
+  },
+  {
+    "plugin": "chunsik-garage",
+    "skill": "aq",
+    "path": "plugins/yeunlee1/chunsik-garage/skills/aq/SKILL.md"
   },
   {
     "plugin": "claude-code",
@@ -3675,6 +3685,51 @@
     "path": "plugins/JoxoAI/joxo/skills/joxo/SKILL.md"
   },
   {
+    "plugin": "kaoyan-study-skills",
+    "skill": "kaoyan-plan",
+    "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-plan/SKILL.md"
+  },
+  {
+    "plugin": "kaoyan-study-skills",
+    "skill": "kaoyan-setup",
+    "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-setup/SKILL.md"
+  },
+  {
+    "plugin": "kaoyan-study-skills",
+    "skill": "physics-svg-tutor",
+    "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/physics-svg-tutor/SKILL.md"
+  },
+  {
+    "plugin": "kaoyan-study-skills",
+    "skill": "kaoyan-tutor",
+    "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-tutor/SKILL.md"
+  },
+  {
+    "plugin": "kaoyan-study-skills",
+    "skill": "kaoyan-retro",
+    "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-retro/SKILL.md"
+  },
+  {
+    "plugin": "kaoyan-study-skills",
+    "skill": "kaoyan-daily-pack",
+    "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-daily-pack/SKILL.md"
+  },
+  {
+    "plugin": "kaoyan-study-skills",
+    "skill": "kaoyan-grading",
+    "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-grading/SKILL.md"
+  },
+  {
+    "plugin": "kaoyan-study-skills",
+    "skill": "kaoyan-report",
+    "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-report/SKILL.md"
+  },
+  {
+    "plugin": "kaoyan-study-skills",
+    "skill": "kaoyan-archive",
+    "path": "plugins/keienhrri-bit/kaoyan-study-skills/skills/kaoyan-archive/SKILL.md"
+  },
+  {
     "plugin": "keep-mac-awake",
     "skill": "keepmacawake",
     "path": "plugins/bartdudzic/keepmacawake/skills/keepmacawake/SKILL.md"
@@ -3970,1061 +4025,6 @@
     "path": "plugins/ClickHouse/loom/skills/loom-memory/SKILL.md"
   },
   {
-    "plugin": "lvtd-skills",
-    "skill": "documentation-information-architecture",
-    "path": "plugins/LVTD-LLC/skills/skills/documentation-information-architecture/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "lvtd-skills-router",
-    "path": "plugins/LVTD-LLC/skills/skills/lvtd-skills-router/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-bullseye",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-bullseye/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "documentation-quality-metrics",
-    "path": "plugins/LVTD-LLC/skills/skills/documentation-quality-metrics/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "docs-feedback-triage",
-    "path": "plugins/LVTD-LLC/skills/skills/docs-feedback-triage/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "relationship-led-link-building",
-    "path": "plugins/LVTD-LLC/skills/skills/relationship-led-link-building/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-interface-feedback",
-    "path": "plugins/LVTD-LLC/skills/skills/game-interface-feedback/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-mesh-voxel-conversion",
-    "path": "plugins/LVTD-LLC/skills/skills/game-mesh-voxel-conversion/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-db-side-computation",
-    "path": "plugins/LVTD-LLC/skills/skills/django-db-side-computation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-email-marketing",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-email-marketing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "seo-persona-intent-mapping",
-    "path": "plugins/LVTD-LLC/skills/skills/seo-persona-intent-mapping/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-pagination-performance",
-    "path": "plugins/LVTD-LLC/skills/skills/django-pagination-performance/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-critical-path",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-critical-path/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "linkedin-post-experimentation",
-    "path": "plugins/LVTD-LLC/skills/skills/linkedin-post-experimentation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "eighty-twenty-power-curve",
-    "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-power-curve/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "linkedin-content-ideation",
-    "path": "plugins/LVTD-LLC/skills/skills/linkedin-content-ideation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-db-performance",
-    "path": "plugins/LVTD-LLC/skills/skills/django-db-performance/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-prototype-loop",
-    "path": "plugins/LVTD-LLC/skills/skills/game-prototype-loop/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-deployable-service",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-deployable-service/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-mechanics-design",
-    "path": "plugins/LVTD-LLC/skills/skills/game-mechanics-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "beta-reader-feedback",
-    "path": "plugins/LVTD-LLC/skills/skills/beta-reader-feedback/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "manuscript-engagement-analytics",
-    "path": "plugins/LVTD-LLC/skills/skills/manuscript-engagement-analytics/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "customer-segment-slicing",
-    "path": "plugins/LVTD-LLC/skills/skills/customer-segment-slicing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "b2b-reach-engineering",
-    "path": "plugins/LVTD-LLC/skills/skills/b2b-reach-engineering/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-index-design",
-    "path": "plugins/LVTD-LLC/skills/skills/django-index-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-data-driven-game-content",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-data-driven-game-content/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-library-performance-features",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-library-performance-features/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "sales-page-citability-audit",
-    "path": "plugins/LVTD-LLC/skills/skills/sales-page-citability-audit/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "linkedin-comment-writing",
-    "path": "plugins/LVTD-LLC/skills/skills/linkedin-comment-writing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "saas-documentation",
-    "path": "plugins/LVTD-LLC/skills/skills/saas-documentation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "book-sales-optimization",
-    "path": "plugins/LVTD-LLC/skills/skills/book-sales-optimization/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-partnership-sales",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-partnership-sales/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-api-test-harness",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-api-test-harness/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "link-building-strategy",
-    "path": "plugins/LVTD-LLC/skills/skills/link-building-strategy/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "code-sample-documentation",
-    "path": "plugins/LVTD-LLC/skills/skills/code-sample-documentation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-viral-engineering",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-viral-engineering/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cobra-applications",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cobra-applications/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "digital-pr-survey-campaigns",
-    "path": "plugins/LVTD-LLC/skills/skills/digital-pr-survey-campaigns/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-test-data",
-    "path": "plugins/LVTD-LLC/skills/skills/django-test-data/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "responsive-layout-math",
-    "path": "plugins/LVTD-LLC/skills/skills/responsive-layout-math/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-events-community",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-events-community/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "technical-manuscript-verification",
-    "path": "plugins/LVTD-LLC/skills/skills/technical-manuscript-verification/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-test-planner",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-test-planner/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cli-release-automation",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cli-release-automation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rustdoc-library-documentation",
-    "path": "plugins/LVTD-LLC/skills/skills/rustdoc-library-documentation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "htmx-foundations",
-    "path": "plugins/LVTD-LLC/skills/skills/htmx-foundations/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "htmx-security",
-    "path": "plugins/LVTD-LLC/skills/skills/htmx-security/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "cookiecutter",
-    "path": "plugins/LVTD-LLC/skills/skills/cookiecutter/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-language-correctness",
-    "path": "plugins/LVTD-LLC/skills/skills/go-language-correctness/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "documentation-platform-selection",
-    "path": "plugins/LVTD-LLC/skills/skills/documentation-platform-selection/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "guest-post-placement",
-    "path": "plugins/LVTD-LLC/skills/skills/guest-post-placement/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-game-polish-release",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-game-polish-release/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-channel-research",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-channel-research/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "experimentation-culture-rollout",
-    "path": "plugins/LVTD-LLC/skills/skills/experimentation-culture-rollout/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "eighty-twenty-usp-guarantee",
-    "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-usp-guarantee/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "evergreen-technical-book",
-    "path": "plugins/LVTD-LLC/skills/skills/evergreen-technical-book/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "b2b-timing-engine",
-    "path": "plugins/LVTD-LLC/skills/skills/b2b-timing-engine/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "long-term-impact-evaluation",
-    "path": "plugins/LVTD-LLC/skills/skills/long-term-impact-evaluation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-ci-test-optimization",
-    "path": "plugins/LVTD-LLC/skills/skills/django-ci-test-optimization/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-turn-intent-systems",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-turn-intent-systems/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "trust-and-liking",
-    "path": "plugins/LVTD-LLC/skills/skills/trust-and-liking/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-review",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-review/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-idempotent-workflows",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-idempotent-workflows/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "htmx-endpoint-design",
-    "path": "plugins/LVTD-LLC/skills/skills/htmx-endpoint-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "ml-experiment-evaluation",
-    "path": "plugins/LVTD-LLC/skills/skills/ml-experiment-evaluation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "technical-book-lab-design",
-    "path": "plugins/LVTD-LLC/skills/skills/technical-book-lab-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "ab-testing-platform-strategy",
-    "path": "plugins/LVTD-LLC/skills/skills/ab-testing-platform-strategy/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cli-terminal-experience",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cli-terminal-experience/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "influence-audit",
-    "path": "plugins/LVTD-LLC/skills/skills/influence-audit/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "local-sponsorship-link-building",
-    "path": "plugins/LVTD-LLC/skills/skills/local-sponsorship-link-building/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "book-seed-marketing",
-    "path": "plugins/LVTD-LLC/skills/skills/book-seed-marketing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-playtest-planning",
-    "path": "plugins/LVTD-LLC/skills/skills/game-playtest-planning/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "inclusive-experiment-analysis",
-    "path": "plugins/LVTD-LLC/skills/skills/inclusive-experiment-analysis/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-http-server-applications",
-    "path": "plugins/LVTD-LLC/skills/skills/go-http-server-applications/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "customer-commitment-validation",
-    "path": "plugins/LVTD-LLC/skills/skills/customer-commitment-validation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-htmx",
-    "path": "plugins/LVTD-LLC/skills/skills/django-htmx/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "htmx-realtime",
-    "path": "plugins/LVTD-LLC/skills/skills/htmx-realtime/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "ethical-persuasion-design",
-    "path": "plugins/LVTD-LLC/skills/skills/ethical-persuasion-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-balance-economy",
-    "path": "plugins/LVTD-LLC/skills/skills/game-balance-economy/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "scaled-link-outreach-operations",
-    "path": "plugins/LVTD-LLC/skills/skills/scaled-link-outreach-operations/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "customer-learning-notes",
-    "path": "plugins/LVTD-LLC/skills/skills/customer-learning-notes/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "broken-link-building",
-    "path": "plugins/LVTD-LLC/skills/skills/broken-link-building/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "python-mock-isolation-design",
-    "path": "plugins/LVTD-LLC/skills/skills/python-mock-isolation-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-query-plan-reading",
-    "path": "plugins/LVTD-LLC/skills/skills/django-query-plan-reading/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-q2",
-    "path": "plugins/LVTD-LLC/skills/skills/django-q2/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "reciprocity-offer-design",
-    "path": "plugins/LVTD-LLC/skills/skills/reciprocity-offer-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "trustworthy-experiment-insights",
-    "path": "plugins/LVTD-LLC/skills/skills/trustworthy-experiment-insights/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "alpinejs-django",
-    "path": "plugins/LVTD-LLC/skills/skills/alpinejs-django/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-test-performance",
-    "path": "plugins/LVTD-LLC/skills/skills/django-test-performance/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "ab-test-results-readout",
-    "path": "plugins/LVTD-LLC/skills/skills/ab-test-results-readout/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "b2b-trust-engineering",
-    "path": "plugins/LVTD-LLC/skills/skills/b2b-trust-engineering/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "eighty-twenty-market-selection",
-    "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-market-selection/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cli-process-control",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cli-process-control/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-design-docs",
-    "path": "plugins/LVTD-LLC/skills/skills/game-design-docs/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "developer-docs-audience-research",
-    "path": "plugins/LVTD-LLC/skills/skills/developer-docs-audience-research/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-tilemap-camera-rendering",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-tilemap-camera-rendering/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "css-math-units",
-    "path": "plugins/LVTD-LLC/skills/skills/css-math-units/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-concurrency-pipelines",
-    "path": "plugins/LVTD-LLC/skills/skills/go-concurrency-pipelines/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-orm-query-optimization",
-    "path": "plugins/LVTD-LLC/skills/skills/django-orm-query-optimization/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "experiment-sensitivity-optimization",
-    "path": "plugins/LVTD-LLC/skills/skills/experiment-sensitivity-optimization/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "fastmcp-django",
-    "path": "plugins/LVTD-LLC/skills/skills/fastmcp-django/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-legion-ecs-gameplay",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-legion-ecs-gameplay/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "authority-credibility",
-    "path": "plugins/LVTD-LLC/skills/skills/authority-credibility/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-ownership-borrowing",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-ownership-borrowing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "test-architecture-strategy",
-    "path": "plugins/LVTD-LLC/skills/skills/test-architecture-strategy/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "htmx-recipes",
-    "path": "plugins/LVTD-LLC/skills/skills/htmx-recipes/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-responsibility-review",
-    "path": "plugins/LVTD-LLC/skills/skills/game-responsibility-review/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "experimentation-strategy-roadmap",
-    "path": "plugins/LVTD-LLC/skills/skills/experimentation-strategy-roadmap/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "contrast-framing",
-    "path": "plugins/LVTD-LLC/skills/skills/contrast-framing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "scarcity-urgency",
-    "path": "plugins/LVTD-LLC/skills/skills/scarcity-urgency/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-test-parallelization",
-    "path": "plugins/LVTD-LLC/skills/skills/django-test-parallelization/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "developer-docs-technical-research",
-    "path": "plugins/LVTD-LLC/skills/skills/developer-docs-technical-research/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "htmx-js-api",
-    "path": "plugins/LVTD-LLC/skills/skills/htmx-js-api/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "link-prospect-qualification",
-    "path": "plugins/LVTD-LLC/skills/skills/link-prospect-qualification/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-idiomatic-api-design",
-    "path": "plugins/LVTD-LLC/skills/skills/go-idiomatic-api-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "commitment-ladder-design",
-    "path": "plugins/LVTD-LLC/skills/skills/commitment-ladder-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-deployment-test-loop",
-    "path": "plugins/LVTD-LLC/skills/skills/django-deployment-test-loop/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-selenium-functional-tests",
-    "path": "plugins/LVTD-LLC/skills/skills/django-selenium-functional-tests/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-vector-math-primitives",
-    "path": "plugins/LVTD-LLC/skills/skills/game-vector-math-primitives/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "adaptive-experimentation-strategy",
-    "path": "plugins/LVTD-LLC/skills/skills/adaptive-experimentation-strategy/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "linkable-content-architecture",
-    "path": "plugins/LVTD-LLC/skills/skills/linkable-content-architecture/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "experiment-type-selection",
-    "path": "plugins/LVTD-LLC/skills/skills/experiment-type-selection/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "browser-javascript-tdd",
-    "path": "plugins/LVTD-LLC/skills/skills/browser-javascript-tdd/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "eighty-twenty-funnel-economics",
-    "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-funnel-economics/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cli-errors-observability",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cli-errors-observability/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "frontend-math-foundations",
-    "path": "plugins/LVTD-LLC/skills/skills/frontend-math-foundations/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "linkedin-post-writing",
-    "path": "plugins/LVTD-LLC/skills/skills/linkedin-post-writing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cli-application-architecture",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cli-application-architecture/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "visual-docs-diagrams",
-    "path": "plugins/LVTD-LLC/skills/skills/visual-docs-diagrams/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "self-publishing-production",
-    "path": "plugins/LVTD-LLC/skills/skills/self-publishing-production/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-unsafe-boundaries",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-unsafe-boundaries/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "developer-docs-editing-review",
-    "path": "plugins/LVTD-LLC/skills/skills/developer-docs-editing-review/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "experimentation-throughput-strategy",
-    "path": "plugins/LVTD-LLC/skills/skills/experimentation-throughput-strategy/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "flexbox-math",
-    "path": "plugins/LVTD-LLC/skills/skills/flexbox-math/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "make-product-viral",
-    "path": "plugins/LVTD-LLC/skills/skills/make-product-viral/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cli-testing",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cli-testing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-performance-testing",
-    "path": "plugins/LVTD-LLC/skills/skills/go-performance-testing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-bevy-procedural-world-builder",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-procedural-world-builder/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "linkable-asset-planning",
-    "path": "plugins/LVTD-LLC/skills/skills/linkable-asset-planning/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-bevy-state-flow",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-state-flow/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "eighty-twenty-customer-value-rfm",
-    "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-customer-value-rfm/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-spike-despike-workflow",
-    "path": "plugins/LVTD-LLC/skills/skills/django-spike-despike-workflow/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-bevy-asset-pipeline",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-asset-pipeline/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "customer-conversation-access",
-    "path": "plugins/LVTD-LLC/skills/skills/customer-conversation-access/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-trait-api-design",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-trait-api-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-targeted-mocking",
-    "path": "plugins/LVTD-LLC/skills/skills/django-targeted-mocking/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-paid-acquisition",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-paid-acquisition/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-sdf-and-field-modeling",
-    "path": "plugins/LVTD-LLC/skills/skills/game-sdf-and-field-modeling/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-test-profiling",
-    "path": "plugins/LVTD-LLC/skills/skills/django-test-profiling/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "color-math-accessibility",
-    "path": "plugins/LVTD-LLC/skills/skills/color-math-accessibility/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-bevy-fixed-step-physics",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-fixed-step-physics/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "docs-release-maintenance",
-    "path": "plugins/LVTD-LLC/skills/skills/docs-release-maintenance/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-bevy-collision-broadphase",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-bevy-collision-broadphase/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-service-security",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-service-security/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-concurrency-primitives",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-concurrency-primitives/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-transform-systems",
-    "path": "plugins/LVTD-LLC/skills/skills/game-transform-systems/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "eighty-twenty-conversion-message",
-    "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-conversion-message/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-ffi-safe-wrappers",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-ffi-safe-wrappers/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-query-profiling",
-    "path": "plugins/LVTD-LLC/skills/skills/django-query-profiling/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "product-led-seo-strategy",
-    "path": "plugins/LVTD-LLC/skills/skills/product-led-seo-strategy/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-materialized-views",
-    "path": "plugins/LVTD-LLC/skills/skills/django-materialized-views/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "ab-test-design-brief",
-    "path": "plugins/LVTD-LLC/skills/skills/ab-test-design-brief/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "technical-seo-triage",
-    "path": "plugins/LVTD-LLC/skills/skills/technical-seo-triage/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "customer-discovery-conversations",
-    "path": "plugins/LVTD-LLC/skills/skills/customer-discovery-conversations/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "player-experience-modeling",
-    "path": "plugins/LVTD-LLC/skills/skills/player-experience-modeling/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "developer-docs-planning",
-    "path": "plugins/LVTD-LLC/skills/skills/developer-docs-planning/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-roguelike-procgen-ai",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-roguelike-procgen-ai/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "javascript-ui-math",
-    "path": "plugins/LVTD-LLC/skills/skills/javascript-ui-math/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "b2b-resonance-audit",
-    "path": "plugins/LVTD-LLC/skills/skills/b2b-resonance-audit/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "b2b-sales-constraint-diagnosis",
-    "path": "plugins/LVTD-LLC/skills/skills/b2b-sales-constraint-diagnosis/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "social-proof-evidence",
-    "path": "plugins/LVTD-LLC/skills/skills/social-proof-evidence/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "eighty-twenty-traffic-strategy",
-    "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-traffic-strategy/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "link-outreach-acquisition",
-    "path": "plugins/LVTD-LLC/skills/skills/link-outreach-acquisition/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "seo-roadmap-prioritization",
-    "path": "plugins/LVTD-LLC/skills/skills/seo-roadmap-prioritization/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cli-sql-storage",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cli-sql-storage/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-outside-in-tdd",
-    "path": "plugins/LVTD-LLC/skills/skills/django-outside-in-tdd/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "link-prospecting-research",
-    "path": "plugins/LVTD-LLC/skills/skills/link-prospecting-research/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-story-world-character",
-    "path": "plugins/LVTD-LLC/skills/skills/game-story-world-character/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "reader-experience-edit",
-    "path": "plugins/LVTD-LLC/skills/skills/reader-experience-edit/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "link-reclamation-attribution",
-    "path": "plugins/LVTD-LLC/skills/skills/link-reclamation-attribution/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-pr-playbook",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-pr-playbook/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "traction-seo-content",
-    "path": "plugins/LVTD-LLC/skills/skills/traction-seo-content/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-async-task-design",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-async-task-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-game-slice-planning",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-game-slice-planning/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-error-observability",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-error-observability/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-spatial-queries",
-    "path": "plugins/LVTD-LLC/skills/skills/game-spatial-queries/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "directory-link-evaluation",
-    "path": "plugins/LVTD-LLC/skills/skills/directory-link-evaluation/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "docs-agile-integration",
-    "path": "plugins/LVTD-LLC/skills/skills/docs-agile-integration/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "linkedin-article-newsletter-writing",
-    "path": "plugins/LVTD-LLC/skills/skills/linkedin-article-newsletter-writing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "eighty-twenty-time-team-leverage",
-    "path": "plugins/LVTD-LLC/skills/skills/eighty-twenty-time-team-leverage/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-sqlx-postgres-service",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-sqlx-postgres-service/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-crate-publishing-readiness",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-crate-publishing-readiness/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "book-toc-lab",
-    "path": "plugins/LVTD-LLC/skills/skills/book-toc-lab/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-bracket-game-loop",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-bracket-game-loop/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-forms-validation-tdd",
-    "path": "plugins/LVTD-LLC/skills/skills/django-forms-validation-tdd/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "developer-docs-drafting",
-    "path": "plugins/LVTD-LLC/skills/skills/developer-docs-drafting/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "book-reader-conversations",
-    "path": "plugins/LVTD-LLC/skills/skills/book-reader-conversations/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-domain-boundaries",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-domain-boundaries/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "experiment-verification-monitoring",
-    "path": "plugins/LVTD-LLC/skills/skills/experiment-verification-monitoring/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cli-distribution",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cli-distribution/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "rust-iterator-collections",
-    "path": "plugins/LVTD-LLC/skills/skills/rust-iterator-collections/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-cli-command-design",
-    "path": "plugins/LVTD-LLC/skills/skills/go-cli-command-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "calibredb",
-    "path": "plugins/LVTD-LLC/skills/skills/calibredb/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "go-http-client-resilience",
-    "path": "plugins/LVTD-LLC/skills/skills/go-http-client-resilience/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "holdback-experiment-design",
-    "path": "plugins/LVTD-LLC/skills/skills/holdback-experiment-design/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-geometry-representation-choice",
-    "path": "plugins/LVTD-LLC/skills/skills/game-geometry-representation-choice/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "css-grid-math",
-    "path": "plugins/LVTD-LLC/skills/skills/css-grid-math/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "game-smooth-curves-and-motion",
-    "path": "plugins/LVTD-LLC/skills/skills/game-smooth-curves-and-motion/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "django-queryset-batch-processing",
-    "path": "plugins/LVTD-LLC/skills/skills/django-queryset-batch-processing/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "seo-opportunity-research",
-    "path": "plugins/LVTD-LLC/skills/skills/seo-opportunity-research/SKILL.md"
-  },
-  {
-    "plugin": "lvtd-skills",
-    "skill": "htmx-interactivity",
-    "path": "plugins/LVTD-LLC/skills/skills/htmx-interactivity/SKILL.md"
-  },
-  {
     "plugin": "macbox",
     "skill": "macbox",
     "path": "plugins/opslane/macbox-agent/skills/macbox/SKILL.md"
@@ -5168,6 +4168,321 @@
     "plugin": "multi-llm",
     "skill": "multi-llm",
     "path": "plugins/beastlabai/multi-llm-plugin/skills/multi-llm/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "friction-log",
+    "path": "plugins/haabe/mycelium/skills/friction-log/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "ost-builder",
+    "path": "plugins/haabe/mycelium/skills/ost-builder/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "security-review",
+    "path": "plugins/haabe/mycelium/skills/security-review/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "fan-out",
+    "path": "plugins/haabe/mycelium/skills/fan-out/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "usability-check",
+    "path": "plugins/haabe/mycelium/skills/usability-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "retrospective",
+    "path": "plugins/haabe/mycelium/skills/retrospective/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "delivery-bootstrap",
+    "path": "plugins/haabe/mycelium/skills/delivery-bootstrap/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "metrics-pull",
+    "path": "plugins/haabe/mycelium/skills/metrics-pull/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "corrections-audit",
+    "path": "plugins/haabe/mycelium/skills/corrections-audit/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "assumption-test",
+    "path": "plugins/haabe/mycelium/skills/assumption-test/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "setup",
+    "path": "plugins/haabe/mycelium/skills/setup/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "ost-render",
+    "path": "plugins/haabe/mycelium/skills/ost-render/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "cycle-render",
+    "path": "plugins/haabe/mycelium/skills/cycle-render/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "receipt-render",
+    "path": "plugins/haabe/mycelium/skills/receipt-render/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "user-interview",
+    "path": "plugins/haabe/mycelium/skills/user-interview/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "feedback-review",
+    "path": "plugins/haabe/mycelium/skills/feedback-review/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "prompt-optimizer",
+    "path": "plugins/haabe/mycelium/skills/prompt-optimizer/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "start",
+    "path": "plugins/haabe/mycelium/skills/start/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "eval-runner",
+    "path": "plugins/haabe/mycelium/skills/eval-runner/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "ping",
+    "path": "plugins/haabe/mycelium/skills/ping/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "wiring-contract",
+    "path": "plugins/haabe/mycelium/skills/wiring-contract/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "bvssh-check",
+    "path": "plugins/haabe/mycelium/skills/bvssh-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "diamond-progress",
+    "path": "plugins/haabe/mycelium/skills/diamond-progress/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "regulatory-review",
+    "path": "plugins/haabe/mycelium/skills/regulatory-review/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "dora-check",
+    "path": "plugins/haabe/mycelium/skills/dora-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "ice-score",
+    "path": "plugins/haabe/mycelium/skills/ice-score/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "threat-model",
+    "path": "plugins/haabe/mycelium/skills/threat-model/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "launch-tier",
+    "path": "plugins/haabe/mycelium/skills/launch-tier/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "gist-plan",
+    "path": "plugins/haabe/mycelium/skills/gist-plan/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "reflexion",
+    "path": "plugins/haabe/mycelium/skills/reflexion/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "harms-check",
+    "path": "plugins/haabe/mycelium/skills/harms-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "canvas-sync",
+    "path": "plugins/haabe/mycelium/skills/canvas-sync/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "canvas-health",
+    "path": "plugins/haabe/mycelium/skills/canvas-health/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "privacy-check",
+    "path": "plugins/haabe/mycelium/skills/privacy-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "purpose-properties",
+    "path": "plugins/haabe/mycelium/skills/purpose-properties/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "definition-of-done",
+    "path": "plugins/haabe/mycelium/skills/definition-of-done/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "interview",
+    "path": "plugins/haabe/mycelium/skills/interview/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "wardley-map",
+    "path": "plugins/haabe/mycelium/skills/wardley-map/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "framework-health",
+    "path": "plugins/haabe/mycelium/skills/framework-health/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "diamond-assess",
+    "path": "plugins/haabe/mycelium/skills/diamond-assess/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "preflight",
+    "path": "plugins/haabe/mycelium/skills/preflight/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "xai-check",
+    "path": "plugins/haabe/mycelium/skills/xai-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "count",
+    "path": "plugins/haabe/mycelium/skills/count/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "migrate-from-legacy",
+    "path": "plugins/haabe/mycelium/skills/migrate-from-legacy/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "scaffold-cost-check",
+    "path": "plugins/haabe/mycelium/skills/scaffold-cost-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "diamond-render",
+    "path": "plugins/haabe/mycelium/skills/diamond-render/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "cynefin-classify",
+    "path": "plugins/haabe/mycelium/skills/cynefin-classify/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "canvas-update",
+    "path": "plugins/haabe/mycelium/skills/canvas-update/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "log-evidence",
+    "path": "plugins/haabe/mycelium/skills/log-evidence/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "devils-advocate",
+    "path": "plugins/haabe/mycelium/skills/devils-advocate/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "a11y-check",
+    "path": "plugins/haabe/mycelium/skills/a11y-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "service-check",
+    "path": "plugins/haabe/mycelium/skills/service-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "define-done",
+    "path": "plugins/haabe/mycelium/skills/define-done/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "adopt",
+    "path": "plugins/haabe/mycelium/skills/adopt/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "user-needs-map",
+    "path": "plugins/haabe/mycelium/skills/user-needs-map/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "jtbd-map",
+    "path": "plugins/haabe/mycelium/skills/jtbd-map/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "bias-check",
+    "path": "plugins/haabe/mycelium/skills/bias-check/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "theory-fidelity",
+    "path": "plugins/haabe/mycelium/skills/theory-fidelity/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "metrics-detect",
+    "path": "plugins/haabe/mycelium/skills/metrics-detect/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "team-shape",
+    "path": "plugins/haabe/mycelium/skills/team-shape/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "render",
+    "path": "plugins/haabe/mycelium/skills/render/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "handoff",
+    "path": "plugins/haabe/mycelium/skills/handoff/SKILL.md"
+  },
+  {
+    "plugin": "mycelium",
+    "skill": "mocked-persona-interview",
+    "path": "plugins/haabe/mycelium/skills/mocked-persona-interview/SKILL.md"
   },
   {
     "plugin": "nightshift",
@@ -6231,6 +5546,11 @@
   },
   {
     "plugin": "research-agent-skills",
+    "skill": "paper-card",
+    "path": "plugins/KalarisLabs/research-agent-skills/skills/paper-card/SKILL.md"
+  },
+  {
+    "plugin": "research-agent-skills",
     "skill": "pinecone",
     "path": "plugins/KalarisLabs/research-agent-skills/skills/pinecone/SKILL.md"
   },
@@ -6313,6 +5633,11 @@
     "plugin": "research-agent-skills",
     "skill": "nnsight-remote-interpretability",
     "path": "plugins/KalarisLabs/research-agent-skills/skills/nnsight-remote-interpretability/SKILL.md"
+  },
+  {
+    "plugin": "research-agent-skills",
+    "skill": "fulltext-acquisition",
+    "path": "plugins/KalarisLabs/research-agent-skills/skills/fulltext-acquisition/SKILL.md"
   },
   {
     "plugin": "research-agent-skills",
@@ -10705,6 +10030,11 @@
     "path": "plugins/bankbridge-money/bankbridge-plugin/skills/bankbridge/SKILL.md"
   },
   {
+    "plugin": "banking-access-index",
+    "skill": "banking-access-index",
+    "path": "plugins/global-solo/banking-access-index-mcp/skills/banking-access-index/SKILL.md"
+  },
+  {
     "plugin": "bestprice-shopping",
     "skill": "bestprice-shopping",
     "path": "plugins/TheBestCo/bestprice-mcp/skills/bestprice-shopping/SKILL.md"
@@ -11118,6 +10448,16 @@
     "plugin": "codex-seo",
     "skill": "seo-google",
     "path": "plugins/BestLemoon/codex-seo/skills/seo-google/SKILL.md"
+  },
+  {
+    "plugin": "telegram",
+    "skill": "configure",
+    "path": "plugins/AXEG0/codex-telegram/skills/configure/SKILL.md"
+  },
+  {
+    "plugin": "telegram",
+    "skill": "access",
+    "path": "plugins/AXEG0/codex-telegram/skills/access/SKILL.md"
   },
   {
     "plugin": "codex-tools-bridge",
@@ -14780,6 +14120,16 @@
     "path": "plugins/talkstream/ru-text/skills/ru-text/SKILL.md"
   },
   {
+    "plugin": "runheed",
+    "skill": "runheed",
+    "path": "plugins/getrunheed/runheed-plugin/skills/runheed/SKILL.md"
+  },
+  {
+    "plugin": "runlater",
+    "skill": "runlater",
+    "path": "plugins/runlater-app/runlater-plugin/skills/runlater/SKILL.md"
+  },
+  {
     "plugin": "rust-reverse-engineering",
     "skill": "rust-reverse-engineering",
     "path": "plugins/jingjing2222/rust-reverse-engineering-skill/skills/rust-reverse-engineering/SKILL.md"
@@ -15050,6 +14400,101 @@
     "path": "plugins/hraness/product-skills/plugins/sponge/skills/sponge/SKILL.md"
   },
   {
+    "plugin": "stalkchain",
+    "skill": "stonkfun-launch-guide",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/stonkfun-launch-guide/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "trader-playbook",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/trader-playbook/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "token-compare",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/token-compare/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "narrative-tracker",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/narrative-tracker/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "defi-safety",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/defi-safety/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "holder-tracker",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/holder-tracker/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "wallet-lookup",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/wallet-lookup/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "launch-screener",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/launch-screener/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "universal-trade-review",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/universal-trade-review/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "portfolio-review",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/portfolio-review/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "smart-money-radar",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/smart-money-radar/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "whale-watch",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/whale-watch/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "rug-post-mortem",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/rug-post-mortem/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "token-check",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/token-check/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "stonkfun-research",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/stonkfun-research/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "trader-check",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/trader-check/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "liquidity-pools",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/liquidity-pools/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "price-alerts",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/price-alerts/SKILL.md"
+  },
+  {
+    "plugin": "stalkchain",
+    "skill": "perps-check",
+    "path": "plugins/StalkC/stalkchain-plugin/skills/perps-check/SKILL.md"
+  },
+  {
     "plugin": "story-skills",
     "skill": "reader-panel",
     "path": "plugins/danjdewhurst/story-skills/skills/reader-panel/SKILL.md"
@@ -15275,9 +14720,54 @@
     "path": "plugins/6Delta9/task-scheduler-codex-plugin/skills/task-planner/SKILL.md"
   },
   {
+    "plugin": "taskhold",
+    "skill": "taskhold-for-jira",
+    "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold-for-jira/SKILL.md"
+  },
+  {
+    "plugin": "taskhold",
+    "skill": "taskhold-todos-to-tasks",
+    "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold-todos-to-tasks/SKILL.md"
+  },
+  {
+    "plugin": "taskhold",
+    "skill": "taskhold",
+    "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold/SKILL.md"
+  },
+  {
+    "plugin": "taskhold",
+    "skill": "taskhold-live-progress",
+    "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold-live-progress/SKILL.md"
+  },
+  {
+    "plugin": "taskhold",
+    "skill": "taskhold-ask-when-blocked",
+    "path": "plugins/gettaskhold/taskhold-plugin/skills/taskhold-ask-when-blocked/SKILL.md"
+  },
+  {
     "plugin": "teaching-skills",
     "skill": "teaching-suite",
     "path": "plugins/YujxZJCN/teaching-skills-codex/skills/teaching-suite/SKILL.md"
+  },
+  {
+    "plugin": "tensorust",
+    "skill": "llm-api-cost",
+    "path": "plugins/Mattbusel/tensorust-skills/skills/llm-api-cost/SKILL.md"
+  },
+  {
+    "plugin": "tensorust",
+    "skill": "idr-offer",
+    "path": "plugins/Mattbusel/tensorust-skills/skills/idr-offer/SKILL.md"
+  },
+  {
+    "plugin": "tensorust",
+    "skill": "bdc-mark-crosscheck",
+    "path": "plugins/Mattbusel/tensorust-skills/skills/bdc-mark-crosscheck/SKILL.md"
+  },
+  {
+    "plugin": "tensorust",
+    "skill": "counterparty-screen",
+    "path": "plugins/Mattbusel/tensorust-skills/skills/counterparty-screen/SKILL.md"
   },
   {
     "plugin": "textmock",
@@ -16078,6 +15568,11 @@
     "plugin": "worktable",
     "skill": "worktable-create-or-manage-records",
     "path": "plugins/worktable/worktable-plugin/skills/worktable-create-or-manage-records/SKILL.md"
+  },
+  {
+    "plugin": "worktable",
+    "skill": "worktable-library",
+    "path": "plugins/worktable/worktable-plugin/skills/worktable-library/SKILL.md"
   },
   {
     "plugin": "worktable",

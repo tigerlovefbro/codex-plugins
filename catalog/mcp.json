@@ -14,6 +14,13 @@
     "path": "plugins/not-so-fat/agent-deck/.mcp.json"
   },
   {
+    "plugin": "agentavow-trust",
+    "servers": [
+      "agentavow"
+    ],
+    "path": "plugins/AgentAvow/agentavow-codex-plugin/.mcp.json"
+  },
+  {
     "plugin": "agentpack",
     "servers": [
       "agentpack"
@@ -552,6 +559,13 @@
     "path": "plugins/BestLemoon/codex-seo/.mcp.json"
   },
   {
+    "plugin": "telegram",
+    "servers": [
+      "telegram"
+    ],
+    "path": "plugins/AXEG0/codex-telegram/.mcp.json"
+  },
+  {
     "plugin": "codex-usage-tracker",
     "servers": [
       "codex-usage-tracker"
@@ -929,6 +943,20 @@
     "path": "plugins/Vladimir-Human/ru-marketplace-mcp/.mcp.json"
   },
   {
+    "plugin": "runheed",
+    "servers": [
+      "runheed"
+    ],
+    "path": "plugins/getrunheed/runheed-plugin/.mcp.json"
+  },
+  {
+    "plugin": "runlater",
+    "servers": [
+      "runlater"
+    ],
+    "path": "plugins/runlater-app/runlater-plugin/.mcp.json"
+  },
+  {
     "plugin": "scrapely",
     "servers": [
       "scrapely"
@@ -1013,6 +1041,13 @@
     "path": "plugins/hraness/product-skills/plugins/sponge/.mcp.json"
   },
   {
+    "plugin": "stalkchain",
+    "servers": [
+      "stalkchain"
+    ],
+    "path": "plugins/StalkC/stalkchain-plugin/.mcp.json"
+  },
+  {
     "plugin": "storyflo-codex-plugin",
     "servers": [
       "storyflo"
@@ -1067,6 +1102,13 @@
       "taskScheduler"
     ],
     "path": "plugins/6Delta9/task-scheduler-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "taskhold",
+    "servers": [
+      "taskhold"
+    ],
+    "path": "plugins/gettaskhold/taskhold-plugin/.mcp.json"
   },
   {
     "plugin": "tossithere",
