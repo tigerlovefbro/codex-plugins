@@ -814,6 +814,13 @@
     "path": "plugins/salemalem/npmscan-mcp-plugin/.mcp.json"
   },
   {
+    "plugin": "okdata",
+    "servers": [
+      "okdata"
+    ],
+    "path": "plugins/okdataapi/skills/.mcp.json"
+  },
+  {
     "plugin": "openproject-codex",
     "servers": [
       "openproject_codex"

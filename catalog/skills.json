@@ -3521,6 +3521,11 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-tdd",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-tdd/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper-deploy",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-deploy/SKILL.md"
   },
@@ -11061,6 +11066,11 @@
   },
   {
     "plugin": "deja-vu",
+    "skill": "deja-vu",
+    "path": "plugins/vshulcz/deja-vu/SKILL.md"
+  },
+  {
+    "plugin": "deja-vu",
     "skill": "deja-history",
     "path": "plugins/vshulcz/deja-vu/skills/deja-history/SKILL.md"
   },
@@ -13255,6 +13265,11 @@
     "path": "plugins/mobbin/skills/skills/best-practices/SKILL.md"
   },
   {
+    "plugin": "mobile-codex",
+    "skill": "mobile-codex",
+    "path": "plugins/luoz76070-art/MobiCodex/skills/mobile-codex/SKILL.md"
+  },
+  {
     "plugin": "moltnode",
     "skill": "moltnode",
     "path": "plugins/tuantqse90/moltnode-mcp/skills/moltnode/SKILL.md"
@@ -13600,6 +13615,181 @@
     "path": "plugins/ndycode/oc-chatgpt-multi-auth/skills/oc-codex-setup/SKILL.md"
   },
   {
+    "plugin": "okdata",
+    "skill": "okdata-alibaba-1688",
+    "path": "plugins/okdataapi/skills/skills/okdata-alibaba-1688/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-x",
+    "path": "plugins/okdataapi/skills/skills/okdata-x/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-xiaohongshu",
+    "path": "plugins/okdataapi/skills/skills/okdata-xiaohongshu/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-meta",
+    "path": "plugins/okdataapi/skills/skills/okdata-meta/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-zhihu",
+    "path": "plugins/okdataapi/skills/skills/okdata-zhihu/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-aliexpress",
+    "path": "plugins/okdataapi/skills/skills/okdata-aliexpress/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-taobao",
+    "path": "plugins/okdataapi/skills/skills/okdata-taobao/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata",
+    "path": "plugins/okdataapi/skills/skills/okdata/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-tiktok",
+    "path": "plugins/okdataapi/skills/skills/okdata-tiktok/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-kuaishou",
+    "path": "plugins/okdataapi/skills/skills/okdata-kuaishou/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-transcripts",
+    "path": "plugins/okdataapi/skills/skills/okdata-transcripts/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-account-audit",
+    "path": "plugins/okdataapi/skills/skills/okdata-account-audit/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-amazon",
+    "path": "plugins/okdataapi/skills/skills/okdata-amazon/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-instagram",
+    "path": "plugins/okdataapi/skills/skills/okdata-instagram/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-wechat",
+    "path": "plugins/okdataapi/skills/skills/okdata-wechat/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-douyin-shop",
+    "path": "plugins/okdataapi/skills/skills/okdata-douyin-shop/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-comments",
+    "path": "plugins/okdataapi/skills/skills/okdata-comments/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-wechat-channels",
+    "path": "plugins/okdataapi/skills/skills/okdata-wechat-channels/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-xianyu",
+    "path": "plugins/okdataapi/skills/skills/okdata-xianyu/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-mentions",
+    "path": "plugins/okdataapi/skills/skills/okdata-mentions/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-competitors",
+    "path": "plugins/okdataapi/skills/skills/okdata-competitors/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-telegram",
+    "path": "plugins/okdataapi/skills/skills/okdata-telegram/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-reddit",
+    "path": "plugins/okdataapi/skills/skills/okdata-reddit/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-douyin",
+    "path": "plugins/okdataapi/skills/skills/okdata-douyin/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-google",
+    "path": "plugins/okdataapi/skills/skills/okdata-google/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-weibo",
+    "path": "plugins/okdataapi/skills/skills/okdata-weibo/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-youtube",
+    "path": "plugins/okdataapi/skills/skills/okdata-youtube/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-wechat-mp",
+    "path": "plugins/okdataapi/skills/skills/okdata-wechat-mp/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-trends",
+    "path": "plugins/okdataapi/skills/skills/okdata-trends/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-wechat-articles",
+    "path": "plugins/okdataapi/skills/skills/okdata-wechat-articles/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-products",
+    "path": "plugins/okdataapi/skills/skills/okdata-products/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-bilibili",
+    "path": "plugins/okdataapi/skills/skills/okdata-bilibili/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-ads",
+    "path": "plugins/okdataapi/skills/skills/okdata-ads/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-creators",
+    "path": "plugins/okdataapi/skills/skills/okdata-creators/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-viral",
+    "path": "plugins/okdataapi/skills/skills/okdata-viral/SKILL.md"
+  },
+  {
     "plugin": "openproject-codex",
     "skill": "openproject-codex",
     "path": "plugins/varaprasadreddy9676/openproject-codex-plugin/skills/openproject-codex/SKILL.md"
@@ -13858,6 +14048,26 @@
     "plugin": "questionpunk",
     "skill": "manage-study",
     "path": "plugins/questionpunk/codex-plugin/skills/manage-study/SKILL.md"
+  },
+  {
+    "plugin": "qurl",
+    "skill": "approve",
+    "path": "plugins/layervai/codex-plugins/skills/approve/SKILL.md"
+  },
+  {
+    "plugin": "qurl",
+    "skill": "qurl",
+    "path": "plugins/layervai/codex-plugins/skills/qurl/SKILL.md"
+  },
+  {
+    "plugin": "qurl",
+    "skill": "share",
+    "path": "plugins/layervai/codex-plugins/skills/share/SKILL.md"
+  },
+  {
+    "plugin": "qurl",
+    "skill": "access",
+    "path": "plugins/layervai/codex-plugins/skills/access/SKILL.md"
   },
   {
     "plugin": "omnimodal",

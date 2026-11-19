@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-18T11:10:54.551474+00:00",
+    "generatedAt": "2026-11-19T11:09:51.717118+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 437,
-      "with_skills": 401,
-      "with_mcp": 168,
+      "plugins": 440,
+      "with_skills": 404,
+      "with_mcp": 169,
       "codex_only": 22
     },
-    "skillCount": 3170
+    "skillCount": 3212
   },
   "plugins": [
     {
@@ -1004,7 +1004,7 @@
       "name": "archcore",
       "displayName": "Archcore",
       "description": "Spec-driven development and context engineering for AI coding agents, backed by project context in Git.",
-      "version": "0.15.6",
+      "version": "0.15.7",
       "category": "Development & Workflow",
       "author": "Archcore",
       "repository": "https://github.com/archcore-ai/archcore",
@@ -1041,7 +1041,7 @@
       "name": "armorcodex",
       "displayName": "ArmorCodex",
       "description": "ArmorIQ intent-based security enforcement for Codex: Bash command guardrails with intent verification, optional CSRG cryptographic proofs, and audit logging. Codex hooks currently fire for Bash, apply_patch, and MCP tool calls; non-Bash file/web activity may need supplemental controls. See CODEX_HARNESS_LIMITATIONS.md.",
-      "version": "0.3.8",
+      "version": "0.3.9",
       "category": "Development & Workflow",
       "author": "ArmorIQ",
       "repository": "https://github.com/armoriq/armorCodex",
@@ -2594,7 +2594,7 @@
       "name": "codex-multi-auth",
       "displayName": "codex-multi-auth",
       "description": "Install and operate codex-multi-auth for the official @openai/codex CLI with multi-account OAuth rotation, switching, health checks, and recovery tools.",
-      "version": "2.26.0",
+      "version": "2.26.2",
       "category": "Development & Workflow",
       "author": "",
       "repository": "",
@@ -4550,7 +4550,7 @@
       "name": "gitranks-contribute",
       "displayName": "GitRanks Contribute",
       "description": "Find open-source GitHub issues matched to your skills, fix one with your agent, and approve the pull request yourself.",
-      "version": "0.3.2",
+      "version": "0.3.4",
       "category": "Development & Workflow",
       "author": "GitRanks",
       "repository": "https://github.com/gitranks/contribute",
@@ -5152,6 +5152,10 @@
           "path": "plugins/alpoxdev/hypercore/skills/hyper-issue/SKILL.md"
         },
         {
+          "name": "hyper-tdd",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-tdd/SKILL.md"
+        },
+        {
           "name": "hyper-deploy",
           "path": "plugins/alpoxdev/hypercore/skills/hyper-deploy/SKILL.md"
         },
@@ -5420,7 +5424,7 @@
       "name": "keep-mac-awake",
       "displayName": "Keep Mac Awake",
       "description": "Lets your agent keep a MacBook with Apple silicon awake with the lid closed while long tasks run, through the keepmacawake command of the Keep Mac Awake app: it starts a timed session before long work, stops it after, and tells you when the app needs your attention. Requires the Keep Mac Awake app, a paid app with a free trial.",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "category": "Development & Workflow",
       "author": "Bart Dudzic",
       "repository": "https://github.com/bartdudzic/keepmacawake",
@@ -5732,7 +5736,7 @@
       "name": "loom",
       "displayName": "ClickHouse Loom",
       "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
-      "version": "1.2.29",
+      "version": "1.2.33",
       "category": "Development & Workflow",
       "author": "ClickHouse",
       "repository": "https://github.com/ClickHouse/loom",
@@ -5999,7 +6003,7 @@
       "name": "memtomem",
       "displayName": "memtomem",
       "description": "Markdown-first long-term memory shared across your coding agents: one local memtomem store, searchable from Hermes, Claude Code, Codex CLI and Kimi Code.",
-      "version": "0.1.25",
+      "version": "0.1.27",
       "category": "Development & Workflow",
       "author": "memtomem",
       "repository": "https://github.com/memtomem/memtomem",
@@ -6569,7 +6573,7 @@
       "name": "oh-my-openspec",
       "displayName": "oh-my-openspec",
       "description": "OpenSpec multi-agent flow for Codex CLI: $omos-init / $omos-plan / $omos-apply / $omos-retro with seven role subagents and a mechanical openspec_validate MCP gate",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "category": "Development & Workflow",
       "author": "Alexeyco",
       "repository": "https://github.com/alexeyco/oh-my-openspec",
@@ -10329,7 +10333,7 @@
       "name": "design",
       "displayName": "Design",
       "description": "Design skills — UX psychology, visual design, accessibility, and Apple featuring readiness for web, SaaS, and mobile apps",
-      "version": "2.12.0",
+      "version": "2.13.0",
       "category": "Development & Workflow",
       "author": "Tartiner Labs",
       "repository": "https://github.com/tartinerlabs/skills",
@@ -14100,7 +14104,7 @@
       "name": "cohesivity",
       "displayName": "cohesivity",
       "description": "Cohesivity backend infrastructure skill with local project bootstrap and a public remote MCP for documentation and management, with optional account OAuth.",
-      "version": "5.1.0",
+      "version": "5.1.1",
       "category": "Tools & Integrations",
       "author": "Cohesivity",
       "repository": "https://github.com/cohesivity-org/cohesivity-plugin",
@@ -14868,6 +14872,10 @@
       "license": "MIT",
       "codexPath": "plugins/vshulcz/deja-vu",
       "skills": [
+        {
+          "name": "deja-vu",
+          "path": "plugins/vshulcz/deja-vu/SKILL.md"
+        },
         {
           "name": "deja-history",
           "path": "plugins/vshulcz/deja-vu/skills/deja-history/SKILL.md"
@@ -16519,7 +16527,7 @@
       "name": "jk",
       "displayName": "Jenkins CLI",
       "description": "GitHub CLI-style interface for Jenkins controllers - create multibranch jobs, inspect config.xml, and manage runs, logs, artifacts, credentials, nodes, and queues",
-      "version": "0.0.45",
+      "version": "0.0.46",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/jenkins-cli",
@@ -17939,6 +17947,31 @@
       }
     },
     {
+      "id": "mobile-codex",
+      "name": "mobile-codex",
+      "displayName": "Mobile Codex",
+      "description": "Manage the Mobile Codex gateway and pair a phone with existing desktop conversations.",
+      "version": "0.3.0",
+      "category": "Tools & Integrations",
+      "author": "Mobile Codex contributors",
+      "repository": "https://github.com/luoz76070-art/MobiCodex",
+      "license": "MIT",
+      "codexPath": "plugins/luoz76070-art/MobiCodex",
+      "skills": [
+        {
+          "name": "mobile-codex",
+          "path": "plugins/luoz76070-art/MobiCodex/skills/mobile-codex/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "moltnode",
       "name": "moltnode",
       "displayName": "moltnode",
@@ -18327,7 +18360,7 @@
       "name": "oc-codex-multi-auth",
       "displayName": "oc-codex-multi-auth",
       "description": "Install and operate oc-codex-multi-auth for OpenCode with ChatGPT Plus/Pro OAuth, Codex/GPT-5 routing, multi-account rotation, account switching, health checks, diagnostics, quota status, and recovery tools.",
-      "version": "6.32.0",
+      "version": "6.33.0",
       "category": "Tools & Integrations",
       "author": "",
       "repository": "",
@@ -18345,6 +18378,169 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "okdata",
+      "name": "okdata",
+      "displayName": "okdata",
+      "description": "Skills and a hosted MCP server for public social media and e-commerce data: TikTok, YouTube, Instagram, X, Reddit and Amazon, plus Douyin, Xiaohongshu (RedNote), WeChat and more. Pay per call.",
+      "version": "0.2.0",
+      "category": "Tools & Integrations",
+      "author": "okdata",
+      "repository": "https://github.com/okdataapi/skills",
+      "license": "MIT",
+      "codexPath": "plugins/okdataapi/skills",
+      "skills": [
+        {
+          "name": "okdata-alibaba-1688",
+          "path": "plugins/okdataapi/skills/skills/okdata-alibaba-1688/SKILL.md"
+        },
+        {
+          "name": "okdata-x",
+          "path": "plugins/okdataapi/skills/skills/okdata-x/SKILL.md"
+        },
+        {
+          "name": "okdata-xiaohongshu",
+          "path": "plugins/okdataapi/skills/skills/okdata-xiaohongshu/SKILL.md"
+        },
+        {
+          "name": "okdata-meta",
+          "path": "plugins/okdataapi/skills/skills/okdata-meta/SKILL.md"
+        },
+        {
+          "name": "okdata-zhihu",
+          "path": "plugins/okdataapi/skills/skills/okdata-zhihu/SKILL.md"
+        },
+        {
+          "name": "okdata-aliexpress",
+          "path": "plugins/okdataapi/skills/skills/okdata-aliexpress/SKILL.md"
+        },
+        {
+          "name": "okdata-taobao",
+          "path": "plugins/okdataapi/skills/skills/okdata-taobao/SKILL.md"
+        },
+        {
+          "name": "okdata",
+          "path": "plugins/okdataapi/skills/skills/okdata/SKILL.md"
+        },
+        {
+          "name": "okdata-tiktok",
+          "path": "plugins/okdataapi/skills/skills/okdata-tiktok/SKILL.md"
+        },
+        {
+          "name": "okdata-kuaishou",
+          "path": "plugins/okdataapi/skills/skills/okdata-kuaishou/SKILL.md"
+        },
+        {
+          "name": "okdata-transcripts",
+          "path": "plugins/okdataapi/skills/skills/okdata-transcripts/SKILL.md"
+        },
+        {
+          "name": "okdata-account-audit",
+          "path": "plugins/okdataapi/skills/skills/okdata-account-audit/SKILL.md"
+        },
+        {
+          "name": "okdata-amazon",
+          "path": "plugins/okdataapi/skills/skills/okdata-amazon/SKILL.md"
+        },
+        {
+          "name": "okdata-instagram",
+          "path": "plugins/okdataapi/skills/skills/okdata-instagram/SKILL.md"
+        },
+        {
+          "name": "okdata-wechat",
+          "path": "plugins/okdataapi/skills/skills/okdata-wechat/SKILL.md"
+        },
+        {
+          "name": "okdata-douyin-shop",
+          "path": "plugins/okdataapi/skills/skills/okdata-douyin-shop/SKILL.md"
+        },
+        {
+          "name": "okdata-comments",
+          "path": "plugins/okdataapi/skills/skills/okdata-comments/SKILL.md"
+        },
+        {
+          "name": "okdata-wechat-channels",
+          "path": "plugins/okdataapi/skills/skills/okdata-wechat-channels/SKILL.md"
+        },
+        {
+          "name": "okdata-xianyu",
+          "path": "plugins/okdataapi/skills/skills/okdata-xianyu/SKILL.md"
+        },
+        {
+          "name": "okdata-mentions",
+          "path": "plugins/okdataapi/skills/skills/okdata-mentions/SKILL.md"
+        },
+        {
+          "name": "okdata-competitors",
+          "path": "plugins/okdataapi/skills/skills/okdata-competitors/SKILL.md"
+        },
+        {
+          "name": "okdata-telegram",
+          "path": "plugins/okdataapi/skills/skills/okdata-telegram/SKILL.md"
+        },
+        {
+          "name": "okdata-reddit",
+          "path": "plugins/okdataapi/skills/skills/okdata-reddit/SKILL.md"
+        },
+        {
+          "name": "okdata-douyin",
+          "path": "plugins/okdataapi/skills/skills/okdata-douyin/SKILL.md"
+        },
+        {
+          "name": "okdata-google",
+          "path": "plugins/okdataapi/skills/skills/okdata-google/SKILL.md"
+        },
+        {
+          "name": "okdata-weibo",
+          "path": "plugins/okdataapi/skills/skills/okdata-weibo/SKILL.md"
+        },
+        {
+          "name": "okdata-youtube",
+          "path": "plugins/okdataapi/skills/skills/okdata-youtube/SKILL.md"
+        },
+        {
+          "name": "okdata-wechat-mp",
+          "path": "plugins/okdataapi/skills/skills/okdata-wechat-mp/SKILL.md"
+        },
+        {
+          "name": "okdata-trends",
+          "path": "plugins/okdataapi/skills/skills/okdata-trends/SKILL.md"
+        },
+        {
+          "name": "okdata-wechat-articles",
+          "path": "plugins/okdataapi/skills/skills/okdata-wechat-articles/SKILL.md"
+        },
+        {
+          "name": "okdata-products",
+          "path": "plugins/okdataapi/skills/skills/okdata-products/SKILL.md"
+        },
+        {
+          "name": "okdata-bilibili",
+          "path": "plugins/okdataapi/skills/skills/okdata-bilibili/SKILL.md"
+        },
+        {
+          "name": "okdata-ads",
+          "path": "plugins/okdataapi/skills/skills/okdata-ads/SKILL.md"
+        },
+        {
+          "name": "okdata-creators",
+          "path": "plugins/okdataapi/skills/skills/okdata-creators/SKILL.md"
+        },
+        {
+          "name": "okdata-viral",
+          "path": "plugins/okdataapi/skills/skills/okdata-viral/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "okdata"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -18976,6 +19172,43 @@
       }
     },
     {
+      "id": "qurl",
+      "name": "qurl",
+      "displayName": "qURL",
+      "description": "Share an app running on your machine privately from Codex with qURL, by email invitation, email sign-in, review, approved passkeys or contract: no deploy, no account, no API key.",
+      "version": "1.1.10",
+      "category": "Tools & Integrations",
+      "author": "LayerV",
+      "repository": "https://github.com/layervai/codex-plugins",
+      "license": "MIT",
+      "codexPath": "plugins/layervai/codex-plugins",
+      "skills": [
+        {
+          "name": "approve",
+          "path": "plugins/layervai/codex-plugins/skills/approve/SKILL.md"
+        },
+        {
+          "name": "qurl",
+          "path": "plugins/layervai/codex-plugins/skills/qurl/SKILL.md"
+        },
+        {
+          "name": "share",
+          "path": "plugins/layervai/codex-plugins/skills/share/SKILL.md"
+        },
+        {
+          "name": "access",
+          "path": "plugins/layervai/codex-plugins/skills/access/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "omnimodal",
       "name": "omnimodal",
       "displayName": "Omnimodal",
@@ -19297,7 +19530,7 @@
       "name": "ru-marketplace-mcp",
       "displayName": "ru-marketplace-mcp",
       "description": "Двенадцать площадок РФ и Китая (Wildberries, Ozon, Яндекс Маркет, Авито, Циан, AliExpress, Taobao, Детский мир, Мегамаркет, Lamoda, DNS, Ситилинк) как MCP-серверы и 14 навыков. Сравнение цен без ключей API.",
-      "version": "2.10.0",
+      "version": "2.11.1",
       "category": "Tools & Integrations",
       "author": "Vladimir-Human",
       "repository": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
@@ -19809,8 +20042,8 @@
       "id": "seonix",
       "name": "seonix",
       "displayName": "Seonix",
-      "description": "Connect your Seonix SEO project: Site Health and fix plan, Google Search Console, keywords, articles and SEO playbooks, with skills that work through Site Health findings without breaking what already ranks, and draft content through Seonix.",
-      "version": "1.2.0",
+      "description": "Check any page for SEO problems and connect your Seonix project: Site Health and fix plan, Google Search Console, keywords, articles and SEO playbooks, with skills that work through Site Health findings without breaking what already ranks, and draft content through Seonix.",
+      "version": "1.3.0",
       "category": "Tools & Integrations",
       "author": "Seonix",
       "repository": "https://github.com/seonix-ai/mcp",
@@ -20734,7 +20967,7 @@
       "name": "textmock",
       "displayName": "Textmock",
       "description": "Make iMessage-style conversations and save them as images or videos.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "category": "Tools & Integrations",
       "author": "Hraness",
       "repository": "https://github.com/hraness/product-skills",
@@ -21694,7 +21927,7 @@
       "name": "webly",
       "displayName": "Webly",
       "description": "Publish a website, or share files and folders, at a live URL in seconds with no account. The person can claim it, edit it over MCP, and publish drafts they approve.",
-      "version": "0.15.4",
+      "version": "0.15.5",
       "category": "Tools & Integrations",
       "author": "Webly",
       "repository": "https://github.com/Webly-AI/webly-plugin",
