@@ -14,6 +14,13 @@
     "path": "plugins/not-so-fat/agent-deck/.mcp.json"
   },
   {
+    "plugin": "mobius-connect",
+    "servers": [
+      "mobius-connect"
+    ],
+    "path": "plugins/TardisBooo/agent-session-lineage/.mcp.json"
+  },
+  {
     "plugin": "agentavow-trust",
     "servers": [
       "agentavow"
@@ -197,6 +204,20 @@
       "joxo"
     ],
     "path": "plugins/JoxoAI/joxo/.mcp.json"
+  },
+  {
+    "plugin": "kling-ai-cn-plugin",
+    "servers": [
+      "kling-ai"
+    ],
+    "path": "plugins/klingai-tech/claude-plugin-cn/.mcp.json"
+  },
+  {
+    "plugin": "kling-ai-global-plugin",
+    "servers": [
+      "kling-ai"
+    ],
+    "path": "plugins/klingai-tech/claude-plugin/.mcp.json"
   },
   {
     "plugin": "loom",
@@ -594,6 +615,13 @@
     "path": "plugins/Rothschildiuk/context-pack/.mcp.json"
   },
   {
+    "plugin": "converter-studio",
+    "servers": [
+      "converter-studio"
+    ],
+    "path": "plugins/tariksucu/converter-studio/.mcp.json"
+  },
+  {
     "plugin": "coolify",
     "servers": [
       "coolify"
@@ -620,6 +648,13 @@
       "darkmoon"
     ],
     "path": "plugins/ASCIT31/darkmoon-mcp-server/.mcp.json"
+  },
+  {
+    "plugin": "dataxapi",
+    "servers": [
+      "dataxapi"
+    ],
+    "path": "plugins/data-x-api/skills/.mcp.json"
   },
   {
     "plugin": "deed-page",
@@ -875,6 +910,13 @@
       "placecall"
     ],
     "path": null
+  },
+  {
+    "plugin": "plinth",
+    "servers": [
+      "plinth"
+    ],
+    "path": "plugins/mr0b0t0/plinth/.mcp.json"
   },
   {
     "plugin": "plori",
