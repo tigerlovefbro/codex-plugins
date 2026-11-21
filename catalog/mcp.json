@@ -276,6 +276,13 @@
     "path": "plugins/beastlabai/multi-llm-plugin/.mcp.json"
   },
   {
+    "plugin": "notibuddy",
+    "servers": [
+      "notibuddy"
+    ],
+    "path": "plugins/yourbit-network/notibuddy/.mcp.json"
+  },
+  {
     "plugin": "oh-my-cassette",
     "servers": [
       "cassette"
@@ -409,6 +416,13 @@
     "path": "plugins/Abhigyan-Shekhar/Waggle-mcp/.mcp.json"
   },
   {
+    "plugin": "wavegrain",
+    "servers": [
+      "wavegrain"
+    ],
+    "path": "plugins/wavegrain/wavegrain-mcp/.mcp.json"
+  },
+  {
     "plugin": "wtfm",
     "servers": [
       "supportpages"
@@ -536,6 +550,13 @@
     "path": "plugins/6jeffr3y/burpsuite-mcp-bridge/.mcp.json"
   },
   {
+    "plugin": "candor-finance",
+    "servers": [
+      "candor"
+    ],
+    "path": "plugins/candorsystems/candor-finance/.mcp.json"
+  },
+  {
     "plugin": "chrome-devtools",
     "servers": [
       "chrome-devtools"
@@ -655,6 +676,13 @@
       "dataxapi"
     ],
     "path": "plugins/data-x-api/skills/.mcp.json"
+  },
+  {
+    "plugin": "dchub",
+    "servers": [
+      "dchub"
+    ],
+    "path": "plugins/azmartone67/dchub-mcp-server/.mcp.json"
   },
   {
     "plugin": "deed-page",
@@ -945,6 +973,13 @@
       "pronounce"
     ],
     "path": "plugins/anzy-renlab-ai/pronounce/.mcp.json"
+  },
+  {
+    "plugin": "publora-skills",
+    "servers": [
+      "publora"
+    ],
+    "path": "plugins/publora/skills/.mcp.json"
   },
   {
     "plugin": "omnimodal",
