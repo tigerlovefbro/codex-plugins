@@ -3475,6 +3475,16 @@
     "path": "plugins/ezra-y/codex-goal-progress/skills/goal-progress/SKILL.md"
   },
   {
+    "plugin": "graphify",
+    "skill": "get-started",
+    "path": "plugins/Graphify-Labs/graphify-codex-plugin/skills/get-started/SKILL.md"
+  },
+  {
+    "plugin": "graphify",
+    "skill": "graphify",
+    "path": "plugins/Graphify-Labs/graphify-codex-plugin/skills/graphify/SKILL.md"
+  },
+  {
     "plugin": "graymatter",
     "skill": "GrayMatter",
     "path": "plugins/ValkyrLabs/GrayMatter/SKILL.md"
@@ -7493,6 +7503,11 @@
     "plugin": "session-orchestrator",
     "skill": "eli5",
     "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/eli5/SKILL.md"
+  },
+  {
+    "plugin": "session-orchestrator",
+    "skill": "public-audit",
+    "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/public-audit/SKILL.md"
   },
   {
     "plugin": "session-orchestrator",
@@ -13451,6 +13466,11 @@
   },
   {
     "plugin": "kuudo-skills",
+    "skill": "amazon-ads-campaign-management",
+    "path": "plugins/KuudoAI/skills/skills/amazon-ads-campaign-management/SKILL.md"
+  },
+  {
+    "plugin": "kuudo-skills",
     "skill": "amazon-ads-reporting",
     "path": "plugins/KuudoAI/skills/skills/amazon-ads-reporting/SKILL.md"
   },
@@ -14983,6 +15003,26 @@
     "plugin": "questionpunk",
     "skill": "group-forms",
     "path": "plugins/questionpunk/codex-plugin/skills/group-forms/SKILL.md"
+  },
+  {
+    "plugin": "qurl",
+    "skill": "qurl",
+    "path": "plugins/layervai/codex-plugins/skills/qurl/SKILL.md"
+  },
+  {
+    "plugin": "qurl",
+    "skill": "share",
+    "path": "plugins/layervai/codex-plugins/skills/share/SKILL.md"
+  },
+  {
+    "plugin": "qurl",
+    "skill": "approve",
+    "path": "plugins/layervai/codex-plugins/skills/approve/SKILL.md"
+  },
+  {
+    "plugin": "qurl",
+    "skill": "access",
+    "path": "plugins/layervai/codex-plugins/skills/access/SKILL.md"
   },
   {
     "plugin": "omnimodal",

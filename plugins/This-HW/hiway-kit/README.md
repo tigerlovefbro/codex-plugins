@@ -4,7 +4,7 @@
 
 ## Install
 
-Pick **one** (installing both loads every skill and hook twice):
+Pick **one** (installing both loads every skill twice and mixes versions):
 
 ```bash
 # Anthropic's directory — built into Claude Code
@@ -14,14 +14,16 @@ Pick **one** (installing both loads every skill and hook twice):
 /plugin install hiway-kit@hiway-kit
 ```
 
-The directory install has **no hooks** (the directory accepts command hooks only from Verified
-organizations): skills, agents and rule files only. Install from the repository marketplace to get
-session-start rule injection, the sensitive-path guard, auto-format and stop-time checks.
+From 5.9.1 the directory gets a **reduced edition**: Anthropic's directory accepts command hooks,
+script files and some agent frontmatter keys only from Verified organizations, so that edition has
+no hooks, no Python tools, no `code-intel`, `session-history` or `harness-export` skills (they need
+those tools), and agents run without worktree isolation. Until a newer version passes the
+directory's review it serves 5.5.1. Install from the repository marketplace for the full kit.
 
 Other harnesses (Codex, Antigravity, Gemini CLI) and what each one supports:
-[repository README](https://github.com/This-HW/hiway-kit#other-harnesses-codex--antigravity--gemini-cli).
+[repository README](https://github.com/This-HW/hiway-kit#where-it-runs).
 
-> The published plugin is **`hiway-kit`** (15 agents + 17 skills + 12 rules + hooks).
+> The published plugin is **`hiway-kit`** — the full kit is 15 agents + 17 skills + 12 rules + hooks.
 > Project-specific extensions live in a user's own `project-local/` tier, not as separate
 > published plugins.
 
@@ -56,9 +58,11 @@ The blocking and Stop hooks below are Claude Code behavior; on Codex only sessio
 
 
 - **SessionStart** — Injects governance rules, recurring review lessons, and open plan files
-- **PreToolUse** — Blocks reads and edits of sensitive files such as `.env`, SSH/cloud credential directories and key files (`protect-sensitive.py`). It only matches the *path* the agent is about to open and refuses it — it never opens, reads or transmits those files, and it makes no network calls. Credential paths appear in its source because they are the blocklist.
-- **PostToolUse** — Auto-formats the edited file (`auto-format.py`: ruff for Python; prettier/eslint only when the project has them installed)
-- **Stop** — Lints edited Python files and runs the tests you edited; on failure, the turn continues so the agent fixes it
+- **PreToolUse** — Blocks reads and edits of sensitive files such as `.env`, SSH/cloud credential directories, key files and credential/secret data files and modules like `credentials.json` or `secrets.py` (`protect-sensitive.py`); source, SQL and docs that only use such a word in a compound name (`credential_collector.py`) are allowed and are outside this guard. It only matches the *path* the agent is about to open and refuses it — it never opens, reads or transmits those files, and it makes no network calls. Credential paths appear in its source because they are the blocklist. <!-- doc-ref-ok: 외부 사용자 레포의 예시 파일명 -->
+- **PostToolUse** — Auto-formats the edited file (`auto-format.py`): ruff only when the project configures it (`ruff.toml`, `.ruff.toml` or `[tool.ruff]` in `pyproject.toml`), prettier/eslint only when the project has their config and has them installed, gofmt only inside a Go module (`go.mod`), rustfmt only with `rustfmt.toml`. A project without them is left as is
+- **Stop** — Lints edited Python files (same ruff condition) and runs the tests you edited; on failure, the turn continues so the agent fixes it
+
+To turn hooks off, set `HIWAY_KIT_DISABLE_HOOKS` to a comma-separated list (`session-start`, `session-check`, `protect-sensitive`, `auto-format`, `stop-validator`) or `all` in the `env` of your project's `.claude/settings.json` or `.claude/settings.local.json`. Do not edit the cached `hooks.json` — an update restores it. Codex does not read these settings files; there the variable has to be in the environment Codex starts with (not verified).
 
 The hooks do not upload data to the publisher. Programs invoked by hooks and helpers can
 write files or access the network; read-only code queries do not sandbox language servers

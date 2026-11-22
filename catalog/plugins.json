@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-21T10:40:31.790302+00:00",
+    "generatedAt": "2026-11-22T10:45:23.605566+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 465,
-      "with_skills": 426,
-      "with_mcp": 180,
+      "plugins": 467,
+      "with_skills": 428,
+      "with_mcp": 181,
       "codex_only": 24
     },
-    "skillCount": 3432
+    "skillCount": 3440
   },
   "plugins": [
     {
@@ -187,7 +187,7 @@
       "name": "aegis",
       "displayName": "Aegis",
       "description": "An agentic skills framework & software development methodology that works: planning, TDD, debugging, and collaboration workflows.",
-      "version": "2.15.2",
+      "version": "2.16.0",
       "category": "Development & Workflow",
       "author": "Aegis Maintainers",
       "repository": "https://github.com/GanyuanRan/Aegis",
@@ -325,7 +325,7 @@
       "name": "agent-deck",
       "displayName": "Agent Deck",
       "description": "Decks of MCP tools, keys, and self-improving playbooks that bind per-workspace.",
-      "version": "2.5.5",
+      "version": "2.6.1",
       "category": "Development & Workflow",
       "author": "not-so-fat",
       "repository": "https://github.com/not-so-fat/agent-deck",
@@ -1636,7 +1636,7 @@
       "name": "brief2mp4",
       "displayName": "brief2mp4",
       "description": "Turn a written brief into a finished, checked MP4 motion graphic: HyperFrames, Three.js, an optional 3D pack (CAD, materials, physics), Blender and ffmpeg. macOS, Windows, Linux.",
-      "version": "0.4.0",
+      "version": "0.7.0",
       "category": "Development & Workflow",
       "author": "Varun Pratap Bhardwaj",
       "repository": "https://github.com/qualixar/brief2mp4",
@@ -1974,8 +1974,8 @@
       "id": "claude-code-skills",
       "name": "claude-code-skills",
       "displayName": "Claude Code Skills",
-      "description": "428 production-ready skills across 20 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 861 Python tools, 967 reference guides, 136 agents (cs-* + personas), 185 slash commands, 120 marketplace plugins. The largest open-source skills library for AI coding agents.",
-      "version": "2.14.14",
+      "description": "434 production-ready skills across 21 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 871 Python tools, 975 reference guides, 137 agents (cs-* + personas), 188 slash commands, 121 marketplace plugins. The largest open-source skills library for AI coding agents.",
+      "version": "2.14.15",
       "category": "Development & Workflow",
       "author": "Alireza Rezvani",
       "repository": "https://github.com/alirezarezvani/claude-skills",
@@ -2790,7 +2790,7 @@
       "name": "codex-agents-workflow",
       "displayName": "Codex Agents Workflow",
       "description": "A Codex MCP Extension workbench for reusable agent Workflows, Roles, Providers and recoverable Runs.",
-      "version": "1.2.3",
+      "version": "1.2.5",
       "category": "Development & Workflow",
       "author": "TohmaN233",
       "repository": "https://github.com/TohmaN233/codex-agents-workflow",
@@ -2822,7 +2822,7 @@
       "name": "codex-auto-resume",
       "displayName": "Codex Auto Resume",
       "description": "Auto-resume and auto-retry for interrupted Codex tasks on Windows. Waits out a usage limit (until the reset time Codex reports, e.g. for a 5-hour or weekly window), a rate limit or a temporary failure, then continues the exact same conversation, so long-running or overnight work keeps going while that conversation is open in the Codex app. Setup downloads a checksum-verified release from GitHub; after that the watcher runs locally, read-only against Codex state, conservative by design.",
-      "version": "0.6.24-beta.2",
+      "version": "0.6.25",
       "category": "Development & Workflow",
       "author": "songyb111-gachon",
       "repository": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
@@ -3026,7 +3026,7 @@
       "name": "codex-quota-title",
       "displayName": "Codex Quota Title",
       "description": "Displays Codex quotas in the correlated Codex Desktop window title on Windows.",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "category": "Development & Workflow",
       "author": "NoKi",
       "repository": "https://github.com/nokisenpai/CodexQuotaTitle",
@@ -5017,6 +5017,37 @@
       }
     },
     {
+      "id": "graphify",
+      "name": "graphify",
+      "displayName": "Graphify",
+      "description": "Shared codebase context for Codex and ChatGPT: the code graph, Memory and PR review status for repositories indexed in Graphify.",
+      "version": "1.0.2",
+      "category": "Development & Workflow",
+      "author": "Graphify Labs",
+      "repository": "https://github.com/Graphify-Labs/graphify-codex-plugin",
+      "license": "Apache-2.0",
+      "codexPath": "plugins/Graphify-Labs/graphify-codex-plugin",
+      "skills": [
+        {
+          "name": "get-started",
+          "path": "plugins/Graphify-Labs/graphify-codex-plugin/skills/get-started/SKILL.md"
+        },
+        {
+          "name": "graphify",
+          "path": "plugins/Graphify-Labs/graphify-codex-plugin/skills/graphify/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "graphify"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "graymatter",
       "name": "graymatter",
       "displayName": "GrayMatter",
@@ -5142,7 +5173,7 @@
       "name": "hiway-kit",
       "displayName": "hiway-kit",
       "description": "Turn any task into production-ready code. Rules and skills work on any coding harness; specialized agents and automatic hook enforcement are a Claude Code deepening feature.",
-      "version": "5.7.1",
+      "version": "5.9.1",
       "category": "Development & Workflow",
       "author": "This-HW",
       "repository": "https://github.com/This-HW/hiway-kit",
@@ -6464,7 +6495,7 @@
       "name": "memtomem",
       "displayName": "memtomem",
       "description": "Markdown-first long-term memory shared across your coding agents: one local memtomem store, searchable from Hermes, Claude Code, Codex CLI and Kimi Code.",
-      "version": "0.1.27",
+      "version": "0.1.28",
       "category": "Development & Workflow",
       "author": "memtomem",
       "repository": "https://github.com/memtomem/memtomem",
@@ -7038,7 +7069,7 @@
       "name": "oh-my-cassette",
       "displayName": "Oh My Cassette",
       "description": "Edit video with the Cassette agent from Codex: import local media, send editing turns, read the timeline, export.",
-      "version": "0.7.4",
+      "version": "0.7.5",
       "category": "Development & Workflow",
       "author": "Oh My Cassette contributors",
       "repository": "https://github.com/Cassette-Editor/oh-my-cassette",
@@ -7065,7 +7096,7 @@
       "name": "oh-my-openspec",
       "displayName": "oh-my-openspec",
       "description": "OpenSpec multi-agent flow for Codex CLI: $omos-init / $omos-plan / $omos-apply / $omos-retro with seven role subagents and a mechanical openspec_validate MCP gate",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "category": "Development & Workflow",
       "author": "Alexeyco",
       "repository": "https://github.com/alexeyco/oh-my-openspec",
@@ -7400,7 +7431,7 @@
       "name": "praxis",
       "displayName": "Praxis",
       "description": "Praxis triage, living docs, and disciplined workflows for AI coding agents",
-      "version": "4.2.11",
+      "version": "4.3.0",
       "category": "Development & Workflow",
       "author": "ouonet",
       "repository": "https://github.com/ouonet/praxis",
@@ -7916,7 +7947,7 @@
       "name": "rag-reviewer",
       "displayName": "RAG Reviewer",
       "description": "Agentic PR review: hybrid RAG + code graph via MCP, review skills for Codex",
-      "version": "0.7.0+codex.0258d174f137",
+      "version": "0.8.0+codex.e4bf469015eb",
       "category": "Development & Workflow",
       "author": "mimfort",
       "repository": "https://github.com/mimfort/rag_for_git",
@@ -9657,7 +9688,7 @@
       "name": "session-orchestrator",
       "displayName": "Session Orchestrator",
       "description": "A repeatable Plan, Go, Close workflow for AI coding sessions: /session reads your repo and agrees the scope, /go runs the work in waves with a quality gate between each, /close verifies and commits. Runs on Claude Code, Codex CLI, Cursor and Pi.",
-      "version": "5.20.0+codex.20261114191435",
+      "version": "5.21.0+codex.20261121230933",
       "category": "Development & Workflow",
       "author": "",
       "repository": "",
@@ -9779,6 +9810,10 @@
         {
           "name": "eli5",
           "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/eli5/SKILL.md"
+        },
+        {
+          "name": "public-audit",
+          "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/public-audit/SKILL.md"
         },
         {
           "name": "hook-development",
@@ -10481,7 +10516,7 @@
     {
       "id": "suede-skills",
       "name": "suede-skills",
-      "displayName": "Suede AI Skills",
+      "displayName": "Suede Skills",
       "description": "Open-source AI skills for SEO, marketing, and business operations in Claude Code and Codex. Includes code review, app delivery, creator tools, and reusable workflows.",
       "version": "0.19.4",
       "category": "Development & Workflow",
@@ -13178,7 +13213,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.158.0",
+      "version": "0.160.0",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -14047,7 +14082,7 @@
       "name": "candor-finance",
       "displayName": "Candor Finance",
       "description": "Candor is a personal finance app that helps you reach your money goals with ChatGPT, Claude, or the AI agent you already use. Your agent works from your real bank, card, loan, and investment accounts: it sets up goals and a budget with you, finds money you are losing to fees, price increases, or missed refunds, and remembers your plan and decisions between conversations. Candor reviews your spending, bills, debt, savings, and investments and tells your agent what's worth talking through and why. Candor never moves money.",
-      "version": "1.3.6",
+      "version": "1.3.7",
       "category": "Tools & Integrations",
       "author": "Candor",
       "repository": "https://github.com/candorsystems/candor-finance",
@@ -15824,7 +15859,7 @@
       "name": "dawn",
       "displayName": "Dawn",
       "description": "A TypeScript music SDK and headless CLI for composing, arranging and rendering songs offline.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "category": "Tools & Integrations",
       "author": "Hraness",
       "repository": "https://github.com/hraness/product-skills",
@@ -15848,8 +15883,8 @@
       "id": "dchub",
       "name": "dchub",
       "displayName": "DC Hub",
-      "description": "DC Hub is the orchestration layer for data center and energy intelligence. Find power. Find land. Find fiber. Find capacity. Call execute_plan first. It also publishes the Data Center Power Index (DCPI). 97 tools at https://dchub.cloud/mcp.",
-      "version": "2.12.59",
+      "description": "DC Hub is the orchestration layer for data center and energy intelligence. Find power. Find land. Find fiber. Find capacity. Call execute_plan first. It also publishes the Data Center Power Index (DCPI). 98 tools at https://dchub.cloud/mcp.",
+      "version": "2.12.60",
       "category": "Tools & Integrations",
       "author": "DC Hub",
       "repository": "https://github.com/azmartone67/dchub-mcp-server",
@@ -15897,8 +15932,8 @@
       "id": "deja-vu",
       "name": "deja-vu",
       "displayName": "deja-vu",
-      "description": "deja-vu: memory for coding agents from the sessions already on your disk — Claude Code, Codex, Cursor, opencode and forty-seven more — including work from before it was installed.",
-      "version": "0.24.3",
+      "description": "deja-vu: memory for coding agents from the sessions already on your disk — Claude Code, Codex, Cursor, opencode and forty-eight more — including work from before it was installed.",
+      "version": "0.25.0",
       "category": "Tools & Integrations",
       "author": "vshulcz",
       "repository": "https://github.com/vshulcz/deja-vu",
@@ -16028,7 +16063,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.18.1",
+      "version": "1.18.3",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -17948,13 +17983,17 @@
       "name": "kuudo-skills",
       "displayName": "Kuudo Skills",
       "description": "Kuudo skills for Amazon commerce workflows",
-      "version": "0.9.0",
+      "version": "0.11.0",
       "category": "Tools & Integrations",
       "author": "KuudoAI",
       "repository": "https://github.com/KuudoAI/skills",
       "license": "PolyForm-Shield-1.0.0",
       "codexPath": "plugins/KuudoAI/skills",
       "skills": [
+        {
+          "name": "amazon-ads-campaign-management",
+          "path": "plugins/KuudoAI/skills/skills/amazon-ads-campaign-management/SKILL.md"
+        },
         {
           "name": "amazon-ads-reporting",
           "path": "plugins/KuudoAI/skills/skills/amazon-ads-reporting/SKILL.md"
@@ -19820,10 +19859,10 @@
       "name": "osmo",
       "displayName": "OsmO Phone Calls",
       "description": "OsmO's AI makes real phone calls for you and answers calls to your number as your AI phone receptionist (answering service). Calls: find a business or a company's customer-care number, call it (or up to 5 numbers at once), book, reschedule or cancel, ask about hours, prices or stock, get through phone menus, wait on hold and pass on a message; then get the outcome, summary, transcript and a recording link. In apps that show cards (such as Claude) a live call card follows each call (up to 5 calls together in one card) with Call again and Schedule buttons; in Claude and ChatGPT a short call's result comes back in the same turn; scheduled calls use your own time zone. Every call is confirmed by you first. Receptionist: see who called and what they wanted, pause the AI, choose who is put through live, edit VIP and block lists and caller rules, switch the assistant or its language (English or Hindi), and read bookings, Facts and connection status. Sign in with your phone number; no API key. 50 free credits for new users in the US, Canada, UK and Australia (an answered call uses 3; unanswered calls are free) call businesses and toll-free numbers; calling your contacts, calling back callers, scheduling calls and the receptionist need an OsmO app plan.",
-      "version": "1.6.1",
+      "version": "1.7.1",
       "category": "Tools & Integrations",
       "author": "OsmO AI",
-      "repository": "https://github.com/Mountainheads-Private-limited/osmo-ai-plugins",
+      "repository": "https://github.com/getosmo/osmo-ai-plugins",
       "license": "MIT",
       "codexPath": "plugins/Mountainheads-Private-limited/osmo-ai-plugins",
       "skills": [
@@ -19935,7 +19974,7 @@
       "name": "phonedriver",
       "displayName": "phonedriver",
       "description": "Lets an agent see and operate Android phones and iPhones: the screen as text, taps by element number, and a question to you before any tap that pays. Bundles the phonedriver MCP server and its skill.",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "category": "Tools & Integrations",
       "author": "Hridya Agrawal",
       "repository": "https://github.com/hridaya423/phonedriver",
@@ -20226,8 +20265,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1973+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.39.0",
+      "description": "Pronounce developer jargon out loud — 1976+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.40.0",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",
@@ -20391,6 +20430,43 @@
         {
           "name": "group-forms",
           "path": "plugins/questionpunk/codex-plugin/skills/group-forms/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "qurl",
+      "name": "qurl",
+      "displayName": "qURL",
+      "description": "Share an app running on your machine privately from Codex with qURL, by email invitation, email sign-in, review, approved passkeys or contract: no deploy, no account, no API key.",
+      "version": "1.1.10",
+      "category": "Tools & Integrations",
+      "author": "LayerV",
+      "repository": "https://github.com/layervai/codex-plugins",
+      "license": "MIT",
+      "codexPath": "plugins/layervai/codex-plugins",
+      "skills": [
+        {
+          "name": "qurl",
+          "path": "plugins/layervai/codex-plugins/skills/qurl/SKILL.md"
+        },
+        {
+          "name": "share",
+          "path": "plugins/layervai/codex-plugins/skills/share/SKILL.md"
+        },
+        {
+          "name": "approve",
+          "path": "plugins/layervai/codex-plugins/skills/approve/SKILL.md"
+        },
+        {
+          "name": "access",
+          "path": "plugins/layervai/codex-plugins/skills/access/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -20748,7 +20824,7 @@
       "name": "ru-marketplace-mcp",
       "displayName": "ru-marketplace-mcp",
       "description": "Двенадцать площадок РФ и Китая (Wildberries, Ozon, Яндекс Маркет, Авито, Циан, AliExpress, Taobao, Детский мир, Мегамаркет, Lamoda, DNS, Ситилинк) как MCP-серверы и 14 навыков. Сравнение цен без ключей API.",
-      "version": "2.11.1",
+      "version": "2.11.2",
       "category": "Tools & Integrations",
       "author": "Vladimir-Human",
       "repository": "https://github.com/Vladimir-Human/ru-marketplace-mcp",

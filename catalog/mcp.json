@@ -171,6 +171,13 @@
     "path": "plugins/gitranks/contribute/.mcp.json"
   },
   {
+    "plugin": "graphify",
+    "servers": [
+      "graphify"
+    ],
+    "path": "plugins/Graphify-Labs/graphify-codex-plugin/.mcp.json"
+  },
+  {
     "plugin": "graymatter",
     "servers": [
       "graymatter"

@@ -68,7 +68,7 @@ https://dchub.cloud/connect
 
 DCPI verdicts/composites for days from 2026-12-01 become CC-BY-4.0 after 30 days; earlier days, thresholds, methodology and monthly Rankings are CC-BY-4.0. Current values may be quoted with attribution for any number of markets in editorial work; bulk (full current list or a table of more than 25 markets in one piece) or recurring republication needs a DCPI licence. Sub-scores/detail are licensed separately. Facility/third-party layers retain upstream terms (OpenStreetMap: ODbL 1.0, attribution/share-alike). https://dchub.cloud/terms#dcpi-current-data · https://dchub.cloud/data-sources. Editorial work includes articles, reports, research notes, posts, presentations and AI answers. The editorial quote rule is separate from bulk/recurring redistribution rights. Attribution names DC Hub, the source link, method_version where provided and the data date. Sub-scores, risk/opportunity detail, narratives and forecasts are not CC-BY-4.0: eligible subscribers may use them internally and in client deliverables with attribution; republication or a third-party product/dataset requires a redistribution licence. DC Hub-derived grid analysis is open under its layer's terms, not a grant over raw system-operator readings. No blanket redistribution grant covers the facility inventory or unresolved upstream rights. Capacity Source teasers have their separate CC-BY-4.0 grant; opened details, matches and introductions remain confidential. Access/plan limits remain separate from content licences. An API CC-BY label does not override the current-value terms.
 
-DC Hub complements existing agents, platforms and tools with data center and energy intelligence. Within the user's request and client permissions, read-only research does not require separate approval for every lookup. Technical availability is not authorization: get_api_key creates a credential and needs user authorization; bind_email uses only an email the user explicitly provides for that purpose. Show the current introduction terms and call accept_capacity_terms only after the user agrees to that version. An existing key may be used only within delegated scope and budget; connection alone does not authorize new charges. Payments (including mpp_pay/mpp_credential), credit packs or subscriptions require the user's spending authorization and any client approval required. request_capacity_intro and standing introduction requests require the user's authorization to request contact/share the supplied details, as well as the applicable introduction terms; provider acceptance still controls release of provider contacts. A continuation named agent_autonomous describes a technical path, not permission to spend, accept terms or contact anyone.
+DC Hub complements existing agents, platforms and tools with data center and energy intelligence. Within the user's request and client permissions, read-only research does not require separate approval for every lookup. Technical availability is not authorization: get_api_key creates a credential and needs user authorization; bind_email uses only an email the user explicitly provides for that purpose. Show the current introduction terms and call accept_capacity_terms only after the user agrees to that version. An existing key may be used only within delegated scope and budget; connection alone does not authorize new charges. Payments (including mpp_pay/mpp_credential), one-time purchases or subscriptions require the user's spending authorization and any client approval required. request_capacity_intro and standing introduction requests require the user's authorization to request contact/share the supplied details, as well as the applicable introduction terms; provider acceptance still controls release of provider contacts. A continuation named agent_autonomous describes a technical path, not permission to spend, accept terms or contact anyone.
 
 MCP browse example: `source_capacity(min_mw=5, location="Germany")`. The MCP tool uses `location`, not the REST-only `country` filter.
 
@@ -110,7 +110,7 @@ Your AI assistant gets real-time, structured answers, dated and cited.
 - **Market intelligence** — 300+ markets scored daily with DCPI BUILD/CAUTION/AVOID verdicts, plus facilities tracked across 170+ countries
 - **Capacity Source** — data-center capacity to buy or lease (powered land, powered shells, turnkey, colocation), searchable by size in kW or MW and by location
 
-**97 MCP tools** across facility search, market intel, grid + interconnection, renewable-energy, site analysis, deals, fiber routing, and infrastructure. [Full tool list →](https://dchub.cloud/integrations/mcp)
+**98 MCP tools** across facility search, market intel, grid + interconnection, renewable-energy, site analysis, deals, fiber routing, and infrastructure. [Full tool list →](https://dchub.cloud/integrations/mcp)
 
 One of them is a **partner tool**: `read_inbox` (the notes DC Hub leaves for a partner key; the same inbox as the `dchub://inbox` resource). It is listed for every caller so the catalog is one stable list, and it answers only a key issued under a partner slug; any other key gets a clear "partner key required". `report_finding` files an observation about a DC Hub surface for the DC Hub team, who review findings daily. It works with or without a key. Reports should include the exact values observed.
 
@@ -125,7 +125,7 @@ One of them is a **partner tool**: `read_inbox` (the notes DC Hub leaves for a p
 
 ## Guided prompts & resources
 
-Beyond the 97 tools, DC Hub ships **14 guided prompts** — they surface as slash-commands in Claude Desktop, Cursor, and other MCP clients (every invocation is telemetry-tracked as `recipe:<name>`):
+Beyond the 98 tools, DC Hub ships **14 guided prompts** — they surface as slash-commands in Claude Desktop, Cursor, and other MCP clients (every invocation is telemetry-tracked as `recipe:<name>`):
 
 - `/dchub:analyze-site` — full buildability read for an address or lat,lon
 - `/dchub:pick-a-market` — where to build N MW (DCPI-ranked, with time-to-power)
@@ -146,7 +146,7 @@ Plus citable **resources**: `dchub://about`, `dchub://methodology` (DCPI/DCGI), 
 
 ## Capacity Source — capacity to buy or lease
 
-Everything above answers *where to build*. **[Capacity Source](https://dchub.cloud/listings)** answers *what is available now*: data center capacity to buy or lease — powered land, powered shells, turnkey capacity and colocation — for enterprise and agent-led procurement. Operators and brokers list capacity free at [dchub.cloud/listings](https://dchub.cloud/listings#list-capacity).
+Everything above answers *where to build*. **[Capacity Source](https://dchub.cloud/listings)** answers *what is available now*: data center capacity to buy or lease — powered land, powered shells, turnkey capacity and colocation — for enterprise and agent-led procurement. Operators and brokers list capacity at [dchub.cloud/listings](https://dchub.cloud/listings#list-capacity).
 
 New data center capacity listings are coming soon: query them with source_capacity, or browse https://dchub.cloud/listings.
 
@@ -168,7 +168,7 @@ The `/dchub:find_capacity` prompt runs the whole path: requirement → listings 
 
 The canonical MCP endpoint is `https://dchub.cloud/mcp` (Streamable HTTP). Start with execute_plan(intent="<the user's question>"): it picks and chains the right tools and returns one dated, cited answer.
 
-`https://dchub.cloud/mcp` serves the full catalog (all 97 tools) to directories and to clients it does not recognise. Coding CLIs (Claude Code, Codex CLI, Copilot CLI, Gemini CLI, opencode) and IDE hosts that load several MCP servers at once (Cursor, VS Code, Windsurf, Cline) get a ten-tool list there instead, with execute_plan first. That is a listing scope: every tool is still callable by name. Any client gets the full list at `https://dchub.cloud/mcp?catalog=full`.
+`https://dchub.cloud/mcp` serves the full catalog (all 98 tools) to directories and to clients it does not recognise. Coding CLIs (Claude Code, Codex CLI, Copilot CLI, Gemini CLI, opencode) and IDE hosts that load several MCP servers at once (Cursor, VS Code, Windsurf, Cline) get a ten-tool list there instead, with execute_plan first. That is a listing scope: every tool is still callable by name. Any client gets the full list at `https://dchub.cloud/mcp?catalog=full`.
 
 ## What DC Hub adds
 
