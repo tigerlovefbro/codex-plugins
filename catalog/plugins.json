@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-22T10:45:23.605566+00:00",
+    "generatedAt": "2026-11-23T11:50:35.866673+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 467,
-      "with_skills": 428,
-      "with_mcp": 181,
+      "plugins": 469,
+      "with_skills": 429,
+      "with_mcp": 183,
       "codex_only": 24
     },
-    "skillCount": 3440
+    "skillCount": 3441
   },
   "plugins": [
     {
@@ -325,7 +325,7 @@
       "name": "agent-deck",
       "displayName": "Agent Deck",
       "description": "Decks of MCP tools, keys, and self-improving playbooks that bind per-workspace.",
-      "version": "2.6.1",
+      "version": "2.6.2",
       "category": "Development & Workflow",
       "author": "not-so-fat",
       "repository": "https://github.com/not-so-fat/agent-deck",
@@ -364,7 +364,7 @@
       "name": "agent-guard",
       "displayName": "Agent Guard",
       "description": "Local-by-default, no-telemetry hooks inspect user prompts, supported tool inputs, outputs, and changed files in every enabled Claude Code or Codex session to block or mask secret leaks. Includes opt-in PII filtering and Git/CI backstops.",
-      "version": "3.12.0",
+      "version": "3.13.4",
       "category": "Development & Workflow",
       "author": "Agent Guard contributors",
       "repository": "https://github.com/JeongJaeSoon/agent-guard",
@@ -990,7 +990,7 @@
       "name": "alcove",
       "displayName": "alcove",
       "description": "Local-first memory server — hybrid BM25+vector search, vault management, lint, and launchd lifecycle for project knowledge.",
-      "version": "0.14.7",
+      "version": "0.14.8",
       "category": "Development & Workflow",
       "author": "epicsagas",
       "repository": "https://github.com/epicsagas/alcove",
@@ -1636,7 +1636,7 @@
       "name": "brief2mp4",
       "displayName": "brief2mp4",
       "description": "Turn a written brief into a finished, checked MP4 motion graphic: HyperFrames, Three.js, an optional 3D pack (CAD, materials, physics), Blender and ffmpeg. macOS, Windows, Linux.",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "category": "Development & Workflow",
       "author": "Varun Pratap Bhardwaj",
       "repository": "https://github.com/qualixar/brief2mp4",
@@ -1975,7 +1975,7 @@
       "name": "claude-code-skills",
       "displayName": "Claude Code Skills",
       "description": "434 production-ready skills across 21 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 871 Python tools, 975 reference guides, 137 agents (cs-* + personas), 188 slash commands, 121 marketplace plugins. The largest open-source skills library for AI coding agents.",
-      "version": "2.14.15",
+      "version": "2.14.16",
       "category": "Development & Workflow",
       "author": "Alireza Rezvani",
       "repository": "https://github.com/alirezarezvani/claude-skills",
@@ -2822,7 +2822,7 @@
       "name": "codex-auto-resume",
       "displayName": "Codex Auto Resume",
       "description": "Auto-resume and auto-retry for interrupted Codex tasks on Windows. Waits out a usage limit (until the reset time Codex reports, e.g. for a 5-hour or weekly window), a rate limit or a temporary failure, then continues the exact same conversation, so long-running or overnight work keeps going while that conversation is open in the Codex app. Setup downloads a checksum-verified release from GitHub; after that the watcher runs locally, read-only against Codex state, conservative by design.",
-      "version": "0.6.25",
+      "version": "0.6.26-beta",
       "category": "Development & Workflow",
       "author": "songyb111-gachon",
       "repository": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
@@ -3227,7 +3227,7 @@
       "name": "codex-attachment-manager",
       "displayName": "Context Attachment Manager",
       "description": "For Codex tasks with many images: earlier images go out as short placeholders instead of being sent again with every message, the model fetches the original back by its ID (also after compaction), and the prompt cache keeps working.",
-      "version": "0.11.5",
+      "version": "0.13.1",
       "category": "Development & Workflow",
       "author": "chipfighter",
       "repository": "https://github.com/chipfighter/context-attachment-manager",
@@ -4240,7 +4240,7 @@
       "name": "epic",
       "displayName": "Epic Harness",
       "description": "Auto-trigger skills + self-evolving agent harness. Includes orbit, evolve, team, tdd, audit, ship and more.",
-      "version": "0.9.3",
+      "version": "0.9.4",
       "category": "Development & Workflow",
       "author": "epicsagas",
       "repository": "https://github.com/epicsagas/epic-harness",
@@ -4969,7 +4969,7 @@
       "name": "gitranks-contribute",
       "displayName": "GitRanks Contribute",
       "description": "Find open-source GitHub issues matched to your skills, fix one with your agent, and approve the pull request yourself.",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "category": "Development & Workflow",
       "author": "GitRanks",
       "repository": "https://github.com/gitranks/contribute",
@@ -5666,6 +5666,10 @@
           "path": "plugins/alpoxdev/hypercore/skills/hyper-browsing/SKILL.md"
         },
         {
+          "name": "hyper-aso",
+          "path": "plugins/alpoxdev/hypercore/skills/hyper-aso/SKILL.md"
+        },
+        {
           "name": "hyper-google-analytics",
           "path": "plugins/alpoxdev/hypercore/skills/hyper-google-analytics/SKILL.md"
         },
@@ -6203,7 +6207,7 @@
       "name": "loom",
       "displayName": "ClickHouse Loom",
       "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
-      "version": "1.2.45",
+      "version": "1.2.50",
       "category": "Development & Workflow",
       "author": "ClickHouse",
       "repository": "https://github.com/ClickHouse/loom",
@@ -6933,7 +6937,7 @@
       "name": "nightshift",
       "displayName": "Nightshift",
       "description": "Accountable, time-bounded Codex shifts. Hand it your punch list, or let it research the product and ship complete improvements until quitting time. Progress stays on disk through compaction and resume. The morning is reviewable commits or artifact receipts, per-item token usage and time, a shift log, and the decisions that were made. When you are done reviewing the run, archive it dated so the live session stays lean.",
-      "version": "0.38.0",
+      "version": "0.40.0",
       "category": "Development & Workflow",
       "author": "Orwa Mahmoud",
       "repository": "https://github.com/orwa-mahmoud/nightshift",
@@ -7191,6 +7195,28 @@
       }
     },
     {
+      "id": "omniforge-launch-audit",
+      "name": "omniforge-launch-audit",
+      "displayName": "OmniForge Launch Audit",
+      "description": "Read-only pre-launch web security (Supabase RLS & JS bundle secrets), SPF/DKIM/DMARC email DNS, 78-TLD domain RDAP, and /llms.txt readiness skills + hosted MCP server.",
+      "version": "1.0.0",
+      "category": "Development & Workflow",
+      "author": "",
+      "repository": "https://github.com/zColdWater/omniforge-codex-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/zColdWater/omniforge-codex-plugin",
+      "skills": [],
+      "mcpServers": [
+        "omniforge-launch-audit"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": false,
+        "dsh": false,
+        "mcp": true
+      }
+    },
+    {
       "id": "ontoly",
       "name": "ontoly",
       "displayName": "Ontoly",
@@ -7301,7 +7327,7 @@
       "name": "pixeltable",
       "displayName": "Pixeltable",
       "description": "Multimodal RAG, video search, image similarity search, agent memory, and embeddings stored with your data. Declarative tables, computed columns, retrieval, agents, and HTTP.",
-      "version": "2.14.1",
+      "version": "2.14.2",
       "category": "Development & Workflow",
       "author": "Pixeltable",
       "repository": "https://github.com/pixeltable/pixeltable-skill",
@@ -7430,7 +7456,7 @@
       "id": "praxis",
       "name": "praxis",
       "displayName": "Praxis",
-      "description": "Praxis triage, living docs, and disciplined workflows for AI coding agents",
+      "description": "Token-lean discipline skills for coding agents.",
       "version": "4.3.0",
       "category": "Development & Workflow",
       "author": "ouonet",
@@ -9688,7 +9714,7 @@
       "name": "session-orchestrator",
       "displayName": "Session Orchestrator",
       "description": "A repeatable Plan, Go, Close workflow for AI coding sessions: /session reads your repo and agrees the scope, /go runs the work in waves with a quality gate between each, /close verifies and commits. Runs on Claude Code, Codex CLI, Cursor and Pi.",
-      "version": "5.21.0+codex.20261121230933",
+      "version": "5.21.2+codex.20261122122041",
       "category": "Development & Workflow",
       "author": "",
       "repository": "",
@@ -10012,7 +10038,7 @@
       "name": "skill-check",
       "displayName": "skill-check",
       "description": "Warns when a skill is used while out of date. Reads metadata.version / metadata.source from SKILL.md, and knows Spec Kit projects and npx skills installs.",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "category": "Development & Workflow",
       "author": "Louis Esterhuizen",
       "repository": "https://github.com/louis8408/skill-check",
@@ -10448,7 +10474,7 @@
       "name": "board",
       "displayName": "stickypane board",
       "description": "Put notes, checklists, kanban boards, charts, diagrams, logs and questions on the user's stickypane board and read back what the user did there.",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "Development & Workflow",
       "author": "LeeSwallow",
       "repository": "https://github.com/LeeSwallow/stickypane",
@@ -10809,7 +10835,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.28.0",
+      "version": "4.29.0",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -11728,8 +11754,8 @@
       "id": "telegram-bot-ui",
       "name": "telegram-bot-ui",
       "displayName": "Telegram Bot UI",
-      "description": "Design, build, review and operate Telegram bots with the newest Bot API: bot screens and keyboards, streaming AI replies, HTML widgets, premium emoji, product flows, channel publishing, agent-operated bots and Bot API lookups. Bundles the telegram-bot-ui skill and five subagents.",
-      "version": "2.2.1",
+      "description": "The whole interface of a Telegram bot on the newest Bot API: screens, texts and keyboards, navigation and states, streaming AI replies, HTML widgets, premium emoji, product flows, channel publishing, agent-operated bots and Bot API lookups, plus the local bot-ui Studio to map and edit it. Bundles the telegram-bot-ui skill and five subagents.",
+      "version": "3.0.0",
       "category": "Development & Workflow",
       "author": "hlibsuslov",
       "repository": "https://github.com/hlibsuslov/telegram-bot-ui",
@@ -13213,7 +13239,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.160.0",
+      "version": "0.164.0",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -13405,6 +13431,37 @@
       }
     },
     {
+      "id": "ai-sdr-kit",
+      "name": "ai-sdr-kit",
+      "displayName": "AI SDR Kit",
+      "description": "The SDR harness for your AI: Zevari's AI Sales Director, outbound playbooks, automations and the LinkedIn and email sending engine, for Claude Code, Codex, OpenClaw, Hermes or a Grok bot.",
+      "version": "1.1.0",
+      "category": "Tools & Integrations",
+      "author": "Zevari",
+      "repository": "https://github.com/zevarihq/ai-sdr-kit",
+      "license": "MIT",
+      "codexPath": "plugins/zevarihq/ai-sdr-kit",
+      "skills": [
+        {
+          "name": "agentify-outbound",
+          "path": "plugins/zevarihq/ai-sdr-kit/skills/agentify-outbound/SKILL.md"
+        },
+        {
+          "name": "outbound-sequence-playbook",
+          "path": "plugins/zevarihq/ai-sdr-kit/skills/outbound-sequence-playbook/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "zevari"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "aident-loadout",
       "name": "aident-loadout",
       "displayName": "Aident Loadout",
@@ -13563,7 +13620,7 @@
       "name": "arcmira",
       "displayName": "Arcmira: YouTube Transcript Search",
       "description": "YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers.",
-      "version": "0.10.21",
+      "version": "0.10.23",
       "category": "Tools & Integrations",
       "author": "Arcmira",
       "repository": "https://github.com/arcmira/mcp",
@@ -13881,7 +13938,7 @@
       "name": "bkt",
       "displayName": "Bitbucket CLI",
       "description": "Bitbucket CLI - manage repos, PRs, branches, webhooks, and pipelines for both Data Center and Cloud",
-      "version": "0.40.2",
+      "version": "0.40.3",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/bitbucket-cli",
@@ -13931,7 +13988,7 @@
       "name": "brewpage",
       "displayName": "BrewPage",
       "description": "Prepare drafts, publish HTML, Markdown, JSON, files and static sites, and update BrewPage publications from Codex. Uses the connected BrewPage MCP server or the bundled HTTPS runner.",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "category": "Tools & Integrations",
       "author": "Maksim Kochetkov",
       "repository": "https://github.com/kochetkov-ma/brewpage-codex-plugin",
@@ -15400,7 +15457,7 @@
       "name": "converter-studio",
       "displayName": "Converter Studio",
       "description": "Convert files between 67 formats (video, audio, images, PDFs, documents, e-books, subtitles, archives) with Converter Studio: an MCP server plus skills for single files, whole folders, web-ready media and audio extraction.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "category": "Tools & Integrations",
       "author": "Converter Studio",
       "repository": "https://github.com/tariksucu/converter-studio",
@@ -15816,6 +15873,10 @@
           "path": "plugins/data-x-api/skills/skills/dataxapi-products/SKILL.md"
         },
         {
+          "name": "creator-video-transcripts",
+          "path": "plugins/data-x-api/skills/skills/creator-video-transcripts/SKILL.md"
+        },
+        {
           "name": "dataxapi-wechat-mp",
           "path": "plugins/data-x-api/skills/skills/dataxapi-wechat-mp/SKILL.md"
         },
@@ -15858,8 +15919,8 @@
       "id": "dawn",
       "name": "dawn",
       "displayName": "Dawn",
-      "description": "A TypeScript music SDK and headless CLI for composing, arranging and rendering songs offline.",
-      "version": "0.1.3",
+      "description": "Compose songs in TypeScript, arrange them on a piano roll in DAWN Desktop for Mac and Linux, and render audio or MIDI locally with the DAWN CLI.",
+      "version": "0.1.4",
       "category": "Tools & Integrations",
       "author": "Hraness",
       "repository": "https://github.com/hraness/product-skills",
@@ -15883,8 +15944,8 @@
       "id": "dchub",
       "name": "dchub",
       "displayName": "DC Hub",
-      "description": "DC Hub is the orchestration layer for data center and energy intelligence. Find power. Find land. Find fiber. Find capacity. Call execute_plan first. It also publishes the Data Center Power Index (DCPI). 98 tools at https://dchub.cloud/mcp.",
-      "version": "2.12.60",
+      "description": "DC Hub is the orchestration layer for data center and energy intelligence. Find power. Find land. Find fiber. Find capacity. Call execute_plan first. It also publishes the Data Center Power Index (DCPI). Remote MCP at https://dchub.cloud/mcp.",
+      "version": "2.12.63",
       "category": "Tools & Integrations",
       "author": "DC Hub",
       "repository": "https://github.com/azmartone67/dchub-mcp-server",
@@ -16063,7 +16124,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.18.3",
+      "version": "1.18.4",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -17903,57 +17964,6 @@
       }
     },
     {
-      "id": "crawlberg",
-      "name": "crawlberg",
-      "displayName": "Crawlberg",
-      "description": "Web crawling and scraping with HTML→Markdown and headless-Chrome fallback.",
-      "version": "0.2.3",
-      "category": "Tools & Integrations",
-      "author": "Kreuzberg, Inc.",
-      "repository": "https://github.com/xberg-io/plugins",
-      "license": "MIT",
-      "codexPath": "plugins/kreuzberg-dev/plugins/plugins/crawlberg",
-      "skills": [
-        {
-          "name": "crawling-a-site",
-          "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/crawling-a-site/SKILL.md"
-        },
-        {
-          "name": "mapping-urls",
-          "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/mapping-urls/SKILL.md"
-        },
-        {
-          "name": "crawlberg",
-          "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/crawlberg/SKILL.md"
-        },
-        {
-          "name": "scraping-html-to-markdown",
-          "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/scraping-html-to-markdown/SKILL.md"
-        },
-        {
-          "name": "headless-fallback",
-          "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/headless-fallback/SKILL.md"
-        },
-        {
-          "name": "automating-the-browser",
-          "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/automating-the-browser/SKILL.md"
-        },
-        {
-          "name": "serving-the-api",
-          "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/serving-the-api/SKILL.md"
-        }
-      ],
-      "mcpServers": [
-        "crawlberg"
-      ],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": true
-      }
-    },
-    {
       "id": "krexa",
       "name": "krexa",
       "displayName": "Krexa",
@@ -18265,6 +18275,45 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "lemlist",
+      "name": "lemlist",
+      "displayName": "lemlist",
+      "description": "Run multichannel outreach in lemlist from your AI assistant: list campaigns and their stats, create campaigns with email and LinkedIn sequences, add and search leads, search the lemlist B2B people database, and check the deliverability of sending domains. Connects to the official lemlist MCP server (OAuth 2.1).",
+      "version": "1.1.0",
+      "category": "Tools & Integrations",
+      "author": "lemlist",
+      "repository": "https://github.com/l3mpire/lemlist-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/l3mpire/lemlist-plugin",
+      "skills": [
+        {
+          "name": "lemlist-launch-campaign",
+          "path": "plugins/l3mpire/lemlist-plugin/skills/lemlist-launch-campaign/SKILL.md"
+        },
+        {
+          "name": "lemlist-campaign-report",
+          "path": "plugins/l3mpire/lemlist-plugin/skills/lemlist-campaign-report/SKILL.md"
+        },
+        {
+          "name": "lemlist-deliverability-check",
+          "path": "plugins/l3mpire/lemlist-plugin/skills/lemlist-deliverability-check/SKILL.md"
+        },
+        {
+          "name": "lemlist-find-leads",
+          "path": "plugins/l3mpire/lemlist-plugin/skills/lemlist-find-leads/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "lemlist"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -19211,7 +19260,7 @@
       "name": "nia-teams-agent-bridge",
       "displayName": "Nia Teams Agent Bridge",
       "description": "Setup guidance for connecting the local Codex CLI to Nia Teams group chats and tool approval cards using the separately installed nia-codex bridge.",
-      "version": "0.3.3",
+      "version": "0.3.5",
       "category": "Tools & Integrations",
       "author": "",
       "repository": "https://github.com/nia-teams/agent-bridge",
@@ -20001,7 +20050,7 @@
       "name": "placecall",
       "displayName": "PlaceCall",
       "description": "PlaceCall makes AI phone calls that book, confirm, and reach US businesses. It places a real outbound call and returns a structured outcome plus a full transcript. Sign in on first use, no API key needed.",
-      "version": "6.6.3",
+      "version": "6.7.0",
       "category": "Tools & Integrations",
       "author": "VOYGR",
       "repository": "https://github.com/voygr-tech/placecall",
@@ -20265,8 +20314,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1976+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.40.0",
+      "description": "Pronounce developer jargon out loud — 1979+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.41.0",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",

@@ -304,6 +304,13 @@
     "path": "plugins/alexeyco/oh-my-openspec/.mcp.json"
   },
   {
+    "plugin": "omniforge-launch-audit",
+    "servers": [
+      "omniforge-launch-audit"
+    ],
+    "path": "plugins/zColdWater/omniforge-codex-plugin/.mcp.json"
+  },
+  {
     "plugin": "odw",
     "servers": [
       "odw"
@@ -470,6 +477,13 @@
       "ahel"
     ],
     "path": "plugins/ahel-technologies/ahel/.mcp.json"
+  },
+  {
+    "plugin": "ai-sdr-kit",
+    "servers": [
+      "zevari"
+    ],
+    "path": "plugins/zevarihq/ai-sdr-kit/.mcp.json"
   },
   {
     "plugin": "aident-loadout",
@@ -778,13 +792,6 @@
     "path": "plugins/kinlab-ai/kin-plugin/.mcp.json"
   },
   {
-    "plugin": "crawlberg",
-    "servers": [
-      "crawlberg"
-    ],
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/.mcp.json"
-  },
-  {
     "plugin": "lacuna-music",
     "servers": [
       "lacuna"
@@ -797,6 +804,13 @@
       "launchfast"
     ],
     "path": "plugins/BlockchainHB/launchfast_codex_plugin/.mcp.json"
+  },
+  {
+    "plugin": "lemlist",
+    "servers": [
+      "lemlist"
+    ],
+    "path": "plugins/l3mpire/lemlist-plugin/.mcp.json"
   },
   {
     "plugin": "linkmcp",

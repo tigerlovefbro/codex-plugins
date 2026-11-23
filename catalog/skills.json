@@ -4001,6 +4001,11 @@
   },
   {
     "plugin": "hypercore",
+    "skill": "hyper-aso",
+    "path": "plugins/alpoxdev/hypercore/skills/hyper-aso/SKILL.md"
+  },
+  {
+    "plugin": "hypercore",
     "skill": "hyper-google-analytics",
     "path": "plugins/alpoxdev/hypercore/skills/hyper-google-analytics/SKILL.md"
   },
@@ -10350,6 +10355,16 @@
     "path": "plugins/mustafaakmese/agentmart-plugins/skills/check-the-shelf/SKILL.md"
   },
   {
+    "plugin": "ai-sdr-kit",
+    "skill": "agentify-outbound",
+    "path": "plugins/zevarihq/ai-sdr-kit/skills/agentify-outbound/SKILL.md"
+  },
+  {
+    "plugin": "ai-sdr-kit",
+    "skill": "outbound-sequence-playbook",
+    "path": "plugins/zevarihq/ai-sdr-kit/skills/outbound-sequence-playbook/SKILL.md"
+  },
+  {
     "plugin": "aident-loadout",
     "skill": "aident-loadout",
     "path": "plugins/Aident-AI/aident-skill/skills/aident-loadout/SKILL.md"
@@ -11858,6 +11873,11 @@
     "plugin": "dataxapi",
     "skill": "dataxapi-products",
     "path": "plugins/data-x-api/skills/skills/dataxapi-products/SKILL.md"
+  },
+  {
+    "plugin": "dataxapi",
+    "skill": "creator-video-transcripts",
+    "path": "plugins/data-x-api/skills/skills/creator-video-transcripts/SKILL.md"
   },
   {
     "plugin": "dataxapi",
@@ -13425,41 +13445,6 @@
     "path": "plugins/kinlab-ai/kin-plugin/skills/kin-accounts/SKILL.md"
   },
   {
-    "plugin": "crawlberg",
-    "skill": "crawling-a-site",
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/crawling-a-site/SKILL.md"
-  },
-  {
-    "plugin": "crawlberg",
-    "skill": "mapping-urls",
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/mapping-urls/SKILL.md"
-  },
-  {
-    "plugin": "crawlberg",
-    "skill": "crawlberg",
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/crawlberg/SKILL.md"
-  },
-  {
-    "plugin": "crawlberg",
-    "skill": "scraping-html-to-markdown",
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/scraping-html-to-markdown/SKILL.md"
-  },
-  {
-    "plugin": "crawlberg",
-    "skill": "headless-fallback",
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/headless-fallback/SKILL.md"
-  },
-  {
-    "plugin": "crawlberg",
-    "skill": "automating-the-browser",
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/automating-the-browser/SKILL.md"
-  },
-  {
-    "plugin": "crawlberg",
-    "skill": "serving-the-api",
-    "path": "plugins/kreuzberg-dev/plugins/plugins/crawlberg/skills/serving-the-api/SKILL.md"
-  },
-  {
     "plugin": "krexa",
     "skill": "krexa",
     "path": "plugins/Krexa-xyz/skills/skills/krexa/SKILL.md"
@@ -13663,6 +13648,26 @@
     "plugin": "leeway",
     "skill": "history-and-undo",
     "path": "plugins/supersethvos/leeway-codex/skills/history-and-undo/SKILL.md"
+  },
+  {
+    "plugin": "lemlist",
+    "skill": "lemlist-launch-campaign",
+    "path": "plugins/l3mpire/lemlist-plugin/skills/lemlist-launch-campaign/SKILL.md"
+  },
+  {
+    "plugin": "lemlist",
+    "skill": "lemlist-campaign-report",
+    "path": "plugins/l3mpire/lemlist-plugin/skills/lemlist-campaign-report/SKILL.md"
+  },
+  {
+    "plugin": "lemlist",
+    "skill": "lemlist-deliverability-check",
+    "path": "plugins/l3mpire/lemlist-plugin/skills/lemlist-deliverability-check/SKILL.md"
+  },
+  {
+    "plugin": "lemlist",
+    "skill": "lemlist-find-leads",
+    "path": "plugins/l3mpire/lemlist-plugin/skills/lemlist-find-leads/SKILL.md"
   },
   {
     "plugin": "liendeadline",
