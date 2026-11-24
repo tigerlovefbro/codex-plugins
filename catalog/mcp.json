@@ -996,6 +996,13 @@
     "path": "plugins/anzy-renlab-ai/pronounce/.mcp.json"
   },
   {
+    "plugin": "publicrecords",
+    "servers": [
+      "publicrecords"
+    ],
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/.mcp.json"
+  },
+  {
     "plugin": "publora-skills",
     "servers": [
       "publora"

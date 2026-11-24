@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-23T11:50:35.866673+00:00",
+    "generatedAt": "2026-11-24T13:18:55.134889+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 469,
-      "with_skills": 429,
-      "with_mcp": 183,
+      "plugins": 472,
+      "with_skills": 432,
+      "with_mcp": 184,
       "codex_only": 24
     },
-    "skillCount": 3441
+    "skillCount": 3461
   },
   "plugins": [
     {
@@ -990,7 +990,7 @@
       "name": "alcove",
       "displayName": "alcove",
       "description": "Local-first memory server — hybrid BM25+vector search, vault management, lint, and launchd lifecycle for project knowledge.",
-      "version": "0.14.8",
+      "version": "0.14.10",
       "category": "Development & Workflow",
       "author": "epicsagas",
       "repository": "https://github.com/epicsagas/alcove",
@@ -1175,7 +1175,7 @@
       "name": "assay",
       "displayName": "assay",
       "description": "Opens a page you changed, drives every control it offers, and reports what it did and what happened. One line every time, clean or not.",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "category": "Development & Workflow",
       "author": "awss1i",
       "repository": "https://github.com/awss1i/assay",
@@ -1783,7 +1783,7 @@
       "name": "ccx",
       "displayName": "ccx - claudecodex",
       "description": "ccx: continue the same task in Claude, Codex and Antigravity. Needs the ccx app on this Mac: github.com/aaronwong1999/ccx",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "category": "Development & Workflow",
       "author": "Aaron Wong",
       "repository": "https://github.com/aaronwong1999/ccx",
@@ -1997,7 +1997,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.26.0",
+      "version": "11.27.0",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -2822,7 +2822,7 @@
       "name": "codex-auto-resume",
       "displayName": "Codex Auto Resume",
       "description": "Auto-resume and auto-retry for interrupted Codex tasks on Windows. Waits out a usage limit (until the reset time Codex reports, e.g. for a 5-hour or weekly window), a rate limit or a temporary failure, then continues the exact same conversation, so long-running or overnight work keeps going while that conversation is open in the Codex app. Setup downloads a checksum-verified release from GitHub; after that the watcher runs locally, read-only against Codex state, conservative by design.",
-      "version": "0.6.26-beta",
+      "version": "0.6.26-beta.2",
       "category": "Development & Workflow",
       "author": "songyb111-gachon",
       "repository": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
@@ -6583,6 +6583,67 @@
       }
     },
     {
+      "id": "agent-kit",
+      "name": "agent-kit",
+      "displayName": "Mission Kit",
+      "description": "Mission Kit core skills: HITL gates, plan backlog and onboarding, QA, external plan review. The full kit (slash commands, plans, HANDOFF, staging-then-prod git flow) installs with npx @dadado/agent-kit-cli@latest install.",
+      "version": "6.22.0",
+      "category": "Development & Workflow",
+      "author": "agent-kit-startup",
+      "repository": "https://github.com/agent-kit-startup/agent-kit",
+      "license": "Apache-2.0",
+      "codexPath": "plugins/agent-kit-startup/agent-kit",
+      "skills": [
+        {
+          "name": "clean-code",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/clean-code/SKILL.md"
+        },
+        {
+          "name": "docs-repo",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/docs-repo/SKILL.md"
+        },
+        {
+          "name": "agent-kit-onboard",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/agent-kit-onboard/SKILL.md"
+        },
+        {
+          "name": "dashboard-broadcast",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/dashboard-broadcast/SKILL.md"
+        },
+        {
+          "name": "plan-external-review",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/plan-external-review/SKILL.md"
+        },
+        {
+          "name": "plan-review-triage",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/plan-review-triage/SKILL.md"
+        },
+        {
+          "name": "hitl-gates",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/hitl-gates/SKILL.md"
+        },
+        {
+          "name": "backlog-add",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/backlog-add/SKILL.md"
+        },
+        {
+          "name": "qa",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/qa/SKILL.md"
+        },
+        {
+          "name": "field-report-resolve",
+          "path": "plugins/agent-kit-startup/agent-kit/skills/field-report-resolve/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "ml-pipeline",
       "name": "ml-pipeline",
       "displayName": "ML Pipeline",
@@ -6637,7 +6698,7 @@
       "name": "multi-llm",
       "displayName": "Multi-LLM",
       "description": "Orchestrate plan reviews, task generation, implementation and code reviews across several LLM CLIs in parallel, or ask every model one free-text question about a plan.",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "category": "Development & Workflow",
       "author": "beastlabai",
       "repository": "https://github.com/beastlabai/multi-llm-plugin",
@@ -10835,7 +10896,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.29.0",
+      "version": "4.29.3",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -13239,7 +13300,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.164.0",
+      "version": "0.168.3",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -13938,7 +13999,7 @@
       "name": "bkt",
       "displayName": "Bitbucket CLI",
       "description": "Bitbucket CLI - manage repos, PRs, branches, webhooks, and pipelines for both Data Center and Cloud",
-      "version": "0.40.3",
+      "version": "0.40.4",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/bitbucket-cli",
@@ -13963,7 +14024,7 @@
       "name": "bowmark",
       "displayName": "Bowmark",
       "description": "The web as callable functions: search flights across several aggregators, price a part across retailers, and other tasks that only exist behind a live site. The agent reads a typed function library, writes a short script, and Bowmark runs it on the real sites. Bundles the bowmark skill and auto-wires the hosted MCP server.",
-      "version": "4.35.2",
+      "version": "4.36.0",
       "category": "Tools & Integrations",
       "author": "Bowmark AI",
       "repository": "https://github.com/bowmark-ai/plugin",
@@ -15916,20 +15977,20 @@
       }
     },
     {
-      "id": "dawn",
-      "name": "dawn",
-      "displayName": "Dawn",
-      "description": "Compose songs in TypeScript, arrange them on a piano roll in DAWN Desktop for Mac and Linux, and render audio or MIDI locally with the DAWN CLI.",
-      "version": "0.1.4",
+      "id": "oh",
+      "name": "oh",
+      "displayName": "OH",
+      "description": "Supervise Claude Code and Codex sessions in a native Mac app, share one Vercel Board, and pair machines over Cloudflare Tunnel.",
+      "version": "0.1.2",
       "category": "Tools & Integrations",
       "author": "Hraness",
       "repository": "https://github.com/hraness/product-skills",
       "license": "MIT",
-      "codexPath": "plugins/hraness/product-skills/plugins/dawn",
+      "codexPath": "plugins/hraness/product-skills/plugins/oh",
       "skills": [
         {
-          "name": "dawn",
-          "path": "plugins/hraness/product-skills/plugins/dawn/skills/dawn/SKILL.md"
+          "name": "oh",
+          "path": "plugins/hraness/product-skills/plugins/oh/skills/oh/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -16124,7 +16185,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.18.4",
+      "version": "1.18.5",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -20077,7 +20138,7 @@
       "name": "plinth",
       "displayName": "Plinth",
       "description": "Publish, update and share HTML artifacts and Markdown documents on Plinth: the Plinth MCP server plus a skill with its publishing rules",
-      "version": "0.29.0",
+      "version": "0.30.0",
       "category": "Tools & Integrations",
       "author": "Aconite Software & Investments, Lda.",
       "repository": "https://github.com/mr0b0t0/plinth",
@@ -20329,6 +20390,65 @@
         "codex": true,
         "claude": false,
         "dsh": false,
+        "mcp": true
+      }
+    },
+    {
+      "id": "publicrecords",
+      "name": "publicrecords",
+      "displayName": "publicrecords",
+      "description": "Agent Skills + Apify MCP for public-records data: US federal contracts and grants (SAM.gov, Grants.gov, USAspending), UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, Spotify play counts, forecast track records and Skool community search.",
+      "version": "1.1.0",
+      "category": "Tools & Integrations",
+      "author": "GeminiGeorge22 (publicrecords on Apify)",
+      "repository": "https://github.com/GeminiGeorge22/publicrecords-skills",
+      "license": "MIT",
+      "codexPath": "plugins/GeminiGeorge22/publicrecords-skills",
+      "skills": [
+        {
+          "name": "gov-tenders-and-grants",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/gov-tenders-and-grants/SKILL.md"
+        },
+        {
+          "name": "sports-odds",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/sports-odds/SKILL.md"
+        },
+        {
+          "name": "skool-communities",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/skool-communities/SKILL.md"
+        },
+        {
+          "name": "etsy-market-research",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/etsy-market-research/SKILL.md"
+        },
+        {
+          "name": "ats-job-postings",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/ats-job-postings/SKILL.md"
+        },
+        {
+          "name": "forecast-track-record",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/forecast-track-record/SKILL.md"
+        },
+        {
+          "name": "spotify-play-counts",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/spotify-play-counts/SKILL.md"
+        },
+        {
+          "name": "company-social-profiles",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/company-social-profiles/SKILL.md"
+        },
+        {
+          "name": "google-ads-transparency",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/google-ads-transparency/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "publicrecords"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
         "mcp": true
       }
     },
@@ -20588,7 +20708,7 @@
       "name": "remove-ai-watermarks",
       "displayName": "Remove AI Watermarks",
       "description": "Identify and remove AI provenance marks from images, video, audio, and text the user generated or edited, using the remove-ai-watermarks CLI.",
-      "version": "1.0.22",
+      "version": "1.0.23",
       "category": "Tools & Integrations",
       "author": "wiltodelta",
       "repository": "https://github.com/wiltodelta/remove-ai-watermarks",
@@ -22610,6 +22730,31 @@
         "claude": true,
         "dsh": true,
         "mcp": true
+      }
+    },
+    {
+      "id": "ultrafast",
+      "name": "ultrafast",
+      "displayName": "ultrafast",
+      "description": "Shaders, 3D, motion type and camera optics, written by your agent and rendered on the GPU. The ultrafast skill (the document format and the check, look, review and export loop) and the local MCP server, uf mcp, with 20 tools. Needs the uf command: curl -fsSL https://ultrafast.mov/install.sh | sh",
+      "version": "0.2.0",
+      "category": "Tools & Integrations",
+      "author": "ultrafast",
+      "repository": "https://github.com/ultrafastmov/ultrafast",
+      "license": "Apache-2.0 OR MIT",
+      "codexPath": "plugins/ultrafastmov/ultrafast",
+      "skills": [
+        {
+          "name": "ultrafast",
+          "path": "plugins/ultrafastmov/ultrafast/skills/ultrafast/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
       }
     },
     {

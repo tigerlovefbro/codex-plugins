@@ -4560,6 +4560,56 @@
     "path": "plugins/lliu56/minicut-skills/skills/miniapi-video/SKILL.md"
   },
   {
+    "plugin": "agent-kit",
+    "skill": "clean-code",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/clean-code/SKILL.md"
+  },
+  {
+    "plugin": "agent-kit",
+    "skill": "docs-repo",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/docs-repo/SKILL.md"
+  },
+  {
+    "plugin": "agent-kit",
+    "skill": "agent-kit-onboard",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/agent-kit-onboard/SKILL.md"
+  },
+  {
+    "plugin": "agent-kit",
+    "skill": "dashboard-broadcast",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/dashboard-broadcast/SKILL.md"
+  },
+  {
+    "plugin": "agent-kit",
+    "skill": "plan-external-review",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/plan-external-review/SKILL.md"
+  },
+  {
+    "plugin": "agent-kit",
+    "skill": "plan-review-triage",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/plan-review-triage/SKILL.md"
+  },
+  {
+    "plugin": "agent-kit",
+    "skill": "hitl-gates",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/hitl-gates/SKILL.md"
+  },
+  {
+    "plugin": "agent-kit",
+    "skill": "backlog-add",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/backlog-add/SKILL.md"
+  },
+  {
+    "plugin": "agent-kit",
+    "skill": "qa",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/qa/SKILL.md"
+  },
+  {
+    "plugin": "agent-kit",
+    "skill": "field-report-resolve",
+    "path": "plugins/agent-kit-startup/agent-kit/skills/field-report-resolve/SKILL.md"
+  },
+  {
     "plugin": "ml-pipeline",
     "skill": "ml-pipeline",
     "path": "plugins/jananthan30/ml-pipeline/skills/ml-pipeline/SKILL.md"
@@ -11915,9 +11965,9 @@
     "path": "plugins/data-x-api/skills/skills/influencer-search/SKILL.md"
   },
   {
-    "plugin": "dawn",
-    "skill": "dawn",
-    "path": "plugins/hraness/product-skills/plugins/dawn/skills/dawn/SKILL.md"
+    "plugin": "oh",
+    "skill": "oh",
+    "path": "plugins/hraness/product-skills/plugins/oh/skills/oh/SKILL.md"
   },
   {
     "plugin": "deed-page",
@@ -14920,6 +14970,51 @@
     "path": "plugins/jack-reson8/pro-motion/skills/pro-motion/SKILL.md"
   },
   {
+    "plugin": "publicrecords",
+    "skill": "gov-tenders-and-grants",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/gov-tenders-and-grants/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "sports-odds",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/sports-odds/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "skool-communities",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/skool-communities/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "etsy-market-research",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/etsy-market-research/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "ats-job-postings",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/ats-job-postings/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "forecast-track-record",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/forecast-track-record/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "spotify-play-counts",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/spotify-play-counts/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "company-social-profiles",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/company-social-profiles/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "google-ads-transparency",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/google-ads-transparency/SKILL.md"
+  },
+  {
     "plugin": "publora-skills",
     "skill": "linkedin-post",
     "path": "plugins/publora/skills/skills/linkedin-post/SKILL.md"
@@ -16138,6 +16233,11 @@
     "plugin": "tweetapi",
     "skill": "tweetapi",
     "path": "plugins/tweetapi/agent-skill/skills/tweetapi/SKILL.md"
+  },
+  {
+    "plugin": "ultrafast",
+    "skill": "ultrafast",
+    "path": "plugins/ultrafastmov/ultrafast/skills/ultrafast/SKILL.md"
   },
   {
     "plugin": "unified-ai-system",
