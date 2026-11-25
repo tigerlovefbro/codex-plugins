@@ -1101,6 +1101,11 @@
   },
   {
     "plugin": "ccx",
+    "skill": "from-zcode",
+    "path": "plugins/AaronWong1999/ccx/skills/from-zcode/SKILL.md"
+  },
+  {
+    "plugin": "ccx",
     "skill": "to-antigravity",
     "path": "plugins/AaronWong1999/ccx/skills/to-antigravity/SKILL.md"
   },
@@ -1118,6 +1123,11 @@
     "plugin": "ccx",
     "skill": "from-claude",
     "path": "plugins/AaronWong1999/ccx/skills/from-claude/SKILL.md"
+  },
+  {
+    "plugin": "ccx",
+    "skill": "to-zcode",
+    "path": "plugins/AaronWong1999/ccx/skills/to-zcode/SKILL.md"
   },
   {
     "plugin": "chatgpt-agent",
@@ -2448,6 +2458,21 @@
     "plugin": "docspring-agent-playbook",
     "skill": "pr-review",
     "path": "plugins/DocSpring/docspring-agent-playbook/skills/pr-review/SKILL.md"
+  },
+  {
+    "plugin": "dopamine-talk",
+    "skill": "dopamine-talk",
+    "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-talk/SKILL.md"
+  },
+  {
+    "plugin": "dopamine-talk",
+    "skill": "dopamine-readme",
+    "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-readme/SKILL.md"
+  },
+  {
+    "plugin": "dopamine-talk",
+    "skill": "dopamine-changelog",
+    "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-changelog/SKILL.md"
   },
   {
     "plugin": "dryforge",
@@ -7571,6 +7596,11 @@
   },
   {
     "plugin": "session-orchestrator",
+    "skill": "security",
+    "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/security/SKILL.md"
+  },
+  {
+    "plugin": "session-orchestrator",
     "skill": "templates-ack",
     "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/templates-ack/SKILL.md"
   },
@@ -7966,8 +7996,43 @@
   },
   {
     "plugin": "board",
+    "skill": "finishing-the-task",
+    "path": "plugins/LeeSwallow/stickypane/skills/finishing-the-task/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "planning-before-code",
+    "path": "plugins/LeeSwallow/stickypane/skills/planning-before-code/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "approving-a-risky-action",
+    "path": "plugins/LeeSwallow/stickypane/skills/approving-a-risky-action/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "tracking-the-work",
+    "path": "plugins/LeeSwallow/stickypane/skills/tracking-the-work/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "handing-over-a-command",
+    "path": "plugins/LeeSwallow/stickypane/skills/handing-over-a-command/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "reading-long-material",
+    "path": "plugins/LeeSwallow/stickypane/skills/reading-long-material/SKILL.md"
+  },
+  {
+    "plugin": "board",
     "skill": "asking-the-user",
     "path": "plugins/LeeSwallow/stickypane/skills/asking-the-user/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "choosing-between-options",
+    "path": "plugins/LeeSwallow/stickypane/skills/choosing-between-options/SKILL.md"
   },
   {
     "plugin": "board",
@@ -7976,8 +8041,18 @@
   },
   {
     "plugin": "board",
+    "skill": "drawing-a-diagram",
+    "path": "plugins/LeeSwallow/stickypane/skills/drawing-a-diagram/SKILL.md"
+  },
+  {
+    "plugin": "board",
     "skill": "talking-in-chat",
     "path": "plugins/LeeSwallow/stickypane/skills/talking-in-chat/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "resuming-and-handing-off",
+    "path": "plugins/LeeSwallow/stickypane/skills/resuming-and-handing-off/SKILL.md"
   },
   {
     "plugin": "board",
@@ -7986,8 +8061,33 @@
   },
   {
     "plugin": "board",
+    "skill": "working-in-a-worktree",
+    "path": "plugins/LeeSwallow/stickypane/skills/working-in-a-worktree/SKILL.md"
+  },
+  {
+    "plugin": "board",
     "skill": "connecting-notes",
     "path": "plugins/LeeSwallow/stickypane/skills/connecting-notes/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "checking-an-api",
+    "path": "plugins/LeeSwallow/stickypane/skills/checking-an-api/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "reporting-a-blocker",
+    "path": "plugins/LeeSwallow/stickypane/skills/reporting-a-blocker/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "talking-while-working",
+    "path": "plugins/LeeSwallow/stickypane/skills/talking-while-working/SKILL.md"
+  },
+  {
+    "plugin": "board",
+    "skill": "showing-numbers",
+    "path": "plugins/LeeSwallow/stickypane/skills/showing-numbers/SKILL.md"
   },
   {
     "plugin": "stop-that-shit",
@@ -10340,6 +10440,21 @@
     "path": "plugins/radres/call-me/plugin/skills/call-me/SKILL.md"
   },
   {
+    "plugin": "a1-gallery",
+    "skill": "design-reference",
+    "path": "plugins/a1-gallery/a1-mcp/skills/design-reference/SKILL.md"
+  },
+  {
+    "plugin": "a1-gallery",
+    "skill": "setup",
+    "path": "plugins/a1-gallery/a1-mcp/skills/setup/SKILL.md"
+  },
+  {
+    "plugin": "a1-gallery",
+    "skill": "section-rebuild",
+    "path": "plugins/a1-gallery/a1-mcp/skills/section-rebuild/SKILL.md"
+  },
+  {
     "plugin": "abuzzhive",
     "skill": "abuzzhive",
     "path": "plugins/kubec/abuzzhive.com/skills/abuzzhive/SKILL.md"
@@ -12028,6 +12143,21 @@
     "plugin": "design-os-svg-animation",
     "skill": "line-art-motion",
     "path": "plugins/jangtrinh/design-os-svg-animation/skills/line-art-motion/SKILL.md"
+  },
+  {
+    "plugin": "devault",
+    "skill": "apply-design-system",
+    "path": "plugins/devault-design/chatgpt-plugin/skills/apply-design-system/SKILL.md"
+  },
+  {
+    "plugin": "devault",
+    "skill": "get-started",
+    "path": "plugins/devault-design/chatgpt-plugin/skills/get-started/SKILL.md"
+  },
+  {
+    "plugin": "devault",
+    "skill": "research-ui-patterns",
+    "path": "plugins/devault-design/chatgpt-plugin/skills/research-ui-patterns/SKILL.md"
   },
   {
     "plugin": "dex",
@@ -15006,6 +15136,11 @@
   },
   {
     "plugin": "publicrecords",
+    "skill": "tennis-scores",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/tennis-scores/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
     "skill": "company-social-profiles",
     "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/company-social-profiles/SKILL.md"
   },
@@ -16085,6 +16220,136 @@
     "path": "plugins/talivia-group/agent/SKILL.md"
   },
   {
+    "plugin": "taplio",
+    "skill": "linkedin-dm-opener",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-dm-opener/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-engagement-tracker",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-engagement-tracker/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-niche-creator-finder",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-niche-creator-finder/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-engagement-watchlist-builder",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-engagement-watchlist-builder/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-connection-request-hook",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-connection-request-hook/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-viral-post-analyzer",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-viral-post-analyzer/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-swipe-file-builder",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-swipe-file-builder/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-carousel-builder",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-carousel-builder/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-comment-opportunity-finder",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-comment-opportunity-finder/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-comment-reply-manager",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-comment-reply-manager/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-warm-lead-finder",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-warm-lead-finder/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-post-writer",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-post-writer/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-smart-comment-writer",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-smart-comment-writer/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-cta-optimizer",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-cta-optimizer/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-trending-topics-scanner",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-trending-topics-scanner/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-post-performance-critic",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-post-performance-critic/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-hook-generator",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-hook-generator/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-niche-definer",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-niche-definer/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-story-extractor",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-story-extractor/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-repurposer",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-repurposer/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-audience-persona-builder",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-audience-persona-builder/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-content-calendar-planner",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-content-calendar-planner/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-profile-optimizer",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-profile-optimizer/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-daily-engagement-routine",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-daily-engagement-routine/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-analytics-interpreter",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-analytics-interpreter/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-content-pillars-builder",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-content-pillars-builder/SKILL.md"
+  },
+  {
     "plugin": "task-scheduler",
     "skill": "task-planner",
     "path": "plugins/6Delta9/task-scheduler-codex-plugin/skills/task-planner/SKILL.md"
@@ -16243,6 +16508,16 @@
     "plugin": "unified-ai-system",
     "skill": "unified-ai-gateway",
     "path": "plugins/happy520ai/unified-ai-system/skills/unified-ai-gateway/SKILL.md"
+  },
+  {
+    "plugin": "unpolish-ai-writing",
+    "skill": "unpolish-ai-writing",
+    "path": "plugins/wilu222/unpolish-ai-writing/SKILL.md"
+  },
+  {
+    "plugin": "unpolish-ai-writing",
+    "skill": "unpolish-ai-writing",
+    "path": "plugins/wilu222/unpolish-ai-writing/skills/unpolish-ai-writing/SKILL.md"
   },
   {
     "plugin": "unslop",

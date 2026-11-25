@@ -451,6 +451,13 @@
     "path": "plugins/Sandyzzx/codex-zcode-bridge/.mcp.json"
   },
   {
+    "plugin": "a1-gallery",
+    "servers": [
+      "a1"
+    ],
+    "path": "plugins/a1-gallery/a1-mcp/.mcp.json"
+  },
+  {
     "plugin": "admakeai",
     "servers": [
       "admakeai"
@@ -718,6 +725,13 @@
       "deja"
     ],
     "path": "plugins/vshulcz/deja-vu/.mcp.json"
+  },
+  {
+    "plugin": "devault",
+    "servers": [
+      "devault"
+    ],
+    "path": "plugins/devault-design/chatgpt-plugin/.mcp.json"
   },
   {
     "plugin": "dodopayments",
@@ -1207,6 +1221,13 @@
       "talivia"
     ],
     "path": null
+  },
+  {
+    "plugin": "taplio",
+    "servers": [
+      "taplio"
+    ],
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/.mcp.json"
   },
   {
     "plugin": "task-scheduler",

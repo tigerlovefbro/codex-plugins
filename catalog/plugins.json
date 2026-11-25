@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-24T13:18:55.134889+00:00",
+    "generatedAt": "2026-11-25T12:09:28.655754+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 472,
-      "with_skills": 432,
-      "with_mcp": 184,
+      "plugins": 477,
+      "with_skills": 437,
+      "with_mcp": 187,
       "codex_only": 24
     },
-    "skillCount": 3461
+    "skillCount": 3516
   },
   "plugins": [
     {
@@ -148,7 +148,7 @@
       "name": "actera",
       "displayName": "Actera",
       "description": "Check Codex tool calls against Actera policies, hold calls that need approval, and report their outcomes",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "category": "Development & Workflow",
       "author": "Actera",
       "repository": "https://github.com/Actera-AI/actera-codex",
@@ -364,7 +364,7 @@
       "name": "agent-guard",
       "displayName": "Agent Guard",
       "description": "Local-by-default, no-telemetry hooks inspect user prompts, supported tool inputs, outputs, and changed files in every enabled Claude Code or Codex session to block or mask secret leaks. Includes opt-in PII filtering and Git/CI backstops.",
-      "version": "3.13.4",
+      "version": "3.13.6",
       "category": "Development & Workflow",
       "author": "Agent Guard contributors",
       "repository": "https://github.com/JeongJaeSoon/agent-guard",
@@ -1144,7 +1144,7 @@
       "name": "asitis",
       "displayName": "AsItIs",
       "description": "Read-only linter for AGENTS.md, CLAUDE.md, SKILL.md and other agent steering files: what each agent loads, token budgets, hidden instructions.",
-      "version": "0.4.7",
+      "version": "0.4.8",
       "category": "Development & Workflow",
       "author": "AsItIs",
       "repository": "https://github.com/Katta041/asitis-agent-tools",
@@ -1782,14 +1782,18 @@
       "id": "ccx",
       "name": "ccx",
       "displayName": "ccx - claudecodex",
-      "description": "ccx: continue the same task in Claude, Codex and Antigravity. Needs the ccx app on this Mac: github.com/aaronwong1999/ccx",
-      "version": "0.1.8",
+      "description": "ccx: continue the same task in Claude, Codex, Antigravity and ZCode. Needs the ccx app on this Mac: github.com/aaronwong1999/ccx",
+      "version": "0.2.5",
       "category": "Development & Workflow",
       "author": "Aaron Wong",
       "repository": "https://github.com/aaronwong1999/ccx",
       "license": "MIT",
       "codexPath": "plugins/AaronWong1999/ccx",
       "skills": [
+        {
+          "name": "from-zcode",
+          "path": "plugins/AaronWong1999/ccx/skills/from-zcode/SKILL.md"
+        },
         {
           "name": "to-antigravity",
           "path": "plugins/AaronWong1999/ccx/skills/to-antigravity/SKILL.md"
@@ -1805,6 +1809,10 @@
         {
           "name": "from-claude",
           "path": "plugins/AaronWong1999/ccx/skills/from-claude/SKILL.md"
+        },
+        {
+          "name": "to-zcode",
+          "path": "plugins/AaronWong1999/ccx/skills/to-zcode/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -1997,7 +2005,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.27.0",
+      "version": "11.29.0",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -3836,6 +3844,39 @@
       }
     },
     {
+      "id": "dopamine-talk",
+      "name": "dopamine-talk",
+      "displayName": "Dopamine Talk",
+      "description": "Post-RL decompression pack for AI agents: sharp human dialogue without hedging or Runglish, living product READMEs, and user-impact changelogs.",
+      "version": "1.0.0",
+      "category": "Development & Workflow",
+      "author": "AnnenkovLabs",
+      "repository": "https://github.com/AnnenkovLabs/dopamine-talk",
+      "license": "MIT",
+      "codexPath": "plugins/AnnenkovLabs/dopamine-talk",
+      "skills": [
+        {
+          "name": "dopamine-talk",
+          "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-talk/SKILL.md"
+        },
+        {
+          "name": "dopamine-readme",
+          "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-readme/SKILL.md"
+        },
+        {
+          "name": "dopamine-changelog",
+          "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-changelog/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "dryforge",
       "name": "dryforge",
       "displayName": "dryforge",
@@ -4969,7 +5010,7 @@
       "name": "gitranks-contribute",
       "displayName": "GitRanks Contribute",
       "description": "Find open-source GitHub issues matched to your skills, fix one with your agent, and approve the pull request yourself.",
-      "version": "0.3.6",
+      "version": "0.4.4",
       "category": "Development & Workflow",
       "author": "GitRanks",
       "repository": "https://github.com/gitranks/contribute",
@@ -6207,7 +6248,7 @@
       "name": "loom",
       "displayName": "ClickHouse Loom",
       "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
-      "version": "1.2.50",
+      "version": "1.2.52",
       "category": "Development & Workflow",
       "author": "ClickHouse",
       "repository": "https://github.com/ClickHouse/loom",
@@ -6431,7 +6472,7 @@
       "name": "codex-multiple-env",
       "displayName": "Masaka for Codex",
       "description": "Manage isolated Codex account and ChatGPT workspace profiles without repeated logout and login.",
-      "version": "0.4.2",
+      "version": "0.4.6",
       "category": "Development & Workflow",
       "author": "Masaka AI",
       "repository": "https://github.com/masakaai/codex-multiple-env",
@@ -6499,7 +6540,7 @@
       "name": "memtomem",
       "displayName": "memtomem",
       "description": "Markdown-first long-term memory shared across your coding agents: one local memtomem store, searchable from Hermes, Claude Code, Codex CLI and Kimi Code.",
-      "version": "0.1.28",
+      "version": "0.1.29",
       "category": "Development & Workflow",
       "author": "memtomem",
       "repository": "https://github.com/memtomem/memtomem",
@@ -6587,7 +6628,7 @@
       "name": "agent-kit",
       "displayName": "Mission Kit",
       "description": "Mission Kit core skills: HITL gates, plan backlog and onboarding, QA, external plan review. The full kit (slash commands, plans, HANDOFF, staging-then-prod git flow) installs with npx @dadado/agent-kit-cli@latest install.",
-      "version": "6.22.0",
+      "version": "6.23.0",
       "category": "Development & Workflow",
       "author": "agent-kit-startup",
       "repository": "https://github.com/agent-kit-startup/agent-kit",
@@ -7388,7 +7429,7 @@
       "name": "pixeltable",
       "displayName": "Pixeltable",
       "description": "Multimodal RAG, video search, image similarity search, agent memory, and embeddings stored with your data. Declarative tables, computed columns, retrieval, agents, and HTTP.",
-      "version": "2.14.2",
+      "version": "2.15.0",
       "category": "Development & Workflow",
       "author": "Pixeltable",
       "repository": "https://github.com/pixeltable/pixeltable-skill",
@@ -7518,7 +7559,7 @@
       "name": "praxis",
       "displayName": "Praxis",
       "description": "Token-lean discipline skills for coding agents.",
-      "version": "4.3.0",
+      "version": "4.4.0",
       "category": "Development & Workflow",
       "author": "ouonet",
       "repository": "https://github.com/ouonet/praxis",
@@ -8034,7 +8075,7 @@
       "name": "rag-reviewer",
       "displayName": "RAG Reviewer",
       "description": "Agentic PR review: hybrid RAG + code graph via MCP, review skills for Codex",
-      "version": "0.8.0+codex.e4bf469015eb",
+      "version": "0.8.0+codex.9f09ef90ef10",
       "category": "Development & Workflow",
       "author": "mimfort",
       "repository": "https://github.com/mimfort/rag_for_git",
@@ -8241,8 +8282,8 @@
       "id": "repopilot",
       "name": "repopilot",
       "displayName": "RepoPilot",
-      "description": "Snapshot each session and review what the agent changed before it stops: tests it skipped, focused, removed, or weakened, new lint/type suppressions, relaxed CI gates, removed auth or error handling, and untrusted input reaching risky sinks. Deterministic and local; requires the repopilot CLI.",
-      "version": "0.27.0",
+      "description": "Snapshot each session and review what the agent changed before it stops: tests it skipped, focused, removed, or weakened, broken local callers, new lint/type suppressions, relaxed CI gates, removed auth checks, and untrusted input reaching SQL, shell, or path sinks. Deterministic and local; requires the repopilot CLI.",
+      "version": "0.28.0",
       "category": "Development & Workflow",
       "author": "Mykyta Stelmashenko",
       "repository": "https://github.com/MykytaStel/repopilot",
@@ -9775,7 +9816,7 @@
       "name": "session-orchestrator",
       "displayName": "Session Orchestrator",
       "description": "A repeatable Plan, Go, Close workflow for AI coding sessions: /session reads your repo and agrees the scope, /go runs the work in waves with a quality gate between each, /close verifies and commits. Runs on Claude Code, Codex CLI, Cursor and Pi.",
-      "version": "5.21.2+codex.20261122122041",
+      "version": "5.22.0+codex.20261124024330",
       "category": "Development & Workflow",
       "author": "",
       "repository": "",
@@ -9905,6 +9946,10 @@
         {
           "name": "hook-development",
           "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/hook-development/SKILL.md"
+        },
+        {
+          "name": "security",
+          "path": "plugins/Kanevry/session-orchestrator/.codex-plugin/skills/security/SKILL.md"
         },
         {
           "name": "templates-ack",
@@ -10185,7 +10230,7 @@
       "name": "sno-station-standalone",
       "displayName": "Sno Station Skills",
       "description": "Twelve Sno Station skills for review, intent checks, end-to-end triage, work briefs, Shell, TypeScript, Python and Rust coding, and test writing that run without Sno Station programs or hooks.",
-      "version": "1.0.202611201956",
+      "version": "1.0.202611240150",
       "category": "Development & Workflow",
       "author": "Sno Station Skills contributors",
       "repository": "https://github.com/sno-ai/sno-station-skills",
@@ -10543,24 +10588,80 @@
       "codexPath": "plugins/LeeSwallow/stickypane",
       "skills": [
         {
+          "name": "finishing-the-task",
+          "path": "plugins/LeeSwallow/stickypane/skills/finishing-the-task/SKILL.md"
+        },
+        {
+          "name": "planning-before-code",
+          "path": "plugins/LeeSwallow/stickypane/skills/planning-before-code/SKILL.md"
+        },
+        {
+          "name": "approving-a-risky-action",
+          "path": "plugins/LeeSwallow/stickypane/skills/approving-a-risky-action/SKILL.md"
+        },
+        {
+          "name": "tracking-the-work",
+          "path": "plugins/LeeSwallow/stickypane/skills/tracking-the-work/SKILL.md"
+        },
+        {
+          "name": "handing-over-a-command",
+          "path": "plugins/LeeSwallow/stickypane/skills/handing-over-a-command/SKILL.md"
+        },
+        {
+          "name": "reading-long-material",
+          "path": "plugins/LeeSwallow/stickypane/skills/reading-long-material/SKILL.md"
+        },
+        {
           "name": "asking-the-user",
           "path": "plugins/LeeSwallow/stickypane/skills/asking-the-user/SKILL.md"
+        },
+        {
+          "name": "choosing-between-options",
+          "path": "plugins/LeeSwallow/stickypane/skills/choosing-between-options/SKILL.md"
         },
         {
           "name": "using-the-board",
           "path": "plugins/LeeSwallow/stickypane/skills/using-the-board/SKILL.md"
         },
         {
+          "name": "drawing-a-diagram",
+          "path": "plugins/LeeSwallow/stickypane/skills/drawing-a-diagram/SKILL.md"
+        },
+        {
           "name": "talking-in-chat",
           "path": "plugins/LeeSwallow/stickypane/skills/talking-in-chat/SKILL.md"
+        },
+        {
+          "name": "resuming-and-handing-off",
+          "path": "plugins/LeeSwallow/stickypane/skills/resuming-and-handing-off/SKILL.md"
         },
         {
           "name": "tracking-progress",
           "path": "plugins/LeeSwallow/stickypane/skills/tracking-progress/SKILL.md"
         },
         {
+          "name": "working-in-a-worktree",
+          "path": "plugins/LeeSwallow/stickypane/skills/working-in-a-worktree/SKILL.md"
+        },
+        {
           "name": "connecting-notes",
           "path": "plugins/LeeSwallow/stickypane/skills/connecting-notes/SKILL.md"
+        },
+        {
+          "name": "checking-an-api",
+          "path": "plugins/LeeSwallow/stickypane/skills/checking-an-api/SKILL.md"
+        },
+        {
+          "name": "reporting-a-blocker",
+          "path": "plugins/LeeSwallow/stickypane/skills/reporting-a-blocker/SKILL.md"
+        },
+        {
+          "name": "talking-while-working",
+          "path": "plugins/LeeSwallow/stickypane/skills/talking-while-working/SKILL.md"
+        },
+        {
+          "name": "showing-numbers",
+          "path": "plugins/LeeSwallow/stickypane/skills/showing-numbers/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -10896,7 +10997,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.29.3",
+      "version": "4.29.12",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -11816,7 +11917,7 @@
       "name": "telegram-bot-ui",
       "displayName": "Telegram Bot UI",
       "description": "The whole interface of a Telegram bot on the newest Bot API: screens, texts and keyboards, navigation and states, streaming AI replies, HTML widgets, premium emoji, product flows, channel publishing, agent-operated bots and Bot API lookups, plus the local bot-ui Studio to map and edit it. Bundles the telegram-bot-ui skill and five subagents.",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "category": "Development & Workflow",
       "author": "hlibsuslov",
       "repository": "https://github.com/hlibsuslov/telegram-bot-ui",
@@ -13244,6 +13345,41 @@
       }
     },
     {
+      "id": "a1-gallery",
+      "name": "a1-gallery",
+      "displayName": "A1 Gallery",
+      "description": "Ground design work in real websites — search 1,100+ live sites by style, font, colour and section, and read the type scale, spacing and palette measured off the page.",
+      "version": "1.3.0",
+      "category": "Tools & Integrations",
+      "author": "Bryn Taylor",
+      "repository": "https://github.com/a1-gallery/a1-mcp",
+      "license": "MIT",
+      "codexPath": "plugins/a1-gallery/a1-mcp",
+      "skills": [
+        {
+          "name": "design-reference",
+          "path": "plugins/a1-gallery/a1-mcp/skills/design-reference/SKILL.md"
+        },
+        {
+          "name": "setup",
+          "path": "plugins/a1-gallery/a1-mcp/skills/setup/SKILL.md"
+        },
+        {
+          "name": "section-rebuild",
+          "path": "plugins/a1-gallery/a1-mcp/skills/section-rebuild/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "a1"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "abuzzhive",
       "name": "abuzzhive",
       "displayName": "AbuzzHive",
@@ -13300,7 +13436,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.168.3",
+      "version": "0.170.4",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -13999,7 +14135,7 @@
       "name": "bkt",
       "displayName": "Bitbucket CLI",
       "description": "Bitbucket CLI - manage repos, PRs, branches, webhooks, and pipelines for both Data Center and Cloud",
-      "version": "0.40.4",
+      "version": "0.41.0",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/bitbucket-cli",
@@ -14200,7 +14336,7 @@
       "name": "candor-finance",
       "displayName": "Candor Finance",
       "description": "Candor is a personal finance app that helps you reach your money goals with ChatGPT, Claude, or the AI agent you already use. Your agent works from your real bank, card, loan, and investment accounts: it sets up goals and a budget with you, finds money you are losing to fees, price increases, or missed refunds, and remembers your plan and decisions between conversations. Candor reviews your spending, bills, debt, savings, and investments and tells your agent what's worth talking through and why. Candor never moves money.",
-      "version": "1.3.7",
+      "version": "1.3.9",
       "category": "Tools & Integrations",
       "author": "Candor",
       "repository": "https://github.com/candorsystems/candor-finance",
@@ -16055,7 +16191,7 @@
       "name": "deja-vu",
       "displayName": "deja-vu",
       "description": "deja-vu: memory for coding agents from the sessions already on your disk — Claude Code, Codex, Cursor, opencode and forty-eight more — including work from before it was installed.",
-      "version": "0.25.0",
+      "version": "0.25.1",
       "category": "Tools & Integrations",
       "author": "vshulcz",
       "repository": "https://github.com/vshulcz/deja-vu",
@@ -16178,6 +16314,41 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "devault",
+      "name": "devault",
+      "displayName": "Devault",
+      "description": "Search and study real UI design references, analyze design patterns, and fetch ready-made design systems from the Devault library.",
+      "version": "1.0.1",
+      "category": "Tools & Integrations",
+      "author": "HYDRANODE LTD",
+      "repository": "https://github.com/devault-design/chatgpt-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/devault-design/chatgpt-plugin",
+      "skills": [
+        {
+          "name": "apply-design-system",
+          "path": "plugins/devault-design/chatgpt-plugin/skills/apply-design-system/SKILL.md"
+        },
+        {
+          "name": "get-started",
+          "path": "plugins/devault-design/chatgpt-plugin/skills/get-started/SKILL.md"
+        },
+        {
+          "name": "research-ui-patterns",
+          "path": "plugins/devault-design/chatgpt-plugin/skills/research-ui-patterns/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "devault"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -17621,7 +17792,7 @@
       "name": "fxmacrodata",
       "displayName": "FXMacroData",
       "description": "Official-source FX, macroeconomic and central-bank data: release calendars, actual release times, indicator histories, policy rates, FX rates, COT positioning, commodities, release replays and FX backtests.",
-      "version": "1.0.4",
+      "version": "1.0.8",
       "category": "Tools & Integrations",
       "author": "FXMacroData",
       "repository": "https://github.com/fxmacrodata/claude-plugin-fxmacrodata",
@@ -20169,7 +20340,7 @@
       "name": "plori",
       "displayName": "plori",
       "description": "Create and drive plori cloud agents (each an AI agent in its own cloud environment) over MCP. Bundles the plori skill so Codex knows the connect flow and the tool surface.",
-      "version": "0.3.15",
+      "version": "0.3.16",
       "category": "Tools & Integrations",
       "author": "plori",
       "repository": "https://github.com/plori-ai/codex-plugin",
@@ -20375,8 +20546,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1979+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.41.0",
+      "description": "Pronounce developer jargon out loud — 1984+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.42.1",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",
@@ -20397,8 +20568,8 @@
       "id": "publicrecords",
       "name": "publicrecords",
       "displayName": "publicrecords",
-      "description": "Agent Skills + Apify MCP for public-records data: US federal contracts and grants (SAM.gov, Grants.gov, USAspending), UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, Spotify play counts, forecast track records and Skool community search.",
-      "version": "1.1.0",
+      "description": "Agent Skills + Apify MCP for public-records data: US federal contracts and grants (SAM.gov, Grants.gov, USAspending), UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, tennis scores, Spotify play counts, forecast track records and Skool community search.",
+      "version": "1.3.0",
       "category": "Tools & Integrations",
       "author": "GeminiGeorge22 (publicrecords on Apify)",
       "repository": "https://github.com/GeminiGeorge22/publicrecords-skills",
@@ -20432,6 +20603,10 @@
         {
           "name": "spotify-play-counts",
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/spotify-play-counts/SKILL.md"
+        },
+        {
+          "name": "tennis-scores",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/tennis-scores/SKILL.md"
         },
         {
           "name": "company-social-profiles",
@@ -20708,7 +20883,7 @@
       "name": "remove-ai-watermarks",
       "displayName": "Remove AI Watermarks",
       "description": "Identify and remove AI provenance marks from images, video, audio, and text the user generated or edited, using the remove-ai-watermarks CLI.",
-      "version": "1.0.23",
+      "version": "1.0.24",
       "category": "Tools & Integrations",
       "author": "wiltodelta",
       "repository": "https://github.com/wiltodelta/remove-ai-watermarks",
@@ -22395,6 +22570,133 @@
       }
     },
     {
+      "id": "taplio",
+      "name": "taplio",
+      "displayName": "Taplio for LinkedIn",
+      "description": "Run your LinkedIn from your AI agent: 26 skills plus the Taplio MCP server to write, schedule and analyze LinkedIn posts, find inspiration, comment, like and connect through your Taplio account.",
+      "version": "2.1.1",
+      "category": "Tools & Integrations",
+      "author": "Taplio",
+      "repository": "https://github.com/TaplioOfficial/taplio-linkedin-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/TaplioOfficial/taplio-linkedin-plugin",
+      "skills": [
+        {
+          "name": "linkedin-dm-opener",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-dm-opener/SKILL.md"
+        },
+        {
+          "name": "linkedin-engagement-tracker",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-engagement-tracker/SKILL.md"
+        },
+        {
+          "name": "linkedin-niche-creator-finder",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-niche-creator-finder/SKILL.md"
+        },
+        {
+          "name": "linkedin-engagement-watchlist-builder",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-engagement-watchlist-builder/SKILL.md"
+        },
+        {
+          "name": "linkedin-connection-request-hook",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-connection-request-hook/SKILL.md"
+        },
+        {
+          "name": "linkedin-viral-post-analyzer",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-viral-post-analyzer/SKILL.md"
+        },
+        {
+          "name": "linkedin-swipe-file-builder",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-swipe-file-builder/SKILL.md"
+        },
+        {
+          "name": "linkedin-carousel-builder",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-carousel-builder/SKILL.md"
+        },
+        {
+          "name": "linkedin-comment-opportunity-finder",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-comment-opportunity-finder/SKILL.md"
+        },
+        {
+          "name": "linkedin-comment-reply-manager",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-comment-reply-manager/SKILL.md"
+        },
+        {
+          "name": "linkedin-warm-lead-finder",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-warm-lead-finder/SKILL.md"
+        },
+        {
+          "name": "linkedin-post-writer",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-post-writer/SKILL.md"
+        },
+        {
+          "name": "linkedin-smart-comment-writer",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-smart-comment-writer/SKILL.md"
+        },
+        {
+          "name": "linkedin-cta-optimizer",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-cta-optimizer/SKILL.md"
+        },
+        {
+          "name": "linkedin-trending-topics-scanner",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-trending-topics-scanner/SKILL.md"
+        },
+        {
+          "name": "linkedin-post-performance-critic",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-post-performance-critic/SKILL.md"
+        },
+        {
+          "name": "linkedin-hook-generator",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-hook-generator/SKILL.md"
+        },
+        {
+          "name": "linkedin-niche-definer",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-niche-definer/SKILL.md"
+        },
+        {
+          "name": "linkedin-story-extractor",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-story-extractor/SKILL.md"
+        },
+        {
+          "name": "linkedin-repurposer",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-repurposer/SKILL.md"
+        },
+        {
+          "name": "linkedin-audience-persona-builder",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-audience-persona-builder/SKILL.md"
+        },
+        {
+          "name": "linkedin-content-calendar-planner",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-content-calendar-planner/SKILL.md"
+        },
+        {
+          "name": "linkedin-profile-optimizer",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-profile-optimizer/SKILL.md"
+        },
+        {
+          "name": "linkedin-daily-engagement-routine",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-daily-engagement-routine/SKILL.md"
+        },
+        {
+          "name": "linkedin-analytics-interpreter",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-analytics-interpreter/SKILL.md"
+        },
+        {
+          "name": "linkedin-content-pillars-builder",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-content-pillars-builder/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "taplio"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "task-scheduler",
       "name": "task-scheduler",
       "displayName": "Task Scheduler",
@@ -22737,7 +23039,7 @@
       "name": "ultrafast",
       "displayName": "ultrafast",
       "description": "Shaders, 3D, motion type and camera optics, written by your agent and rendered on the GPU. The ultrafast skill (the document format and the check, look, review and export loop) and the local MCP server, uf mcp, with 20 tools. Needs the uf command: curl -fsSL https://ultrafast.mov/install.sh | sh",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "category": "Tools & Integrations",
       "author": "ultrafast",
       "repository": "https://github.com/ultrafastmov/ultrafast",
@@ -22782,6 +23084,35 @@
         "claude": true,
         "dsh": true,
         "mcp": true
+      }
+    },
+    {
+      "id": "unpolish-ai-writing",
+      "name": "unpolish-ai-writing",
+      "displayName": "Unpolish AI Writing",
+      "description": "Removes signs of AI-generated writing, and optionally adds sparse typing errors informed by researched human error patterns.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "wilu222",
+      "repository": "https://github.com/wilu222/unpolish-ai-writing",
+      "license": "MIT",
+      "codexPath": "plugins/wilu222/unpolish-ai-writing",
+      "skills": [
+        {
+          "name": "unpolish-ai-writing",
+          "path": "plugins/wilu222/unpolish-ai-writing/SKILL.md"
+        },
+        {
+          "name": "unpolish-ai-writing",
+          "path": "plugins/wilu222/unpolish-ai-writing/skills/unpolish-ai-writing/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
       }
     },
     {
@@ -23536,7 +23867,7 @@
       "name": "webly",
       "displayName": "Webly",
       "description": "Publish a website, or share files and folders, at a live URL in seconds with no account. The person can claim it, edit it over MCP, and publish drafts they approve.",
-      "version": "0.15.5",
+      "version": "0.15.9",
       "category": "Tools & Integrations",
       "author": "Webly",
       "repository": "https://github.com/Webly-AI/webly-plugin",
