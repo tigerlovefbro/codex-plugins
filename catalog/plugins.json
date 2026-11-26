@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-25T12:09:28.655754+00:00",
+    "generatedAt": "2026-11-26T11:55:17.678039+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 477,
-      "with_skills": 437,
-      "with_mcp": 187,
+      "plugins": 479,
+      "with_skills": 439,
+      "with_mcp": 189,
       "codex_only": 24
     },
-    "skillCount": 3516
+    "skillCount": 3525
   },
   "plugins": [
     {
@@ -364,7 +364,7 @@
       "name": "agent-guard",
       "displayName": "Agent Guard",
       "description": "Local-by-default, no-telemetry hooks inspect user prompts, supported tool inputs, outputs, and changed files in every enabled Claude Code or Codex session to block or mask secret leaks. Includes opt-in PII filtering and Git/CI backstops.",
-      "version": "3.13.6",
+      "version": "3.13.7",
       "category": "Development & Workflow",
       "author": "Agent Guard contributors",
       "repository": "https://github.com/JeongJaeSoon/agent-guard",
@@ -1227,55 +1227,6 @@
       }
     },
     {
-      "id": "auto-pilot",
-      "name": "auto-pilot",
-      "displayName": "Auto Pilot",
-      "description": "Intake-first autonomous project execution for Codex.",
-      "version": "0.1.2-dev",
-      "category": "Development & Workflow",
-      "author": "Minsu",
-      "repository": "https://github.com/minsu0707/auto-pilot",
-      "license": "MIT",
-      "codexPath": "plugins/minsu0707/auto-pilot",
-      "skills": [
-        {
-          "name": "auto-pilot",
-          "path": "plugins/minsu0707/auto-pilot/skills/auto-pilot/SKILL.md"
-        },
-        {
-          "name": "autopilot-intake",
-          "path": "plugins/minsu0707/auto-pilot/skills/autopilot-intake/SKILL.md"
-        },
-        {
-          "name": "autopilot-qa",
-          "path": "plugins/minsu0707/auto-pilot/skills/autopilot-qa/SKILL.md"
-        },
-        {
-          "name": "autopilot-architect",
-          "path": "plugins/minsu0707/auto-pilot/skills/autopilot-architect/SKILL.md"
-        },
-        {
-          "name": "autopilot-planner",
-          "path": "plugins/minsu0707/auto-pilot/skills/autopilot-planner/SKILL.md"
-        },
-        {
-          "name": "autopilot-resume",
-          "path": "plugins/minsu0707/auto-pilot/skills/autopilot-resume/SKILL.md"
-        },
-        {
-          "name": "autopilot-designer",
-          "path": "plugins/minsu0707/auto-pilot/skills/autopilot-designer/SKILL.md"
-        }
-      ],
-      "mcpServers": [],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": false
-      }
-    },
-    {
       "id": "aw1-circuit-breaker",
       "name": "aw1-circuit-breaker",
       "displayName": "aw1-circuit-breaker",
@@ -1983,7 +1934,7 @@
       "name": "claude-code-skills",
       "displayName": "Claude Code Skills",
       "description": "434 production-ready skills across 21 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 871 Python tools, 975 reference guides, 137 agents (cs-* + personas), 188 slash commands, 121 marketplace plugins. The largest open-source skills library for AI coding agents.",
-      "version": "2.14.16",
+      "version": "2.14.17",
       "category": "Development & Workflow",
       "author": "Alireza Rezvani",
       "repository": "https://github.com/alirezarezvani/claude-skills",
@@ -2005,7 +1956,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.29.0",
+      "version": "11.29.3",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -2830,7 +2781,7 @@
       "name": "codex-auto-resume",
       "displayName": "Codex Auto Resume",
       "description": "Auto-resume and auto-retry for interrupted Codex tasks on Windows. Waits out a usage limit (until the reset time Codex reports, e.g. for a 5-hour or weekly window), a rate limit or a temporary failure, then continues the exact same conversation, so long-running or overnight work keeps going while that conversation is open in the Codex app. Setup downloads a checksum-verified release from GitHub; after that the watcher runs locally, read-only against Codex state, conservative by design.",
-      "version": "0.6.26-beta.2",
+      "version": "0.6.26",
       "category": "Development & Workflow",
       "author": "songyb111-gachon",
       "repository": "https://github.com/songyb111-gachon/codex-auto-resume-windows",
@@ -3914,7 +3865,7 @@
       "name": "e2e",
       "displayName": "e2e",
       "description": "Write, run, and debug end-to-end tests for web and mobile apps with e2e, the open source agentic test runner.",
-      "version": "0.24.0",
+      "version": "0.25.0",
       "category": "Development & Workflow",
       "author": "e2e",
       "repository": "https://github.com/e2e-inc/e2e",
@@ -4545,7 +4496,7 @@
       "name": "fanout",
       "displayName": "fanout",
       "description": "Run many coding agents in parallel without merge chaos: each owns its own files, shared interfaces are frozen, and every branch is tested together before it merges.",
-      "version": "0.32.2",
+      "version": "0.33.0",
       "category": "Development & Workflow",
       "author": "Breadstick-Crumbs",
       "repository": "https://github.com/Breadstick-Crumbs/fanout",
@@ -5767,7 +5718,7 @@
       "version": "1.0.1",
       "category": "Development & Workflow",
       "author": "Igor Varyvoda",
-      "repository": "https://github.com/IgorVaryvoda/image-optimization-skill",
+      "repository": "https://github.com/sirv/image-optimization-skill",
       "license": "MIT",
       "codexPath": "plugins/IgorVaryvoda/image-optimization-skill",
       "skills": [
@@ -5839,7 +5790,7 @@
       "name": "joxo",
       "displayName": "Joxo",
       "description": "Joxo's setup skill: joins this coding agent to your team's Joxo project.",
-      "version": "0.2.177",
+      "version": "1.0.5",
       "category": "Development & Workflow",
       "author": "Joxo",
       "repository": "https://github.com/JoxoAI/joxo",
@@ -6224,6 +6175,39 @@
       }
     },
     {
+      "id": "lightkeeper",
+      "name": "lightkeeper",
+      "displayName": "Lightkeeper",
+      "description": "Lightkeeper: an Obsidian-compatible knowledge map of your codebase, kept outside the repo and kept honest by hooks: the agent reads the map before it edits and updates it before it stops.",
+      "version": "2.11.1",
+      "category": "Development & Workflow",
+      "author": "",
+      "repository": "",
+      "license": "",
+      "codexPath": "plugins/Light5566/claude-lightkeeper",
+      "skills": [
+        {
+          "name": "vault-sync",
+          "path": "plugins/Light5566/claude-lightkeeper/skills/vault-sync/SKILL.md"
+        },
+        {
+          "name": "vault-tidy",
+          "path": "plugins/Light5566/claude-lightkeeper/skills/vault-tidy/SKILL.md"
+        },
+        {
+          "name": "knowledge-vault",
+          "path": "plugins/Light5566/claude-lightkeeper/skills/knowledge-vault/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "llm-transpile",
       "name": "llm-transpile",
       "displayName": "LLM Transpile",
@@ -6248,7 +6232,7 @@
       "name": "loom",
       "displayName": "ClickHouse Loom",
       "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
-      "version": "1.2.52",
+      "version": "1.2.53",
       "category": "Development & Workflow",
       "author": "ClickHouse",
       "repository": "https://github.com/ClickHouse/loom",
@@ -6766,7 +6750,7 @@
       "name": "mycelium",
       "displayName": "mycelium",
       "description": "I realized I let the agent start coding before I was sure it was working on the right thing, so I built this. Now it doesn't get to write code before there's a reason. The agent asks who this is for. It asks what you're assuming, and what would show you wrong. The rules run as hooks, so once you have started it in a repo the build stays shut until the answers are there. Purpose, strategy, opportunities, then delivery and market feedback. It adds skills and hooks, keeps its own state in a .claude/ folder, and won't edit the files already in your repo unless you ask it to.",
-      "version": "0.337.1",
+      "version": "0.337.3",
       "category": "Development & Workflow",
       "author": "Håvard Bartnes",
       "repository": "https://github.com/haabe/mycelium",
@@ -8075,7 +8059,7 @@
       "name": "rag-reviewer",
       "displayName": "RAG Reviewer",
       "description": "Agentic PR review: hybrid RAG + code graph via MCP, review skills for Codex",
-      "version": "0.8.0+codex.9f09ef90ef10",
+      "version": "0.8.0+codex.101459d3d1c6",
       "category": "Development & Workflow",
       "author": "mimfort",
       "repository": "https://github.com/mimfort/rag_for_git",
@@ -10997,7 +10981,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.29.12",
+      "version": "4.29.15",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -11917,7 +11901,7 @@
       "name": "telegram-bot-ui",
       "displayName": "Telegram Bot UI",
       "description": "The whole interface of a Telegram bot on the newest Bot API: screens, texts and keyboards, navigation and states, streaming AI replies, HTML widgets, premium emoji, product flows, channel publishing, agent-operated bots and Bot API lookups, plus the local bot-ui Studio to map and edit it. Bundles the telegram-bot-ui skill and five subagents.",
-      "version": "3.1.0",
+      "version": "3.3.0",
       "category": "Development & Workflow",
       "author": "hlibsuslov",
       "repository": "https://github.com/hlibsuslov/telegram-bot-ui",
@@ -13436,7 +13420,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.170.4",
+      "version": "0.171.1",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -13572,6 +13556,53 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "agentkit",
+      "name": "agentkit",
+      "displayName": "AgentKit by Scalekit",
+      "description": "Connect your AI agent to 1,100+ connectors and 55,000+ tools without writing OAuth plumbing — users authorize once, agents act on their behalf.",
+      "version": "2.3.2",
+      "category": "Tools & Integrations",
+      "author": "Scalekit Inc.",
+      "repository": "https://github.com/scalekit-inc/authstack",
+      "license": "MIT",
+      "codexPath": "plugins/scalekit-inc/authstack",
+      "skills": [
+        {
+          "name": "discover-connectors",
+          "path": "plugins/scalekit-inc/authstack/skills/discover-connectors/SKILL.md"
+        },
+        {
+          "name": "setup-agentkit",
+          "path": "plugins/scalekit-inc/authstack/skills/setup-agentkit/SKILL.md"
+        },
+        {
+          "name": "expose-agentkit-mcp",
+          "path": "plugins/scalekit-inc/authstack/skills/expose-agentkit-mcp/SKILL.md"
+        },
+        {
+          "name": "integrate-agentkit-host",
+          "path": "plugins/scalekit-inc/authstack/skills/integrate-agentkit-host/SKILL.md"
+        },
+        {
+          "name": "check-agentkit-prod",
+          "path": "plugins/scalekit-inc/authstack/skills/check-agentkit-prod/SKILL.md"
+        },
+        {
+          "name": "integrate-agentkit",
+          "path": "plugins/scalekit-inc/authstack/skills/integrate-agentkit/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "scalekit"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -13713,6 +13744,33 @@
       }
     },
     {
+      "id": "allswap-mcp",
+      "name": "allswap-mcp",
+      "displayName": "allswap-mcp",
+      "description": "Read-only AllSwap MCP server: public asset catalog, official channels, block-explorer links.",
+      "version": "1.0.2",
+      "category": "Tools & Integrations",
+      "author": "AllSwap",
+      "repository": "https://github.com/allswapio/mcp-server",
+      "license": "MIT",
+      "codexPath": "plugins/allswapio/mcp-server",
+      "skills": [
+        {
+          "name": "allswap-mcp",
+          "path": "plugins/allswapio/mcp-server/skills/allswap-mcp/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "allswap"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "amazon-search-terms-bytes-counter",
       "name": "amazon-search-terms-bytes-counter",
       "displayName": "Amazon 249-Byte Terms & HTML Optimizer",
@@ -13817,7 +13875,7 @@
       "name": "arcmira",
       "displayName": "Arcmira: YouTube Transcript Search",
       "description": "YouTube transcript search and monitoring for your AI: exact quotes, full transcripts and speakers.",
-      "version": "0.10.23",
+      "version": "0.10.24",
       "category": "Tools & Integrations",
       "author": "Arcmira",
       "repository": "https://github.com/arcmira/mcp",
@@ -16190,7 +16248,7 @@
       "id": "deja-vu",
       "name": "deja-vu",
       "displayName": "deja-vu",
-      "description": "deja-vu: memory for coding agents from the sessions already on your disk — Claude Code, Codex, Cursor, opencode and forty-eight more — including work from before it was installed.",
+      "description": "deja-vu: memory for coding agents from the sessions already on your disk — Claude Code, Codex, Cursor, opencode and forty-nine more — including work from before it was installed.",
       "version": "0.25.1",
       "category": "Tools & Integrations",
       "author": "vshulcz",
@@ -17233,7 +17291,7 @@
       "name": "easybrandkit",
       "displayName": "easybrandkit",
       "description": "Get a website's real logo files, colors, fonts and first screen as a brand kit your coding agent can read.",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "category": "Tools & Integrations",
       "author": "Emin Budak",
       "repository": "https://github.com/MakersMCP/easybrandkit",
@@ -18225,7 +18283,7 @@
       "name": "kuudo-skills",
       "displayName": "Kuudo Skills",
       "description": "Kuudo skills for Amazon commerce workflows",
-      "version": "0.11.0",
+      "version": "0.11.1",
       "category": "Tools & Integrations",
       "author": "KuudoAI",
       "repository": "https://github.com/KuudoAI/skills",
@@ -18899,7 +18957,7 @@
       "name": "lurkapi",
       "displayName": "LurkAPI",
       "description": "Social media research skills and the LurkAPI MCP server: public profiles, posts, comments, transcripts and ads from TikTok, Instagram, YouTube, Reddit, X, LinkedIn and more, as JSON. Paid per call, with 100 free credits at signup.",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "category": "Tools & Integrations",
       "author": "Mesmer s.r.o.",
       "repository": "https://github.com/mesmerlord/lurkapi-claude-plugin",
@@ -19491,8 +19549,8 @@
       "id": "nia-teams-agent-bridge",
       "name": "nia-teams-agent-bridge",
       "displayName": "Nia Teams Agent Bridge",
-      "description": "Setup guidance for connecting the local Codex CLI to Nia Teams group chats and tool approval cards using the separately installed nia-codex bridge.",
-      "version": "0.3.5",
+      "description": "Setup guidance for connecting the local Codex CLI to Nia Teams group chats and optional tool approval cards using the separately installed nia-codex bridge.",
+      "version": "0.3.7",
       "category": "Tools & Integrations",
       "author": "",
       "repository": "https://github.com/nia-teams/agent-bridge",
@@ -20568,8 +20626,8 @@
       "id": "publicrecords",
       "name": "publicrecords",
       "displayName": "publicrecords",
-      "description": "Agent Skills + Apify MCP for public-records data: US federal contracts and grants (SAM.gov, Grants.gov, USAspending), UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, tennis scores, Spotify play counts, forecast track records and Skool community search.",
-      "version": "1.3.0",
+      "description": "Agent Skills + Apify MCP for public-records data: US federal contracts and grants (SAM.gov, Grants.gov, USAspending), UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, tennis scores, Spotify play counts, forecast track records, Skool community search, PDF and web-page to Markdown, audio transcription, and email domain/MX/disposable checks (not the mailbox).",
+      "version": "1.4.0",
       "category": "Tools & Integrations",
       "author": "GeminiGeorge22 (publicrecords on Apify)",
       "repository": "https://github.com/GeminiGeorge22/publicrecords-skills",
@@ -20593,6 +20651,14 @@
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/etsy-market-research/SKILL.md"
         },
         {
+          "name": "js-page-to-markdown",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/js-page-to-markdown/SKILL.md"
+        },
+        {
+          "name": "audio-to-text",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/audio-to-text/SKILL.md"
+        },
+        {
           "name": "ats-job-postings",
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/ats-job-postings/SKILL.md"
         },
@@ -20605,12 +20671,24 @@
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/spotify-play-counts/SKILL.md"
         },
         {
+          "name": "web-page-to-markdown",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/web-page-to-markdown/SKILL.md"
+        },
+        {
           "name": "tennis-scores",
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/tennis-scores/SKILL.md"
         },
         {
           "name": "company-social-profiles",
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/company-social-profiles/SKILL.md"
+        },
+        {
+          "name": "pdf-to-text",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/pdf-to-text/SKILL.md"
+        },
+        {
+          "name": "email-verifier",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/email-verifier/SKILL.md"
         },
         {
           "name": "google-ads-transparency",
@@ -22473,7 +22551,7 @@
       "name": "sysknife",
       "displayName": "SysKnife",
       "description": "Linux sysadmin co-pilot as an MCP server: plain-language requests become typed, risk-classified actions that a privileged daemon runs only after out-of-band terminal approval, with an Ed25519-signed audit chain and automatic rollback.",
-      "version": "0.30.4",
+      "version": "0.30.5",
       "category": "Tools & Integrations",
       "author": "LACS Project",
       "repository": "https://github.com/lacs-project/sysknife",
@@ -22573,8 +22651,8 @@
       "id": "taplio",
       "name": "taplio",
       "displayName": "Taplio for LinkedIn",
-      "description": "Run your LinkedIn from your AI agent: 26 skills plus the Taplio MCP server to write, schedule and analyze LinkedIn posts, find inspiration, comment, like and connect through your Taplio account.",
-      "version": "2.1.1",
+      "description": "Run your LinkedIn from your AI agent: 27 skills plus the Taplio MCP server to write, schedule and analyze LinkedIn posts, search Taplio's lead database for prospects, find inspiration, comment, like and connect through your Taplio account.",
+      "version": "2.2.0",
       "category": "Tools & Integrations",
       "author": "Taplio",
       "repository": "https://github.com/TaplioOfficial/taplio-linkedin-plugin",
@@ -22636,6 +22714,10 @@
         {
           "name": "linkedin-cta-optimizer",
           "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-cta-optimizer/SKILL.md"
+        },
+        {
+          "name": "linkedin-lead-list-builder",
+          "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-lead-list-builder/SKILL.md"
         },
         {
           "name": "linkedin-trending-topics-scanner",

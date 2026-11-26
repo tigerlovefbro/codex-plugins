@@ -472,6 +472,13 @@
     "path": "plugins/AgentDrives/agentdrives-mcp/.mcp.json"
   },
   {
+    "plugin": "agentkit",
+    "servers": [
+      "scalekit"
+    ],
+    "path": "plugins/scalekit-inc/authstack/.mcp.json"
+  },
+  {
     "plugin": "agentmart",
     "servers": [
       "agentmart"
@@ -505,6 +512,13 @@
       "aient"
     ],
     "path": "plugins/aient-ai/aient-codex-plugin/.mcp.json"
+  },
+  {
+    "plugin": "allswap-mcp",
+    "servers": [
+      "allswap"
+    ],
+    "path": "plugins/allswapio/mcp-server/.mcp.json"
   },
   {
     "plugin": "antigravity-2",

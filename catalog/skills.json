@@ -710,41 +710,6 @@
     "path": "plugins/cloudguo123/atomlane/skills/accelerate-local-work/SKILL.md"
   },
   {
-    "plugin": "auto-pilot",
-    "skill": "auto-pilot",
-    "path": "plugins/minsu0707/auto-pilot/skills/auto-pilot/SKILL.md"
-  },
-  {
-    "plugin": "auto-pilot",
-    "skill": "autopilot-intake",
-    "path": "plugins/minsu0707/auto-pilot/skills/autopilot-intake/SKILL.md"
-  },
-  {
-    "plugin": "auto-pilot",
-    "skill": "autopilot-qa",
-    "path": "plugins/minsu0707/auto-pilot/skills/autopilot-qa/SKILL.md"
-  },
-  {
-    "plugin": "auto-pilot",
-    "skill": "autopilot-architect",
-    "path": "plugins/minsu0707/auto-pilot/skills/autopilot-architect/SKILL.md"
-  },
-  {
-    "plugin": "auto-pilot",
-    "skill": "autopilot-planner",
-    "path": "plugins/minsu0707/auto-pilot/skills/autopilot-planner/SKILL.md"
-  },
-  {
-    "plugin": "auto-pilot",
-    "skill": "autopilot-resume",
-    "path": "plugins/minsu0707/auto-pilot/skills/autopilot-resume/SKILL.md"
-  },
-  {
-    "plugin": "auto-pilot",
-    "skill": "autopilot-designer",
-    "path": "plugins/minsu0707/auto-pilot/skills/autopilot-designer/SKILL.md"
-  },
-  {
     "plugin": "babok_analyst",
     "skill": "babok-analyst",
     "path": "plugins/GSkuza/BABOK_ANALYST/skills/babok-analyst/SKILL.md"
@@ -4413,6 +4378,21 @@
     "plugin": "lgpd-skills",
     "skill": "lgpd-ropa",
     "path": "plugins/goul4rt/lgpd-skills/skills/lgpd-ropa/SKILL.md"
+  },
+  {
+    "plugin": "lightkeeper",
+    "skill": "vault-sync",
+    "path": "plugins/Light5566/claude-lightkeeper/skills/vault-sync/SKILL.md"
+  },
+  {
+    "plugin": "lightkeeper",
+    "skill": "vault-tidy",
+    "path": "plugins/Light5566/claude-lightkeeper/skills/vault-tidy/SKILL.md"
+  },
+  {
+    "plugin": "lightkeeper",
+    "skill": "knowledge-vault",
+    "path": "plugins/Light5566/claude-lightkeeper/skills/knowledge-vault/SKILL.md"
   },
   {
     "plugin": "loom",
@@ -10510,6 +10490,36 @@
     "path": "plugins/jerryfane/agentgram/skills/agentgram/SKILL.md"
   },
   {
+    "plugin": "agentkit",
+    "skill": "discover-connectors",
+    "path": "plugins/scalekit-inc/authstack/skills/discover-connectors/SKILL.md"
+  },
+  {
+    "plugin": "agentkit",
+    "skill": "setup-agentkit",
+    "path": "plugins/scalekit-inc/authstack/skills/setup-agentkit/SKILL.md"
+  },
+  {
+    "plugin": "agentkit",
+    "skill": "expose-agentkit-mcp",
+    "path": "plugins/scalekit-inc/authstack/skills/expose-agentkit-mcp/SKILL.md"
+  },
+  {
+    "plugin": "agentkit",
+    "skill": "integrate-agentkit-host",
+    "path": "plugins/scalekit-inc/authstack/skills/integrate-agentkit-host/SKILL.md"
+  },
+  {
+    "plugin": "agentkit",
+    "skill": "check-agentkit-prod",
+    "path": "plugins/scalekit-inc/authstack/skills/check-agentkit-prod/SKILL.md"
+  },
+  {
+    "plugin": "agentkit",
+    "skill": "integrate-agentkit",
+    "path": "plugins/scalekit-inc/authstack/skills/integrate-agentkit/SKILL.md"
+  },
+  {
     "plugin": "agentmart",
     "skill": "agentmart-buying-rules",
     "path": "plugins/mustafaakmese/agentmart-plugins/skills/agentmart-buying-rules/SKILL.md"
@@ -10538,6 +10548,11 @@
     "plugin": "aient",
     "skill": "aient",
     "path": "plugins/aient-ai/aient-codex-plugin/skills/aient/SKILL.md"
+  },
+  {
+    "plugin": "allswap-mcp",
+    "skill": "allswap-mcp",
+    "path": "plugins/allswapio/mcp-server/skills/allswap-mcp/SKILL.md"
   },
   {
     "plugin": "anime-reaction-gif",
@@ -15121,6 +15136,16 @@
   },
   {
     "plugin": "publicrecords",
+    "skill": "js-page-to-markdown",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/js-page-to-markdown/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "audio-to-text",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/audio-to-text/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
     "skill": "ats-job-postings",
     "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/ats-job-postings/SKILL.md"
   },
@@ -15136,6 +15161,11 @@
   },
   {
     "plugin": "publicrecords",
+    "skill": "web-page-to-markdown",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/web-page-to-markdown/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
     "skill": "tennis-scores",
     "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/tennis-scores/SKILL.md"
   },
@@ -15143,6 +15173,16 @@
     "plugin": "publicrecords",
     "skill": "company-social-profiles",
     "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/company-social-profiles/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "pdf-to-text",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/pdf-to-text/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "email-verifier",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/email-verifier/SKILL.md"
   },
   {
     "plugin": "publicrecords",
@@ -16288,6 +16328,11 @@
     "plugin": "taplio",
     "skill": "linkedin-cta-optimizer",
     "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-cta-optimizer/SKILL.md"
+  },
+  {
+    "plugin": "taplio",
+    "skill": "linkedin-lead-list-builder",
+    "path": "plugins/TaplioOfficial/taplio-linkedin-plugin/skills/linkedin-lead-list-builder/SKILL.md"
   },
   {
     "plugin": "taplio",
