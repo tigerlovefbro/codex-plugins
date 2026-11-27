@@ -1857,7 +1857,8 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Development & Workflow",
-      "description": "A map of your codebase kept as markdown notes outside the repo; hooks point Codex and Claude Code at the note that owns a file when a patch touches it, and name the notes a session left stale before it stops."
+      "description": "A map of your codebase kept as markdown notes outside the repo; hooks point Codex and Claude Code at the note that owns a file when a patch touches it, and name the notes a session left stale before it stops.",
+      "icon": "./plugins/Light5566/claude-lightkeeper/.claude-plugin/icon.png"
     },
     {
       "name": "llm-transpile",
@@ -3602,6 +3603,21 @@
       "icon": "./plugins/ahel-technologies/ahel/assets/ahel-icon.png"
     },
     {
+      "name": "ai-science-tracker",
+      "displayName": "AI Science Tracker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/marcello-pichini/ai-science-tracker"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "Search a curated catalog of AI-enabled scientific discoveries and AI-found vulnerabilities through a hosted, read-only MCP server.",
+      "icon": "./plugins/marcello-pichini/ai-science-tracker/assets/icon.png"
+    },
+    {
       "name": "ai-sdr-kit",
       "displayName": "AI SDR Kit",
       "source": {
@@ -4430,6 +4446,21 @@
       "description": "Full data-product lifecycle on dbt for Entropy Data: scaffold, audit, and integrate projects with ODCS, ODPS, OpenLineage, and GitHub Actions."
     },
     {
+      "name": "databuddy",
+      "displayName": "Databuddy",
+      "source": {
+        "source": "local",
+        "path": "./plugins/databuddy-analytics/skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "Web and product analytics: traffic, funnels, errors, Web Vitals, replays, and why a metric moved, through a hosted MCP server with OAuth sign-in, plus a skill for adding Databuddy tracking to an app.",
+      "icon": "./plugins/databuddy-analytics/skills/assets/logo.png"
+    },
+    {
       "name": "dataxapi",
       "displayName": "DataXAPI",
       "source": {
@@ -4790,6 +4821,20 @@
       "icon": "./plugins/zlsbksdxl/codex-lark/assets/logo.svg"
     },
     {
+      "name": "feraterra",
+      "displayName": "FeraTerra",
+      "source": {
+        "source": "local",
+        "path": "./plugins/FeraTerra/feraterra-sdk"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "Trading skill and hosted Streamable HTTP MCP server for Arena Exchange spot, perpetuals, order margin previews, zero-capital flash arbitrage, and Base Sepolia L2 Clearinghouse custody."
+    },
+    {
       "name": "firecrawl",
       "displayName": "Firecrawl",
       "source": {
@@ -4892,6 +4937,20 @@
       "description": "Create GitHub repositories from Codex with inferred defaults, native menus, explicit confirmation, and deterministic local cloning."
     },
     {
+      "name": "groundsocial-skills",
+      "displayName": "Groundsocial",
+      "source": {
+        "source": "local",
+        "path": "./plugins/shivanshmehendiratta/groundsocial-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "Eight read-only social research skills (brand mentions, competitor audits, creator vetting, subreddit research, TikTok trends, YouTube transcripts, comment mining) on public data from Reddit, X, TikTok, YouTube and 70+ more platforms through the hosted Groundsocial MCP server."
+    },
+    {
       "name": "hermes-tweet",
       "displayName": "Hermes Tweet",
       "source": {
@@ -4980,6 +5039,21 @@
       "category": "Tools & Integrations",
       "description": "Full short-drama storyboard production workflow for Codex: six role subagents (script intake, dialogue, director, art, storyboard, review) with per-episode checks and derived outputs.",
       "icon": "./plugins/andreamzhang/jimeng-skills/assets/logo.svg"
+    },
+    {
+      "name": "job-agent",
+      "displayName": "job-agent",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kevin-2023-code/job-agent"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "Job-search skills with the TrueInterview MCP: score postings, tailor résumés, fill application forms up to Submit, track applications and prep for interviews.",
+      "icon": "./plugins/kevin-2023-code/job-agent/assets/logo.svg"
     },
     {
       "name": "kachilu-browser",
@@ -6640,6 +6714,20 @@
       },
       "category": "Tools & Integrations",
       "description": "Public-records skills plus a hosted MCP server: who owns a US company or home, vendor screening against DoD 1260H, Section 889, FCC Covered List, UFLPA and BIOSECURE, BDC loan marks, and dated LLM API prices."
+    },
+    {
+      "name": "termalin",
+      "displayName": "Termalin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/termalinapp/termalin-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Tools & Integrations",
+      "description": "Manage your own Linux servers from Codex through Termalin's hosted MCP server (commands, background jobs, files over SFTP, databases, metrics, alerts) with ten ops skills, without handing the agent an SSH key."
     },
     {
       "name": "textmock",

@@ -713,6 +713,13 @@
     "path": "plugins/ASCIT31/darkmoon-mcp-server/.mcp.json"
   },
   {
+    "plugin": "databuddy",
+    "servers": [
+      "databuddy"
+    ],
+    "path": "plugins/databuddy-analytics/skills/.mcp.json"
+  },
+  {
     "plugin": "dataxapi",
     "servers": [
       "dataxapi"
@@ -804,6 +811,13 @@
       "host0"
     ],
     "path": "plugins/host0-ai/skills/.mcp.json"
+  },
+  {
+    "plugin": "job-agent",
+    "servers": [
+      "trueinterview"
+    ],
+    "path": "plugins/kevin-2023-code/job-agent/.mcp.json"
   },
   {
     "plugin": "kachilu-browser",
@@ -1256,6 +1270,13 @@
       "taskhold"
     ],
     "path": "plugins/gettaskhold/taskhold-plugin/.mcp.json"
+  },
+  {
+    "plugin": "termalin",
+    "servers": [
+      "termalin"
+    ],
+    "path": "plugins/termalinapp/termalin-plugin/.mcp.json"
   },
   {
     "plugin": "tossithere",

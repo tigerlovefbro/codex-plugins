@@ -2431,8 +2431,18 @@
   },
   {
     "plugin": "dopamine-talk",
+    "skill": "dopamine-engineering",
+    "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-engineering/SKILL.md"
+  },
+  {
+    "plugin": "dopamine-talk",
     "skill": "dopamine-readme",
     "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-readme/SKILL.md"
+  },
+  {
+    "plugin": "dopamine-talk",
+    "skill": "dopamine-plan",
+    "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-plan/SKILL.md"
   },
   {
     "plugin": "dopamine-talk",
@@ -3458,6 +3468,11 @@
     "plugin": "gitranks-contribute",
     "skill": "contribute",
     "path": "plugins/gitranks/contribute/skills/contribute/SKILL.md"
+  },
+  {
+    "plugin": "gitranks-contribute",
+    "skill": "build",
+    "path": "plugins/gitranks/contribute/skills/build/SKILL.md"
   },
   {
     "plugin": "codex-goal-progress",
@@ -10530,6 +10545,11 @@
     "path": "plugins/mustafaakmese/agentmart-plugins/skills/check-the-shelf/SKILL.md"
   },
   {
+    "plugin": "ai-science-tracker",
+    "skill": "ai-science-tracker",
+    "path": "plugins/marcello-pichini/ai-science-tracker/skills/ai-science-tracker/SKILL.md"
+  },
+  {
     "plugin": "ai-sdr-kit",
     "skill": "agentify-outbound",
     "path": "plugins/zevarihq/ai-sdr-kit/skills/agentify-outbound/SKILL.md"
@@ -11798,6 +11818,16 @@
     "plugin": "dataproduct-builder-dbt",
     "skill": "dataproduct-implement",
     "path": "plugins/entropy-data/dataproduct-builder-dbt/skills/dataproduct-implement/SKILL.md"
+  },
+  {
+    "plugin": "databuddy",
+    "skill": "databuddy",
+    "path": "plugins/databuddy-analytics/skills/skills/databuddy/SKILL.md"
+  },
+  {
+    "plugin": "databuddy",
+    "skill": "databuddy-mcp",
+    "path": "plugins/databuddy-analytics/skills/skills/databuddy-mcp/SKILL.md"
   },
   {
     "plugin": "dataxapi",
@@ -13360,6 +13390,11 @@
     "path": "plugins/zlsbksdxl/codex-lark/skills/lark-note/SKILL.md"
   },
   {
+    "plugin": "feraterra",
+    "skill": "feraterra-trading",
+    "path": "plugins/FeraTerra/feraterra-sdk/skills/feraterra-trading/SKILL.md"
+  },
+  {
     "plugin": "firecrawl",
     "skill": "firecrawl-map",
     "path": "plugins/firecrawl/firecrawl-codex-plugin/skills/firecrawl-map/SKILL.md"
@@ -13485,6 +13520,46 @@
     "path": "plugins/zfifteen/gh-project-plugin/skills/gh-project/SKILL.md"
   },
   {
+    "plugin": "groundsocial-skills",
+    "skill": "groundsocial-api",
+    "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/groundsocial-api/SKILL.md"
+  },
+  {
+    "plugin": "groundsocial-skills",
+    "skill": "youtube-transcript-research",
+    "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/youtube-transcript-research/SKILL.md"
+  },
+  {
+    "plugin": "groundsocial-skills",
+    "skill": "brand-mention-scan",
+    "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/brand-mention-scan/SKILL.md"
+  },
+  {
+    "plugin": "groundsocial-skills",
+    "skill": "tiktok-trend-scan",
+    "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/tiktok-trend-scan/SKILL.md"
+  },
+  {
+    "plugin": "groundsocial-skills",
+    "skill": "creator-vetting",
+    "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/creator-vetting/SKILL.md"
+  },
+  {
+    "plugin": "groundsocial-skills",
+    "skill": "comment-mining",
+    "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/comment-mining/SKILL.md"
+  },
+  {
+    "plugin": "groundsocial-skills",
+    "skill": "subreddit-research",
+    "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/subreddit-research/SKILL.md"
+  },
+  {
+    "plugin": "groundsocial-skills",
+    "skill": "competitor-social-audit",
+    "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/competitor-social-audit/SKILL.md"
+  },
+  {
     "plugin": "hermes-tweet",
     "skill": "hermes-tweet",
     "path": "plugins/Xquik-dev/hermes-tweet/skills/hermes-tweet/SKILL.md"
@@ -13568,6 +13643,61 @@
     "plugin": "jimeng-skills",
     "skill": "jimeng-panorama-blocking",
     "path": "plugins/andreamzhang/jimeng-skills/.agents/skills/jimeng-panorama-blocking/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-scan",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-scan/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-evaluate",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-evaluate/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-prep",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-prep/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-practice",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-practice/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-tailor",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-tailor/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-apply",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-apply/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-track",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-track/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-agent",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-agent/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-setup",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-setup/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-sync",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-sync/SKILL.md"
+  },
+  {
+    "plugin": "job-agent",
+    "skill": "job-outreach",
+    "path": "plugins/kevin-2023-code/job-agent/skills/job-outreach/SKILL.md"
   },
   {
     "plugin": "kachilu-browser",
@@ -14711,6 +14841,11 @@
   },
   {
     "plugin": "okdata",
+    "skill": "okdata-app-store",
+    "path": "plugins/okdataapi/skills/skills/okdata-app-store/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
     "skill": "okdata-xiaohongshu",
     "path": "plugins/okdataapi/skills/skills/okdata-xiaohongshu/SKILL.md"
   },
@@ -14746,8 +14881,18 @@
   },
   {
     "plugin": "okdata",
+    "skill": "okdata-all",
+    "path": "plugins/okdataapi/skills/skills/okdata-all/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
     "skill": "okdata-reddit",
     "path": "plugins/okdataapi/skills/skills/okdata-reddit/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-imdb",
+    "path": "plugins/okdataapi/skills/skills/okdata-imdb/SKILL.md"
   },
   {
     "plugin": "okdata",
@@ -14761,6 +14906,16 @@
   },
   {
     "plugin": "okdata",
+    "skill": "okdata-bluesky",
+    "path": "plugins/okdataapi/skills/skills/okdata-bluesky/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-xigua",
+    "path": "plugins/okdataapi/skills/skills/okdata-xigua/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
     "skill": "okdata-aliexpress",
     "path": "plugins/okdataapi/skills/skills/okdata-aliexpress/SKILL.md"
   },
@@ -14768,6 +14923,11 @@
     "plugin": "okdata",
     "skill": "okdata-ads",
     "path": "plugins/okdataapi/skills/skills/okdata-ads/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-douban",
+    "path": "plugins/okdataapi/skills/skills/okdata-douban/SKILL.md"
   },
   {
     "plugin": "okdata",
@@ -14783,6 +14943,11 @@
     "plugin": "okdata",
     "skill": "okdata-xianyu",
     "path": "plugins/okdataapi/skills/skills/okdata-xianyu/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-jd",
+    "path": "plugins/okdataapi/skills/skills/okdata-jd/SKILL.md"
   },
   {
     "plugin": "okdata",
@@ -14811,6 +14976,11 @@
   },
   {
     "plugin": "okdata",
+    "skill": "okdata-baidu",
+    "path": "plugins/okdataapi/skills/skills/okdata-baidu/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
     "skill": "okdata-products",
     "path": "plugins/okdataapi/skills/skills/okdata-products/SKILL.md"
   },
@@ -14821,8 +14991,18 @@
   },
   {
     "plugin": "okdata",
+    "skill": "okdata-facebook",
+    "path": "plugins/okdataapi/skills/skills/okdata-facebook/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
     "skill": "okdata-mentions",
     "path": "plugins/okdataapi/skills/skills/okdata-mentions/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-youku",
+    "path": "plugins/okdataapi/skills/skills/okdata-youku/SKILL.md"
   },
   {
     "plugin": "okdata",
@@ -14831,8 +15011,23 @@
   },
   {
     "plugin": "okdata",
+    "skill": "okdata-linkedin",
+    "path": "plugins/okdataapi/skills/skills/okdata-linkedin/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
     "skill": "okdata-bilibili",
     "path": "plugins/okdataapi/skills/skills/okdata-bilibili/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-toutiao",
+    "path": "plugins/okdataapi/skills/skills/okdata-toutiao/SKILL.md"
+  },
+  {
+    "plugin": "okdata",
+    "skill": "okdata-twitch",
+    "path": "plugins/okdataapi/skills/skills/okdata-twitch/SKILL.md"
   },
   {
     "plugin": "okdata",
@@ -16448,6 +16643,56 @@
     "plugin": "tensorust",
     "skill": "counterparty-screen",
     "path": "plugins/Mattbusel/tensorust-skills/skills/counterparty-screen/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "security-updates",
+    "path": "plugins/termalinapp/termalin-plugin/skills/security-updates/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "server-setup",
+    "path": "plugins/termalinapp/termalin-plugin/skills/server-setup/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "remote-desktop",
+    "path": "plugins/termalinapp/termalin-plugin/skills/remote-desktop/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "run-commands",
+    "path": "plugins/termalinapp/termalin-plugin/skills/run-commands/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "incident-triage",
+    "path": "plugins/termalinapp/termalin-plugin/skills/incident-triage/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "backups",
+    "path": "plugins/termalinapp/termalin-plugin/skills/backups/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "server-health",
+    "path": "plugins/termalinapp/termalin-plugin/skills/server-health/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "database-access",
+    "path": "plugins/termalinapp/termalin-plugin/skills/database-access/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "internal-sites",
+    "path": "plugins/termalinapp/termalin-plugin/skills/internal-sites/SKILL.md"
+  },
+  {
+    "plugin": "termalin",
+    "skill": "deploy-check",
+    "path": "plugins/termalinapp/termalin-plugin/skills/deploy-check/SKILL.md"
   },
   {
     "plugin": "textmock",

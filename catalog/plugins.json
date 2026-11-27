@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-26T11:55:17.678039+00:00",
+    "generatedAt": "2026-11-27T11:47:44.203783+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 479,
-      "with_skills": 439,
-      "with_mcp": 189,
+      "plugins": 485,
+      "with_skills": 445,
+      "with_mcp": 192,
       "codex_only": 24
     },
-    "skillCount": 3525
+    "skillCount": 3574
   },
   "plugins": [
     {
@@ -325,7 +325,7 @@
       "name": "agent-deck",
       "displayName": "Agent Deck",
       "description": "Decks of MCP tools, keys, and self-improving playbooks that bind per-workspace.",
-      "version": "2.6.2",
+      "version": "2.6.3",
       "category": "Development & Workflow",
       "author": "not-so-fat",
       "repository": "https://github.com/not-so-fat/agent-deck",
@@ -364,7 +364,7 @@
       "name": "agent-guard",
       "displayName": "Agent Guard",
       "description": "Local-by-default, no-telemetry hooks inspect user prompts, supported tool inputs, outputs, and changed files in every enabled Claude Code or Codex session to block or mask secret leaks. Includes opt-in PII filtering and Git/CI backstops.",
-      "version": "3.13.7",
+      "version": "3.14.1",
       "category": "Development & Workflow",
       "author": "Agent Guard contributors",
       "repository": "https://github.com/JeongJaeSoon/agent-guard",
@@ -1934,7 +1934,7 @@
       "name": "claude-code-skills",
       "displayName": "Claude Code Skills",
       "description": "434 production-ready skills across 21 domains — engineering, marketing, product, compliance, C-level advisory, research, business operations, and more. 871 Python tools, 975 reference guides, 137 agents (cs-* + personas), 188 slash commands, 121 marketplace plugins. The largest open-source skills library for AI coding agents.",
-      "version": "2.14.17",
+      "version": "2.14.18",
       "category": "Development & Workflow",
       "author": "Alireza Rezvani",
       "repository": "https://github.com/alirezarezvani/claude-skills",
@@ -1956,7 +1956,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.29.3",
+      "version": "11.30.2",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -3186,7 +3186,7 @@
       "name": "codex-attachment-manager",
       "displayName": "Context Attachment Manager",
       "description": "For Codex tasks with many images: earlier images go out as short placeholders instead of being sent again with every message, the model fetches the original back by its ID (also after compaction), and the prompt cache keeps working.",
-      "version": "0.13.1",
+      "version": "0.13.2",
       "category": "Development & Workflow",
       "author": "chipfighter",
       "repository": "https://github.com/chipfighter/context-attachment-manager",
@@ -3798,8 +3798,8 @@
       "id": "dopamine-talk",
       "name": "dopamine-talk",
       "displayName": "Dopamine Talk",
-      "description": "Post-RL decompression pack for AI agents: sharp human dialogue without hedging or Runglish, living product READMEs, and user-impact changelogs.",
-      "version": "1.0.0",
+      "description": "5-skill post-RL decompression pack for AI agents: sharp dialogue, recon-first plans, adaptive zero-regex code & tactile UI, living READMEs, and user-impact changelogs.",
+      "version": "1.1.0",
       "category": "Development & Workflow",
       "author": "AnnenkovLabs",
       "repository": "https://github.com/AnnenkovLabs/dopamine-talk",
@@ -3811,8 +3811,16 @@
           "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-talk/SKILL.md"
         },
         {
+          "name": "dopamine-engineering",
+          "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-engineering/SKILL.md"
+        },
+        {
           "name": "dopamine-readme",
           "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-readme/SKILL.md"
+        },
+        {
+          "name": "dopamine-plan",
+          "path": "plugins/AnnenkovLabs/dopamine-talk/skills/dopamine-plan/SKILL.md"
         },
         {
           "name": "dopamine-changelog",
@@ -4960,8 +4968,8 @@
       "id": "gitranks-contribute",
       "name": "gitranks-contribute",
       "displayName": "GitRanks Contribute",
-      "description": "Find open-source GitHub issues matched to your skills, fix one with your agent, and approve the pull request yourself.",
-      "version": "0.4.4",
+      "description": "Your agent fixes open-source issues picked for you. You approve every pull request on gitranks.com.",
+      "version": "0.6.0",
       "category": "Development & Workflow",
       "author": "GitRanks",
       "repository": "https://github.com/gitranks/contribute",
@@ -4971,6 +4979,10 @@
         {
           "name": "contribute",
           "path": "plugins/gitranks/contribute/skills/contribute/SKILL.md"
+        },
+        {
+          "name": "build",
+          "path": "plugins/gitranks/contribute/skills/build/SKILL.md"
         }
       ],
       "mcpServers": [
@@ -5790,7 +5802,7 @@
       "name": "joxo",
       "displayName": "Joxo",
       "description": "Joxo's setup skill: joins this coding agent to your team's Joxo project.",
-      "version": "1.0.5",
+      "version": "1.0.7",
       "category": "Development & Workflow",
       "author": "Joxo",
       "repository": "https://github.com/JoxoAI/joxo",
@@ -6179,11 +6191,11 @@
       "name": "lightkeeper",
       "displayName": "Lightkeeper",
       "description": "Lightkeeper: an Obsidian-compatible knowledge map of your codebase, kept outside the repo and kept honest by hooks: the agent reads the map before it edits and updates it before it stops.",
-      "version": "2.11.1",
+      "version": "2.11.2",
       "category": "Development & Workflow",
-      "author": "",
-      "repository": "",
-      "license": "",
+      "author": "Light5566",
+      "repository": "https://github.com/Light5566/claude-lightkeeper",
+      "license": "MIT",
       "codexPath": "plugins/Light5566/claude-lightkeeper",
       "skills": [
         {
@@ -6232,7 +6244,7 @@
       "name": "loom",
       "displayName": "ClickHouse Loom",
       "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
-      "version": "1.2.53",
+      "version": "1.2.54",
       "category": "Development & Workflow",
       "author": "ClickHouse",
       "repository": "https://github.com/ClickHouse/loom",
@@ -6750,7 +6762,7 @@
       "name": "mycelium",
       "displayName": "mycelium",
       "description": "I realized I let the agent start coding before I was sure it was working on the right thing, so I built this. Now it doesn't get to write code before there's a reason. The agent asks who this is for. It asks what you're assuming, and what would show you wrong. The rules run as hooks, so once you have started it in a repo the build stays shut until the answers are there. Purpose, strategy, opportunities, then delivery and market feedback. It adds skills and hooks, keeps its own state in a .claude/ folder, and won't edit the files already in your repo unless you ask it to.",
-      "version": "0.337.3",
+      "version": "0.337.4",
       "category": "Development & Workflow",
       "author": "Håvard Bartnes",
       "repository": "https://github.com/haabe/mycelium",
@@ -7023,7 +7035,7 @@
       "name": "nightshift",
       "displayName": "Nightshift",
       "description": "Accountable, time-bounded Codex shifts. Hand it your punch list, or let it research the product and ship complete improvements until quitting time. Progress stays on disk through compaction and resume. The morning is reviewable commits or artifact receipts, per-item token usage and time, a shift log, and the decisions that were made. When you are done reviewing the run, archive it dated so the live session stays lean.",
-      "version": "0.40.0",
+      "version": "0.42.0",
       "category": "Development & Workflow",
       "author": "Orwa Mahmoud",
       "repository": "https://github.com/orwa-mahmoud/nightshift",
@@ -10981,7 +10993,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.29.15",
+      "version": "4.29.17",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -13281,7 +13293,7 @@
       "name": "codex-zcode-bridge",
       "displayName": "Zcode Bridge",
       "description": "Let Codex delegate development tasks to your local ZCode runtime and review their progress and results.",
-      "version": "1.7.2",
+      "version": "2.0.0",
       "category": "Development & Workflow",
       "author": "Sandy",
       "repository": "https://github.com/Sandyzzx/codex-zcode-bridge",
@@ -13656,6 +13668,31 @@
         "claude": false,
         "dsh": false,
         "mcp": true
+      }
+    },
+    {
+      "id": "ai-science-tracker",
+      "name": "ai-science-tracker",
+      "displayName": "AI Science Tracker",
+      "description": "Search a curated catalog of AI-enabled scientific discoveries and AI-found vulnerabilities, each linked to its original source.",
+      "version": "1.3.0",
+      "category": "Tools & Integrations",
+      "author": "AI Science Tracker",
+      "repository": "https://github.com/marcello-pichini/ai-science-tracker",
+      "license": "CC-BY-4.0",
+      "codexPath": "plugins/marcello-pichini/ai-science-tracker",
+      "skills": [
+        {
+          "name": "ai-science-tracker",
+          "path": "plugins/marcello-pichini/ai-science-tracker/skills/ai-science-tracker/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
       }
     },
     {
@@ -14193,7 +14230,7 @@
       "name": "bkt",
       "displayName": "Bitbucket CLI",
       "description": "Bitbucket CLI - manage repos, PRs, branches, webhooks, and pipelines for both Data Center and Cloud",
-      "version": "0.41.0",
+      "version": "0.41.1",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/bitbucket-cli",
@@ -14218,7 +14255,7 @@
       "name": "bowmark",
       "displayName": "Bowmark",
       "description": "The web as callable functions: search flights across several aggregators, price a part across retailers, and other tasks that only exist behind a live site. The agent reads a typed function library, writes a short script, and Bowmark runs it on the real sites. Bundles the bowmark skill and auto-wires the hosted MCP server.",
-      "version": "4.36.0",
+      "version": "4.37.0",
       "category": "Tools & Integrations",
       "author": "Bowmark AI",
       "repository": "https://github.com/bowmark-ai/plugin",
@@ -14394,7 +14431,7 @@
       "name": "candor-finance",
       "displayName": "Candor Finance",
       "description": "Candor is a personal finance app that helps you reach your money goals with ChatGPT, Claude, or the AI agent you already use. Your agent works from your real bank, card, loan, and investment accounts: it sets up goals and a budget with you, finds money you are losing to fees, price increases, or missed refunds, and remembers your plan and decisions between conversations. Candor reviews your spending, bills, debt, savings, and investments and tells your agent what's worth talking through and why. Candor never moves money.",
-      "version": "1.3.9",
+      "version": "1.3.10",
       "category": "Tools & Integrations",
       "author": "Candor",
       "repository": "https://github.com/candorsystems/candor-finance",
@@ -15712,7 +15749,7 @@
       "name": "converter-studio",
       "displayName": "Converter Studio",
       "description": "Convert files between 67 formats (video, audio, images, PDFs, documents, e-books, subtitles, archives) with Converter Studio: an MCP server plus skills for single files, whole folders, web-ready media and audio extraction.",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "category": "Tools & Integrations",
       "author": "Converter Studio",
       "repository": "https://github.com/tariksucu/converter-studio",
@@ -15909,6 +15946,37 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "databuddy",
+      "name": "databuddy",
+      "displayName": "Databuddy",
+      "description": "Cookieless web and product analytics for your agent. Ask about traffic, signups, funnels, errors, Web Vitals and replays, find out why a number changed, and add Databuddy tracking to your app.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "Databuddy",
+      "repository": "https://github.com/databuddy-analytics/skills",
+      "license": "MIT",
+      "codexPath": "plugins/databuddy-analytics/skills",
+      "skills": [
+        {
+          "name": "databuddy",
+          "path": "plugins/databuddy-analytics/skills/skills/databuddy/SKILL.md"
+        },
+        {
+          "name": "databuddy-mcp",
+          "path": "plugins/databuddy-analytics/skills/skills/databuddy-mcp/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "databuddy"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -16200,7 +16268,7 @@
       "name": "dchub",
       "displayName": "DC Hub",
       "description": "DC Hub is the orchestration layer for data center and energy intelligence. Find power. Find land. Find fiber. Find capacity. Call execute_plan first. It also publishes the Data Center Power Index (DCPI). Remote MCP at https://dchub.cloud/mcp.",
-      "version": "2.12.63",
+      "version": "2.12.65",
       "category": "Tools & Integrations",
       "author": "DC Hub",
       "repository": "https://github.com/azmartone67/dchub-mcp-server",
@@ -16414,7 +16482,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.18.5",
+      "version": "1.19.0",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -17686,6 +17754,31 @@
       }
     },
     {
+      "id": "feraterra",
+      "name": "feraterra",
+      "displayName": "feraterra",
+      "description": "Headless CLOB trading, stateless order margin previews, zero-capital flash arbitrage, L2 Clearinghouse solvency, and 24-tool MCP gateway for Arena Exchange.",
+      "version": "4.9.4",
+      "category": "Tools & Integrations",
+      "author": "FeraTerra",
+      "repository": "https://github.com/FeraTerra/feraterra-sdk",
+      "license": "MIT",
+      "codexPath": "plugins/FeraTerra/feraterra-sdk",
+      "skills": [
+        {
+          "name": "feraterra-trading",
+          "path": "plugins/FeraTerra/feraterra-sdk/skills/feraterra-trading/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "firecrawl",
       "name": "firecrawl",
       "displayName": "Firecrawl",
@@ -17935,6 +18028,59 @@
       }
     },
     {
+      "id": "groundsocial-skills",
+      "name": "groundsocial-skills",
+      "displayName": "Groundsocial",
+      "description": "Social media research skills on the Groundsocial API: brand mention scans, competitor social audits, creator vetting, subreddit research, TikTok trend scans, YouTube transcript research and comment mining, on public data from Reddit, X, TikTok, Instagram, YouTube and 70+ more platforms.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "Groundsocial",
+      "repository": "https://github.com/shivanshmehendiratta/groundsocial-skills",
+      "license": "MIT",
+      "codexPath": "plugins/shivanshmehendiratta/groundsocial-skills",
+      "skills": [
+        {
+          "name": "groundsocial-api",
+          "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/groundsocial-api/SKILL.md"
+        },
+        {
+          "name": "youtube-transcript-research",
+          "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/youtube-transcript-research/SKILL.md"
+        },
+        {
+          "name": "brand-mention-scan",
+          "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/brand-mention-scan/SKILL.md"
+        },
+        {
+          "name": "tiktok-trend-scan",
+          "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/tiktok-trend-scan/SKILL.md"
+        },
+        {
+          "name": "creator-vetting",
+          "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/creator-vetting/SKILL.md"
+        },
+        {
+          "name": "comment-mining",
+          "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/comment-mining/SKILL.md"
+        },
+        {
+          "name": "subreddit-research",
+          "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/subreddit-research/SKILL.md"
+        },
+        {
+          "name": "competitor-social-audit",
+          "path": "plugins/shivanshmehendiratta/groundsocial-skills/skills/competitor-social-audit/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
       "id": "hermes-tweet",
       "name": "hermes-tweet",
       "displayName": "Hermes Tweet",
@@ -18128,6 +18274,73 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "job-agent",
+      "name": "job-agent",
+      "displayName": "job-agent",
+      "description": "Open-source job-search skills: find and score roles, tailor your résumé, fill application forms in your browser up to Submit, track applications and prep for interviews. Uses the TrueInterview MCP for live jobs, real interview data and your saved records when you sign in, and your own local files when you don't.",
+      "version": "0.3.0",
+      "category": "Tools & Integrations",
+      "author": "job-agent contributors",
+      "repository": "https://github.com/kevin-2023-code/job-agent",
+      "license": "MIT",
+      "codexPath": "plugins/kevin-2023-code/job-agent",
+      "skills": [
+        {
+          "name": "job-scan",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-scan/SKILL.md"
+        },
+        {
+          "name": "job-evaluate",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-evaluate/SKILL.md"
+        },
+        {
+          "name": "job-prep",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-prep/SKILL.md"
+        },
+        {
+          "name": "job-practice",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-practice/SKILL.md"
+        },
+        {
+          "name": "job-tailor",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-tailor/SKILL.md"
+        },
+        {
+          "name": "job-apply",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-apply/SKILL.md"
+        },
+        {
+          "name": "job-track",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-track/SKILL.md"
+        },
+        {
+          "name": "job-agent",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-agent/SKILL.md"
+        },
+        {
+          "name": "job-setup",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-setup/SKILL.md"
+        },
+        {
+          "name": "job-sync",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-sync/SKILL.md"
+        },
+        {
+          "name": "job-outreach",
+          "path": "plugins/kevin-2023-code/job-agent/skills/job-outreach/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "trueinterview"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -19142,7 +19355,7 @@
       "name": "manuwright",
       "displayName": "ManuWright",
       "description": "Evidence-bound medical manuscript workflow. Requires the manuwright CLI of the same version.",
-      "version": "1.10.8",
+      "version": "1.10.15",
       "category": "Tools & Integrations",
       "author": "Sang-Min Park",
       "repository": "https://github.com/grotyx/Academic_writing_c_claudecode",
@@ -19907,6 +20120,10 @@
           "path": "plugins/okdataapi/skills/skills/okdata-alibaba-1688/SKILL.md"
         },
         {
+          "name": "okdata-app-store",
+          "path": "plugins/okdataapi/skills/skills/okdata-app-store/SKILL.md"
+        },
+        {
           "name": "okdata-xiaohongshu",
           "path": "plugins/okdataapi/skills/skills/okdata-xiaohongshu/SKILL.md"
         },
@@ -19935,8 +20152,16 @@
           "path": "plugins/okdataapi/skills/skills/okdata-wechat-mp/SKILL.md"
         },
         {
+          "name": "okdata-all",
+          "path": "plugins/okdataapi/skills/skills/okdata-all/SKILL.md"
+        },
+        {
           "name": "okdata-reddit",
           "path": "plugins/okdataapi/skills/skills/okdata-reddit/SKILL.md"
+        },
+        {
+          "name": "okdata-imdb",
+          "path": "plugins/okdataapi/skills/skills/okdata-imdb/SKILL.md"
         },
         {
           "name": "okdata-comments",
@@ -19947,12 +20172,24 @@
           "path": "plugins/okdataapi/skills/skills/okdata/SKILL.md"
         },
         {
+          "name": "okdata-bluesky",
+          "path": "plugins/okdataapi/skills/skills/okdata-bluesky/SKILL.md"
+        },
+        {
+          "name": "okdata-xigua",
+          "path": "plugins/okdataapi/skills/skills/okdata-xigua/SKILL.md"
+        },
+        {
           "name": "okdata-aliexpress",
           "path": "plugins/okdataapi/skills/skills/okdata-aliexpress/SKILL.md"
         },
         {
           "name": "okdata-ads",
           "path": "plugins/okdataapi/skills/skills/okdata-ads/SKILL.md"
+        },
+        {
+          "name": "okdata-douban",
+          "path": "plugins/okdataapi/skills/skills/okdata-douban/SKILL.md"
         },
         {
           "name": "okdata-x",
@@ -19965,6 +20202,10 @@
         {
           "name": "okdata-xianyu",
           "path": "plugins/okdataapi/skills/skills/okdata-xianyu/SKILL.md"
+        },
+        {
+          "name": "okdata-jd",
+          "path": "plugins/okdataapi/skills/skills/okdata-jd/SKILL.md"
         },
         {
           "name": "okdata-zhihu",
@@ -19987,6 +20228,10 @@
           "path": "plugins/okdataapi/skills/skills/okdata-instagram/SKILL.md"
         },
         {
+          "name": "okdata-baidu",
+          "path": "plugins/okdataapi/skills/skills/okdata-baidu/SKILL.md"
+        },
+        {
           "name": "okdata-products",
           "path": "plugins/okdataapi/skills/skills/okdata-products/SKILL.md"
         },
@@ -19995,16 +20240,36 @@
           "path": "plugins/okdataapi/skills/skills/okdata-douyin/SKILL.md"
         },
         {
+          "name": "okdata-facebook",
+          "path": "plugins/okdataapi/skills/skills/okdata-facebook/SKILL.md"
+        },
+        {
           "name": "okdata-mentions",
           "path": "plugins/okdataapi/skills/skills/okdata-mentions/SKILL.md"
+        },
+        {
+          "name": "okdata-youku",
+          "path": "plugins/okdataapi/skills/skills/okdata-youku/SKILL.md"
         },
         {
           "name": "okdata-wechat-channels",
           "path": "plugins/okdataapi/skills/skills/okdata-wechat-channels/SKILL.md"
         },
         {
+          "name": "okdata-linkedin",
+          "path": "plugins/okdataapi/skills/skills/okdata-linkedin/SKILL.md"
+        },
+        {
           "name": "okdata-bilibili",
           "path": "plugins/okdataapi/skills/skills/okdata-bilibili/SKILL.md"
+        },
+        {
+          "name": "okdata-toutiao",
+          "path": "plugins/okdataapi/skills/skills/okdata-toutiao/SKILL.md"
+        },
+        {
+          "name": "okdata-twitch",
+          "path": "plugins/okdataapi/skills/skills/okdata-twitch/SKILL.md"
         },
         {
           "name": "okdata-wechat-articles",
@@ -20313,7 +20578,7 @@
       "name": "phonedriver",
       "displayName": "phonedriver",
       "description": "Lets an agent see and operate Android phones and iPhones: the screen as text, taps by element number, and a question to you before any tap that pays. Bundles the phonedriver MCP server and its skill.",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "category": "Tools & Integrations",
       "author": "Hridya Agrawal",
       "repository": "https://github.com/hridaya423/phonedriver",
@@ -20604,8 +20869,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1984+ confidence-tagged entries (kubectl, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.42.1",
+      "description": "Pronounce developer jargon out loud — 1988+ confidence-tagged entries (Neon, Carbon, Hydrogen, Argon, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.43.5",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",
@@ -20961,7 +21226,7 @@
       "name": "remove-ai-watermarks",
       "displayName": "Remove AI Watermarks",
       "description": "Identify and remove AI provenance marks from images, video, audio, and text the user generated or edited, using the remove-ai-watermarks CLI.",
-      "version": "1.0.24",
+      "version": "1.0.25",
       "category": "Tools & Integrations",
       "author": "wiltodelta",
       "repository": "https://github.com/wiltodelta/remove-ai-watermarks",
@@ -21401,7 +21666,7 @@
       "name": "runlater",
       "displayName": "RunLater",
       "description": "Schedule HTTP requests from Codex: call any URL once at an exact time or on a cron schedule, with retries and a log of every run, through the RunLater remote MCP server.",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "category": "Tools & Integrations",
       "author": "Great Work LLC",
       "repository": "https://github.com/runlater-app/runlater-plugin",
@@ -22911,6 +23176,69 @@
       }
     },
     {
+      "id": "termalin",
+      "name": "termalin",
+      "displayName": "termalin",
+      "description": "SSH, SFTP, databases and monitoring for your own servers from an AI agent, keyless through the Termalin connector: run commands, read and write files, query databases, read metrics and alerts, run background jobs. Ten skills teach the agent to check server health, triage alerts, run commands safely, verify deployments, query databases, back up, apply security updates, set up a fresh server, open internal sites and work on remote desktops.",
+      "version": "1.3.1",
+      "category": "Tools & Integrations",
+      "author": "Termalin",
+      "repository": "https://github.com/termalinapp/termalin-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/termalinapp/termalin-plugin",
+      "skills": [
+        {
+          "name": "security-updates",
+          "path": "plugins/termalinapp/termalin-plugin/skills/security-updates/SKILL.md"
+        },
+        {
+          "name": "server-setup",
+          "path": "plugins/termalinapp/termalin-plugin/skills/server-setup/SKILL.md"
+        },
+        {
+          "name": "remote-desktop",
+          "path": "plugins/termalinapp/termalin-plugin/skills/remote-desktop/SKILL.md"
+        },
+        {
+          "name": "run-commands",
+          "path": "plugins/termalinapp/termalin-plugin/skills/run-commands/SKILL.md"
+        },
+        {
+          "name": "incident-triage",
+          "path": "plugins/termalinapp/termalin-plugin/skills/incident-triage/SKILL.md"
+        },
+        {
+          "name": "backups",
+          "path": "plugins/termalinapp/termalin-plugin/skills/backups/SKILL.md"
+        },
+        {
+          "name": "server-health",
+          "path": "plugins/termalinapp/termalin-plugin/skills/server-health/SKILL.md"
+        },
+        {
+          "name": "database-access",
+          "path": "plugins/termalinapp/termalin-plugin/skills/database-access/SKILL.md"
+        },
+        {
+          "name": "internal-sites",
+          "path": "plugins/termalinapp/termalin-plugin/skills/internal-sites/SKILL.md"
+        },
+        {
+          "name": "deploy-check",
+          "path": "plugins/termalinapp/termalin-plugin/skills/deploy-check/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "termalin"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "textmock",
       "name": "textmock",
       "displayName": "Textmock",
@@ -23949,7 +24277,7 @@
       "name": "webly",
       "displayName": "Webly",
       "description": "Publish a website, or share files and folders, at a live URL in seconds with no account. The person can claim it, edit it over MCP, and publish drafts they approve.",
-      "version": "0.15.9",
+      "version": "0.15.11",
       "category": "Tools & Integrations",
       "author": "Webly",
       "repository": "https://github.com/Webly-AI/webly-plugin",
