@@ -1,16 +1,16 @@
 {
   "summary": {
     "schema": 1,
-    "generatedAt": "2026-11-27T11:47:44.203783+00:00",
+    "generatedAt": "2026-11-28T11:23:45.425294+00:00",
     "marketplace": "awesome-codex-plugins",
     "displayName": "Awesome Codex Plugins",
     "totals": {
-      "plugins": 485,
-      "with_skills": 445,
-      "with_mcp": 192,
+      "plugins": 487,
+      "with_skills": 446,
+      "with_mcp": 195,
       "codex_only": 24
     },
-    "skillCount": 3574
+    "skillCount": 3597
   },
   "plugins": [
     {
@@ -364,7 +364,7 @@
       "name": "agent-guard",
       "displayName": "Agent Guard",
       "description": "Local-by-default, no-telemetry hooks inspect user prompts, supported tool inputs, outputs, and changed files in every enabled Claude Code or Codex session to block or mask secret leaks. Includes opt-in PII filtering and Git/CI backstops.",
-      "version": "3.14.1",
+      "version": "3.16.0",
       "category": "Development & Workflow",
       "author": "Agent Guard contributors",
       "repository": "https://github.com/JeongJaeSoon/agent-guard",
@@ -1956,7 +1956,7 @@
       "name": "claude-octopus",
       "displayName": "Claude Octopus",
       "description": "Multi-LLM orchestration with Double Diamond workflows, provider routing, safety gates, and automation. Dispatches to Codex, Antigravity, Cursor CLI, Grok, Copilot, Qwen, Perplexity, OpenRouter, OrcaRouter, Ollama, OpenCode, and Kimi Code from a single plugin.",
-      "version": "11.30.2",
+      "version": "11.30.4",
       "category": "Development & Workflow",
       "author": "nyldn",
       "repository": "https://github.com/nyldn/claude-octopus",
@@ -3366,14 +3366,34 @@
       "id": "design-helper",
       "name": "design-helper",
       "displayName": "design-helper",
-      "description": "Settle CSS values, layout and motion by eye: draws every candidate side by side in the browser, you pick one, and it applies the choice to your code.",
-      "version": "0.4.1",
+      "description": "Settle design decisions by eye, one at a time: every candidate is drawn on your real screens side by side and you pick. Six skills: values and layouts (applied to code), a design system, syncing it to code, feature UX flows, icon sets and logos, and library motion (GSAP, Motion).",
+      "version": "0.5.0",
       "category": "Development & Workflow",
       "author": "Dessert99",
       "repository": "https://github.com/Dessert99/design-helper",
       "license": "MIT",
       "codexPath": "plugins/Dessert99/design-helper",
       "skills": [
+        {
+          "name": "design-ux",
+          "path": "plugins/Dessert99/design-helper/skills/design-ux/SKILL.md"
+        },
+        {
+          "name": "design-brand",
+          "path": "plugins/Dessert99/design-helper/skills/design-brand/SKILL.md"
+        },
+        {
+          "name": "design-motion",
+          "path": "plugins/Dessert99/design-helper/skills/design-motion/SKILL.md"
+        },
+        {
+          "name": "design-sync",
+          "path": "plugins/Dessert99/design-helper/skills/design-sync/SKILL.md"
+        },
+        {
+          "name": "design-system",
+          "path": "plugins/Dessert99/design-helper/skills/design-system/SKILL.md"
+        },
         {
           "name": "design-helper",
           "path": "plugins/Dessert99/design-helper/skills/design-helper/SKILL.md"
@@ -3410,39 +3430,6 @@
         {
           "name": "ux-designer",
           "path": "plugins/PyModel/designer-skill/skills/ux-designer/SKILL.md"
-        }
-      ],
-      "mcpServers": [],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": false
-      }
-    },
-    {
-      "id": "devin",
-      "name": "devin",
-      "displayName": "devin",
-      "description": "Devin in Claude Code and Codex: AI code reviews, adversarial reviews, delegated coding tasks, Fusion sidekick workflows, and cloud handoffs.",
-      "version": "1.0.1",
-      "category": "Development & Workflow",
-      "author": "devin-plugin-cc contributors",
-      "repository": "https://github.com/TheOnlyFusionCube/devin-plugin-cc",
-      "license": "Apache-2.0",
-      "codexPath": "plugins/TheOnlyFusionCube/devin-plugin-cc",
-      "skills": [
-        {
-          "name": "devin-cli-runtime",
-          "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-cli-runtime/SKILL.md"
-        },
-        {
-          "name": "devin-result-handling",
-          "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-result-handling/SKILL.md"
-        },
-        {
-          "name": "devin-prompting",
-          "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-prompting/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -3637,6 +3624,39 @@
         {
           "name": "update-deps",
           "path": "plugins/reidemeister94/development-skills/skills/update-deps/SKILL.md"
+        }
+      ],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": false
+      }
+    },
+    {
+      "id": "devin",
+      "name": "devin",
+      "displayName": "devin",
+      "description": "Devin in Claude Code and Codex: AI code reviews, adversarial reviews, delegated coding tasks, Fusion sidekick workflows, and cloud handoffs.",
+      "version": "1.0.1",
+      "category": "Development & Workflow",
+      "author": "devin-plugin-cc contributors",
+      "repository": "https://github.com/TheOnlyFusionCube/devin-plugin-cc",
+      "license": "Apache-2.0",
+      "codexPath": "plugins/TheOnlyFusionCube/devin-plugin-cc",
+      "skills": [
+        {
+          "name": "devin-cli-runtime",
+          "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-cli-runtime/SKILL.md"
+        },
+        {
+          "name": "devin-result-handling",
+          "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-result-handling/SKILL.md"
+        },
+        {
+          "name": "devin-prompting",
+          "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-prompting/SKILL.md"
         }
       ],
       "mcpServers": [],
@@ -4969,7 +4989,7 @@
       "name": "gitranks-contribute",
       "displayName": "GitRanks Contribute",
       "description": "Your agent fixes open-source issues picked for you. You approve every pull request on gitranks.com.",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "category": "Development & Workflow",
       "author": "GitRanks",
       "repository": "https://github.com/gitranks/contribute",
@@ -5023,7 +5043,7 @@
     {
       "id": "graphify",
       "name": "graphify",
-      "displayName": "Graphify",
+      "displayName": "Graphify: Codebase Context",
       "description": "Shared codebase context for Codex and ChatGPT: the code graph, Memory and PR review status for repositories indexed in Graphify.",
       "version": "1.0.2",
       "category": "Development & Workflow",
@@ -5802,7 +5822,7 @@
       "name": "joxo",
       "displayName": "Joxo",
       "description": "Joxo's setup skill: joins this coding agent to your team's Joxo project.",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "category": "Development & Workflow",
       "author": "Joxo",
       "repository": "https://github.com/JoxoAI/joxo",
@@ -6244,7 +6264,7 @@
       "name": "loom",
       "displayName": "ClickHouse Loom",
       "description": "Shared long-term memory and code intelligence for Codex, self-hosted on ClickHouse. MCP tools to save and recall decisions, preferences and corrections across sessions and teammates; lifecycle hooks that capture each session with no model call; a code index that answers where-is, who-calls and blast-radius questions with line-accurate units instead of whole-file reads.",
-      "version": "1.2.54",
+      "version": "1.2.62",
       "category": "Development & Workflow",
       "author": "ClickHouse",
       "repository": "https://github.com/ClickHouse/loom",
@@ -6438,6 +6458,28 @@
         "codex": true,
         "claude": true,
         "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "margincue",
+      "name": "margincue",
+      "displayName": "MarginCue",
+      "description": "Shows how Codex will read your prompt as you type it, checks your names against the code, gives each open choice a control, sketches the result, and turns the agent's own choices into switches.",
+      "version": "0.4.33",
+      "category": "Development & Workflow",
+      "author": "",
+      "repository": "",
+      "license": "",
+      "codexPath": "plugins/fus3r/margincue",
+      "skills": [],
+      "mcpServers": [
+        "margincue"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": false,
+        "dsh": false,
         "mcp": true
       }
     },
@@ -6735,7 +6777,7 @@
       "name": "multi-llm",
       "displayName": "Multi-LLM",
       "description": "Orchestrate plan reviews, task generation, implementation and code reviews across several LLM CLIs in parallel, or ask every model one free-text question about a plan.",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "category": "Development & Workflow",
       "author": "beastlabai",
       "repository": "https://github.com/beastlabai/multi-llm-plugin",
@@ -6762,7 +6804,7 @@
       "name": "mycelium",
       "displayName": "mycelium",
       "description": "I realized I let the agent start coding before I was sure it was working on the right thing, so I built this. Now it doesn't get to write code before there's a reason. The agent asks who this is for. It asks what you're assuming, and what would show you wrong. The rules run as hooks, so once you have started it in a repo the build stays shut until the answers are there. Purpose, strategy, opportunities, then delivery and market feedback. It adds skills and hooks, keeps its own state in a .claude/ folder, and won't edit the files already in your repo unless you ask it to.",
-      "version": "0.337.4",
+      "version": "0.337.5",
       "category": "Development & Workflow",
       "author": "Håvard Bartnes",
       "repository": "https://github.com/haabe/mycelium",
@@ -10291,37 +10333,6 @@
       }
     },
     {
-      "id": "ssh-ops",
-      "name": "ssh-ops",
-      "displayName": "SSH Ops",
-      "description": "Operate Linux and Windows servers via SSH from Codex and the CLI using YAML configuration: run commands, deploy code, inspect logs, restart services, transfer files, and manage background jobs on bash servers. Connections are reused within each process.",
-      "version": "1.0.0",
-      "category": "Development & Workflow",
-      "author": "leehom0123",
-      "repository": "https://github.com/leehom0123/ssh-ops",
-      "license": "MIT",
-      "codexPath": "plugins/leehom0123/ssh-ops",
-      "skills": [
-        {
-          "name": "ssh-ops",
-          "path": "plugins/leehom0123/ssh-ops/SKILL.md"
-        },
-        {
-          "name": "ssh-ops",
-          "path": "plugins/leehom0123/ssh-ops/skills/ssh-ops/SKILL.md"
-        }
-      ],
-      "mcpServers": [
-        "ssh-ops"
-      ],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": true
-      }
-    },
-    {
       "id": "spec-driven",
       "name": "spec-driven",
       "displayName": "Spec Driven",
@@ -10462,6 +10473,37 @@
         "claude": true,
         "dsh": true,
         "mcp": false
+      }
+    },
+    {
+      "id": "ssh-ops",
+      "name": "ssh-ops",
+      "displayName": "SSH Ops",
+      "description": "Operate Linux and Windows servers via SSH from Codex and the CLI using YAML configuration: run commands, deploy code, inspect logs, restart services, transfer files, and manage background jobs on bash servers. Connections are reused within each process.",
+      "version": "1.0.0",
+      "category": "Development & Workflow",
+      "author": "leehom0123",
+      "repository": "https://github.com/leehom0123/ssh-ops",
+      "license": "MIT",
+      "codexPath": "plugins/leehom0123/ssh-ops",
+      "skills": [
+        {
+          "name": "ssh-ops",
+          "path": "plugins/leehom0123/ssh-ops/SKILL.md"
+        },
+        {
+          "name": "ssh-ops",
+          "path": "plugins/leehom0123/ssh-ops/skills/ssh-ops/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "ssh-ops"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
       }
     },
     {
@@ -10993,7 +11035,7 @@
       "name": "supercov",
       "displayName": "Supercov",
       "description": "Coverage, security and code quality for coding agents.",
-      "version": "4.29.17",
+      "version": "4.29.19",
       "category": "Development & Workflow",
       "author": "Supercorp",
       "repository": "https://github.com/supercorp-ai/supercov",
@@ -13252,7 +13294,7 @@
       "name": "zagrosi-forge",
       "displayName": "Zagrosi Forge",
       "description": "Lean project decomposition, planning, and test-first implementation.",
-      "version": "0.5.5",
+      "version": "0.6.0",
       "category": "Development & Workflow",
       "author": "Zagrosi",
       "repository": "https://github.com/zagrosi-code/zagrosi-forge",
@@ -13432,7 +13474,7 @@
       "name": "amq-cli",
       "displayName": "Agent Message Queue",
       "description": "Agent Message Queue - file-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations",
-      "version": "0.171.1",
+      "version": "0.172.0",
       "category": "Tools & Integrations",
       "author": "Aviv Sinai",
       "repository": "https://github.com/avivsinai/agent-message-queue",
@@ -13966,6 +14008,65 @@
       ],
       "mcpServers": [
         "arcmira"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "asoscan",
+      "name": "asoscan",
+      "displayName": "ASOScan App Store Optimization",
+      "description": "App Store Optimization for your own iOS and Android apps: keyword research, rank tracking, ASO score, competitor keywords and review replies from your ASOScan account.",
+      "version": "1.3.7",
+      "category": "Tools & Integrations",
+      "author": "ASOScan",
+      "repository": "https://github.com/ASOScan/aso-skills",
+      "license": "MIT",
+      "codexPath": "plugins/ASOScan/aso-skills",
+      "skills": [
+        {
+          "name": "asoscan-router",
+          "path": "plugins/ASOScan/aso-skills/skills/asoscan-router/SKILL.md"
+        },
+        {
+          "name": "review-insights",
+          "path": "plugins/ASOScan/aso-skills/skills/review-insights/SKILL.md"
+        },
+        {
+          "name": "metadata-audit",
+          "path": "plugins/ASOScan/aso-skills/skills/metadata-audit/SKILL.md"
+        },
+        {
+          "name": "keyword-spy",
+          "path": "plugins/ASOScan/aso-skills/skills/keyword-spy/SKILL.md"
+        },
+        {
+          "name": "keyword-intelligence",
+          "path": "plugins/ASOScan/aso-skills/skills/keyword-intelligence/SKILL.md"
+        },
+        {
+          "name": "competitor-analysis",
+          "path": "plugins/ASOScan/aso-skills/skills/competitor-analysis/SKILL.md"
+        },
+        {
+          "name": "aso-fundamentals",
+          "path": "plugins/ASOScan/aso-skills/skills/aso-fundamentals/SKILL.md"
+        },
+        {
+          "name": "asoscan-setup",
+          "path": "plugins/ASOScan/aso-skills/skills/asoscan-setup/SKILL.md"
+        },
+        {
+          "name": "keyword-opportunities",
+          "path": "plugins/ASOScan/aso-skills/skills/keyword-opportunities/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "asoscan"
       ],
       "tools": {
         "codex": true,
@@ -15122,7 +15223,7 @@
       "name": "telegram",
       "displayName": "Codex Telegram",
       "description": "One shared Codex conversation in your terminal and Telegram.",
-      "version": "0.4.37",
+      "version": "0.4.38",
       "category": "Tools & Integrations",
       "author": "Aleksandr",
       "repository": "https://github.com/AXEG0/codex-telegram",
@@ -16482,7 +16583,7 @@
       "name": "dex",
       "displayName": "Exmergo Dex",
       "description": "Analytics engineering for Claude Code and any agent: data warehouse exploration, dbt transformation and semantic modeling, and schema-drift maintenance on dbt.",
-      "version": "1.19.0",
+      "version": "1.19.1",
       "category": "Tools & Integrations",
       "author": "Exmergo, Inc.",
       "repository": "https://github.com/exmergo/dex",
@@ -17754,31 +17855,6 @@
       }
     },
     {
-      "id": "feraterra",
-      "name": "feraterra",
-      "displayName": "feraterra",
-      "description": "Headless CLOB trading, stateless order margin previews, zero-capital flash arbitrage, L2 Clearinghouse solvency, and 24-tool MCP gateway for Arena Exchange.",
-      "version": "4.9.4",
-      "category": "Tools & Integrations",
-      "author": "FeraTerra",
-      "repository": "https://github.com/FeraTerra/feraterra-sdk",
-      "license": "MIT",
-      "codexPath": "plugins/FeraTerra/feraterra-sdk",
-      "skills": [
-        {
-          "name": "feraterra-trading",
-          "path": "plugins/FeraTerra/feraterra-sdk/skills/feraterra-trading/SKILL.md"
-        }
-      ],
-      "mcpServers": [],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": false
-      }
-    },
-    {
       "id": "firecrawl",
       "name": "firecrawl",
       "displayName": "Firecrawl",
@@ -18281,7 +18357,7 @@
       "name": "job-agent",
       "displayName": "job-agent",
       "description": "Open-source job-search skills: find and score roles, tailor your résumé, fill application forms in your browser up to Submit, track applications and prep for interviews. Uses the TrueInterview MCP for live jobs, real interview data and your saved records when you sign in, and your own local files when you don't.",
-      "version": "0.3.0",
+      "version": "0.3.3",
       "category": "Tools & Integrations",
       "author": "job-agent contributors",
       "repository": "https://github.com/kevin-2023-code/job-agent",
@@ -20461,7 +20537,7 @@
     {
       "id": "osmo",
       "name": "osmo",
-      "displayName": "OsmO Phone Calls",
+      "displayName": "OsmO Phone Calls & AI Receptionist",
       "description": "OsmO's AI makes real phone calls for you and answers calls to your number as your AI phone receptionist (answering service). Calls: find a business or a company's customer-care number, call it (or up to 5 numbers at once), book, reschedule or cancel, ask about hours, prices or stock, get through phone menus, wait on hold and pass on a message; then get the outcome, summary, transcript and a recording link. In apps that show cards (such as Claude) a live call card follows each call (up to 5 calls together in one card) with Call again and Schedule buttons; in Claude and ChatGPT a short call's result comes back in the same turn; scheduled calls use your own time zone. Every call is confirmed by you first. Receptionist: see who called and what they wanted, pause the AI, choose who is put through live, edit VIP and block lists and caller rules, switch the assistant or its language (English or Hindi), and read bookings, Facts and connection status. Sign in with your phone number; no API key. 50 free credits for new users in the US, Canada, UK and Australia (an answered call uses 3; unanswered calls are free) call businesses and toll-free numbers; calling your contacts, calling back callers, scheduling calls and the receptionist need an OsmO app plan.",
       "version": "1.7.1",
       "category": "Tools & Integrations",
@@ -20869,8 +20945,8 @@
       "id": "pronounce",
       "name": "pronounce",
       "displayName": "Pronounce",
-      "description": "Pronounce developer jargon out loud — 1988+ confidence-tagged entries (Neon, Carbon, Hydrogen, Argon, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
-      "version": "2.43.5",
+      "description": "Pronounce developer jargon out loud — 1989+ confidence-tagged entries (Neon, Carbon, Hydrogen, Argon, GIF, JSON, JWT, …). Ships the pronounce-word skill and the pronounce MCP server.",
+      "version": "2.44.0",
       "category": "Tools & Integrations",
       "author": "anzy-renlab-ai",
       "repository": "https://github.com/anzy-renlab-ai/pronounce",
@@ -20891,8 +20967,8 @@
       "id": "publicrecords",
       "name": "publicrecords",
       "displayName": "publicrecords",
-      "description": "Agent Skills + Apify MCP for public-records data: US federal contracts and grants (SAM.gov, Grants.gov, USAspending), UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, tennis scores, Spotify play counts, forecast track records, Skool community search, PDF and web-page to Markdown, audio transcription, and email domain/MX/disposable checks (not the mailbox).",
-      "version": "1.4.0",
+      "description": "Agent Skills + Apify MCP for public-records data: US federal contracts and grants (SAM.gov, Grants.gov, USAspending), UK and EU tenders, city council meetings, ATS job postings, company social links, Etsy market research, competitor Google ads, sports odds, tennis scores, Spotify play counts, forecast track records, Skool community search, PDF and web-page to Markdown, audio transcription, and email domain/MX/disposable checks (not the mailbox), website tech-stack detection, phone number validation (not a live carrier lookup), Wikipedia/ECB FX/Treasury lookup, Crossref paper and DOI search, and bulk DNS / SPF / DMARC lookup.",
+      "version": "1.5.0",
       "category": "Tools & Integrations",
       "author": "GeminiGeorge22 (publicrecords on Apify)",
       "repository": "https://github.com/GeminiGeorge22/publicrecords-skills",
@@ -20902,6 +20978,10 @@
         {
           "name": "gov-tenders-and-grants",
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/gov-tenders-and-grants/SKILL.md"
+        },
+        {
+          "name": "phone-number-validator",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/phone-number-validator/SKILL.md"
         },
         {
           "name": "sports-odds",
@@ -20920,6 +21000,14 @@
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/js-page-to-markdown/SKILL.md"
         },
         {
+          "name": "wikipedia-search",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/wikipedia-search/SKILL.md"
+        },
+        {
+          "name": "website-tech-stack",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/website-tech-stack/SKILL.md"
+        },
+        {
           "name": "audio-to-text",
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/audio-to-text/SKILL.md"
         },
@@ -20936,12 +21024,20 @@
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/spotify-play-counts/SKILL.md"
         },
         {
+          "name": "dns-lookup",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/dns-lookup/SKILL.md"
+        },
+        {
           "name": "web-page-to-markdown",
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/web-page-to-markdown/SKILL.md"
         },
         {
           "name": "tennis-scores",
           "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/tennis-scores/SKILL.md"
+        },
+        {
+          "name": "academic-papers-doi",
+          "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/academic-papers-doi/SKILL.md"
         },
         {
           "name": "company-social-profiles",
@@ -21021,6 +21117,49 @@
       ],
       "mcpServers": [
         "publora"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "pushary",
+      "name": "pushary",
+      "displayName": "Pushary",
+      "description": "Push notifications and human-in-the-loop for AI agents. Get a push when a task finishes, and answer the agent from your phone while you are away from the keyboard.",
+      "version": "0.1.10",
+      "category": "Tools & Integrations",
+      "author": "Pushary",
+      "repository": "https://github.com/Pushary/pushary-skill",
+      "license": "MIT",
+      "codexPath": "plugins/Pushary/pushary-skill",
+      "skills": [
+        {
+          "name": "pushary-cowork",
+          "path": "plugins/Pushary/pushary-skill/skills/pushary-cowork/SKILL.md"
+        },
+        {
+          "name": "pushary",
+          "path": "plugins/Pushary/pushary-skill/skills/pushary/SKILL.md"
+        },
+        {
+          "name": "hermes",
+          "path": "plugins/Pushary/pushary-skill/skills/hermes/SKILL.md"
+        },
+        {
+          "name": "pushary-chatgpt",
+          "path": "plugins/Pushary/pushary-skill/skills/pushary-chatgpt/SKILL.md"
+        },
+        {
+          "name": "pushary-human-in-the-loop",
+          "path": "plugins/Pushary/pushary-skill/skills/pushary-human-in-the-loop/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "pushary"
       ],
       "tools": {
         "codex": true,
@@ -21938,6 +22077,68 @@
       }
     },
     {
+      "id": "sendpaper",
+      "name": "sendpaper",
+      "displayName": "Sendpaper",
+      "description": "Print and mail real postcards and letters to US addresses via USPS First-Class. The agent drafts the mail and shows an exact print preview; you pay on Sendpaper's checkout page, or approve a one-time Stripe Link payment.",
+      "version": "1.0.8",
+      "category": "Tools & Integrations",
+      "author": "Sendpaper",
+      "repository": "https://github.com/ryan-tish/sendpaper-plugin",
+      "license": "MIT",
+      "codexPath": "plugins/ryan-tish/sendpaper-plugin",
+      "skills": [
+        {
+          "name": "send-mail",
+          "path": "plugins/ryan-tish/sendpaper-plugin/skills/send-mail/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "sendpaper"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
+      "id": "sendsets",
+      "name": "sendsets",
+      "displayName": "Sendsets",
+      "description": "Cold email for AI agents: the Sendsets MCP server plus skills for sending cold email sequences and running outbound campaigns.",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "Sendsets",
+      "repository": "https://github.com/AddisonHoff/sendsets",
+      "license": "Apache-2.0",
+      "codexPath": "plugins/AddisonHoff/sendsets",
+      "skills": [
+        {
+          "name": "sendsets-cli",
+          "path": "plugins/AddisonHoff/sendsets/skills/sendsets-cli/SKILL.md"
+        },
+        {
+          "name": "send-cold-email",
+          "path": "plugins/AddisonHoff/sendsets/skills/send-cold-email/SKILL.md"
+        },
+        {
+          "name": "sendsets",
+          "path": "plugins/AddisonHoff/sendsets/skills/sendsets/SKILL.md"
+        }
+      ],
+      "mcpServers": [
+        "sendsets"
+      ],
+      "tools": {
+        "codex": true,
+        "claude": true,
+        "dsh": true,
+        "mcp": true
+      }
+    },
+    {
       "id": "legends-seo-dungeon",
       "name": "legends-seo-dungeon",
       "displayName": "Legends SEO Dungeon",
@@ -22059,68 +22260,6 @@
       }
     },
     {
-      "id": "sendpaper",
-      "name": "sendpaper",
-      "displayName": "Sendpaper",
-      "description": "Print and mail real postcards and letters to US addresses via USPS First-Class. The agent drafts the mail and shows an exact print preview; you pay on Sendpaper's checkout page, or approve a one-time Stripe Link payment.",
-      "version": "1.0.8",
-      "category": "Tools & Integrations",
-      "author": "Sendpaper",
-      "repository": "https://github.com/ryan-tish/sendpaper-plugin",
-      "license": "MIT",
-      "codexPath": "plugins/ryan-tish/sendpaper-plugin",
-      "skills": [
-        {
-          "name": "send-mail",
-          "path": "plugins/ryan-tish/sendpaper-plugin/skills/send-mail/SKILL.md"
-        }
-      ],
-      "mcpServers": [
-        "sendpaper"
-      ],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": true
-      }
-    },
-    {
-      "id": "sendsets",
-      "name": "sendsets",
-      "displayName": "Sendsets",
-      "description": "Cold email for AI agents: the Sendsets MCP server plus skills for sending cold email sequences and running outbound campaigns.",
-      "version": "1.0.0",
-      "category": "Tools & Integrations",
-      "author": "Sendsets",
-      "repository": "https://github.com/AddisonHoff/sendsets",
-      "license": "Apache-2.0",
-      "codexPath": "plugins/AddisonHoff/sendsets",
-      "skills": [
-        {
-          "name": "sendsets-cli",
-          "path": "plugins/AddisonHoff/sendsets/skills/sendsets-cli/SKILL.md"
-        },
-        {
-          "name": "send-cold-email",
-          "path": "plugins/AddisonHoff/sendsets/skills/send-cold-email/SKILL.md"
-        },
-        {
-          "name": "sendsets",
-          "path": "plugins/AddisonHoff/sendsets/skills/sendsets/SKILL.md"
-        }
-      ],
-      "mcpServers": [
-        "sendsets"
-      ],
-      "tools": {
-        "codex": true,
-        "claude": true,
-        "dsh": true,
-        "mcp": true
-      }
-    },
-    {
       "id": "seonix",
       "name": "seonix",
       "displayName": "Seonix",
@@ -22208,6 +22347,26 @@
       }
     },
     {
+      "id": "shopify-liquid-ai-seo",
+      "name": "shopify-liquid-ai-seo",
+      "displayName": "Shopify AI SEO & Liquid",
+      "description": "Shopify Liquid and AI SEO plugin for Cursor and Codex",
+      "version": "1.0.0",
+      "category": "Tools & Integrations",
+      "author": "",
+      "repository": "https://github.com/kuaai/shopify-liquid-ai-seo",
+      "license": "MIT",
+      "codexPath": "plugins/kuaai/shopify-liquid-ai-seo",
+      "skills": [],
+      "mcpServers": [],
+      "tools": {
+        "codex": true,
+        "claude": false,
+        "dsh": false,
+        "mcp": false
+      }
+    },
+    {
       "id": "shots",
       "name": "shots",
       "displayName": "Shots",
@@ -22232,26 +22391,6 @@
         "claude": true,
         "dsh": true,
         "mcp": true
-      }
-    },
-    {
-      "id": "shopify-liquid-ai-seo",
-      "name": "shopify-liquid-ai-seo",
-      "displayName": "Shopify AI SEO & Liquid",
-      "description": "Shopify Liquid and AI SEO plugin for Cursor and Codex",
-      "version": "1.0.0",
-      "category": "Tools & Integrations",
-      "author": "",
-      "repository": "https://github.com/kuaai/shopify-liquid-ai-seo",
-      "license": "MIT",
-      "codexPath": "plugins/kuaai/shopify-liquid-ai-seo",
-      "skills": [],
-      "mcpServers": [],
-      "tools": {
-        "codex": true,
-        "claude": false,
-        "dsh": false,
-        "mcp": false
       }
     },
     {

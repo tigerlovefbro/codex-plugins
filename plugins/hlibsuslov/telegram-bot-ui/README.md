@@ -165,6 +165,23 @@ python skills/telegram-bot-ui/scripts/miniapp_lint.py path/to/app --strict   # 4
 python skills/telegram-bot-ui/scripts/preview_miniapp.py path/to/app --serve 8790   # iOS/Android, light/dark, 320-669 px
 ```
 
+### 🧪 Preview stand
+
+`preview_miniapp.py` opens your Mini App in a local mock of the Telegram client, with no bot, token or tunnel.
+On the left, how Telegram launches the app (client version, language, `start_param`) and what changes while it
+is open: viewport, theme, network faults, invoice outcome, system back, minimize, close. At the bottom, every
+call to `Telegram.WebApp`, every request of the app and the layout audit of the screen. On the right, what
+Telegram would draw: header and bottom-bar colours, MainButton and SecondaryButton, safe areas, initData and
+storage. Theme and fullscreen reach the running app as events, without a reload; the URL keeps every setting.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/mini-apps/stand-dark.png">
+  <img alt="The Mini App preview stand: launch settings on the left, an iOS device running the paywall example in the middle, the Events panel with chrome calls and mocked API requests at the bottom, and the inspector with lifecycle, viewport, safe areas and the MainButton on the right" src="docs/assets/mini-apps/stand-light.png" width="100%">
+</picture>
+
+<sub>The real stand on the <code>paywall</code> example, captured by <code>docs/assets/mini-apps/capture_stand.py</code>. A mock: a check of
+layout, chrome and flows before you open the app in a real client, not a replacement for it.</sub>
+
 Start in [`references/mini-apps/README.md`](skills/telegram-bot-ui/references/mini-apps/README.md); a whole redesign follows
 [`rework.md`](skills/telegram-bot-ui/references/mini-apps/rework.md).
 
@@ -365,7 +382,7 @@ All offline, standard library, and none of them needs a bot token.
 | `py -3 skills/telegram-bot-ui/scripts/tgui.py <group>` | one entry point for every tool below, plus `context`, `next`, `doctor` and `check changed` (`python3` outside Windows) |
 | `py -3 skills/telegram-bot-ui/scripts/tgui.py commands audit --root .` | the command menu: handlers in code vs `setMyCommands`, scopes that hide commands, missing languages |
 | `py -3 skills/telegram-bot-ui/scripts/tgui.py emoji library pick --needs home,back,settings` | one premium emoji pack that covers your icons, ranked by real coverage and tags (asks the public emoji library) |
-| `py -3 skills/telegram-bot-ui/scripts/tgui.py mcp` | the same tools as a local MCP server (15 tools; `claude mcp add --transport stdio telegram-bot-ui -- py -3 <skill>/scripts/bot_ui_mcp.py`) |
+| `py -3 skills/telegram-bot-ui/scripts/tgui.py mcp` | the same tools as a local MCP server (16 tools; `claude mcp add --transport stdio telegram-bot-ui -- py -3 <skill>/scripts/bot_ui_mcp.py`) |
 | `python skills/telegram-bot-ui/scripts/validate_keyboard.py keyboard.json` | button and keyboard payload rules |
 | `python skills/telegram-bot-ui/scripts/validate_rich.py message.json` | Rich Message limits and rules |
 | `python skills/telegram-bot-ui/scripts/validate_widget.py widget.html` | widget size (server algorithm) and sandbox gaps |

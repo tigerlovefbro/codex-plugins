@@ -2121,6 +2121,31 @@
   },
   {
     "plugin": "design-helper",
+    "skill": "design-ux",
+    "path": "plugins/Dessert99/design-helper/skills/design-ux/SKILL.md"
+  },
+  {
+    "plugin": "design-helper",
+    "skill": "design-brand",
+    "path": "plugins/Dessert99/design-helper/skills/design-brand/SKILL.md"
+  },
+  {
+    "plugin": "design-helper",
+    "skill": "design-motion",
+    "path": "plugins/Dessert99/design-helper/skills/design-motion/SKILL.md"
+  },
+  {
+    "plugin": "design-helper",
+    "skill": "design-sync",
+    "path": "plugins/Dessert99/design-helper/skills/design-sync/SKILL.md"
+  },
+  {
+    "plugin": "design-helper",
+    "skill": "design-system",
+    "path": "plugins/Dessert99/design-helper/skills/design-system/SKILL.md"
+  },
+  {
+    "plugin": "design-helper",
     "skill": "design-helper",
     "path": "plugins/Dessert99/design-helper/skills/design-helper/SKILL.md"
   },
@@ -2138,21 +2163,6 @@
     "plugin": "designer-skill",
     "skill": "ux-designer",
     "path": "plugins/PyModel/designer-skill/skills/ux-designer/SKILL.md"
-  },
-  {
-    "plugin": "devin",
-    "skill": "devin-cli-runtime",
-    "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-cli-runtime/SKILL.md"
-  },
-  {
-    "plugin": "devin",
-    "skill": "devin-result-handling",
-    "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-result-handling/SKILL.md"
-  },
-  {
-    "plugin": "devin",
-    "skill": "devin-prompting",
-    "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-prompting/SKILL.md"
   },
   {
     "plugin": "dev-skills",
@@ -2343,6 +2353,21 @@
     "plugin": "development-skills",
     "skill": "update-deps",
     "path": "plugins/reidemeister94/development-skills/skills/update-deps/SKILL.md"
+  },
+  {
+    "plugin": "devin",
+    "skill": "devin-cli-runtime",
+    "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-cli-runtime/SKILL.md"
+  },
+  {
+    "plugin": "devin",
+    "skill": "devin-result-handling",
+    "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-result-handling/SKILL.md"
+  },
+  {
+    "plugin": "devin",
+    "skill": "devin-prompting",
+    "path": "plugins/TheOnlyFusionCube/devin-plugin-cc/skills/devin-prompting/SKILL.md"
   },
   {
     "plugin": "devrecap",
@@ -7825,16 +7850,6 @@
     "path": "plugins/sno-ai/sno-station-skills/skills/shellscript-coder/SKILL.md"
   },
   {
-    "plugin": "ssh-ops",
-    "skill": "ssh-ops",
-    "path": "plugins/leehom0123/ssh-ops/SKILL.md"
-  },
-  {
-    "plugin": "ssh-ops",
-    "skill": "ssh-ops",
-    "path": "plugins/leehom0123/ssh-ops/skills/ssh-ops/SKILL.md"
-  },
-  {
     "plugin": "spec-driven",
     "skill": "spec-workflow",
     "path": "plugins/Habib0x0/spec-driven-plugin/skills/spec-workflow/SKILL.md"
@@ -7933,6 +7948,16 @@
     "plugin": "spellbook-skills",
     "skill": "agents-md-improver",
     "path": "plugins/yyykf/spellbook-skills/skills/agents-md-improver/SKILL.md"
+  },
+  {
+    "plugin": "ssh-ops",
+    "skill": "ssh-ops",
+    "path": "plugins/leehom0123/ssh-ops/SKILL.md"
+  },
+  {
+    "plugin": "ssh-ops",
+    "skill": "ssh-ops",
+    "path": "plugins/leehom0123/ssh-ops/skills/ssh-ops/SKILL.md"
   },
   {
     "plugin": "stacked-prs",
@@ -10643,6 +10668,51 @@
     "plugin": "arcmira",
     "skill": "person-research",
     "path": "plugins/arcmira/mcp/skills/person-research/SKILL.md"
+  },
+  {
+    "plugin": "asoscan",
+    "skill": "asoscan-router",
+    "path": "plugins/ASOScan/aso-skills/skills/asoscan-router/SKILL.md"
+  },
+  {
+    "plugin": "asoscan",
+    "skill": "review-insights",
+    "path": "plugins/ASOScan/aso-skills/skills/review-insights/SKILL.md"
+  },
+  {
+    "plugin": "asoscan",
+    "skill": "metadata-audit",
+    "path": "plugins/ASOScan/aso-skills/skills/metadata-audit/SKILL.md"
+  },
+  {
+    "plugin": "asoscan",
+    "skill": "keyword-spy",
+    "path": "plugins/ASOScan/aso-skills/skills/keyword-spy/SKILL.md"
+  },
+  {
+    "plugin": "asoscan",
+    "skill": "keyword-intelligence",
+    "path": "plugins/ASOScan/aso-skills/skills/keyword-intelligence/SKILL.md"
+  },
+  {
+    "plugin": "asoscan",
+    "skill": "competitor-analysis",
+    "path": "plugins/ASOScan/aso-skills/skills/competitor-analysis/SKILL.md"
+  },
+  {
+    "plugin": "asoscan",
+    "skill": "aso-fundamentals",
+    "path": "plugins/ASOScan/aso-skills/skills/aso-fundamentals/SKILL.md"
+  },
+  {
+    "plugin": "asoscan",
+    "skill": "asoscan-setup",
+    "path": "plugins/ASOScan/aso-skills/skills/asoscan-setup/SKILL.md"
+  },
+  {
+    "plugin": "asoscan",
+    "skill": "keyword-opportunities",
+    "path": "plugins/ASOScan/aso-skills/skills/keyword-opportunities/SKILL.md"
   },
   {
     "plugin": "autocad-tianzheng-tools",
@@ -13390,11 +13460,6 @@
     "path": "plugins/zlsbksdxl/codex-lark/skills/lark-note/SKILL.md"
   },
   {
-    "plugin": "feraterra",
-    "skill": "feraterra-trading",
-    "path": "plugins/FeraTerra/feraterra-sdk/skills/feraterra-trading/SKILL.md"
-  },
-  {
     "plugin": "firecrawl",
     "skill": "firecrawl-map",
     "path": "plugins/firecrawl/firecrawl-codex-plugin/skills/firecrawl-map/SKILL.md"
@@ -15316,6 +15381,11 @@
   },
   {
     "plugin": "publicrecords",
+    "skill": "phone-number-validator",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/phone-number-validator/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
     "skill": "sports-odds",
     "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/sports-odds/SKILL.md"
   },
@@ -15333,6 +15403,16 @@
     "plugin": "publicrecords",
     "skill": "js-page-to-markdown",
     "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/js-page-to-markdown/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "wikipedia-search",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/wikipedia-search/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "website-tech-stack",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/website-tech-stack/SKILL.md"
   },
   {
     "plugin": "publicrecords",
@@ -15356,6 +15436,11 @@
   },
   {
     "plugin": "publicrecords",
+    "skill": "dns-lookup",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/dns-lookup/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
     "skill": "web-page-to-markdown",
     "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/web-page-to-markdown/SKILL.md"
   },
@@ -15363,6 +15448,11 @@
     "plugin": "publicrecords",
     "skill": "tennis-scores",
     "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/tennis-scores/SKILL.md"
+  },
+  {
+    "plugin": "publicrecords",
+    "skill": "academic-papers-doi",
+    "path": "plugins/GeminiGeorge22/publicrecords-skills/skills/academic-papers-doi/SKILL.md"
   },
   {
     "plugin": "publicrecords",
@@ -15428,6 +15518,31 @@
     "plugin": "publora-skills",
     "skill": "x-post",
     "path": "plugins/publora/skills/skills/x-post/SKILL.md"
+  },
+  {
+    "plugin": "pushary",
+    "skill": "pushary-cowork",
+    "path": "plugins/Pushary/pushary-skill/skills/pushary-cowork/SKILL.md"
+  },
+  {
+    "plugin": "pushary",
+    "skill": "pushary",
+    "path": "plugins/Pushary/pushary-skill/skills/pushary/SKILL.md"
+  },
+  {
+    "plugin": "pushary",
+    "skill": "hermes",
+    "path": "plugins/Pushary/pushary-skill/skills/hermes/SKILL.md"
+  },
+  {
+    "plugin": "pushary",
+    "skill": "pushary-chatgpt",
+    "path": "plugins/Pushary/pushary-skill/skills/pushary-chatgpt/SKILL.md"
+  },
+  {
+    "plugin": "pushary",
+    "skill": "pushary-human-in-the-loop",
+    "path": "plugins/Pushary/pushary-skill/skills/pushary-human-in-the-loop/SKILL.md"
   },
   {
     "plugin": "qatom",
@@ -15905,6 +16020,26 @@
     "path": "plugins/seltz-ai/seltz-codex-plugin/skills/seltz/SKILL.md"
   },
   {
+    "plugin": "sendpaper",
+    "skill": "send-mail",
+    "path": "plugins/ryan-tish/sendpaper-plugin/skills/send-mail/SKILL.md"
+  },
+  {
+    "plugin": "sendsets",
+    "skill": "sendsets-cli",
+    "path": "plugins/AddisonHoff/sendsets/skills/sendsets-cli/SKILL.md"
+  },
+  {
+    "plugin": "sendsets",
+    "skill": "send-cold-email",
+    "path": "plugins/AddisonHoff/sendsets/skills/send-cold-email/SKILL.md"
+  },
+  {
+    "plugin": "sendsets",
+    "skill": "sendsets",
+    "path": "plugins/AddisonHoff/sendsets/skills/sendsets/SKILL.md"
+  },
+  {
     "plugin": "legends-seo-dungeon",
     "skill": "seo-local",
     "path": "plugins/avalonreset/seo-dungeon/skills/seo-local/SKILL.md"
@@ -16028,26 +16163,6 @@
     "plugin": "legends-seo-dungeon",
     "skill": "seo",
     "path": "plugins/avalonreset/seo-dungeon/skills/seo/SKILL.md"
-  },
-  {
-    "plugin": "sendpaper",
-    "skill": "send-mail",
-    "path": "plugins/ryan-tish/sendpaper-plugin/skills/send-mail/SKILL.md"
-  },
-  {
-    "plugin": "sendsets",
-    "skill": "sendsets-cli",
-    "path": "plugins/AddisonHoff/sendsets/skills/sendsets-cli/SKILL.md"
-  },
-  {
-    "plugin": "sendsets",
-    "skill": "send-cold-email",
-    "path": "plugins/AddisonHoff/sendsets/skills/send-cold-email/SKILL.md"
-  },
-  {
-    "plugin": "sendsets",
-    "skill": "sendsets",
-    "path": "plugins/AddisonHoff/sendsets/skills/sendsets/SKILL.md"
   },
   {
     "plugin": "seonix",

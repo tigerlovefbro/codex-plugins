@@ -255,6 +255,13 @@
     "path": "plugins/Alex0nder/MailAgent/.mcp.json"
   },
   {
+    "plugin": "margincue",
+    "servers": [
+      "margincue"
+    ],
+    "path": "plugins/fus3r/margincue/.mcp.json"
+  },
+  {
     "plugin": "mcp-md-reader",
     "servers": [
       "md-reader"
@@ -541,6 +548,13 @@
       "arcmira"
     ],
     "path": "plugins/arcmira/mcp/.mcp.json"
+  },
+  {
+    "plugin": "asoscan",
+    "servers": [
+      "asoscan"
+    ],
+    "path": "plugins/ASOScan/aso-skills/.mcp.json"
   },
   {
     "plugin": "autocad-tianzheng-tools",
@@ -1050,6 +1064,13 @@
       "publora"
     ],
     "path": "plugins/publora/skills/.mcp.json"
+  },
+  {
+    "plugin": "pushary",
+    "servers": [
+      "pushary"
+    ],
+    "path": "plugins/Pushary/pushary-skill/.mcp.json"
   },
   {
     "plugin": "omnimodal",
